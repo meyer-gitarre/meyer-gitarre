@@ -1,8 +1,12 @@
+#miniMenuWrapper {
+  position: absolute;
+  top: 0;
+  right: 1em;
+}
+
 #miniMenu {
 	position: fixed;
-	
-	bottom: 20%;
-	right: 1px;
+	top: 80%;
 }
 
 #miniMenu ul {
@@ -15,10 +19,11 @@
 	
 	text-align: right;
 	
-	border-width: 1px;
-	border-style: solid;
-	
 	padding: 0;
+	
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: navy;
 }
 
 #miniMenu:hover ul {
@@ -27,18 +32,31 @@
 
 #miniMenu li {
 	text-align: center;
+	
+	border: 1px solid navy;
+	border-bottom-width: 0;
 }
 
 #miniMenu li a {
 	display:block;
-	
-	background-color: white;
+	text-decoration: none;
+	color: white;
+	background: linear-gradient(to right, #5697e7, #3885e0, #5697e7);
+	padding: 0.1em;
+}
+
+#miniMenu li a:hover, #miniMenu li a:focus {
 	color: black;
+	background: linear-gradient(to right, #5494f8, #e2edfe);
 }
 
 #miniMenu > a > div {
 	width: 2em;
 	height: 2em;
+	
+	border-radius: 30%;
+	//border-width: 1px;
+	//border-style: solid;
 
 	background-image: url("/img/oben.gif");
 	background-repeat: no-repeat;
