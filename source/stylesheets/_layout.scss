@@ -1,0 +1,53 @@
+html {
+	height: 101%;
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+	//margin: 0 5em;
+	//padding: 0 0 0.5em 0;
+}
+
+#wrapper {
+	margin: 0.5em auto;
+	max-width: 56.43em;
+}
+
+#mainHeader, #mainNav, #mainFooter {
+	padding-top: 0;
+	padding-right: 1.25em;
+	padding-bottom: 0;
+	padding-left: 1.25em;
+}
+
+nav {
+	padding: 0 1.25em;
+}
+
+main {
+	padding: 0 1.25em;
+}
+
+section {
+	padding: 1em 0;
+}
+
+article {
+	padding: 1.25em 0;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  *zoom: 1;
+}

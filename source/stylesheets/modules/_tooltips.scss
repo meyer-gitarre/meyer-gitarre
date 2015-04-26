@@ -1,0 +1,26 @@
+a {
+	position: relative;
+}
+
+.tiplink {
+	display: none;
+}
+
+a:hover .tiplink {	
+	width: 18.75em;
+	
+	z-index: 1;
+	
+	color: navy;
+	font-weight: normal;
+	
+	border: 1px solid #1171e3;
+	padding: 0.1875em;
+	background: #d7e6fd;
+	
+	display: block;
+	
+	position: absolute;
+	left: 0;
+	bottom: 100%;
+}

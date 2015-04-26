@@ -1,0 +1,97 @@
+.imageWrapper {
+	float:left;
+	
+	margin: 0.25em 0.6em 0.5em 0;
+	
+	width: 100%;
+}
+
+.imageWrapper img {	
+	width: 100%;
+	height: auto;
+	
+	/*Necessary to keep the link wrapping the img from extending below the image itself*/
+	display: block;
+}
+.imageWrapper p {
+	font-style: italic;
+	color: #333333;
+}
+
+.exImg {
+	border-radius: 5px;
+	
+	border-style: solid;
+	border-width: 1px 2px 2px 1px;
+	
+	background-color: white;
+	
+	padding: 1px;
+}
+
+.exImg img {
+	border-radius: 5px;
+}
+
+.floatedRight {
+	float: right;
+	
+	margin: 0.25em 0 0.5em 0.6em;
+}
+
+.center {
+	float: left;
+	
+	margin: 0.25em 0.3em 1em 0.3em;
+}
+
+.img75 {	/*640px*/
+	width: 74%;
+}
+.img61 {	/*540px*/
+	width: 61%;
+}
+
+.img59 {	/*500px*/
+	width: 59%;
+}
+.img55 {	/*480px*/
+	width: 55%;
+}
+
+.img52 {	/*450*/
+	width: 52%;
+}
+.img50 {	/*437px*/
+	width: 50.7%;
+}
+.img48 {	/*417px*/
+	width: 48.2%;
+}
+.img46 {	/*396px*/
+	width: 45.6%;
+}
+.img41 {	/*348px oder 353px mit Rand*/
+	width: 41%;
+}
+
+.img35 {	/*300px*/
+	width: 35%;
+}
+.img33 {	/*Dachslogo*/
+	width: 33%;
+}
+.img32 {	/*277px 1/3Bild*/
+	width: 32.2%;
+}
+
+.img25 {	/*205px mit Rand*/
+	width: 25%;
+}
+.img23 {	/*140px der kleine Dachs*/
+	width: 23%;
+}
+
+.img17 {	/*150px*/
+	width: 17%;
+}

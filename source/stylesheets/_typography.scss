@@ -1,0 +1,109 @@
+//Globale Textgestaltung, dies gilt für alles.
+body {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	line-height: 1.2;
+	
+	text-align: justify;
+}
+
+
+p, ul, ol {
+	//Abstand nach unten
+	padding-bottom: 1em;
+}
+
+/*
+* Überschriften
+*/
+h1, h2, h3, h4, h5 {
+	margin-bottom: 1em;
+}
+
+h1 {
+	font-size: 1.2em;
+}
+
+h2 {
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+h3 {
+	font-size: 1.06em;
+	font-weight: bold;
+	
+	height: 1.7em;
+	padding: 0.25em;
+	margin-bottom: 1.5em;
+	
+	background-color: #1c7efa;
+	background: linear-gradient(to right, #7eb3f9, #c5dcfc 55%, #8ab7f9);
+	
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 0.3125em;
+}
+
+h4 {
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+h5 {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+h6 {
+	font-size: 0.9em;
+}
+
+/*
+* Styling von Links
+*/
+
+a {
+	text-decoration: none;
+}
+
+//styled alle unvisited links
+a:link {
+	color: blue;
+	background-color: #d7e6fd;
+}
+
+a:visited {
+	color: navy;
+	background-color: #bdd7fc;
+}
+
+a:hover, a:focus {
+	background-color: #97bffb;
+	text-decoration: underline;
+}
+
+a:active {
+	color: white;
+	background-color: #5798f8;
+}
+
+span.small {
+	font-size: 90%;
+}
+
+.contrast {	
+	background-color: #d7e6fd;
+}
+.textBox {
+	font-style: italic;
+	color: #333333;
+}
+.box57 {	/*Restspace 507px*/
+	width: 56.7%;
+}
+.box38 {	/*Restspace 340px*/
+	width: 38.5%;
+}
+.box23 {	/*Restspace 220px*/
+	width: 23.5%;
+}

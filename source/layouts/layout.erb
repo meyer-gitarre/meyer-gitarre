@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="de">
+<!--Start html tag mit de als Sprache -->
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="<%= current_page.data.description %>" />
+<title>U. Meyer <%= current_page.data.title %></title>
+<meta name="revisit-after" content="14days" />
+<link rel="stylesheet" href="/stylesheets/main.css" type="text/css" media="screen" />
+<link rel="shortcut icon" href="/img/dachsicon.jpg" />
+<meta name="author" content="Ulrich Meyer" />
+</head>
+<body>
+	<div id="wrapper" class="<%= current_page.data.design %>Color">
+		<header id="mainHeader" class="<%= current_page.data.design %>Color">
+			<h1>Gitarre und Musiklehre, U. Meyer</h1>
+		</header>
+		<%= yield %>
+		<footer id="mainFooter" class="<%= current_page.data.design %>Color">
+			<p>
+				<a href="/index.html">Home</a> <a href="/gitarre/gitarre.html">Gitarre</a> <a href="/musiklehre/musiklehre.html">Musiklehre</a> <a href="/blockfloete/blockfloete.html">Blockflöte</a>
+				<a href="/meta/impressum.html">Impressum</a> <a href="/meta/sitemap.html">Sitemap</a> <a href="#">oben</a>
+			</p>
+			<p>Copyright &copy; Ulrich Meyer</p>
+		</footer>
+	</div>
+</body>
+</html>
