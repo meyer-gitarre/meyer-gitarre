@@ -95,3 +95,21 @@
 .img17 {	/*150px*/
 	width: 17%;
 }
+
+.imageSeries {
+	display: table;
+	table-layout: fixed;
+	
+	border-spacing: 0.6em 0;
+	
+	width: 100%;
+}
+
+.imageSeries .imageWrapper {
+	display: table-cell;
+	float: none;
+}
+
+.imageSeries .imageWrapper:nth-child(even) {
+	background-color: #d7e6fd;
+}
