@@ -1,0 +1,46 @@
+#miniMenu {
+	position: fixed;
+	
+	bottom: 20%;
+	right: 1px;
+}
+
+#miniMenu ul {
+	position: absolute;
+	
+	bottom: 2em;
+	right: 0;
+
+	display:none;
+	
+	text-align: right;
+	
+	border-width: 1px;
+	border-style: solid;
+	
+	padding: 0;
+}
+
+#miniMenu:hover ul {
+	display: block;
+}
+
+#miniMenu li {
+	text-align: center;
+}
+
+#miniMenu li a {
+	display:block;
+	
+	background-color: white;
+	color: black;
+}
+
+#miniMenu > a > div {
+	width: 2em;
+	height: 2em;
+
+	background-image: url("/img/oben.gif");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
