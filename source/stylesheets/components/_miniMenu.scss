@@ -1,18 +1,18 @@
 #miniMenuWrapper {
   position: absolute;
   top: 0;
-  right: 1em;
+  right: 0.8em;
 }
 
 #miniMenu {
 	position: fixed;
-	top: 80%;
+	top: 85%;
 }
 
 #miniMenu ul {
 	position: absolute;
 	
-	bottom: 2em;
+	bottom: 1.6em;
 	right: 0;
 
 	display:none;
@@ -51,8 +51,8 @@
 }
 
 #miniMenu > a > div {
-	width: 2em;
-	height: 2em;
+	width: 1.6em;
+	height: 1.6em;
 	
 	border-radius: 30%;
 	//border-width: 1px;
