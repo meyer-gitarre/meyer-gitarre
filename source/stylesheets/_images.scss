@@ -13,10 +13,6 @@
 	/*Necessary to keep the link wrapping the img from extending below the image itself*/
 	display: block;
 }
-.imageWrapper p {
-	font-style: italic;
-	color: #333333;
-}
 
 .exImg {
 	border-radius: 5px;
@@ -39,10 +35,8 @@
 	margin: 0.25em 0 0.5em 0.6em;
 }
 
-.center {
-	float: left;
-	
-	margin: 0.25em 0.3em 1em 0.3em;
+.floatedNone {
+	float: none;
 }
 
 .img75 {	/*640px*/
