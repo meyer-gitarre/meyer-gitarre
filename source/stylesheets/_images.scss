@@ -1,7 +1,7 @@
 .imageWrapper {
 	float:left;
 	
-	margin: 0.25em 0.6em 0.5em 0;
+	margin: 0.25em 0.6em 1em 0;
 	
 	width: 100%;
 }
@@ -32,46 +32,70 @@
 .floatedRight {
 	float: right;
 	
-	margin: 0.25em 0 0.5em 0.6em;
+	margin: 0.25em 0 1em 0.6em;
 }
 
 .floatedNone {
 	float: none;
 }
 
-.img75 {	/*640px*/
-	width: 74%;
+.img79 {	/*684px*/
+	width: 79.5%;
 }
-.img61 {	/*540px*/
+
+.img75 {	/*640px*/
+	width: 74.4%;
+}
+
+.img69 {	/*600px*/
+	width: 69.7%;
+}
+
+.img65 {	/*565px*/
+	width: 65.6%;
+}
+.img62 {	/*537.5px*/
+	width: 62.5%;
+}
+
+.img61 {	/*524.6px*/
 	width: 61%;
 }
 
-.img59 {	/*500px*/
+.img59 {	/*509px*/
 	width: 59%;
 }
+
+.img58 {	/*499px*/
+	width: 58%;
+}
 .img55 {	/*480px*/
-	width: 55%;
+	width: 55.8%;
 }
 
 .img53 {	/*459*/
-	width: 53%;
+	width: 53.3%;
 }
 
 .img52 {	/*450*/
-	width: 52%;
+	width: 52.3%;
 }
 .img50 {	/*437px*/
-	width: 50.7%;
+	width: 50.8%;
 }
 .img48 {	/*417px*/
-	width: 48.2%;
+	width: 48.5%;
 }
 .img46 {	/*396px*/
-	width: 45.6%;
+	width: 46%;
 }
 
 .img44 {	/*378px*/
 	width: 44%;
+}
+
+.img42 {	/*359px*/
+	width: 41.8%;
 }
 
 .img41 {	/*348px oder 353px mit Rand*/
@@ -79,14 +103,14 @@
 }
 
 .img38 {	/*334px*/
-	width: 38.5%;
+	width: 38.8%;
 }
 
-.img36 {	/*295px*/
+.img36 {	/*314px*/
 	width: 36.5%;
 }
 
-.img35 {	/*292px*/
+.img35 {	/*301px*/
 	width: 35%;
 }
 .img33 {	/*Dachslogo*/
@@ -104,7 +128,10 @@
 }
 
 .img17 {	/*150px*/
-	width: 17%;
+	width: 17.4%;
+}
+.img16 {	/*140px*/
+	width: 16.2%;
 }
 
 .imageSeries {

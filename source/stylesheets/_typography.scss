@@ -111,14 +111,19 @@ span.small {
 }
 
 .halfSpace {
-	margin-bottom: -1em;
+	margin-bottom: 1.5em;
 }
 
-.textBox, .imageWrapper p {
+.textBox p {
 	font-style: italic;
-	color: #333333;
+	color: #333399;
 }
 
+.imageWrapper p {
+	font-style: italic;
+	color: #333399;
+	margin-top: 0.5em;
+}
 .box57 {	/*Restspace 507px*/
 	width: 56.7%;
 }
@@ -131,5 +136,5 @@ span.small {
 }
 
 .box23 {	/*Restspace 220px*/
-	width: 23.5%;
+	width: 23.2%;
 }
