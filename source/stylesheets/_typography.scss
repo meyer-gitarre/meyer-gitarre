@@ -115,11 +115,20 @@ span.small {
 }
 
 .contrast1 {
+	display: table;
 	background-color: #feeaff;
+	color: black;
+	border-width: 1px;
+	border-style: solid;
+	padding: 1px;
 }
 
 .contrast2 {
 	background-color: #fffff0;
+	color: black;
+	border-width: 1px;
+	border-style: solid;
+	padding: 1px;
 }
 
 .contrast3 {
@@ -129,6 +138,7 @@ span.small {
 .contrast4 {
 	background-color: #d7e6fd;
 }
+
 .textBox p {
 	font-style: italic;
 	color: #333399;
@@ -139,6 +149,11 @@ span.small {
 	color: #333399;
 	margin-top: 0.5em;
 }
+
+.indentBox {
+	padding-left: 1em;
+}
+
 .box57 {	/*Restspace 507px*/
 	width: 56.7%;
 }
