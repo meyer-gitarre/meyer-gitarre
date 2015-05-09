@@ -1,11 +1,9 @@
 #mainNav {
 	background-color: #EDF3FF;
 	background: linear-gradient(to right, #9bc6fc, #d8e8fc 55%, #a4c9f9);
-
 	border-bottom: 1px solid #1171e3;
-	
 	padding-top: 0.125em;
-	padding-bottom: 0.125em;	
+	padding-bottom: 0.125em;
 }
 
 .breadcrumbs li {
@@ -37,7 +35,7 @@
 	color: black;
 	background: linear-gradient(to right, #7eb3f9, #c5dcfc 55%, #8ab7f9);
 	background-color: #EDF3FF;
-	padding: 0px; /* padding für die Schalterflächen außen */	
+	padding: 0px; /* padding für die Schalterflächen außen */
 }
 
 /* remove all the bullets, borders and padding from the default list styling */
@@ -115,15 +113,12 @@
 /*Platzhalter für den linken Teil der Navigation. Wird obsolet, wenn das Klappmenü nicht mehr position:absolute verwendet*/
 .tmp {
 	float: left;
-	
 	width: 22%;
 }
 
 .caption {
 	float: right;
-	
 	width: 75%;
-
 	text-align: right;
 }
 

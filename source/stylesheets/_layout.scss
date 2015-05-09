@@ -4,18 +4,12 @@ html {
 }
 
 *, *:before, *:after {
-  box-sizing: inherit;
-}
-
-body {
-	//margin: 0 5em;
-	//padding: 0 0 0.5em 0;
+	box-sizing: inherit;
 }
 
 #wrapper {
 	margin: 0.5em auto;
 	max-width: 56.43em;
-	
 	position: relative;
 }
 
@@ -42,14 +36,15 @@ article {
 	padding: 1.25em 0;
 }
 
-.clearfix:before,
-.clearfix:after {
-  content: "";
-  display: table;
+.clearfix:before, .clearfix:after {
+	content: "";
+	display: table;
 }
+
 .clearfix:after {
-  clear: both;
+	clear: both;
 }
+
 .clearfix {
-  *zoom: 1;
+	*zoom: 1;
 }

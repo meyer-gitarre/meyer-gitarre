@@ -6,27 +6,22 @@ a {
 	display: none;
 }
 
-a:hover .tiplink {	
+a:hover .tiplink {
 	width: 18.75em;
-	
 	z-index: 1;
-	
 	color: navy;
 	font-weight: normal;
-	
 	border: 1px solid #1171e3;
 	padding: 0.1875em;
 	background: #d7e6fd;
-	
 	display: block;
-	
 	position: absolute;
 	left: 0;
 	bottom: 100%;
 }
 
 .tip1 { /* tooltip in klein statt mouseover */
-display: none;
+	display: none;
 	position: relative;
 	font-style: italic;
 	color: blue;
@@ -54,7 +49,7 @@ display: none;
 }
 
 .tip2 { /* tooltip in klein statt mouseover */
-display: none;
+	display: none;
 	position: relative;
 	font-style: italic;
 	color: blue;
@@ -82,7 +77,7 @@ display: none;
 }
 
 .tip3 { /* tooltip */
-display: none;
+	display: none;
 	position: relative;
 	font-style: italic;
 	color: blue;
@@ -110,7 +105,7 @@ display: none;
 }
 
 .tip4 {
-display: none;
+	display: none;
 	position: relative;
 	font-style: italic;
 	color: blue;
@@ -138,7 +133,7 @@ display: none;
 }
 
 .tip5 {
-display: none;
+	display: none;
 	position: relative;
 	font-style: italic;
 	color: blue;
@@ -164,4 +159,3 @@ display: none;
 	padding: 3px;
 	background: #dfe7ff;
 }
-
