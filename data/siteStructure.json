@@ -1,0 +1,306 @@
+{
+	"structure": [
+		"page": {
+			"name": "Home",
+			"path": "/index.html",
+			"sections": [
+				"section": {
+					"name": "Aktualisierungen",
+					"anchor": "aktualisierungen"
+				}
+			]
+			"children": [
+				"page": {
+					"name": "Gitarre",
+					"path": "/gitarre.html",
+					"sections": [
+						"section": {
+							"name": "Stichworte",
+							"anchor": "stichwortverzeichnisgitarre"
+						},
+						"section": {
+							"name": "Übungen",
+							"anchor": "uebgitarre"
+						}
+					]
+					"children": [
+						"page": {
+							"name": "Das Instrument",
+							"path": "/gitarre/instrument.html",
+							"sections": [
+							]
+							"children": [
+								
+							]
+						},
+						"page": {
+							"name": "Unterricht",
+							"path": "/gitarre/unterricht.html",
+							"sections": [
+							]
+							"children": [
+						
+							]
+						},
+						"page": {
+							"name": "Üben",
+							"path": "/gitarre/ueben.html",
+							"sections": [
+							]
+							"children": [
+						
+							]
+						},
+						"page": {
+							"name": "Haltung",
+							"path": "/gitarre/haltung.html",
+							"sections": [
+							]
+							"children": [
+						
+							]
+						},
+						"page": {
+							"name": "Stimmen",
+							"path": "/gitarre/stimmen.html",
+							"sections": [
+							]
+							"children": [
+						
+							]
+						},
+						"page": {
+							"name": "Technisches",
+							"path": "/gitarre/technisches.html",
+							"sections": [
+							]
+							"children": [
+						
+							]
+						},
+						"page": {
+							"name": "Akkorde",
+							"path": "/gitarre/akkorde.html",
+							"sections": [
+							]
+							"children": [
+						
+							]
+						},
+						"page": {
+							"name": "Griffbrett",
+							"path": "/gitarre/griffbrett.html",
+							"sections": [
+							]
+							"children": [
+						
+							]
+						},
+						"page": {
+							"name": "Noten",
+							"path": "/gitarre/noten.html",
+							"sections": [
+							]
+							"children": [
+						
+							]
+						},
+						"page": {
+							"name": "Musikbeispiele",
+							"path": "/gitarre/musikbeispiele.html",
+							"sections": [
+							]
+							"children": [
+						
+							]
+						}						
+					]
+				},
+				"page": {
+					"name": "Musiklehre",
+					"path": "/musiklehre.html",
+					"sections": [
+						"section": {
+							"name": "Stichworte",
+							"anchor": "stichwortverzeichnismusik"
+						}
+					]
+					"children": [
+						"page": {
+							"name": "Fahrplan Musiklehre",
+							"path": "/musiklehre/fahrplan.html",
+							"sections": [
+							]
+							"children": [
+						
+							]
+						},
+						"page": {
+							"name": "Grundlagen",
+							"path": "/musiklehre/grundlagen.html",
+							"sections": [
+							]
+							"children": [
+						
+							]
+						},
+						"page": {
+							"name": "Tonleitern",
+							"path": "/musiklehre/tonleitern.html",
+							"sections": [
+							]
+							"children": [
+						
+							]
+						},
+						"page": {
+							"name": "Intervalle",
+							"path": "/musiklehre/intervalle.html",
+							"sections": [
+							]
+							"children": [
+						
+							]
+						},
+						"page": {
+							"name": "Akkorde",
+							"path": "/musiklehre/akkorde.html",
+							"sections": [
+							]
+							"children": [
+						
+							]
+						},
+						"page": {
+							"name": "Modulation",
+							"path": "/musiklehre/modulation.html",
+							"sections": [
+							]
+							"children": [
+						
+							]
+						},
+						"page": {
+							"name": "Rhythmus",
+							"path": "/musiklehre/rhythmus.html",
+							"sections": [
+							]
+							"children": [
+						
+							]
+						},
+						"page": {
+							"name": "Gehörbildung",
+							"path": "/musiklehre/gehörbildung.html",
+							"sections": [
+							]
+							"children": [
+						
+							]
+						},
+						"page": {
+							"name": "Musik & Musikschule",
+							"path": "/musiklehre/musik.html",
+							"sections": [
+							]
+							"children": [
+						
+							]
+						}						
+					]
+				},
+				"page": {
+					"name": "Blockflöte",
+					"path": "/blockfloete.html",
+					"sections": [
+						"section": {
+							"name": "Stichworte",
+							"anchor": "stichwortverzeichnisbfl"
+						}
+					]
+					"children": [
+						"page": {
+							"name": "Über die Blockflöte",
+							"path": "/blockfloete/about.html",
+							"sections": [
+							]
+							"children": [
+						
+							]
+						},
+							"name": "Das Instrument",
+							"path": "/blockfloete/isntrument.html",
+							"sections": [
+							]
+							"children": [
+						
+							]
+						},
+							"name": "Qualität und Preise",
+							"path": "/blockfloete/qualitaet.html",
+							"sections": [
+							]
+							"children": [
+						
+							]
+						},
+							"name": "Behandlung - Heiserkeit",
+							"path": "/blockfloete/behandlung.html",
+							"sections": [
+							]
+							"children": [
+						
+							]
+						},
+							"name": "Spieltechnik",
+							"path": "/blockfloete/spieltechnik.html",
+							"sections": [
+							]
+							"children": [
+						
+							]
+						}
+					]
+				},
+				"page": {
+					"name": "Impressum, Links",
+					"path": "/impressum.html",
+					"sections": [
+						"section": {
+							"name": "Impressum",
+							"anchor": "impressum"
+						},
+						"section": {
+							"name": "Credits",
+							"anchor": "credits"
+						},
+						"section": {
+							"name": "Links",
+							"anchor": "links"
+						},
+						"section": {
+							"name": "Disclaimer",
+							"anchor": "disclaimer"
+						}						
+					]
+					"children": [
+				
+					]
+				},
+				"page": {
+					"name": "Sitemap",
+					"path": "/sitemap.html",
+					"sections": [
+						"section": {
+							"name": "Menüstruktur",
+							"anchor": "struktur"
+						}
+					]
+					"children": [
+				
+					]
+				}
+			]
+		}
+	]
+}
