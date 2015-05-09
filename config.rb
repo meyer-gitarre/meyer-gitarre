@@ -20,9 +20,15 @@
 # page "/path/to/file.html", :layout => :otherlayout
 #
 # A path which all have the same layout
-# with_layout :admin do
-#   page "/admin/*"
-# end
+with_layout :layoutGit do
+   page "/gitarre/*"
+end
+with_layout :layoutBfl do
+   page "/blockfloete/*"
+end
+with_layout :layoutMus do
+   page "/musiklehre/*"
+end
 
 #Disable all Layouts
 #set :layout, false
