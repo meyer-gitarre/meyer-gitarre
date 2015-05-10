@@ -127,15 +127,10 @@ a:link:active {
 	background-color: #d7e6fd;
 }
 
-.textBox p {
+.imageWrapper p, .imgText {
 	font-style: italic;
 	color: #333399;
-}
-
-.imageWrapper p {
-	font-style: italic;
-	color: #333399;
-	margin-top: 0.5em;
+	padding-top: 0.5em;
 }
 
 .indentBox {
