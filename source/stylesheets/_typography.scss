@@ -71,15 +71,10 @@ hr {
 	border-color: #97bffb;
 	clear: both;
 }
-/*
-* Styling von Links
-*/
-a {
-	text-decoration: none;
-}
 
 /*styled alle unvisited links*/
 a:link {
+	text-decoration: none;
 	color: blue;
 	background-color: #d7e6fd;
 }
@@ -89,12 +84,12 @@ a:visited {
 	background-color: #bdd7fc;
 }
 
-a:hover, a:focus {
+a:link:hover, a:link:focus {
 	background-color: #97bffb;
 	text-decoration: underline;
 }
 
-a:active {
+a:link:active {
 	color: white;
 	background-color: #5798f8;
 }
