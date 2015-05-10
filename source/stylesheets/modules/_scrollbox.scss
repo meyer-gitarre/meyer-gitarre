@@ -1,0 +1,15 @@
+.scrollbox {
+	height: 22em;
+	overflow-y: scroll;
+	
+	border-width: 1px 2px 2px 1px;
+	border-style: solid;
+	
+	border-radius: 5px;
+	
+	padding: 0.3125em;
+}
+
+.scrollbox li {
+	padding-bottom: 1em;
+}
