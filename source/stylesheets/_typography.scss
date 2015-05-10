@@ -5,8 +5,12 @@ body {
 	text-align: justify;
 }
 
-p, ul, ol { /*Abstand nach unten*/
+p { /*Abstand nach unten*/
 	padding-bottom: 1em;
+}
+
+li {
+	margin-bottom: 0.25em;
 }
 
 b {
