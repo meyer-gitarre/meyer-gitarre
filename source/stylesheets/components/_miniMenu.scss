@@ -29,8 +29,16 @@
 	/*must be same as height to vertically center the character*/
 	line-height: 1.5rem;
 	
-	font-size: 1.35em;
-	
+	font-size: 1.35em;	
+}
+
+#miniMenu > a::before {
+	content: "☰";
+}
+
+#miniMenu > a:hover::before {
+	content: "▲";
+	font-size: 115%;
 }
 
 .defaultColor #miniMenu > a {
