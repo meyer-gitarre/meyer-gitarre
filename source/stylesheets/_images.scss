@@ -1,7 +1,6 @@
 .imageWrapper {
-	float: left;
-	margin: 0.25em 0.6em 1em 0;
 	width: 100%;
+	margin: 0.25em 0 0.6em 0;
 }
 
 .imageWrapper img {
@@ -23,344 +22,424 @@
 	border-radius: 5px;
 }
 
-.floatedRight {
-	float: right;
-	margin: 0.25em 0 1em 0.6em;
+%floatedImageLeft {
+	float: left;
+	margin: 0.25em 0.6em 1em 0;
 }
 
-.floatedNone {
-	float: none;
-}
-
-.width86 { /*740px*/
+.img86 { /*740px*/
+	@extend %floatedImageLeft;
 	width: 86%;
 }
 
-.width81 { /*700px*/
+.img81 { /*700px*/
+	@extend %floatedImageLeft;
 	width: 81.4%;
 }
 
-.width79 { /*684px*/
+.img79 { /*684px*/
+	@extend %floatedImageLeft;
 	width: 79.5%;
 }
 
-.width76 { /*660px*/
+.img76 { /*660px*/
+	@extend %floatedImageLeft;
 	width: 76.7%;
 }
 
-.width75a { /*650px*/
+.img75a { /*650px*/
+	@extend %floatedImageLeft;
 	width: 75.6%;
 }
 
-.width75 { /*640px*/
+.img75 { /*640px*/
+	@extend %floatedImageLeft;
 	width: 74.4%;
 }
 
-.width73 { /*630px*/
+.img73 { /*630px*/
+	@extend %floatedImageLeft;
 	width: 73.2%;
 }
 
-.width69 { /*600px*/
+.img69 { /*600px*/
+	@extend %floatedImageLeft;
 	width: 69.7%;
 }
 
-.width67 { /*580px*/
+.img67 { /*580px*/
+	@extend %floatedImageLeft;
 	width: 67.4%;
 }
 
-.width67b { /*576px*/
+.img67b { /*576px*/
+	@extend %floatedImageLeft;
 	width: 67%;
 }
 
-.width65 { /*565px*/
+.img65 { /*565px*/
+	@extend %floatedImageLeft;
 	width: 65.6%;
 }
 
-.width64 { /*550.4px*/
+.img64 { /*550.4px*/
+	@extend %floatedImageLeft;
 	width: 64%;
 }
 
-.width63 { /*547px*/
+.img63 { /*547px*/
+	@extend %floatedImageLeft;
 	width: 63.6%;
 }
 
-.width62 { /*537.5px*/
+.img62 { /*537.5px*/
+	@extend %floatedImageLeft;
 	width: 62.5%;
 }
 
-.width61 { /*524.6px*/
+.img61 { /*524.6px*/
+	@extend %floatedImageLeft;
 	width: 61%;
 }
 
-.width60 { /*516px*/
+.img60 { /*516px*/
+	@extend %floatedImageLeft;
 	width: 60%;
 }
 
-.width59 { /*509px*/
+.img59 { /*509px*/
+	@extend %floatedImageLeft;
 	width: 59%;
 }
 
-.width58a { /*505px*/
+.img58a { /*505px*/
+	@extend %floatedImageLeft;
 	width: 58.7%;
 }
 
-.width58 { /*499px*/
+.img58 { /*499px*/
+	@extend %floatedImageLeft;
 	width: 58%;
 }
 
-.width57 { /*490.2px*/
+.img57 { /*490.2px*/
+	@extend %floatedImageLeft;
 	width: 57%;
 }
 
-.width56 { /*485px*/
+.img56 { /*485px*/
+	@extend %floatedImageLeft;
 	width: 56.4%;
 }
 
-.width55 { /*480px*/
+.img55 { /*480px*/
+	@extend %floatedImageLeft;
 	width: 55.8%;
 }
 
-.width54 { /*471px*/
+.img54 { /*471px*/
+	@extend %floatedImageLeft;
 	width: 54.8%;
 }
 
-.width53 { /*459*/
+.img53 { /*459*/
+	@extend %floatedImageLeft;
 	width: 53.3%;
 }
 
-.width52 { /*450*/
+.img52 { /*450*/
+	@extend %floatedImageLeft;
 	width: 52.3%;
 }
 
-.width52b { /*447px*/
+.img52b { /*447px*/
+	@extend %floatedImageLeft;
 	width: 51.9%;
 }
 
-.width51 { /*440px*/
+.img51 { /*440px*/
+	@extend %floatedImageLeft;
 	width: 51.1%;
 }
 
-.width50 { /*437px*/
+.img50 { /*437px*/
+	@extend %floatedImageLeft;
 	width: 50.8%;
 }
 
-.width50b { /*434px*/
+.img50b { /*434px*/
+	@extend %floatedImageLeft;
 	width: 50.4%;
 }
 
-.width49 { /*428px*/
+.img49 { /*428px*/
+	@extend %floatedImageLeft;
 	width: 49.7%;
 }
 
-.width48 { /*417px*/
+.img48 { /*417px*/
+	@extend %floatedImageLeft;
 	width: 48.5%;
 }
 
-.width47 { /*404px*/
+.img47 { /*404px*/
+	@extend %floatedImageLeft;
 	width: 47%;
 }
 
-.width46a { /*400px*/
+.img46a { /*400px*/
+	@extend %floatedImageLeft;
 	width: 46.5%;
 }
 
-.width46 { /*396px*/
+.img46 { /*396px*/
+	@extend %floatedImageLeft;
 	width: 46%;
 }
 
-.width45 { /*391px*/
+.img45 { /*391px*/
+	@extend %floatedImageLeft;
 	width: 45.4%;
 }
 
-.width44 { /*378px*/
+.img44 { /*378px*/
+	@extend %floatedImageLeft;
 	width: 44%;
 }
 
-.width43a { /*370px*/
+.img43a { /*370px*/
+	@extend %floatedImageLeft;
 	width: 43%;
 }
 
-.width43 { /*361px*/
+.img43 { /*361px*/
+	@extend %floatedImageLeft;
 	width: 42.2%;
 }
 
-.width42 { /*359px*/
+.img42 { /*359px*/
+	@extend %floatedImageLeft;
 	width: 41.8%;
 }
 
-.width41 { /*353px oder 348px mit Rand*/
+.img41 { /*353px oder 348px mit Rand*/
+	@extend %floatedImageLeft;
 	width: 41%;
 }
 
-.width40 { /*350px*/
+.img40 { /*350px*/
+	@extend %floatedImageLeft;
 	width: 40.7%;
 }
 
-.width40b { /*345px*/
+.img40b { /*345px*/
+	@extend %floatedImageLeft;
 	width: 40.1%;
 }
 
-.width39 { /*340px*/
+.img39 { /*340px*/
+	@extend %floatedImageLeft;
 	width: 39.5%;
 }
 
-.width38 { /*334px*/
+.img38 { /*334px*/
+	@extend %floatedImageLeft;
 	width: 38.8%;
 }
 
-.width38b { /*330px*/
+.img38b { /*330px*/
+	@extend %floatedImageLeft;
 	width: 38.3%;
 }
 
-.width37a { /*324px*/
+.img37a { /*324px*/
+	@extend %floatedImageLeft;
 	width: 37.7%;
 }
 
-.width37 { /*320px*/
+.img37 { /*320px*/
+	@extend %floatedImageLeft;
 	width: 37.2%;
 }
 
-.width36 { /*314px*/
+.img36 { /*314px*/
+	@extend %floatedImageLeft;
 	width: 36.5%;
 }
 
-.width35a { /*306px*/
+.img35a { /*306px*/
+	@extend %floatedImageLeft;
 	width: 35.6%;
 }
 
-.width35 { /*301px*/
+.img35 { /*301px*/
+	@extend %floatedImageLeft;
 	width: 35%;
 }
 
-.width34a { /*295px*/
+.img34a { /*295px*/
+	@extend %floatedImageLeft;
 	width: 34.3%;
 }
 
-.width34 { /*292.4px*/
+.img34 { /*292.4px*/
+	@extend %floatedImageLeft;
 	width: 34%;
 }
 
-.width33 { /*284px; oben: Dachslogo*/
+.img33 { /*284px; oben: Dachslogo*/
+	@extend %floatedImageLeft;
 	width: 33%;
 }
 
-.width32a { /*280px*/
+.img32a { /*280px*/
+	@extend %floatedImageLeft;
 	width: 32.6%;
 }
 
-.width32 { /*277px 1/3Bild*/
+.img32 { /*277px 1/3Bild*/
+	@extend %floatedImageLeft;
 	width: 32.2%;
 }
 
-.width31 { /*267px*/
+.img31 { /*267px*/
+	@extend %floatedImageLeft;
 	width: 31%;
 }
 
-.width30 { /*261px*/
+.img30 { /*261px*/
+	@extend %floatedImageLeft;
 	width: 30.3%;
 }
 
-.width29 { /*251px*/
+.img29 { /*251px*/
+	@extend %floatedImageLeft;
 	width: 29.3%;
 }
 
-.width28a { /*247px*/
+.img28a { /*247px*/
+	@extend %floatedImageLeft;
 	width: 28.7%;
 }
 
-.width28 { /*243px*/
+.img28 { /*243px*/
+	@extend %floatedImageLeft;
 	width: 28.2%;
 }
 
-.width27a { /*239px*/
+.img27a { /*239px*/
+	@extend %floatedImageLeft;
 	width: 27.8%;
 }
 
-.width27 { /*234px*/
+.img27 { /*234px*/
+	@extend %floatedImageLeft;
 	width: 27.2%;
 }
 
-.width26 { /*228px*/
+.img26 { /*228px*/
+	@extend %floatedImageLeft;
 	width: 26.5%;
 }
 
-.width26b { /*223px*/
+.img26b { /*223px*/
+	@extend %floatedImageLeft;
 	width: 25.9%;
 }
 
-.width25 { /*205px mit Rand; 215 ohne Rand*/
+.img25 { /*205px mit Rand; 215 ohne Rand*/
+	@extend %floatedImageLeft;
 	width: 25%;
 }
 
-.width24a { /*211px*/
+.img24a { /*211px*/
+	@extend %floatedImageLeft;
 	width: 24.5%;
 }
 
-.width24 { /*202px*/
+.img24 { /*202px*/
+	@extend %floatedImageLeft;
 	width: 23.5%;
 }
 
-.width23 { /*198px; oben: 140px der kleine Dachs*/
+.img23 { /*198px; oben: 140px der kleine Dachs*/
+	@extend %floatedImageLeft;
 	width: 23%;
 }
 
-.width22a { /*192px*/
+.img22a { /*192px*/
+	@extend %floatedImageLeft;
 	width: 22.4%;
 }
 
-.width22 { /*190px*/
+.img22 { /*190px*/
+	@extend %floatedImageLeft;
 	width: 22%;
 }
 
-.width21a { /*185px*/
+.img21a { /*185px*/
+	@extend %floatedImageLeft;
 	width: 21.5%;
 }
 
-.width21 { /*180.6px*/
+.img21 { /*180.6px*/
+	@extend %floatedImageLeft;
 	width: 21%;
 }
 
-.width20 { /*174px*/
+.img20 { /*174px*/
+	@extend %floatedImageLeft;
 	width: 20.2%;
 }
 
-.width18 { /*160px*/
+.img18 { /*160px*/
+	@extend %floatedImageLeft;
 	width: 18.6%;
 }
 
-.width18b { /*158px*/
+.img18b { /*158px*/
+	@extend %floatedImageLeft;
 	width: 18.48%;
 }
 
-.width17 { /*150px*/
+.img17 { /*150px*/
+	@extend %floatedImageLeft;
 	width: 17.4%;
 }
 
-.width17b { /*147px*/
+.img17b { /*147px*/
+	@extend %floatedImageLeft;
 	width: 17.1%;
 }
 
-.width16 { /*140px*/
+.img16 { /*140px*/
+	@extend %floatedImageLeft;
 	width: 16.2%;
 }
 
-.width15 { /*130px*/
+.img15 { /*130px*/
+	@extend %floatedImageLeft;
 	width: 15.1%;
 }
 
-.width11 { /*100px*/
+.img11 { /*100px*/
+	@extend %floatedImageLeft;
 	width: 11.6%;
 }
 
-.width14 { /*120.4px*/
-	width: 14%;
-}
-.width09 { /*80px*/
+.img09 { /*80px*/
+	@extend %floatedImageLeft;
 	width: 9.3%;
 }
 
-.width02 { /*19px*/
+.img02 { /*19px*/
+	@extend %floatedImageLeft;
 	width: 2.2%;
+}
+
+.floatedRight {
+	float: right;
+	margin: 0.25em 0 1em 0.6em;
 }
 
 .imageSeries {
