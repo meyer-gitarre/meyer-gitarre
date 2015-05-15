@@ -2,6 +2,9 @@
 body {
 	font-family: Arial, Verdana, Helvetica, sans-serif;
 	line-height: 1.2;
+}
+
+section, article > p {
 	text-align: justify;
 }
 
@@ -53,15 +56,18 @@ h3 {
 h4 {
 	font-size: 1.1em;
 	font-weight: bold;
+	margin-top: 1em;
 }
 
 h5 {
-	font-size: 1.2em;
+	font-size: 1.02em;
 	font-weight: bold;
+	color: #333377;
 }
 
 h6 {
-	font-size: 0.9em;
+	font-weight: bold;
+	margin-bottom: 0.5em;
 }
 
 hr {
@@ -134,7 +140,7 @@ a:link:active {
 .imageWrapper p, .imgText {
 	font-style: italic;
 	color: #333399;
-	padding-top: 0.5em;
+	padding: 0.5em 0.2em 0.5em 0.2em;
 }
 
 .indentBox {
