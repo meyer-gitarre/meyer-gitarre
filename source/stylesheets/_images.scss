@@ -102,6 +102,11 @@
 	width: 61%;
 }
 
+.img60a { /*520px*/
+	@extend %floatedImageLeft;
+	width: 60.4%;
+}
+
 .img60 { /*516px*/
 	@extend %floatedImageLeft;
 	width: 60%;
@@ -180,6 +185,11 @@
 .img48 { /*417px*/
 	@extend %floatedImageLeft;
 	width: 48.5%;
+}
+
+.img47a { /*410px*/
+	@extend %floatedImageLeft;
+	width: 47.7%;
 }
 
 .img47 { /*404px*/
@@ -422,9 +432,14 @@
 	width: 15.1%;
 }
 
-.img11 { /*100px*/
+.img12 { /*100px*/
 	@extend %floatedImageLeft;
 	width: 11.6%;
+}
+
+.img11 { /*100px*/
+	@extend %floatedImageLeft;
+	width: 11%;
 }
 
 .img09 { /*80px*/
