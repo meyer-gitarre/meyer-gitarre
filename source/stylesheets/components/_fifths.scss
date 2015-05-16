@@ -1,0 +1,60 @@
+#fifths {
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 5px;
+	padding: 2px 0 2px 2em;
+	background-color: white;
+	
+	white-space: nowrap;
+	
+	overflow-x: auto;
+}
+
+#fifths > li {
+	display: inline-block;
+	
+	margin-right: 2.5em;
+}
+
+#fifths > li:first-child, #fifths > li:last-child {
+	font-size: 0.9em;
+	font-style: italic;
+	color: #555555;
+}
+
+#fifths > li:first-child li::before {
+	content: "(...";
+}
+
+#fifths > li:first-child li::after {
+	content: ")";
+}
+
+#fifths > li:last-child li::before {
+	content: "(";
+}
+
+#fifths > li:last-child li::after {
+	content: "...)";
+}
+
+#fifths > li li {
+	line-height: 1.2rem;
+}
+
+.doppeltAlteriert {
+	font-size: 0.9em;
+}
+
+.einfachAlteriert {
+	
+}
+
+.stammton {
+	font-weight: bold;
+	font-size: 1.1em;
+}
+
+#center {
+	color: blue;
+}
