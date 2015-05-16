@@ -20,8 +20,13 @@ b {
 	font-weight: bold;
 }
 
-i {
+i, em {
 	font-style: italic;
+}
+
+strong {
+	font-weight: bold;
+	color: #007300;
 }
 
 /*
@@ -57,17 +62,18 @@ h4 {
 	font-size: 1.1em;
 	font-weight: bold;
 	margin-top: 1em;
+	color: maroon;
 }
 
 h5 {
-	font-size: 1.02em;
+	font-size: 1.05em;
 	font-weight: bold;
-	color: #333377;
+	color: #6B24B2;
 }
 
 h6 {
 	font-weight: bold;
-	margin-bottom: 0.5em;
+	color: LimeGreen;
 }
 
 pre {
@@ -155,4 +161,56 @@ a:link:active {
 
 .indentBox {
 	padding-left: 1em;
+}
+
+span.blue {
+	color: blue;
+}
+
+span.lblue {
+	color: #87CEFA;
+}
+
+span.navy {
+	color: navy;
+}
+
+span.green {
+	color: green;
+}
+
+/*span.greenb {
+	color: green;
+	font-weight: bold;
+}*/
+
+span.lgreen {
+	color: #33CC00;
+}
+
+span.dgreen {
+	color: #004400;
+}
+
+span.grey {
+	color: #333333;
+}
+
+span.orange {
+	color: #FF6600;
+}
+
+span.red {
+	color: red;
+}
+
+span.dred {
+	color: #C60000;
+}
+
+span.purple {
+	color: purple;
+}
+span.space {
+	letter-spacing: 0.3em;
 }
