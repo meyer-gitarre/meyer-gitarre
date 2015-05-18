@@ -1,3 +1,12 @@
+/*SVG test, delete this later*/
+#svgtest {
+	//border-style: solid;
+	//border-width: 1px;
+	//border-radius: 5px;
+	
+	background-color: white;
+}
+
 .imageWrapper {
 	width: 100%;
 	margin: 0.25em 0 1em 0;
@@ -457,19 +466,6 @@
 	margin: 0.25em 0 0.5em 0.6em;
 }
 
-.imageSeries {
-	display: table;
-	table-layout: fixed;
-	border-spacing: 0.6em 0;
-	width: 100%;
-	margin-bottom: 0.8em;
-}
-
-.imageSeries .imageWrapper {
-	display: table-cell;
-	float: none;
-}
-
-.imageSeries .imageWrapper:nth-child(even) {
+.series .imageWrapper:nth-child(even) {
 	background-color: #d7e6fd;
 }

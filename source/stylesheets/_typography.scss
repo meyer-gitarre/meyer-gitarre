@@ -73,7 +73,9 @@ h5 {
 
 h6 {
 	font-weight: bold;
-	color: LimeGreen;
+	font-style: italic;
+	color: #0074D9;
+	margin: 0.1em 0 0.1em 1.2em;
 }
 
 pre {
@@ -129,31 +131,37 @@ a:link:active {
 }
 
 .contrast1 {
-	display: table;
 	background-color: #feeaff;
-	color: black;
-	border-width: 1px;
-	border-style: solid;
 	padding: 1px;
 }
 
 .contrast2 {
 	background-color: #fffff0;
-	color: black;
-	border-width: 1px;
-	border-style: solid;
 	padding: 1px;
 }
 
 .contrast3 {
-	background-color: #ebfdf1;
+	background-color: #d7fde4;
+	padding: 1px;
 }
 
 .contrast4 {
 	background-color: #d7e6fd;
+	padding: 1px;
+}
+.border {
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 5px;
 }
 
 .imageWrapper p, .imgText {
+	font-style: italic;
+	color: #333399;
+	padding: 0.5em 0.2em 0.5em 0.2em;
+}
+
+.textBox {
 	font-style: italic;
 	color: #333399;
 	padding: 0.5em 0.2em 0.5em 0.2em;
@@ -202,6 +210,10 @@ span.orange {
 
 span.red {
 	color: red;
+}
+
+span.lred {
+	background-color: #feeaff;
 }
 
 span.dred {

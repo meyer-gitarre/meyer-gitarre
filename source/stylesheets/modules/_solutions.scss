@@ -4,7 +4,7 @@
 	max-width: 699px;
 }
 
-input[type="checkbox"]:checked ~ .solution {
+input[type="checkbox"]:checked + label + .solution {
 	display: block;
 }
 
@@ -14,7 +14,7 @@ input[type="checkbox"] {
 	margin-bottom: 1em;
 }
 
-input[type="checkbox"] ~ label {
+input[type="checkbox"] + label {
 	background: linear-gradient(to right, #5494f8, #e2edfe);
 
 	padding: 0.1em 0.3em 0.1em 0.3em;
@@ -24,22 +24,22 @@ input[type="checkbox"] ~ label {
 	border-radius: 5px;	
 }
 
-input[type="checkbox"] ~ label::after {
+input[type="checkbox"] + label::after {
 	content: "Lösung anzeigen";
 }
 
-/*input[type="checkbox"] ~ label:hover::after {
+/*input[type="checkbox"] + label:hover::after {
 	content: "Notenpapier?";
 }*/
 
-input[type="checkbox"]:checked ~ label::after {
+input[type="checkbox"]:checked + label::after {
 	content: "Lösung verbergen";
 }
 
 
 
 
-input[type="checkbox"]:checked ~ label {
+input[type="checkbox"]:checked + label {
 	background: #ebfdf1;
 	
 	border-color: #8ac49c;
@@ -50,9 +50,17 @@ input[type="checkbox"]:checked ~ label {
 	border-width: 1px;
 	border-color: #8ac49c;
 	border-radius: 5px;
-	margin-left: 0.5em;
+	margin-left: 1em;
 }
 
 .solution .imageWrapper img {
 	border-radius: 5px;
+}
+
+.solution + h6 {
+	margin-top: 1em;
+}
+
+.solution + p {
+	margin-top: 1em;
 }
