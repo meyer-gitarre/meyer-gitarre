@@ -1,7 +1,7 @@
 /*Globale Textgestaltung, dies gilt für alles.*/
 body {
 	font-family: Arial, Verdana, Helvetica, sans-serif;
-	line-height: 1.2;
+	line-height: 1.4;
 }
 
 section > p, article > p, aside > p {
@@ -20,15 +20,26 @@ b {
 	font-weight: bold;
 }
 
-i, em {
+i {
 	font-style: italic;
 }
 
-strong {
-	font-weight: bold;
-	color: #007300;
+em {
+	font-style: italic;
+	font-family: Georgia, serif;
+	color: #003300;
 }
 
+strong {
+	font-family: Georgia, serif;
+	font-weight: bold;
+	color: #009900;
+}
+ cite {
+	font-family: Georgia, serif;
+	font-style: italic;
+	font-weight: bold;
+ }
 /*
 * Überschriften
 */
@@ -59,7 +70,7 @@ h3 {
 }
 
 h4 {
-	font-size: 1.1em;
+	font-size: 1.2em;
 	font-weight: bold;
 	margin-top: 1em;
 	color: maroon;
@@ -87,6 +98,7 @@ pre {
 	padding: 0.125em;
 	margin-bottom: 1em;
 }
+
 
 hr {
 	display: block;
@@ -156,12 +168,14 @@ a:link:active {
 }
 
 .imageWrapper p, .imgText {
+	line-height: 1.2;
 	font-style: italic;
 	color: #333399;
 	padding: 0.5em 0.2em 0.5em 0.2em;
 }
 
 .textBox {
+	line-height: 1.2;
 	font-style: italic;
 	color: #333399;
 	padding: 0.5em 0.2em 0.5em 0.2em;
@@ -187,10 +201,10 @@ span.green {
 	color: green;
 }
 
-/*span.greenb {
+span.greenb {
 	color: green;
 	font-weight: bold;
-}*/
+}
 
 span.lgreen {
 	color: #33CC00;
