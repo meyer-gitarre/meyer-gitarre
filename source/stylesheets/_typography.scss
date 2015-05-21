@@ -27,6 +27,16 @@ ol {
     margin-bottom: 1em;
 }
 
+ol.b {
+    list-style-type: lower-alpha;
+    list-style-position: inside;
+    margin-bottom: 1em;
+}
+
+ol.b li {
+	color: blue;
+	padding-left: 1em;
+}
 ol li {
 	padding-left: 1em;
 }
@@ -205,6 +215,11 @@ span.blue {
 	color: blue;
 }
 
+span.refer {
+	color: blue;
+	font-weight: bold;
+}
+
 span.lblue {
 	color: #87CEFA;
 }
@@ -236,6 +251,11 @@ span.grey {
 
 span.orange {
 	color: #FF6600;
+}
+
+span.attention {
+	color: #aa0000;
+	font-weight: bold;
 }
 
 span.red {
