@@ -10,7 +10,6 @@ description: "Planung, Vorbereitung, Ideen speichern."
 	</ol>
 	
 	<div class="menu">
-		<!-- Beginn menu -->
 		<ul>
 			<li><a href="/index.html">Home &gt;</a>
 				<ul>
@@ -80,7 +79,6 @@ description: "Planung, Vorbereitung, Ideen speichern."
 			<li><a href="/gitarre/gitarre.html#stichwortverzeichnisgitarre">Stichworte</a></li>
 		</ul>
 	</div>
-	<!-- Ende menu -->
 <div class="caption">
 <div class="clearfix">
 		<div class="imageWrapper img23 floatedRight exImg"><a href="/index.html"><img src="/img/Dachsgr1.jpg" alt="Gitarrendachs"></a></div>
@@ -93,7 +91,6 @@ description: "Planung, Vorbereitung, Ideen speichern."
 			</form>		
 	</div>
 </nav>
-<!-- Ende Navibox -->
 <main>
 
 <section>
@@ -872,25 +869,45 @@ um die ehemaligen <b>sections</b> zu stylen.</pre><br>
 		CSS - Elemente
 	</h3>
 <h4>Gradients:</h4>
-		<p>Hintergrund der Seite: <br>background: linear-gradient(to right, #5496F8, white 12.5%, white); = background-image: url(back01a.gif);</p>
-		<p>Hintergrund h3: background: <br>linear-gradient(to right, #7eb3f9, #c5dcfc 55%, #8ab7f9); = (back01c.gif)</p>
+<div class="textBox" style="background: linear-gradient(to right, #5496F8, white 12.5%, white);">
+<p>Hintergrund der Seite: <br>background: linear-gradient(to right, #5496F8, white 12.5%, white); = background-image: url(back01a.gif);</p>
+		 </div>
+<div class="textBox" style="background: linear-gradient(to right, #9bc6fc, #d8e8fc 55%, #a4c9f9);">
 		<p>Hintergrund header und nav: <br>background: linear-gradient(to right, #9bc6fc, #d8e8fc 55%, #a4c9f9); = url(back01d.gif);</p>
+		 </div>
+<div class="textBox" style="background: linear-gradient(to right, #7eb3f9, #c5dcfc 55%, #8ab7f9);">
+<p>Hintergrund h3: background: <br>linear-gradient(to right, #7eb3f9, #c5dcfc 55%, #8ab7f9); = (back01c.gif)</p>
+		 </div>
+<div class="textBox" style="background: linear-gradient(to right, #5496F8, white 25%, white);">
 		<p>Hintergrund footer: background: <br>linear-gradient(to right, #5496F8, white 25%, white); = url(back01a.gif);</p>
-		<p>Links default und git: background: <br>linear-gradient(to right, #5997e7, #3885e0 45%, #5997e7); = (back02a.gif);</p>
-		<p>Links current, hover & focus default und git: <br>background: linear-gradient(to right, #5997e7, #3885e0 45%, #5997e7); = (back01a.gif);</p>
+		 </div>
+<div class="textBox img48" style="background: linear-gradient(to right, #5997e7, #3885e0 45%, #5997e7);">
+		<p>Links default und git: background: <br>linear-gradient(to right, #5997e7, #3885e0 45%, #5997e7); = (back02a.gif);</p>		
+		 </div>
+<div class="textBox img48" style="background: linear-gradient(to right, #5494f8, #e2edfe);">
+		<p>Links current, hover & focus default und git: <br>background: linear-gradient(to right, #5494f8, #e2edfe); = (back01a.gif);</p>		
+		 </div>
+		 
+		
 		
 <h4>Schriftgrößen neu:</h4>
-<p>
-	<br>h1 { font-size: 140%; } für die Überschrift "Ulrich Meyer, Gitarre" <br>h2 { font-size: 140%; font-weight: bold; } für die
-	Überschrift im Editorial <br>h3 { font-size: 110%; font-weight: bold; } für Überschriften innerhalb der Kapitel wie hier: Schriftgrößen <br>h4
-	{ font-size: 120%; font-weight: bold; } für die Überschriften in den Textboxen auf dieser Seite. <br>h5 { font-size: 120%; font-weight:
-	bold; } nicht benutzt. <br>h6 { font-size: 90%; } für die Schrift beim Link zum Impressum unten
-</p>
-<h4>Images neu:</h4>
-<p><b>mit Rand:</b><br>860px: img100<br>500px: img59<br>205px: img25 (wird etwas größer)<br>140px: img23 (der kleine Dachs oben)</p>
-<p><b>ohne Rand:</b><br>640px: img75 (74,5%)<br>540px: img61<br>450px: img52 (52%)<br>480px: img55<br>437px: img50 (50.8%)<br>417px: img48 (halbe Seite)<br>
-396px: img46 (45.6%)<br>353px: img41 <br>300px: img35<br>277px: img32 (1/3-Bild)<br>150px: img17<br></p>
-				
+<h1> h1 { font-size: 140%; } für die Überschrift "Ulrich Meyer, Gitarre"</h1>
+
+<h2> h2 { font-size: 140%; font-weight: bold; } für die Überschrift in "Caption" </h2> 
+	<h3> h3{ font-size: 110%; font-weight: bold; } für Überschriften der Sections</h3> 
+<h4> h4 { font-size: 120%; font-weight: bold; } für Überschriften in Sections.</h4> 
+<h5> h5 { font-size: 120%; font-weight: bold; } Überschriften unterhalb h4</h5> 
+	<h6> h6 { font-size: 90%; } für Überschriften in Taskboxes etc.</h6>
+<h4>Boxes</h4>
+<div class="task img24a"><p>task</p><p>background-color: #d7fde4;</p></div>
+<div class="plea img24a"><p>plea</p><p>background-color: #feeaff;</p> </div>
+<div class="input img24a"> <p>input</p><p>background-color: #ffffe5;</p></div>
+<div class="answer img24a"><p>answer</p><p>background-color: #d7e6fd;</p></div>
+<div class="border img24a contrast1">border, contrast1<br> background-color: #e6fdee;</div>
+<div class="img24 contrast2">nischt, contrast2<br>background-color: #ffedff;</div>
+<div class="exImg img24 contrast3">exImg, contrast3<br> background-color: #ffffe0;</div>
+<div class="border img24 contrast4">border, contrast4<br> background-color: #e9f1fd;</div>
+<div class="clearfix"></div>
 <h4>Hintergrundfarben:</h4>
 <p>
 	<mark style="background-color: #064fb2;">
