@@ -14,7 +14,7 @@ p { /*Abstand nach unten*/
 
 li {
 	margin-bottom: 0.25em;
-	color: #000073;
+	color: #000099;
 }
 
 li p {
@@ -27,19 +27,40 @@ ol {
     margin-bottom: 1em;
 }
 
-ol.b {
+ol.a {
     list-style-type: lower-alpha;
     list-style-position: inside;
     margin-bottom: 1em;
 }
 
-ol.b li {
-	color: blue;
+ol.a li {
 	padding-left: 1em;
 }
+
+ol.d {
+    list-style-type: disc;
+    list-style-position: inside;
+    margin-bottom: 1em;
+}
+
+ol.d li {
+	padding-left: 1em;
+}
+
+ol.n {
+    list-style-type: none;
+    list-style-position: inside;
+    margin-bottom: 1em;
+}
+
+ol.n li {
+	padding-left: 1em;
+}
+
 ol li {
 	padding-left: 1em;
 }
+
 b {
 	font-weight: bold;
 }
@@ -51,7 +72,7 @@ i {
 em {
 	font-style: italic;
 	font-family: Georgia, serif;
-	color: #5A0000;
+	color: #7C0000;
 }
 
 strong {
