@@ -220,6 +220,13 @@ a:link:active {
 	padding: 2px;
 	margin: 0.5em 0.125em;
 }
+
+.contrast5 {
+	line-height: 1.2;
+	background-color: #d7e6fd;
+	padding: 0.5em 0.2em 0.5em 0.2em;
+}
+
 .border {
 	border-width: 1px;
 	border-style: solid;
@@ -244,13 +251,18 @@ a:link:active {
 	padding-left: 1em;
 }
 
-span.blue {
-	color: blue;
-}
-
 span.refer {
 	color: blue;
 	font-weight: bold;
+}
+
+span.attention {
+	color: red;
+	font-weight: bold;
+}
+
+span.blue {
+	color: blue;
 }
 
 span.lblue {
@@ -284,11 +296,6 @@ span.grey {
 
 span.orange {
 	color: #FF6600;
-}
-
-span.attention {
-	color: red;
-	font-weight: bold;
 }
 
 span.red {
