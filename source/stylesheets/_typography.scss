@@ -61,6 +61,15 @@ ol li {
 	padding-left: 1em;
 }
 
+section ul, article ul {
+	list-style-type: disc;
+    list-style-position: inside;
+    margin-bottom: 1em;
+} 
+
+section ul li, article ul li {
+	margin-left: 1em;
+}
 b {
 	font-weight: bold;
 }
@@ -72,7 +81,7 @@ i {
 em {
 	font-style: italic;
 	font-family: Georgia, serif;
-	color: #7C0000;
+	color: maroon;
 }
 
 strong {
@@ -80,19 +89,52 @@ strong {
 	font-weight: bold;
 	color: #009900;
 }
- cite {
-	font-family: Georgia, serif;
+cite {
+	font-family: Times New Roman, serif;
 	font-style: italic;
 	font-weight: bold;
 	color: #000099;
  }
  
- blockquote {
+blockquote {
  	font-family: Georgia, serif;
 	font-style: italic;
+	text-align: justify;
 	color: #000099;
-	margin-left: 1em;
+	margin: 0 1em 1em 1em;
+	quotes: "«" "»" "‹" "›";
  }
+ 
+ blockquote:before, .translation:before, q:before {
+ 	content: open-quote;
+ }
+ 
+ blockquote:after, .translation:after, q:after {
+ 	content: close-quote;
+ }
+ 
+ .translation {
+ 	font-style: italic;
+ 	text-align: justify;
+ 	color: #333333;
+	margin: 0 1em 1em 1em;
+	quotes: "«" "»" "‹" "›";
+ }
+ 
+ blockquote mark, .translation mark, q mark {
+ 	font-weight: 600;
+ 	background-color: inherit;
+ 	color: inherit;
+ }
+ 
+q {
+ 	font-family: Georgia, serif;
+	font-style: italic;
+	text-align: justify;
+	color: #000099;
+	quotes: "«" "»" "‹" "›";
+ }
+ 
 /*
 * Überschriften
 */

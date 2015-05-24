@@ -19,16 +19,13 @@
 	display: block;
 }
 
-.exImg {
+.exImg img {
 	border-radius: 5px;
+	
 	border-style: solid;
 	border-width: 1px 2px 2px 1px;
 	background-color: white;
 	padding: 1px;
-}
-
-.exImg img {
-	border-radius: 5px;
 }
 
 %floatedImageLeft {
