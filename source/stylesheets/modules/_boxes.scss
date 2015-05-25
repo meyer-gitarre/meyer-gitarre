@@ -29,8 +29,13 @@
 	background-color: #d7e6fd;
 }
 
-.border {
-	border-width: 1px;
-	border-style: solid;
-	border-radius: 5px;
+.textBox {
+	line-height: 1.2;
+	font-style: italic;
+	color: #333399;
+	padding: 0.5em 0.2em 0.5em 0.2em;
+}
+
+.indentBox {
+	padding-left: 1em;
 }

@@ -1,0 +1,35 @@
+table { /* §§§§§ TABELLEN §§§§§ */
+	background-color: #EDF3FF;
+	border-collapse: collapse;
+	border: none;
+	margin: 1em;
+}
+
+thead {
+	background: linear-gradient(to right, #5496F8, white 25%, white);
+	
+	
+}
+
+tfoot {
+	background: linear-gradient(to right, #5496F8, white 25%, white);
+	color: black;
+	font-size: 100%;
+	border-style: solid;
+	border-top: 1px blue;
+	border-radius: 5px;
+}
+
+th {
+	text-decoration: underline; 
+	padding-top: 0.5em;
+	padding-left: 0.2em;
+	padding-right: 2em;	
+	padding-bottom: 0.5em;
+}
+
+td {
+	padding-left: 0.2em;
+	padding-right: 0.5em;
+	padding-bottom: 0.5em;
+}
