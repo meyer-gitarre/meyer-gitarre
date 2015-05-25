@@ -13,6 +13,14 @@
 	
 	background-color: #d7fde4;
 }
+
+.task .series > div {
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 5px;
+	padding-left: 0.5em;
+}
+
 .plea {
 	@extend %box;
 	background-color: #feeaff;

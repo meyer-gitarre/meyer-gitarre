@@ -1,7 +1,7 @@
 .skippingMarks li {
 	font-weight: bold;
 	display: inline-block;
-	margin-right: 0.2em;
+	
 }
 
 .glossary ol {
@@ -16,12 +16,18 @@
 	font-size: 94%;
 	margin-bottom: 0;
 	display: inline;
-	margin-right: 1em;
+	/*margin-right: 1em;*/
 	line-height: 1.5em;
 }
 
 .glossary ol li:first-child {
+	font-family: Georgia, serif;
 	font-weight: bold;
 	
-	font-size: 100%;
+	font-size: 1.2em;
+	color: #009900;
+}
+
+.glossary a:link {
+	background-color: initial;
 }

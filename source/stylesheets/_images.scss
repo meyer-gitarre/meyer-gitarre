@@ -443,14 +443,24 @@
 	width: 15.1%;
 }
 
+.img12a { /*103.2px*/
+	@extend %floatedImageLeft;
+	width: 12%;
+}
+
 .img12 { /*100px*/
 	@extend %floatedImageLeft;
 	width: 11.6%;
 }
 
-.img11 { /*100px*/
+.img11 { /*94.6px*/
 	@extend %floatedImageLeft;
 	width: 11%;
+}
+
+.img10 { /*90.3px*/
+	@extend %floatedImageLeft;
+	width: 10.5%;
 }
 
 .img09 { /*80px*/
