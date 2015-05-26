@@ -40,6 +40,7 @@ aside {
 	padding: 1em 0;
 	margin-left: 1em;
 	margin-right: 1em;
+	background-color: #f5f0ff;
 }
 
 .clearfix:before, .clearfix:after {
@@ -58,7 +59,7 @@ aside {
 .series {
 	display: table;
 	table-layout: fixed;
-	border-spacing: 0.6em 0;
+	border-spacing: 0.4em 0;
 	width: 100%;
 	margin-bottom: 0.8em;
 }
