@@ -15,7 +15,7 @@ p { /*Abstand nach unten*/
 /*
 * Überschriften
 */
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 1em;
 }
 
@@ -46,6 +46,7 @@ h4 {
 	font-size: 1.2em;
 	font-weight: bold;
 	margin-top: 1em;
+	margin-left: 1em;
 	color: maroon;
 }
 
@@ -53,14 +54,19 @@ h5 {
 	font-family: Lucida Sans Unicode;
 	font-size: 1.05em;
 	font-weight: bold;
-	color: #1F3D99;
+	color: #004ab8;
+	margin-left: 1em;
 }
 
 h6 {
 	font-weight: bold;
 	font-style: italic;
 	color: #0074D9;
-	margin: 0.1em 0 0.1em 1.2em;
+	margin-left: 1em;
+}
+
+.task > h6 {
+	margin: 0.2em 0 0.2em 1em;
 }
 
 section > ul > li, article > ul > li, section > ol > li, article > ol > li {
@@ -186,7 +192,14 @@ q {
 	quotes: "«" "»" "‹" "›";
  }
  
-pre {
+ pre {
+	font-family: monospace;
+	font-size: 115%;
+	padding: 0 0 0 0.5em;
+	margin-bottom: 1em;
+	overflow-x: auto;
+}
+section > pre, article >pre {
 	font-family: monospace;
 	font-size: 115%;
 	border-style: solid;
@@ -303,7 +316,7 @@ span.lred {
 }
 
 span.dred {
-	color: #C60000;
+	color: #B20000;
 }
 
 span.purple {
