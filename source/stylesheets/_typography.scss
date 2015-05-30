@@ -42,12 +42,12 @@ h3 {
 }
 
 h4 {
-	font-family: Lucida Sans Unicode;
+	font-family: Verdana;
 	font-size: 1.2em;
 	font-weight: bold;
 	margin-top: 1em;
 	margin-left: 1em;
-	color: maroon;
+	color: #2447B2;
 }
 
 h5 {
@@ -71,7 +71,7 @@ h6 {
 
 section > ul > li, article > ul > li, section > ol > li, article > ol > li {
 	margin-bottom: 0.25em;
-	color: #000099;
+	color: #191919;
 }
 
 li p {
@@ -137,8 +137,8 @@ i {
 
 em {
 	font-style: italic;
-	font-family: Georgia, serif;
-	color: maroon;
+	font-family: Verdana, sans-serif;
+	color: #2952CC;
 }
 
 strong {
@@ -150,6 +150,7 @@ cite {
 	font-family: Times New Roman, serif;
 	font-style: italic;
 	font-weight: bold;
+	font-size: 1.1em;
 	color: #000099;
  }
  
