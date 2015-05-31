@@ -2,7 +2,7 @@
 	position: relative;
 	
 	font-family: Georgia, serif;
-	font-style: italic;
+	font-weight: bold;
 	border-bottom: 1px dotted;
 	color: blue;
 	
@@ -15,6 +15,7 @@
 	position: absolute;
 	
 	visibility: hidden;
+	font-weight: initial;
 	
 	cursor: help;
 	
@@ -76,6 +77,22 @@
 
 .tooltipL:after {
 	width: 18.75rem;
+}
+
+.tooltipX {
+	@extend %tooltip;
+}
+
+.tooltipX:after {
+	width: 25rem;
+}
+
+%tooltip > a {
+	font-family: Georgia, serif;
+	font-style: italic;
+	font-weight: initial;
+	border-bottom: 1px dotted;
+	color: blue;
 }
 
 .tip1 { /* alte tooltips */

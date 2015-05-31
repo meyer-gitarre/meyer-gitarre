@@ -37,10 +37,11 @@ article {
 }
 
 aside {
-	padding: 1em 0;
+	padding: 0.5em 0.5em 0 0.5em;
 	margin-left: 1em;
 	margin-right: 1em;
-	background-color: #f5f0ff;
+	background-color: #d7e6fd;
+	border-left: 1px dashed blue;
 }
 
 .clearfix:before, .clearfix:after {

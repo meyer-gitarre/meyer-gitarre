@@ -2,7 +2,7 @@ table { /* §§§§§ TABELLEN §§§§§ */
 	background-color: #EDF3FF;
 	border-collapse: collapse;
 	border: none;
-	margin: 1em;
+	width: 100%;
 }
 
 thead {
@@ -24,12 +24,37 @@ th {
 	/*text-decoration: underline;*/ 
 	padding-top: 0.5em;
 	padding-left: 0.3em;
-	padding-right: 2em;	
+	padding-right: 1.5em;	
 	padding-bottom: 0.5em;
 }
 
 td {
 	padding-left: 0.3em;
-	padding-right: 2em;
+	padding-right: 1.5em;
 	padding-bottom: 0.5em;
+}
+
+.sequence tbody, .sequence thead, .lined tbody, .lined thead {
+	border: 1px solid blue;
+}
+
+.lined td, .sequence td {
+	border-left: 1px solid blue;
+	border-right: 1px solid blue;
+}
+
+.sequence thead, .lined thead {
+	border-bottom: 1px solid blue;
+}
+
+.sequence tbody tr td:first-child {	
+	background-color: #fff2ff;
+}
+
+.sequence tbody tr td:nth-child(2) {
+	background-color: #fffff0;
+}
+
+.sequence tbody tr td:nth-child(3) {
+	background-color: #e9f1fd;
 }

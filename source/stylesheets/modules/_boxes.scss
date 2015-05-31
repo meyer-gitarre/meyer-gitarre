@@ -12,7 +12,7 @@
 	border-width: 1px;
 	border-radius: 5px;
 	
-	background-color: #d7fde4;
+	background-color: #e4fdec;
 }
 
 .task .series > div {
@@ -24,18 +24,18 @@
 
 .plea {
 	@extend %box;
-	background-color: #feeaff;
+	background-color: #fff2ff;
 }
 
 .input {
 	@extend %box;
-	background-color: #ffffe5;
+	background-color: #fffff0;
 }
 
 .answer {
 	@extend %box;
 	
-	background-color: #d7e6fd;
+	background-color: #e9f1fd;
 }
 
 .textBox {

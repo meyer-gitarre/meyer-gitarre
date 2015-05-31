@@ -40,9 +40,10 @@ html {
 	border-width: 1px;
 	border-style: solid;
 	border-radius: 5px;
+	margin: 0.5em;
 }
 
-.exBorder {
+.exBorder, .exBorder img {
 	border-radius: 5px;
 	
 	border-style: solid;
@@ -50,20 +51,25 @@ html {
 	padding: 1px;
 }
 
+/*prevents doubled border around imagewrappers having an exBorder */
+.imageWrapper[class~=exBorder] {
+	border-style: none;
+}
+
 .contrast1 {
-	background-color: #ebfdf1;
+	background-color: #fff2ff;
 }
 
 .contrast2 {
-	background-color: #ffedff;
+	background-color: #fffff0;
 }
 
 .contrast3 {
-	background-color: #ffffe0;
+	background-color: #e9f1fd;
 }
 
 .contrast4 {
-	background-color: #e9f1fd;
+	background-color: #ebfdf1;
 }
 
 .contrast5 {
