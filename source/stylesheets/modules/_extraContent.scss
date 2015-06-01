@@ -1,10 +1,10 @@
-.solution {
+.extraContent {
 	display: none;
 	box-sizing: content-box;
-	max-width: 699px;
+	//max-width: 699px;
 }
 
-input[type="checkbox"]:checked + label + .solution {
+input[type="checkbox"]:checked + label + .extraContent {
 	display: block;
 }
 
@@ -28,39 +28,12 @@ input[type="checkbox"] + label::after {
 	content: "anzeigen";
 }
 
-/*input[type="checkbox"] + label:hover::after {
-	content: "Notenpapier?";
-}*/
-
 input[type="checkbox"]:checked + label::after {
 	content: "verbergen";
 }
-
-
-
 
 input[type="checkbox"]:checked + label {
 	background: #ebfdf1;
 	
 	border-color: #8ac49c;
-}
-
-.solution .imageWrapper {
-	border-style: solid;
-	border-width: 1px;
-	border-color: #8ac49c;
-	border-radius: 5px;
-	margin-left: 1em;
-}
-
-.solution .imageWrapper img {
-	border-radius: 5px;
-}
-
-.solution + h6 {
-	margin-top: 1em;
-}
-
-.solution + p {
-	margin-top: 1em;
 }
