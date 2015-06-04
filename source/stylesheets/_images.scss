@@ -438,6 +438,11 @@
 	width: 15.1%;
 }
 
+.img14 { /*124px*/
+	@extend %floatedImageLeft;
+	width: 14.4%;
+}
+
 .img12a { /*103.2px*/
 	@extend %floatedImageLeft;
 	width: 12%;
