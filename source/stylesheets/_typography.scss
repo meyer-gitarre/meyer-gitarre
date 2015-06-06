@@ -1,7 +1,7 @@
 /*Globale Textgestaltung, dies gilt für alles.*/
 body {
 	font-family: Arial, Sans-Serif;
-	line-height: 1.4;
+	line-height: 1.5;
 }
 
 section > p, article > p, aside > p {
@@ -21,6 +21,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
 	font-size: 1.2em;
+	line-height: 1.2;
 }
 
 h2 {
@@ -138,13 +139,13 @@ i {
 em {
 	font-style: italic;
 	font-family: Verdana, sans-serif;
-	color: #2952CC;
+	color: #1443cc;
 }
 
 strong {
 	font-family: Georgia, serif;
 	font-weight: bold;
-	color: #009900;
+	color: #118511;
 }
 cite {
 	font-family: Times New Roman, serif;
@@ -228,7 +229,8 @@ hr {
 a:link {
 	text-decoration: none;
 	color: blue;
-	background-color: #d7e6fd;
+	background-color: #cadefd;
+	padding: 0 0.25em 0 0.25em;
 }
 
 a:visited {
@@ -267,7 +269,7 @@ span.refer {
 }
 
 .attention {
-	color: red;
+	color: #cc0000;
 	font-weight: bold;
 }
 
