@@ -20,11 +20,18 @@
 }
 
 .breadcrumbs a {
-	color: #1171e3;
+	color: #2447B2;
 	font-weight: bold;
 	font-size: 90%;
 	letter-spacing: 0.05em;
 	background-color: transparent;
+}
+.breadcrumbs ol {
+	visibility: hidden;
+	position: absolute;
+}	
+.breadcrumbs ol li:hover li, .breadcrumbs ol a:hover li {
+	visibility: visible;
 }
 
 .menu {
