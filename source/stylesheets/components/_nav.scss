@@ -15,7 +15,7 @@
 	padding: 0;
 }
 
-.breadcrumbs li::after {
+.breadcrumbs > li::after {
 	content: " >> ";
 }
 
@@ -26,11 +26,13 @@
 	letter-spacing: 0.05em;
 	background-color: transparent;
 }
+
 .breadcrumbs ol {
 	visibility: hidden;
-	position: absolute;
+	//position: absolute;
 }	
-.breadcrumbs ol li:hover li, .breadcrumbs ol a:hover li {
+
+.breadcrumbs li::hover > ol {
 	visibility: visible;
 }
 
@@ -71,7 +73,9 @@
 	color: white;
 	background-color: #5798f8;
 	background: linear-gradient(to right, #5997e7, #3885e0 45%, #5997e7);
-	border: 1px solid navy;
+	border-width: 1px;
+	border-style: solid;
+	border-color: navy;
 }
 /* style the link hover and focus */
 .menu :hover>a, .menu :focus>a {
