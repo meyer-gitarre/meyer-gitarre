@@ -16,8 +16,6 @@
 # With no layout
 # page "/path/to/file.html", :layout => false
 #
-# With alternative layout
-# page "/path/to/file.html", :layout => :otherlayout
 #
 # A path which all have the same layout
 with_layout :layoutGit do
@@ -29,6 +27,10 @@ end
 with_layout :layoutMus do
    page "/musiklehre/*"
 end
+
+# With alternative layout
+page "/blockfloete/behandlung/index.html", :layout => :layoutImproved
+#page "/*", :layout => :layoutImproved
 
 #Disable all Layouts
 #set :layout, false
@@ -50,11 +52,31 @@ end
  end
 
 # Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
+helpers do
+	def menu_helper (cmd)
+		fullCmd = 'node menu.js ' + cmd + ' -p '
+		current_page.data.menuStructure.each do |entry|
+			fullCmd += entry + ' '
+		end
+		#return %x[node menu.js menu -p Blockflöte]
+		#tmp = 'node menu.js menu -p Blockflöte'
+		return `#{fullCmd}`
+	end
+	
+	def color_helper
+		ancestor = current_page.data.menuStructure[0]
+		if ancestor == 'Blockflöte'
+			return 'bflColor'
+		end
+		if ancestor == 'Gitarre'
+			return 'gitColor'
+		end
+		if ancestor == 'Musiklehre'
+			return 'musColor'
+		end
+		return 'defaultColor'
+	end
+end
 
 set :css_dir, 'stylesheets'
 
