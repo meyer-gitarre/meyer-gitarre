@@ -66,8 +66,76 @@ module.exports =
 					name: "Saitenlage"
 					path: "/gitarre/instrument/qualitaet/index.html#saitenlage"
 				,
-					name: ""
+					name: "Steg, Sattel, Hals"
+					path: "/gitarre/instrument/qualitaet/index.html#sattel"
+				,
+					name: "Aussehen"
+					path: "/gitarre/instrument/qualitaet/index.html#aussehen"
+				,
+					name: "Massivholz"
+					path: "/gitarre/instrument/qualitaet/index.html#massiv"
+				,
+					name: "Wert und Verlust"
+					path: "/gitarre/instrument/qualitaet/index.html#wert"
+				,
+					name: "Gitarre einspielen"
+					path: "/gitarre/instrument/qualitaet/index.html#einspielen"
 				]
+			,
+				name: "Teile der Gitarre"
+				path: "/gitarre/instrument/teile/index.html"
+				sections: [
+					name: "Teile vorne"
+					path: "/gitarre/instrument/teile/index.html#teilevorne"
+				,
+					name: "Teile hinten"
+					path: "/gitarre/instrument/teile/index.html#teilehinten"
+				,
+					name: "Teile innen"
+					path: "/gitarre/instrument/teile/index.html#teileinnen"
+				]
+			]
+		,
+			name: "Unterricht"
+			path: "/gitarre/unterricht/index.html"
+			children: [
+				name: "Lernen"
+				path: "/gitarre/unterricht/lernen/index.html"
+				sections: [
+					name: "Lernen Sie Gitarre"
+					path: "/gitarre/unterricht/lernen/index.html#gitlern"
+				,
+					name: "Gitarristen"
+					path: "/gitarre/unterricht/lernen/index.html#gitarristen"
+				,
+					name: "Unterrichtsverlauf"
+					path: "/gitarre/unterricht/lernen/index.html#verlauf"
+				,
+					name: "Unterrichtskonzepte"
+					path: "/gitarre/unterricht/lernen/index.html#konzept"
+				]
+			,
+				name: "Unterrichtsform"
+				path: "/gitarre/unterricht/form/index.html"
+				sections: [
+					name: "Gruppenunterricht"
+					path: "/gitarre/unterricht/form/index.html#gruppenunterricht"
+				,
+					name: "Einzelunterricht"
+					path: "/gitarre/unterricht/form/index.html#einzel"
+				,
+					name: "Einstiegsalter"
+					path: "/gitarre/unterricht/form/index.html#einstiegsalter"
+				,
+					name: "Frühförderung"
+					path: "/musiklehre/musik-text/texte/index.html#frueh"
+				,
+					name: "Regeln für Gruppen"
+					path: "/pdf/RegelnGruppe.pdf"
+				]
+			,
+				name: "Das Lernumfeld"
+				path: "/gitarre/unterricht/umfeld/index.html"
 			]
 		]
 	,
