@@ -5,8 +5,70 @@ module.exports =
 		name: "Gitarre"
 		path: "/gitarre/index.html"
 		children: [
-			name: "Lernen"
-			path: "/gitarre/lernen/index.html"
+			name: "Das Instrument"
+			path: "/gitarre/instrument/index.html"
+			children: [
+				name: "Konzept Gitarre"
+				path: "/gitarre/instrument/konzept/index.html"
+				sections: [
+					name: "Viele Möglichkeiten"
+					path: "/gitarre/instrument/konzept/index.html#moeglichkeit"
+				,
+					name: "Erfolgsmodell Gitarre"
+					path: "/gitarre/instrument/konzept/index.html#erfolg"
+				]
+			,
+				name: "Größe der Gitarre"
+				path: "/gitarre/instrument/groesse/index.html"
+				sections: [
+					name: "Gitarren f. Erwachsene"
+					path: "/gitarre/instrument/groesse/index.html#groesseinstrument"
+				,
+					name: "Sattelbreiten"
+					path: "/gitarre/instrument/groesse/index.html#sattelbreite"
+				,
+					name: "Praxistest"
+					path: "/gitarre/instrument/groesse/index.html#kleiner"
+				]
+			,
+				name: "Kindergitarren"
+				path: "/gitarre/instrument/kinder/index.html"
+				sections: [
+					name: "Größe & Spieler"
+					path: "/gitarre/instrument/kinder/index.html#groessen"
+				,
+					name: "Mensur oder Saitenlänge"
+					path: "/gitarre/instrument/kinder/index.html#mensurkind"
+				,
+					name: "Ausprobieren im Laden"
+					path: "/gitarre/instrument/kinder/index.html#anprobe"
+				]
+			,
+				name: "Linkshänder"
+				path: "/gitarre/instrument/linkshaender/index.html"
+				sections: [
+					name: "auf links umbauen"
+					path: "/gitarre/instrument/linkshaender/index.html#umarbeiten"
+				,
+					name: "Linshändergitarre kaufen"
+					path: "/gitarre/instrument/linkshaender/index.html#linkskauf"
+				]
+			,
+				name: "Qualität und Preise"
+				path: "/gitarre/instrument/qualitaet/index.html"
+				sections: [
+					name: "Klang"
+					path: "/gitarre/instrument/qualitaet/index.html#klang"
+				,
+					name: "Technische Probleme"
+					path: "/gitarre/instrument/qualitaet/index.html#technikproblem"
+				,
+					name: "Saitenlage"
+					path: "/gitarre/instrument/qualitaet/index.html#saitenlage"
+				,
+					name: ""
+				]
+			]
 		]
 	,
 		name: "Musiklehre"
