@@ -626,14 +626,2108 @@ module.exports =
 			name: "Akkorde"
 			path: "/gitarre/akkorde/index.html"
 			children: [
-				
+				name: "Grifftabelle"
+				path: "/gitarre/akkorde/akkordtabelle/index.html"
+				sections: [
+					name: "~ Kommentar"
+					path: "/gitarre/akkorde/akkordtabelle/index.html#kommentar"
+				,
+					name: "PDF-Grifftabelle"
+					path: "/pdf/Grifftabelle.pdf"
+				]
+			,
+				name: "Griffwechsel"
+				path: "/gitarre/akkorde/griffwechsel/index.html"
+				sections: [
+					name: "Griffwechsel üben"
+					path: "/gitarre/akkorde/griffwechsel/index.html#griffueben"
+				,
+					name: "Akkorde lesen"
+					path: "/gitarre/akkorde/griffwechsel/index.html#akkles"
+				,
+					name: "Begleiten nach Gehör"
+					path: "/gitarre/akkorde/griffwechsel/index.html#gehoerakk"
+				,
+					name: "Praktisches Beispiel"
+					path: "/gitarre/akkorde/griffwechsel/index.html#kinderlein"
+				,
+					name: "Weihnachtslieder"
+					path: "/gitarre/akkorde/griffwechsel/index.html#weihharm"
+				]
+			,
+				name: "Griffstrukturen"
+				path: "/gitarre/akkorde/griffstruktur/index.html"
+				sections: [
+					name: "Verwandtschaften"
+					path: "/gitarre/akkorde/griffstruktur/index.html#grifftypen1"
+				,
+					name: "Veränderungen"
+					path: "/gitarre/akkorde/griffstruktur/index.html#grifftypen2"
+				,
+					name: "entstehende Griffe"
+					path: "/gitarre/akkorde/griffstruktur/index.html#grifftypen3"
+				,
+					name: "Rückführungen"
+					path: "/gitarre/akkorde/griffstruktur/index.html#grifftypen4"
+				,
+					name: "Saitengruppen"
+					path: "/gitarre/akkorde/griffstruktur/index.html#grifftypen5"
+				]
+			,
+				name: "Barrégriffe"
+				path: "/gitarre/akkorde/barre/index.html"
+				sections: [
+					name: "Barrégriffe suchen"
+					path: "/gitarre/akkorde/barre/index.html#barresuchen"
+				,
+					name: "Barré: Eintieg"
+					path: "/gitarre/akkorde/barre/index.html#barreeinstieg"
+				,
+					name: "Einstieg 2: Knickbarré"
+					path: "/gitarre/akkorde/barre/index.html#knickbarre"
+				,
+					name: "Barré in Liedern"
+					path: "/gitarre/akkorde/barre/index.html#barrespielen"
+				,
+					name: "Barré in Kadenzen"
+					path: "/gitarre/akkorde/barre/index.html#barrekadenzen"
+				,
+					name: "Barré & Powerchords"
+					path: "/gitarre/akkorde/barre/index.html#powerchords"
+				,
+					name: "Barré & Kapodaster"
+					path: "/gitarre/akkorde/barre/index.html#kapo"
+				]
+			,
+				name: "Akkordübung"
+				path: "/gitarre/akkorde/griffuebung/index.html"
+			,
+				name: "Kapodaster"
+				path: "/gitarre/akkorde/kapo/index.html"
+				sections: [
+					name: "Kapo: kürzer & höher"
+					path: "/gitarre/akkorde/kapo/index.html#kuerzer"
+				,
+					name: "Liedbegleitung"
+					path: "/gitarre/akkorde/kapo/index.html#begleit"
+				,
+					name: "Kapo: nicht tiefer"
+					path: "/gitarre/akkorde/kapo/index.html#nichttief"
+				,
+					name: "normale Noten"
+					path: "/gitarre/akkorde/kapo/index.html#normal"
+				,
+					name: "Kapo: Zubehör"
+					path: "//gitarre/technisches/zubehoer/index.html#kapodaster"
+				]
+			]
+		,
+			name: "Musikbeispiele"
+			path: "/gitarre/musikbeispiele/index.html"
+			sections: [
+				name: "Eigene Gitarrenstücke"
+				path: "/gitarre/musikbeispiele/index.html#gitarre"
+			,
+				name: "Lautenstücke"
+				path: "/gitarre/musikbeispiele/index.html#laute"
+			,
+				name: "Chitarronestücke"
+				path: "/gitarre/musikbeispiele/index.html#chitarrone"
+			,
+				name: "Klang manipulieren"
+				path: "/gitarre/musikbeispiele/index.html#equalizer"
 			]
 		]
 	,
 		name: "Musiklehre"
 		path: "/musiklehre/index.html"
 		children: [
+			name: "Fahrplan Musiklehre"
+			path: "/musiklehre/fahrplan/index.html"
+			sections: [
+				name: "1. Grundlagen"
+				path: "/musiklehre/fahrplan/index.html#einsgrund"
+			,
+				name: "2. Tonleitern"
+				path: "/musiklehre/fahrplan/index.html#zweiton"
+			,
+				name: "3. Intervalle"
+				path: "/musiklehre/fahrplan/index.html#dreiint"
+			,
+				name: "4. Akkorde"
+				path: "/musiklehre/fahrplan/index.html#vierakk"
+			,
+				name: "5. Rhythmus"
+				path: "/musiklehre/fahrplan/index.html#fuenfrh"
+			,
+				name: "6. Gehörbildung"
+				path: "/musiklehre/fahrplan/index.html#sechshoer"
+			,
+				name: "Praktischer Einstieg"
+				path: "/musiklehre/fahrplan/index.html#praktisch"
+			]
+		,
+			name: "Grundlagen"
+			path: "/musiklehre/grundlagen/index.html"
+			children: [
+				name: "Notenschrift"
+				path: "/musiklehre/grundlagen/notenlinien/index.html"
+				sections: [
+					name: "Linien & Stammtöne"
+					path: "/musiklehre/grundlagen/notenlinien/index.html#liniensystem"
+				,
+					name: "Violinschlüssel"
+					path: "/musiklehre/grundlagen/notenlinien/index.html#violinschluessel"
+				,
+					name: "Aussehen der Note"
+					path: "/musiklehre/grundlagen/notenlinien/index.html#welchenote"
+				,
+					name: "Noten lesen lernen"
+					path: "/musiklehre/grundlagen/notenlinien/index.html#leslern"
+				,
+					name: "Hilfslinien"
+					path: "/musiklehre/grundlagen/notenlinien/index.html#hilfslin"
+				,
+					name: "Der Tonvorrat"
+					path: "/musiklehre/grundlagen/notenlinien/index.html#halbtonschritten"
+				,
+					name: "Obertonreihe"
+					path: "/musiklehre/grundlagen/notenlinien/index.html#obertonreihe"
+				]
+			,
+				name: "Akzidentien"
+				path: "/musiklehre/grundlagen/akzidentien/index.html"
+				sections: [
+					name: "Vorzeichen"
+					path: "/musiklehre/grundlagen/akzidentien/index.html#akzidentien"
+				,
+					name: "~ und Logik"
+					path: "/musiklehre/grundlagen/akzidentien/index.html#logik"
+				,
+					name: "Textverweise"
+					path: "/musiklehre/grundlagen/akzidentien/index.html#"
+				]
+			,
+				name: "Bass- & Altschlüssel"
+				path: "/musiklehre/grundlagen/bass-alt/index.html"
+				sections: [
+					name: "Bassschlüssel"
+					path: "/musiklehre/grundlagen/bass-alt/index.html#bassschluessel"
+				,
+					name: "Altschlüssel"
+					path: "/musiklehre/grundlagen/bass-alt/index.html#altschluessel"
+				]
+			,
+				name: "Übungen"
+				path: "/musiklehre/grundlagen/schluessel-ueb/index.html"
+				sections: [
+					name: "Schlüssel"
+					path: "/musiklehre/grundlagen/schluessel-ueb/index.html"
+					sections: [
+						name: "Noten Violinschlüssel"
+						path: "/musiklehre/grundlagen/schluessel-ueb/index.html#uebviolin"
+					,
+						name: "Noten Altschlüssel"
+						path: "/musiklehre/grundlagen/schluessel-ueb/index.html#uebalt"
+					,
+						name: "Noten Bassschlüssel"
+						path: "/musiklehre/grundlagen/schluessel-ueb/index.html#uebbass"
+					,
+						name: "Schlüsselwechsel"
+						path: "/musiklehre/grundlagen/schluessel-ueb/index.html#wechselschluessel"
+					,
+						name: "Bassschlüssel lesen"
+						path: "/musiklehre/grundlagen/schluessel-ueb/index.html#blattlesen"
+					]
+				,
+					name: "Schlüssel & Gitarre"
+					path: "/musiklehre/grundlagen/schluessel-gitarre/index.html#uebfingersatz"
+					sections: [
+						name: "Bassschlüssel & Gitarre"
+						path: "/musiklehre/grundlagen/schluessel-gitarre/index.html#uebfingersatz"
+					,
+						name: "Altschlüssel & Gitarre"
+						path: "/musiklehre/grundlagen/schluessel-gitarre/index.html#uebtedeum"
+					]
+				,
+					name: "Noten"
+					path: "/musiklehre/grundlagen/akzidentien/index.html#uebakzidens"
+					sections: [
+						name: "Akzidentien"
+						path: "/musiklehre/grundlagen/akzidentien/index.html#uebakzidens"
+					,
+						name: "Transponieren"
+						path: "/musiklehre/grundlagen/transponieren/index.html#uebtrans"
+					,
+						name: "Zirkeltraining Dur"
+						path: "/musiklehre/grundlagen/training-dur/index.html"
+					,
+						name: "Zirkeltraining Moll"
+						path: "/musiklehre/grundlagen/training-moll/index.html"
+					]
+				]
+			,
+				name: "Transponieren"
+				path: "/musiklehre/grundlagen/transponieren/index.html"
+				sections: [
+					name: "Überprüfen"
+					path: "/musiklehre/grundlagen/transponieren/index.html#pruefen"
+				,
+					name: "Beispiel"
+					path: "/musiklehre/grundlagen/transponieren/index.html#modulation"
+				,
+					name: "transponierende Instr."
+					path: "/musiklehre/grundlagen/transponieren/index.html#transinstru"
+				,
+					name: "~ um eine Oktave"
+					path: "/musiklehre/grundlagen/transponieren/index.html#gittrans"
+				,
+					name: "~ im Alltag"
+					path: "/musiklehre/grundlagen/transponieren/index.html#alltag"
+				,
+					name: "~ Übungen"
+					path: "/musiklehre/grundlagen/transponieren/index.html#uebtrans"
+				]
+			,
+				name: "Gitarre & Schlüssel"
+				path: "/musiklehre/grundlagen/schluessel-gitarre/index.html"
+				sections: [
+					name: "Gitarre & Bassschlüssel"
+					path: "/musiklehre/grundlagen/schluessel-gitarre/index.html#gitarreund"
+				,
+					name: "Gitarre & Altschlüssel"
+					path: "/musiklehre/grundlagen/schluessel-gitarre/index.html#gitarreundalt"
+				]
+			,
+				name: "Ablauf v. Stücken"
+				path: "/musiklehre/grundlagen/ablauf/index.html"
+				sections: [
+					name: "Voltenklammern"
+					path: "/musiklehre/grundlagen/ablauf/index.html#volten"
+				,
+					name: "Da Capo al fine"
+					path: "/musiklehre/grundlagen/ablauf/index.html#dacapo"
+				,
+					name: "Al coda"
+					path: "/musiklehre/grundlagen/ablauf/index.html#coda"
+				,
+					name: "Faulenzer"
+					path: "/musiklehre/grundlagen/ablauf/index.html#faul"
+				,
+					name: "Umblättern"
+					path: "/musiklehre/grundlagen/ablauf/index.html#blaettern"
+				,
+					name: "Ausgabenkritik"
+					path: "/musiklehre/grundlagen/ablauf/index.html#ausgaben"
+				]
+			,
+				name: "Zirkeltraining Dur"
+				path: "/musiklehre/grundlagen/training-dur/index.html"
+			,
+				name: "Zirkeltraining Moll"
+				path: "/musiklehre/grundlagen/training-moll/index.html"
+			,
+				name: "Vorbedingungen"
+				path: "/musiklehre/grundlagen/vorbedingungen/index.html"
+				sections: [
+					name: "Physikalische Größen"
+					path: "/musiklehre/grundlagen/vorbedingungen/index.html#physik"
+				,
+					name: "Alternative Notation"
+					path: "/musiklehre/grundlagen/vorbedingungen/index.html#exkurs"
+				,
+					name: "Hörexperimente"
+					path: "/musiklehre/grundlagen/vorbedingungen/index.html#hoerexp"
+				,
+					name: "Notenlernen: schwierig?"
+					path: "/musiklehre/grundlagen/vorbedingungen/index.html#notenschwierig"
+				]
+			]
+		,
+			name: "Tonleitern"
+			path: "/musiklehre/tonleitern/index.htm"
+			children: [
+				name: "Durtonleitern mit #"
+				path: "/musiklehre/tonleitern/kreuz/index.html"
+				sections: [
+					name: "Die C-Dur-Tonleiter"
+					path: "/musiklehre/tonleitern/kreuz/index.html#cdur"
+				,
+					name: "Wie entsteht das #?"
+					path: "/musiklehre/tonleitern/kreuz/index.html#warumgibtes"
+				,
+					name: "Reihe der Kreuze"
+					path: "/musiklehre/tonleitern/kreuz/index.html#reihekreuz"
+				,
+					name: "Übungen"
+					path: "/musiklehre/tonleitern/index.html"
+					sections: [
+						name: "Kreuztonleitern schreiben"
+						path: "/musiklehre/tonleitern/kreuz/index.html#aufgabe1"
+					,
+						name: "b-Tonleitern schreiben"
+						path: "/musiklehre/tonleitern/b/index.html#aufgabe2"
+					,
+						name: "Paralleltonarten nennen"
+						path: "/musiklehre/tonleitern/quintenzirkel/index.html#aufgabe3"
+					,
+						name: "Molltonleitern schreiben"
+						path: "/musiklehre/tonleitern/quintenzirkel/index.html#aufgabe4"
+					,
+						name: "Kirchentonarten schreiben"
+						path: "/musiklehre/tonleitern/modi/index.html#modischreib"
+					,
+						name: "Vorzeichen nennen"
+						path: "/musiklehre/tonleitern/modi/index.html#modivorzeichen"
+					,
+						name: "Kirchentonarten nennen"
+						path: "/musiklehre/tonleitern/modi/index.html#modinennen"
+					,
+						name: "Pentatonik auf der Gitarre"
+						path: "/musiklehre/tonleitern/pentatonik/index.html#pentaueb"
+					,
+						name: "Zirkeltraining Dur"
+						path: "/musiklehre/grundlagen/training-dur/index.html"
+					,
+						name: "Zirkeltraining Moll"
+						path: "/musiklehre/grundlagen/training-moll/index.html"
+					]
+				]
+			,
+				name: "Durtonleitern mit b"
+				path: "/musiklehre/tonleitern/b/index.html"
+				sections: [
+					name: "Wie entsteht das b?"
+					path: "/musiklehre/tonleitern/b/index.html#diebtonarten"
+				,
+					name: "Reihe der &#9837;"
+					path: "/musiklehre/tonleitern/b/index.html#reiheb"
+				,
+					name: "Übungen"
+					path: "/musiklehre/tonleitern/index.html"
+					sections: [
+						name: "Kreuztonleitern schreiben"
+						path: "/musiklehre/tonleitern/kreuz/index.html#aufgabe1"
+					,
+						name: "b-Tonleitern schreiben"
+						path: "/musiklehre/tonleitern/b/index.html#aufgabe2"
+					,
+						name: "Paralleltonarten nennen"
+						path: "/musiklehre/tonleitern/quintenzirkel/index.html#aufgabe3"
+					,
+						name: "Molltonleitern schreiben"
+						path: "/musiklehre/tonleitern/quintenzirkel/index.html#aufgabe4"
+					,
+						name: "Kirchentonarten schreiben"
+						path: "/musiklehre/tonleitern/modi/index.html#modischreib"
+					,
+						name: "Vorzeichen nennen"
+						path: "/musiklehre/tonleitern/modi/index.html#modivorzeichen"
+					,
+						name: "Kirchentonarten nennen"
+						path: "/musiklehre/tonleitern/modi/index.html#modinennen"
+					,
+						name: "Pentatonik auf der Gitarre"
+						path: "/musiklehre/tonleitern/pentatonik/index.html#pentaueb"
+					,
+						name: "Zirkeltraining Dur"
+						path: "/musiklehre/grundlagen/training-dur/index.html"
+					,
+						name: "Zirkeltraining Moll"
+						path: "/musiklehre/grundlagen/training-moll/index.html"
+					]
+				]
+			,
+				name: "Falsche Vorzeichen"
+				path: "/musiklehre/tonleitern/falsch/index.html"
+				sections:
+					name: "Übungen"
+					path: "/musiklehre/tonleitern/index.html"
+					sections: [
+						name: "Kreuztonleitern schreiben"
+						path: "/musiklehre/tonleitern/kreuz/index.html#aufgabe1"
+					,
+						name: "b-Tonleitern schreiben"
+						path: "/musiklehre/tonleitern/b/index.html#aufgabe2"
+					,
+						name: "Paralleltonarten nennen"
+						path: "/musiklehre/tonleitern/quintenzirkel/index.html#aufgabe3"
+					,
+						name: "Molltonleitern schreiben"
+						path: "/musiklehre/tonleitern/quintenzirkel/index.html#aufgabe4"
+					,
+						name: "Kirchentonarten schreiben"
+						path: "/musiklehre/tonleitern/modi/index.html#modischreib"
+					,
+						name: "Vorzeichen nennen"
+						path: "/musiklehre/tonleitern/modi/index.html#modivorzeichen"
+					,
+						name: "Kirchentonarten nennen"
+						path: "/musiklehre/tonleitern/modi/index.html#modinennen"
+					,
+						name: "Pentatonik auf der Gitarre"
+						path: "/musiklehre/tonleitern/pentatonik/index.html#pentaueb"
+					,
+						name: "Zirkeltraining Dur"
+						path: "/musiklehre/grundlagen/training-dur/index.html"
+					,
+						name: "Zirkeltraining Moll"
+						path: "/musiklehre/grundlagen/training-moll/index.html"
+					]
+				]
+			,
+				name: "Tonl. direkt aufbauen"
+				path: "/musiklehre/tonleitern/direkt/index.html"
+				sections: [
+					name: "Übungen"
+					path: "/musiklehre/tonleitern/index.html"
+					sections: [
+						name: "Kreuztonleitern schreiben"
+						path: "/musiklehre/tonleitern/kreuz/index.html#aufgabe1"
+					,
+						name: "b-Tonleitern schreiben"
+						path: "/musiklehre/tonleitern/b/index.html#aufgabe2"
+					,
+						name: "Paralleltonarten nennen"
+						path: "/musiklehre/tonleitern/quintenzirkel/index.html#aufgabe3"
+					,
+						name: "Molltonleitern schreiben"
+						path: "/musiklehre/tonleitern/quintenzirkel/index.html#aufgabe4"
+					,
+						name: "Kirchentonarten schreiben"
+						path: "/musiklehre/tonleitern/modi/index.html#modischreib"
+					,
+						name: "Vorzeichen nennen"
+						path: "/musiklehre/tonleitern/modi/index.html#modivorzeichen"
+					,
+						name: "Kirchentonarten nennen"
+						path: "/musiklehre/tonleitern/modi/index.html#modinennen"
+					,
+						name: "Pentatonik auf der Gitarre"
+						path: "/musiklehre/tonleitern/pentatonik/index.html#pentaueb"
+					,
+						name: "Zirkeltraining Dur"
+						path: "/musiklehre/grundlagen/training-dur/index.html"
+					,
+						name: "Zirkeltraining Moll"
+						path: "/musiklehre/grundlagen/training-moll/index.html"
+					]
+				]
+			,
+				name: "Quintenzirkel"
+				path: "/musiklehre/tonleitern/quintenzirkel/index.html"
+				sections: [
+					name: "Dur-Quintenzirkel"
+					path: "/musiklehre/tonleitern/quintenzirkel/index.html#durquintenzirkel"
+				,
+					name: "Quintenzirkel Dur & Moll"
+					path: "/musiklehre/tonleitern/quintenzirkel/index.html#zirkeldurmoll"
+				,
+					name: "Quintezirkel vertikal"
+					path: "/musiklehre/akkorde/weitere-funktionen/index.html#zirkelvertikal"
+				,
+					name: "Die Quintenreihe"
+					path: "/musiklehre/tonleitern/quintenzirkel/index.html#quintenreihe"
+				,
+					name: "Molltonleitern"
+					path: "/musiklehre/tonleitern/quintenzirkel/index.html#dieparallelemoll"
+				,
+					name: "Moll: 3 Arten"
+					path: "/musiklehre/tonleitern/quintenzirkel/index.html#mollarten"
+				,
+					name: "Übungen"
+					path: "/musiklehre/tonleitern/index.html"
+					sections: [
+						name: "Kreuztonleitern schreiben"
+						path: "/musiklehre/tonleitern/kreuz/index.html#aufgabe1"
+					,
+						name: "b-Tonleitern schreiben"
+						path: "/musiklehre/tonleitern/b/index.html#aufgabe2"
+					,
+						name: "Paralleltonarten nennen"
+						path: "/musiklehre/tonleitern/quintenzirkel/index.html#aufgabe3"
+					,
+						name: "Molltonleitern schreiben"
+						path: "/musiklehre/tonleitern/quintenzirkel/index.html#aufgabe4"
+					,
+						name: "Kirchentonarten schreiben"
+						path: "/musiklehre/tonleitern/modi/index.html#modischreib"
+					,
+						name: "Vorzeichen nennen"
+						path: "/musiklehre/tonleitern/modi/index.html#modivorzeichen"
+					,
+						name: "Kirchentonarten nennen"
+						path: "/musiklehre/tonleitern/modi/index.html#modinennen"
+					,
+						name: "Pentatonik auf der Gitarre"
+						path: "/musiklehre/tonleitern/pentatonik/index.html#pentaueb"
+					,
+						name: "Zirkeltraining Dur"
+						path: "/musiklehre/grundlagen/training-dur/index.html"
+					,
+						name: "Zirkeltraining Moll"
+						path: "/musiklehre/grundlagen/training-moll/index.html"
+					]
+				]
+			,
+				name: "Pentatonische Tonl."
+				path: "/musiklehre/tonleitern/pentatonik/index.html"
+				sections: [
+					name: "Pentatonik für Gitarre"
+					path: "/musiklehre/tonleitern/pentatonik/index.html#pentagit"
+				,
+					name: "5 Formen der ~"
+					path: "/musiklehre/tonleitern/pentatonik/index.html#varianten"
+				,
+					name: "Verbindung der Formen"
+					path: "/musiklehre/tonleitern/pentatonik/index.html#verbindung"
+				,
+					name: "Bluestonleiter"
+					path: "/musiklehre/tonleitern/pentatonik/index.html#bluesscale"
+				,
+					name: "Durpentatonik"
+					path: "/musiklehre/tonleitern/pentatonik/index.html#durpenta"
+				,
+					name: "Zusammenfassung"
+					path: "/musiklehre/tonleitern/pentatonik/index.html#zusammen"
+				,
+					name: "Übung für Gitarre"
+					path: "/musiklehre/tonleitern/pentatonik/index.html#pentaueb"
+				,
+					name: "Übungen"
+					path: "/musiklehre/tonleitern/index.html"
+					sections: [
+						name: "Kreuztonleitern schreiben"
+						path: "/musiklehre/tonleitern/kreuz/index.html#aufgabe1"
+					,
+						name: "b-Tonleitern schreiben"
+						path: "/musiklehre/tonleitern/b/index.html#aufgabe2"
+					,
+						name: "Paralleltonarten nennen"
+						path: "/musiklehre/tonleitern/quintenzirkel/index.html#aufgabe3"
+					,
+						name: "Molltonleitern schreiben"
+						path: "/musiklehre/tonleitern/quintenzirkel/index.html#aufgabe4"
+					,
+						name: "Kirchentonarten schreiben"
+						path: "/musiklehre/tonleitern/modi/index.html#modischreib"
+					,
+						name: "Vorzeichen nennen"
+						path: "/musiklehre/tonleitern/modi/index.html#modivorzeichen"
+					,
+						name: "Kirchentonarten nennen"
+						path: "/musiklehre/tonleitern/modi/index.html#modinennen"
+					,
+						name: "Pentatonik auf der Gitarre"
+						path: "/musiklehre/tonleitern/pentatonik/index.html#pentaueb"
+					,
+						name: "Zirkeltraining Dur"
+						path: "/musiklehre/grundlagen/training-dur/index.html"
+					,
+						name: "Zirkeltraining Moll"
+						path: "/musiklehre/grundlagen/training-moll/index.html"
+					]
+				]
+			,
+				name: "Tonartbestimmung"
+				path: "/musiklehre/tonleitern/tonart/index.html"
+				sections: [
+					name: "Einleitung"
+					path: "/musiklehre/tonleitern/tonart/index.html#tonart"
+				,
+					name: "Vorzeichenreihe #"
+					path: "/musiklehre/tonleitern/tonart/index.html#vorzeichenreihe"
+				,
+					name: "Vorzeichenreihe b"
+					path: "/musiklehre/tonleitern/tonart/index.html#vorzeichenreiheb"
+				,
+					name: "Welche Tonart?"
+					path: "/musiklehre/tonleitern/tonart/index.html#vorzeichenfrage"
+				,
+					name: "Regel für Moll?"
+					path: "/musiklehre/tonleitern/tonart/index.html#mollregel"
+				,
+					name: "Fehlende Vorzeichen"
+					path: "/musiklehre/tonleitern/tonart/index.html#fehlende"
+				,
+					name: "Schwierige Einordnung"
+					path: "/musiklehre/tonleitern/tonart/index.html#einordnen"
+				,
+					name: "Tonartencharakteristik"
+					path: "/musiklehre/tonleitern/tonart/index.html#verschiedene"
+				,
+					name: "Übungen"
+					path: "/musiklehre/tonleitern/index.html"
+					sections: [
+						name: "Kreuztonleitern schreiben"
+						path: "/musiklehre/tonleitern/kreuz/index.html#aufgabe1"
+					,
+						name: "b-Tonleitern schreiben"
+						path: "/musiklehre/tonleitern/b/index.html#aufgabe2"
+					,
+						name: "Paralleltonarten nennen"
+						path: "/musiklehre/tonleitern/quintenzirkel/index.html#aufgabe3"
+					,
+						name: "Molltonleitern schreiben"
+						path: "/musiklehre/tonleitern/quintenzirkel/index.html#aufgabe4"
+					,
+						name: "Kirchentonarten schreiben"
+						path: "/musiklehre/tonleitern/modi/index.html#modischreib"
+					,
+						name: "Vorzeichen nennen"
+						path: "/musiklehre/tonleitern/modi/index.html#modivorzeichen"
+					,
+						name: "Kirchentonarten nennen"
+						path: "/musiklehre/tonleitern/modi/index.html#modinennen"
+					,
+						name: "Pentatonik auf der Gitarre"
+						path: "/musiklehre/tonleitern/pentatonik/index.html#pentaueb"
+					,
+						name: "Zirkeltraining Dur"
+						path: "/musiklehre/grundlagen/training-dur/index.html"
+					,
+						name: "Zirkeltraining Moll"
+						path: "/musiklehre/grundlagen/training-moll/index.html"
+					]
+				]
+			,
+				name: "Tongeschlecht"
+				path: "/musiklehre/tonleitern/tongeschlecht/index.html"
+				sections: [
+					name: "Dur erkennen"
+					path: "/musiklehre/tonleitern/tongeschlecht/index.html#durstuecke"
+				,
+					name: "Moll erkennen"
+					path: "/musiklehre/tonleitern/tongeschlecht/index.html#mollstuecke"
+				,
+					name: "Übungen"
+					path: "/musiklehre/tonleitern/index.html"
+					sections: [
+						name: "Kreuztonleitern schreiben"
+						path: "/musiklehre/tonleitern/kreuz/index.html#aufgabe1"
+					,
+						name: "b-Tonleitern schreiben"
+						path: "/musiklehre/tonleitern/b/index.html#aufgabe2"
+					,
+						name: "Paralleltonarten nennen"
+						path: "/musiklehre/tonleitern/quintenzirkel/index.html#aufgabe3"
+					,
+						name: "Molltonleitern schreiben"
+						path: "/musiklehre/tonleitern/quintenzirkel/index.html#aufgabe4"
+					,
+						name: "Kirchentonarten schreiben"
+						path: "/musiklehre/tonleitern/modi/index.html#modischreib"
+					,
+						name: "Vorzeichen nennen"
+						path: "/musiklehre/tonleitern/modi/index.html#modivorzeichen"
+					,
+						name: "Kirchentonarten nennen"
+						path: "/musiklehre/tonleitern/modi/index.html#modinennen"
+					,
+						name: "Pentatonik auf der Gitarre"
+						path: "/musiklehre/tonleitern/pentatonik/index.html#pentaueb"
+					,
+						name: "Zirkeltraining Dur"
+						path: "/musiklehre/grundlagen/training-dur/index.html"
+					,
+						name: "Zirkeltraining Moll"
+						path: "/musiklehre/grundlagen/training-moll/index.html"
+					]
+				]
+			,
+				name: "Kirchentonarten"
+				path: "/musiklehre/tonleitern/modi/index.html"
+				sections: [
+					name: "~ im Mittelalter"
+					path: "/musiklehre/tonleitern/modi/index.html#modi"
+				,
+					name: "~ heute"
+					path: "/musiklehre/tonleitern/modi/index.html#modipraxis"
+				,
+					name: "Sieben Modi"
+					path: "/musiklehre/tonleitern/modi/index.html#siebenmodi"
+				,
+					name: "~ aufbauen"
+					path: "/musiklehre/tonleitern/modi/index.html#modiaufbau"
+				,
+					name: "~ und Improvisation"
+					path: "/musiklehre/tonleitern/modi/index.html#modiimpro"
+				,
+					name: "Übungen"
+					path: "/musiklehre/tonleitern/index.html"
+					sections: [
+						name: "Kreuztonleitern schreiben"
+						path: "/musiklehre/tonleitern/kreuz/index.html#aufgabe1"
+					,
+						name: "b-Tonleitern schreiben"
+						path: "/musiklehre/tonleitern/b/index.html#aufgabe2"
+					,
+						name: "Paralleltonarten nennen"
+						path: "/musiklehre/tonleitern/quintenzirkel/index.html#aufgabe3"
+					,
+						name: "Molltonleitern schreiben"
+						path: "/musiklehre/tonleitern/quintenzirkel/index.html#aufgabe4"
+					,
+						name: "Kirchentonarten schreiben"
+						path: "/musiklehre/tonleitern/modi/index.html#modischreib"
+					,
+						name: "Vorzeichen nennen"
+						path: "/musiklehre/tonleitern/modi/index.html#modivorzeichen"
+					,
+						name: "Kirchentonarten nennen"
+						path: "/musiklehre/tonleitern/modi/index.html#modinennen"
+					,
+						name: "Pentatonik auf der Gitarre"
+						path: "/musiklehre/tonleitern/pentatonik/index.html#pentaueb"
+					,
+						name: "Zirkeltraining Dur"
+						path: "/musiklehre/grundlagen/training-dur/index.html"
+					,
+						name: "Zirkeltraining Moll"
+						path: "/musiklehre/grundlagen/training-moll/index.html"
+					]
+				]
+			]
+		,
+			name: "Intervalle"
+			path: "/musiklehre/fahrplan/index.html"
+			children: [
+				name: "Bezeichnung & Größe"
+				path: "/musiklehre/intervalle/name/index.html"
+				sections: [
+					name: "Vorbemerkung"
+					path: "/musiklehre/intervalle/name/index.html#vorbemerkung"
+				,
+					name: "Name und Größe"
+					path: "/musiklehre/intervalle/name/index.html#intervallebezeichnungen"
+				,
+					name: "Halbtonschritte & Größe"
+					path: "/musiklehre/intervalle/name/index.html#halbton"
+				,
+					name: "Intervallnamen"
+					path: "/musiklehre/intervalle/name/index.html#intervallnamen"
+				,
+					name: "Übungen"
+					path: "/musiklehre/intervalle/bestimmen/index.html"
+					sections: [
+						name: "Intervalle nennen 1"
+						path: "/musiklehre/intervalle/name/index.html#intervallesagen"
+					,
+						name: "Intervalle schreiben 1"
+						path: "/musiklehre/intervalle/name/index.html#intervalleschreiben"
+					,
+						name: "Namen Violinschlüssel"
+						path: "/musiklehre/intervalle/name/index.html#benenneintervviolin"
+					,
+						name: "Namen Bassschlüssel"
+						path: "/musiklehre/intervalle/name/index.html#benenneintervbass"
+					,
+						name: "Intervalle nennen 2"
+						path: "/musiklehre/intervalle/bestimmen/index.html#intervallenennen"
+					,
+						name: "Intervalle schreiben 2"
+						path: "/musiklehre/intervalle/bestimmen/index.html#uebschreibint"
+					,
+						name: "Intervalle singen"
+						path: "/musiklehre/gehoerbildung/intervalle-auf/index.html"
+					,
+						name: "Hörexperimente"
+						path: "/musiklehre/grundlagen/vorbedingungen/index.html#hoerexp"
+					]
+				]
+			,
+				name: "Intervallarten"
+				path: "/musiklehre/intervalle/arten/index.html"
+				sections: [
+					name: "rein oder groß/klein"
+					path: "/musiklehre/intervalle/arten/index.html#intervallarten"
+				,
+					name: "übermäßig / vermindert"
+					path: "/musiklehre/intervalle/arten/index.html#vermue"
+				,
+					name: "Umkehrungen"
+					path: "/musiklehre/intervalle/arten/index.html#umkehrung"
+				,
+					name: "Genaue Größe"
+					path: "/musiklehre/intervalle/arten/index.html#genauegroesse"
+				,
+					name: "Übungen"
+					path: "/musiklehre/intervalle/bestimmen/index.html"
+					sections: [
+						name: "Intervalle nennen 1"
+						path: "/musiklehre/intervalle/name/index.html#intervallesagen"
+					,
+						name: "Intervalle schreiben 1"
+						path: "/musiklehre/intervalle/name/index.html#intervalleschreiben"
+					,
+						name: "Namen Violinschlüssel"
+						path: "/musiklehre/intervalle/name/index.html#benenneintervviolin"
+					,
+						name: "Namen Bassschlüssel"
+						path: "/musiklehre/intervalle/name/index.html#benenneintervbass"
+					,
+						name: "Intervalle nennen 2"
+						path: "/musiklehre/intervalle/bestimmen/index.html#intervallenennen"
+					,
+						name: "Intervalle schreiben 2"
+						path: "/musiklehre/intervalle/bestimmen/index.html#uebschreibint"
+					,
+						name: "Intervalle singen"
+						path: "/musiklehre/gehoerbildung/intervalle-auf/index.html"
+					,
+						name: "Hörexperimente"
+						path: "/musiklehre/grundlagen/vorbedingungen/index.html#hoerexp"
+					]
+				]
+			,
+				name: "Enharmonische Int."
+				path: "/musiklehre/intervalle/enharmonisch/index.html"
+				sections: [
+					name: "~ Beispiele"
+					path: "/musiklehre/intervalle/enharmonisch/index.html#beienharm"
+				,
+					name: "Übungen"
+					path: "/musiklehre/intervalle/bestimmen/index.html"
+					sections: [
+						name: "Intervalle nennen 1"
+						path: "/musiklehre/intervalle/name/index.html#intervallesagen"
+					,
+						name: "Intervalle schreiben 1"
+						path: "/musiklehre/intervalle/name/index.html#intervalleschreiben"
+					,
+						name: "Namen Violinschlüssel"
+						path: "/musiklehre/intervalle/name/index.html#benenneintervviolin"
+					,
+						name: "Namen Bassschlüssel"
+						path: "/musiklehre/intervalle/name/index.html#benenneintervbass"
+					,
+						name: "Intervalle nennen 2"
+						path: "/musiklehre/intervalle/bestimmen/index.html#intervallenennen"
+					,
+						name: "Intervalle schreiben 2"
+						path: "/musiklehre/intervalle/bestimmen/index.html#uebschreibint"
+					,
+						name: "Intervalle singen"
+						path: "/musiklehre/gehoerbildung/intervalle-auf/index.html"
+					,
+						name: "Hörexperimente"
+						path: "/musiklehre/grundlagen/vorbedingungen/index.html#hoerexp"
+					]
+				]
+			,
+				name: "Aufbaufehler"
+				path: "/musiklehre/intervalle/aufbaufehler/index.html"
+				sections: [
+					name: "Intervalle aufbauen"
+					path: "/musiklehre/intervalle/aufbaufehler/index.html#intervalleaufbauen"
+				,
+					name: "Übungen"
+					path: "/musiklehre/intervalle/bestimmen/index.html"
+					sections: [
+						name: "Intervalle nennen 1"
+						path: "/musiklehre/intervalle/name/index.html#intervallesagen"
+					,
+						name: "Intervalle schreiben 1"
+						path: "/musiklehre/intervalle/name/index.html#intervalleschreiben"
+					,
+						name: "Namen Violinschlüssel"
+						path: "/musiklehre/intervalle/name/index.html#benenneintervviolin"
+					,
+						name: "Namen Bassschlüssel"
+						path: "/musiklehre/intervalle/name/index.html#benenneintervbass"
+					,
+						name: "Intervalle nennen 2"
+						path: "/musiklehre/intervalle/bestimmen/index.html#intervallenennen"
+					,
+						name: "Intervalle schreiben 2"
+						path: "/musiklehre/intervalle/bestimmen/index.html#uebschreibint"
+					,
+						name: "Intervalle singen"
+						path: "/musiklehre/gehoerbildung/intervalle-auf/index.html"
+					,
+						name: "Hörexperimente"
+						path: "/musiklehre/grundlagen/vorbedingungen/index.html#hoerexp"
+					]
+				]
+			,
+				name: "Intervalle & Griffbrett"
+				path: "/musiklehre/intervalle/griffbrett/index.html"
+				sections: [
+					name: "Komplementärintervalle"
+					path: "/musiklehre/intervalle/griffbrett/index.html#komplement"
+				,
+					name: "Intervalle finden"
+					path: "/musiklehre/intervalle/griffbrett/index.html#intfind"
+				,
+					name: "h-Saiten-Verschiebung"
+					path: "/musiklehre/intervalle/griffbrett/index.html#ghsait"
+				,
+					name: "Übungen"
+					path: "/musiklehre/intervalle/bestimmen/index.html"
+					sections: [
+						name: "Intervalle nennen 1"
+						path: "/musiklehre/intervalle/name/index.html#intervallesagen"
+					,
+						name: "Intervalle schreiben 1"
+						path: "/musiklehre/intervalle/name/index.html#intervalleschreiben"
+					,
+						name: "Namen Violinschlüssel"
+						path: "/musiklehre/intervalle/name/index.html#benenneintervviolin"
+					,
+						name: "Namen Bassschlüssel"
+						path: "/musiklehre/intervalle/name/index.html#benenneintervbass"
+					,
+						name: "Intervalle nennen 2"
+						path: "/musiklehre/intervalle/bestimmen/index.html#intervallenennen"
+					,
+						name: "Intervalle schreiben 2"
+						path: "/musiklehre/intervalle/bestimmen/index.html#uebschreibint"
+					,
+						name: "Intervalle singen"
+						path: "/musiklehre/gehoerbildung/intervalle-auf/index.html"
+					,
+						name: "Hörexperimente"
+						path: "/musiklehre/grundlagen/vorbedingungen/index.html#hoerexp"
+					]
+				]
+			,
+				name: "Übungen"
+				path: "/musiklehre/intervalle/bestimmen/index.html"
+				sections: [
+					name: "Intervalle nennen 1"
+					path: "/musiklehre/intervalle/name/index.html#intervallesagen"
+				,
+					name: "Intervalle schreiben 1"
+					path: "/musiklehre/intervalle/name/index.html#intervalleschreiben"
+				,
+					name: "Namen Violinschlüssel"
+					path: "/musiklehre/intervalle/name/index.html#benenneintervviolin"
+				,
+					name: "Namen Bassschlüssel"
+					path: "/musiklehre/intervalle/name/index.html#benenneintervbass"
+				,
+					name: "Intervalle nennen 2"
+					path: "/musiklehre/intervalle/bestimmen/index.html#intervallenennen"
+				,
+					name: "Intervalle schreiben 2"
+					path: "/musiklehre/intervalle/bestimmen/index.html#uebschreibint"
+				,
+					name: "Intervalle singen"
+					path: "/musiklehre/gehoerbildung/intervalle-auf/index.html"
+				,
+					name: "Hörexperimente"
+					path: "/musiklehre/grundlagen/vorbedingungen/index.html#hoerexp"
+				]
+			]
+		,
+			name: "Akkorde"
+			path: "/musiklehre/akkorde/index.html"
+			children: [
+				name: "Dreiklang"
+				path: "/musiklehre/akkorde/dreiklang/index.html"
+				sections: [
+					name: "Vorbemerkungen"
+					path: "/musiklehre/akkorde/dreiklang/index.html#akkvor"
+				,
+					name: "Dreiklang, Eingrenzung"
+					path: "/musiklehre/akkorde/dreiklang/index.html#dreiklaenge"
+				,
+					name: "Dreiklang, Struktur"
+					path: "/musiklehre/akkorde/dreiklang/index.html#struktur"
+				,
+					name: "Sprachliches"
+					path: "/musiklehre/akkorde/dreiklang/index.html#sprachliches"
+				,
+					name: "Übungen"
+					path: "/musiklehre/akkorde/index.html"
+					sections: [
+						name: "~ Dreiklänge"
+						path: "/musiklehre/akkorde/aufbau-stammtoene/index.html#durmollsagen"
+						sections: [
+							name: "~ Dreiklänge nennen"
+							path: "/musiklehre/akkorde/aufbau-stammtoene/index.html#durmollsagen"
+						,
+							name: "~ Dur & Moll nennen"
+							path: "/musiklehre/akkorde/funktionen-kadenz/index.html#durmoll3klang"
+						,
+							name: "~ Dur & Moll schreiben"
+							path: "/musiklehre/akkorde/aufbau-stammtoene/index.html#durmollschreiben"
+						]
+					,
+						name: "Septakkorde nennen"
+						path: "/musiklehre/akkorde/septakkorde/index.html#septakkordnennen"
+					,
+						name: "Subdominanten nennen"
+						path: "/musiklehre/akkorde/subdominante/index.html#snennen"
+					,
+						name: "~ Funktionen"
+						path: "/musiklehre/akkorde/funktionen-kadenz/index.html"
+						sections: [
+							name: "Hauptfunktionen nennen"
+							path: "/musiklehre/akkorde/funktionen-kadenz/index.html#tsdnennen"
+						,
+							name: "Hauptfunktionen Dur"
+							path: "/musiklehre/akkorde/funktionen-kadenz/index.html#tsdschreiben"
+						,
+							name: "Haupfunktionen Moll"
+							path: "/musiklehre/akkorde/funktionen-kadenz/index.html#tsdmollschreiben"
+						,
+							name: "Funktionen nennen"
+							path: "/musiklehre/akkorde/funktionen-kadenz/index.html#funktionnennen"
+						,
+							name: "Nebenklänge nennen"
+							path: "/musiklehre/akkorde/weitere-funktionen/index.html#entfernt"
+						,
+							name: "Funktionen schreiben"
+							path: "/musiklehre/akkorde/weitere-funktionen/index.html#funktionschreiben"
+						,
+							name: "Zirkeltraining Dur"
+							path: "/musiklehre/grundlagen/training-dur/index.html"
+						,
+							name: "Zirkeltraining Moll"
+							path: "/musiklehre/grundlagen/training-moll/index.html"
+						]
+					,
+						name: "~ Kadenzen"
+						path: "/musiklehre/akkorde/funktionen-kadenz/index.html"
+						sections: [
+							name: "Kadenzen schreiben"
+							path: "/musiklehre/akkorde/funktionen-kadenz/index.html#kadenzschreiben"
+						,
+							name: "~ mit Subdominanten"
+							path: "/musiklehre/akkorde/subdominante/index.html#subueb"
+						,
+							name: "Erweiterte Kadenzen"
+							path: "/musiklehre/akkorde/septakkorde/index.html#uebungschreiben"
+						,
+							name: "D7 auflösen"
+							path: "/musiklehre/akkorde/dsieben/index.html#uebd7aufloes"
+						]
+					,
+						name: "~ Umkehrungen"
+						path: "/musiklehre/akkorde/umkehrungen/index.html"
+						sections: [
+							name: "Umkehrung nennen"
+							path: "/musiklehre/akkorde/umkehrungen/index.html#umkehrungnennen"
+						,
+							name: "Dreiklangsumkehrung 1"
+							path: "/musiklehre/akkorde/umkehrungen/index.html#uebung7umkehrungen"
+						,
+							name: "Dreiklangsumkehrung 2"
+							path: "/musiklehre/akkorde/umkehrungen/index.html#uebung8umkehrungen"
+						,
+							name: "Septakkorde bestimmen"
+							path: "/musiklehre/akkorde/umkehrungen/index.html#umkehrungseptnennen"
+						,
+							name: "Umkehrungen schreiben"
+							path: "/musiklehre/akkorde/umkehrungen/index.html#uebung9umkehrungen"
+						]
+					]
+				]
+			,
+				name: "Vorhalt"
+				path: "/musiklehre/akkorde/vorhalt/index.html"
+				sections: [
+					name: "Vorhaltstriller"
+					path: "/musiklehre/akkorde/vorhalt/index.html#trill"
+				,
+					name: "Vorhaltsregeln"
+					path: "/musiklehre/akkorde/vorhalt/index.html#regel"
+				,
+					name: "Übungen"
+					path: "/musiklehre/akkorde/index.html"
+					sections: [
+						name: "~ Dreiklänge"
+						path: "/musiklehre/akkorde/aufbau-stammtoene/index.html#durmollsagen"
+						sections: [
+							name: "~ Dreiklänge nennen"
+							path: "/musiklehre/akkorde/aufbau-stammtoene/index.html#durmollsagen"
+						,
+							name: "~ Dur & Moll nennen"
+							path: "/musiklehre/akkorde/funktionen-kadenz/index.html#durmoll3klang"
+						,
+							name: "~ Dur & Moll schreiben"
+							path: "/musiklehre/akkorde/aufbau-stammtoene/index.html#durmollschreiben"
+						]
+					,
+						name: "Septakkorde nennen"
+						path: "/musiklehre/akkorde/septakkorde/index.html#septakkordnennen"
+					,
+						name: "Subdominanten nennen"
+						path: "/musiklehre/akkorde/subdominante/index.html#snennen"
+					,
+						name: "~ Funktionen"
+						path: "/musiklehre/akkorde/funktionen-kadenz/index.html"
+						sections: [
+							name: "Hauptfunktionen nennen"
+							path: "/musiklehre/akkorde/funktionen-kadenz/index.html#tsdnennen"
+						,
+							name: "Hauptfunktionen Dur"
+							path: "/musiklehre/akkorde/funktionen-kadenz/index.html#tsdschreiben"
+						,
+							name: "Haupfunktionen Moll"
+							path: "/musiklehre/akkorde/funktionen-kadenz/index.html#tsdmollschreiben"
+						,
+							name: "Funktionen nennen"
+							path: "/musiklehre/akkorde/funktionen-kadenz/index.html#funktionnennen"
+						,
+							name: "Nebenklänge nennen"
+							path: "/musiklehre/akkorde/weitere-funktionen/index.html#entfernt"
+						,
+							name: "Funktionen schreiben"
+							path: "/musiklehre/akkorde/weitere-funktionen/index.html#funktionschreiben"
+						,
+							name: "Zirkeltraining Dur"
+							path: "/musiklehre/grundlagen/training-dur/index.html"
+						,
+							name: "Zirkeltraining Moll"
+							path: "/musiklehre/grundlagen/training-moll/index.html"
+						]
+					,
+						name: "~ Kadenzen"
+						path: "/musiklehre/akkorde/funktionen-kadenz/index.html"
+						sections: [
+							name: "Kadenzen schreiben"
+							path: "/musiklehre/akkorde/funktionen-kadenz/index.html#kadenzschreiben"
+						,
+							name: "~ mit Subdominanten"
+							path: "/musiklehre/akkorde/subdominante/index.html#subueb"
+						,
+							name: "Erweiterte Kadenzen"
+							path: "/musiklehre/akkorde/septakkorde/index.html#uebungschreiben"
+						,
+							name: "D7 auflösen"
+							path: "/musiklehre/akkorde/dsieben/index.html#uebd7aufloes"
+						]
+					,
+						name: "~ Umkehrungen"
+						path: "/musiklehre/akkorde/umkehrungen/index.html"
+						sections: [
+							name: "Umkehrung nennen"
+							path: "/musiklehre/akkorde/umkehrungen/index.html#umkehrungnennen"
+						,
+							name: "Dreiklangsumkehrung 1"
+							path: "/musiklehre/akkorde/umkehrungen/index.html#uebung7umkehrungen"
+						,
+							name: "Dreiklangsumkehrung 2"
+							path: "/musiklehre/akkorde/umkehrungen/index.html#uebung8umkehrungen"
+						,
+							name: "Septakkorde bestimmen"
+							path: "/musiklehre/akkorde/umkehrungen/index.html#umkehrungseptnennen"
+						,
+							name: "Umkehrungen schreiben"
+							path: "/musiklehre/akkorde/umkehrungen/index.html#uebung9umkehrungen"
+						]
+					]
+				]
+			,
+				name: "Dreiklänge Aufbau 1"
+				path: "/musiklehre/akkorde/aufbau-intervall/index.html"
+				sections: [
+					name: "Aufbau mit Intervallen"
+					path: "/musiklehre/akkorde/aufbau-intervall/index.html#dreiklaengeint"
+				,
+					name: "Fehlerquellen"
+					path: "/musiklehre/akkorde/aufbau-intervall/index.html#exkurs"
+				,
+					name: "Übungen"
+					path: "/musiklehre/akkorde/index.html"
+					sections: [
+						name: "~ Dreiklänge"
+						path: "/musiklehre/akkorde/aufbau-stammtoene/index.html#durmollsagen"
+						sections: [
+							name: "~ Dreiklänge nennen"
+							path: "/musiklehre/akkorde/aufbau-stammtoene/index.html#durmollsagen"
+						,
+							name: "~ Dur & Moll nennen"
+							path: "/musiklehre/akkorde/funktionen-kadenz/index.html#durmoll3klang"
+						,
+							name: "~ Dur & Moll schreiben"
+							path: "/musiklehre/akkorde/aufbau-stammtoene/index.html#durmollschreiben"
+						]
+					,
+						name: "Septakkorde nennen"
+						path: "/musiklehre/akkorde/septakkorde/index.html#septakkordnennen"
+					,
+						name: "Subdominanten nennen"
+						path: "/musiklehre/akkorde/subdominante/index.html#snennen"
+					,
+						name: "~ Funktionen"
+						path: "/musiklehre/akkorde/funktionen-kadenz/index.html"
+						sections: [
+							name: "Hauptfunktionen nennen"
+							path: "/musiklehre/akkorde/funktionen-kadenz/index.html#tsdnennen"
+						,
+							name: "Hauptfunktionen Dur"
+							path: "/musiklehre/akkorde/funktionen-kadenz/index.html#tsdschreiben"
+						,
+							name: "Haupfunktionen Moll"
+							path: "/musiklehre/akkorde/funktionen-kadenz/index.html#tsdmollschreiben"
+						,
+							name: "Funktionen nennen"
+							path: "/musiklehre/akkorde/funktionen-kadenz/index.html#funktionnennen"
+						,
+							name: "Nebenklänge nennen"
+							path: "/musiklehre/akkorde/weitere-funktionen/index.html#entfernt"
+						,
+							name: "Funktionen schreiben"
+							path: "/musiklehre/akkorde/weitere-funktionen/index.html#funktionschreiben"
+						,
+							name: "Zirkeltraining Dur"
+							path: "/musiklehre/grundlagen/training-dur/index.html"
+						,
+							name: "Zirkeltraining Moll"
+							path: "/musiklehre/grundlagen/training-moll/index.html"
+						]
+					,
+						name: "~ Kadenzen"
+						path: "/musiklehre/akkorde/funktionen-kadenz/index.html"
+						sections: [
+							name: "Kadenzen schreiben"
+							path: "/musiklehre/akkorde/funktionen-kadenz/index.html#kadenzschreiben"
+						,
+							name: "~ mit Subdominanten"
+							path: "/musiklehre/akkorde/subdominante/index.html#subueb"
+						,
+							name: "Erweiterte Kadenzen"
+							path: "/musiklehre/akkorde/septakkorde/index.html#uebungschreiben"
+						,
+							name: "D7 auflösen"
+							path: "/musiklehre/akkorde/dsieben/index.html#uebd7aufloes"
+						]
+					,
+						name: "~ Umkehrungen"
+						path: "/musiklehre/akkorde/umkehrungen/index.html"
+						sections: [
+							name: "Umkehrung nennen"
+							path: "/musiklehre/akkorde/umkehrungen/index.html#umkehrungnennen"
+						,
+							name: "Dreiklangsumkehrung 1"
+							path: "/musiklehre/akkorde/umkehrungen/index.html#uebung7umkehrungen"
+						,
+							name: "Dreiklangsumkehrung 2"
+							path: "/musiklehre/akkorde/umkehrungen/index.html#uebung8umkehrungen"
+						,
+							name: "Septakkorde bestimmen"
+							path: "/musiklehre/akkorde/umkehrungen/index.html#umkehrungseptnennen"
+						,
+							name: "Umkehrungen schreiben"
+							path: "/musiklehre/akkorde/umkehrungen/index.html#uebung9umkehrungen"
+						]
+					]
+				]
+			,
+				name: "Dreiklänge Aufbau 2"
+				path: "/musiklehre/akkorde/aufbau-stammtoene/index.html"
+				sections: [
+					name: "~ mit Stammtonreihe"
+					path: "/musiklehre/akkorde/aufbau-stammtoene/index.html#dreiklaengeaufbauen"
+				,
+					name: "~ mit Tonleiter"
+					path: "/musiklehre/akkorde/aufbau-stammtoene/index.html#dreiklaengetonl"
+				,
+					name: "Dreiklänge spielen"
+					path: "/musiklehre/akkorde/aufbau-stammtoene/index.html#dreiklaengespielen"
+				,
+					name: "Übungen"
+					path: "/musiklehre/akkorde/index.html"
+					sections: [
+						name: "~ Dreiklänge"
+						path: "/musiklehre/akkorde/aufbau-stammtoene/index.html#durmollsagen"
+						sections: [
+							name: "~ Dreiklänge nennen"
+							path: "/musiklehre/akkorde/aufbau-stammtoene/index.html#durmollsagen"
+						,
+							name: "~ Dur & Moll nennen"
+							path: "/musiklehre/akkorde/funktionen-kadenz/index.html#durmoll3klang"
+						,
+							name: "~ Dur & Moll schreiben"
+							path: "/musiklehre/akkorde/aufbau-stammtoene/index.html#durmollschreiben"
+						]
+					,
+						name: "Septakkorde nennen"
+						path: "/musiklehre/akkorde/septakkorde/index.html#septakkordnennen"
+					,
+						name: "Subdominanten nennen"
+						path: "/musiklehre/akkorde/subdominante/index.html#snennen"
+					,
+						name: "~ Funktionen"
+						path: "/musiklehre/akkorde/funktionen-kadenz/index.html"
+						sections: [
+							name: "Hauptfunktionen nennen"
+							path: "/musiklehre/akkorde/funktionen-kadenz/index.html#tsdnennen"
+						,
+							name: "Hauptfunktionen Dur"
+							path: "/musiklehre/akkorde/funktionen-kadenz/index.html#tsdschreiben"
+						,
+							name: "Haupfunktionen Moll"
+							path: "/musiklehre/akkorde/funktionen-kadenz/index.html#tsdmollschreiben"
+						,
+							name: "Funktionen nennen"
+							path: "/musiklehre/akkorde/funktionen-kadenz/index.html#funktionnennen"
+						,
+							name: "Nebenklänge nennen"
+							path: "/musiklehre/akkorde/weitere-funktionen/index.html#entfernt"
+						,
+							name: "Funktionen schreiben"
+							path: "/musiklehre/akkorde/weitere-funktionen/index.html#funktionschreiben"
+						,
+							name: "Zirkeltraining Dur"
+							path: "/musiklehre/grundlagen/training-dur/index.html"
+						,
+							name: "Zirkeltraining Moll"
+							path: "/musiklehre/grundlagen/training-moll/index.html"
+						]
+					,
+						name: "~ Kadenzen"
+						path: "/musiklehre/akkorde/funktionen-kadenz/index.html"
+						sections: [
+							name: "Kadenzen schreiben"
+							path: "/musiklehre/akkorde/funktionen-kadenz/index.html#kadenzschreiben"
+						,
+							name: "~ mit Subdominanten"
+							path: "/musiklehre/akkorde/subdominante/index.html#subueb"
+						,
+							name: "Erweiterte Kadenzen"
+							path: "/musiklehre/akkorde/septakkorde/index.html#uebungschreiben"
+						,
+							name: "D7 auflösen"
+							path: "/musiklehre/akkorde/dsieben/index.html#uebd7aufloes"
+						]
+					,
+						name: "~ Umkehrungen"
+						path: "/musiklehre/akkorde/umkehrungen/index.html"
+						sections: [
+							name: "Umkehrung nennen"
+							path: "/musiklehre/akkorde/umkehrungen/index.html#umkehrungnennen"
+						,
+							name: "Dreiklangsumkehrung 1"
+							path: "/musiklehre/akkorde/umkehrungen/index.html#uebung7umkehrungen"
+						,
+							name: "Dreiklangsumkehrung 2"
+							path: "/musiklehre/akkorde/umkehrungen/index.html#uebung8umkehrungen"
+						,
+							name: "Septakkorde bestimmen"
+							path: "/musiklehre/akkorde/umkehrungen/index.html#umkehrungseptnennen"
+						,
+							name: "Umkehrungen schreiben"
+							path: "/musiklehre/akkorde/umkehrungen/index.html#uebung9umkehrungen"
+						]
+					]
+				]
+			,
+				name: "Funktionen & Kadenz"
+				path: "/musiklehre/akkorde/funktionen-kadenz/index.html"
+				sections: [
+					name: "Leitereigene Dreiklänge"
+					path: "/musiklehre/akkorde/funktionen-kadenz/index.htm#leitereigenedreiklaenge"
+				,
+					name: "Schreibweisen"
+					path: "/musiklehre/akkorde/funktionen-kadenz/index.html#schreibweisen"
+				,
+					name: "Hauptfunktionen"
+					path: "/musiklehre/akkorde/funktionen-kadenz/index.html#hauptfunktionen"
+				,
+					name: "Die Kadenz"
+					path: "/musiklehre/akkorde/funktionen-kadenz/index.html#kadenz"
+				,
+					name: "Parallele"
+					path: "/musiklehre/akkorde/funktionen-kadenz/index.html#parallelakk"
+				,
+					name: "Übungen"
+					path: "/musiklehre/akkorde/index.html"
+					sections: [
+						name: "~ Dreiklänge"
+						path: "/musiklehre/akkorde/aufbau-stammtoene/index.html#durmollsagen"
+						sections: [
+							name: "~ Dreiklänge nennen"
+							path: "/musiklehre/akkorde/aufbau-stammtoene/index.html#durmollsagen"
+						,
+							name: "~ Dur & Moll nennen"
+							path: "/musiklehre/akkorde/funktionen-kadenz/index.html#durmoll3klang"
+						,
+							name: "~ Dur & Moll schreiben"
+							path: "/musiklehre/akkorde/aufbau-stammtoene/index.html#durmollschreiben"
+						]
+					,
+						name: "Septakkorde nennen"
+						path: "/musiklehre/akkorde/septakkorde/index.html#septakkordnennen"
+					,
+						name: "Subdominanten nennen"
+						path: "/musiklehre/akkorde/subdominante/index.html#snennen"
+					,
+						name: "~ Funktionen"
+						path: "/musiklehre/akkorde/funktionen-kadenz/index.html"
+						sections: [
+							name: "Hauptfunktionen nennen"
+							path: "/musiklehre/akkorde/funktionen-kadenz/index.html#tsdnennen"
+						,
+							name: "Hauptfunktionen Dur"
+							path: "/musiklehre/akkorde/funktionen-kadenz/index.html#tsdschreiben"
+						,
+							name: "Haupfunktionen Moll"
+							path: "/musiklehre/akkorde/funktionen-kadenz/index.html#tsdmollschreiben"
+						,
+							name: "Funktionen nennen"
+							path: "/musiklehre/akkorde/funktionen-kadenz/index.html#funktionnennen"
+						,
+							name: "Nebenklänge nennen"
+							path: "/musiklehre/akkorde/weitere-funktionen/index.html#entfernt"
+						,
+							name: "Funktionen schreiben"
+							path: "/musiklehre/akkorde/weitere-funktionen/index.html#funktionschreiben"
+						,
+							name: "Zirkeltraining Dur"
+							path: "/musiklehre/grundlagen/training-dur/index.html"
+						,
+							name: "Zirkeltraining Moll"
+							path: "/musiklehre/grundlagen/training-moll/index.html"
+						]
+					,
+						name: "~ Kadenzen"
+						path: "/musiklehre/akkorde/funktionen-kadenz/index.html"
+						sections: [
+							name: "Kadenzen schreiben"
+							path: "/musiklehre/akkorde/funktionen-kadenz/index.html#kadenzschreiben"
+						,
+							name: "~ mit Subdominanten"
+							path: "/musiklehre/akkorde/subdominante/index.html#subueb"
+						,
+							name: "Erweiterte Kadenzen"
+							path: "/musiklehre/akkorde/septakkorde/index.html#uebungschreiben"
+						,
+							name: "D7 auflösen"
+							path: "/musiklehre/akkorde/dsieben/index.html#uebd7aufloes"
+						]
+					,
+						name: "~ Umkehrungen"
+						path: "/musiklehre/akkorde/umkehrungen/index.html"
+						sections: [
+							name: "Umkehrung nennen"
+							path: "/musiklehre/akkorde/umkehrungen/index.html#umkehrungnennen"
+						,
+							name: "Dreiklangsumkehrung 1"
+							path: "/musiklehre/akkorde/umkehrungen/index.html#uebung7umkehrungen"
+						,
+							name: "Dreiklangsumkehrung 2"
+							path: "/musiklehre/akkorde/umkehrungen/index.html#uebung8umkehrungen"
+						,
+							name: "Septakkorde bestimmen"
+							path: "/musiklehre/akkorde/umkehrungen/index.html#umkehrungseptnennen"
+						,
+							name: "Umkehrungen schreiben"
+							path: "/musiklehre/akkorde/umkehrungen/index.html#uebung9umkehrungen"
+						]
+					]
+				]
+			,
+				name: "Weitere Funktionen"
+				path: "/musiklehre/akkorde/weitere-funktionen/index.html"
+				sections: [
+					name: "Gegenklang"
+					path: "/musiklehre/akkorde/weitere-funktionen/index.html#gegenklang"
+				,
+					name: "Kadenz, Trugschluss"
+					path: "/musiklehre/akkorde/weitere-funktionen/index.html#trugschluss"
+				,
+					name: "Erweiterte Kadenzen"
+					path: "/musiklehre/akkorde/weitere-funktionen/index.html#erweitert"
+				,
+					name: "Entfernte Verwandte"
+					path: "/musiklehre/akkorde/weitere-funktionen/index.html#entfernteverwandte"
+				,
+					name: "Medianten"
+					path: "/musiklehre/akkorde/weitere-funktionen/index.html#medianten"
+				,
+					name: "Quintezirkel vertikal"
+					path: "/musiklehre/akkorde/weitere-funktionen/index.html#zirkelvertikal"
+				,
+					name: "Übungen"
+					path: "/musiklehre/akkorde/index.html"
+					sections: [
+						name: "~ Dreiklänge"
+						path: "/musiklehre/akkorde/aufbau-stammtoene/index.html#durmollsagen"
+						sections: [
+							name: "~ Dreiklänge nennen"
+							path: "/musiklehre/akkorde/aufbau-stammtoene/index.html#durmollsagen"
+						,
+							name: "~ Dur & Moll nennen"
+							path: "/musiklehre/akkorde/funktionen-kadenz/index.html#durmoll3klang"
+						,
+							name: "~ Dur & Moll schreiben"
+							path: "/musiklehre/akkorde/aufbau-stammtoene/index.html#durmollschreiben"
+						]
+					,
+						name: "Septakkorde nennen"
+						path: "/musiklehre/akkorde/septakkorde/index.html#septakkordnennen"
+					,
+						name: "Subdominanten nennen"
+						path: "/musiklehre/akkorde/subdominante/index.html#snennen"
+					,
+						name: "~ Funktionen"
+						path: "/musiklehre/akkorde/funktionen-kadenz/index.html"
+						sections: [
+							name: "Hauptfunktionen nennen"
+							path: "/musiklehre/akkorde/funktionen-kadenz/index.html#tsdnennen"
+						,
+							name: "Hauptfunktionen Dur"
+							path: "/musiklehre/akkorde/funktionen-kadenz/index.html#tsdschreiben"
+						,
+							name: "Haupfunktionen Moll"
+							path: "/musiklehre/akkorde/funktionen-kadenz/index.html#tsdmollschreiben"
+						,
+							name: "Funktionen nennen"
+							path: "/musiklehre/akkorde/funktionen-kadenz/index.html#funktionnennen"
+						,
+							name: "Nebenklänge nennen"
+							path: "/musiklehre/akkorde/weitere-funktionen/index.html#entfernt"
+						,
+							name: "Funktionen schreiben"
+							path: "/musiklehre/akkorde/weitere-funktionen/index.html#funktionschreiben"
+						,
+							name: "Zirkeltraining Dur"
+							path: "/musiklehre/grundlagen/training-dur/index.html"
+						,
+							name: "Zirkeltraining Moll"
+							path: "/musiklehre/grundlagen/training-moll/index.html"
+						]
+					,
+						name: "~ Kadenzen"
+						path: "/musiklehre/akkorde/funktionen-kadenz/index.html"
+						sections: [
+							name: "Kadenzen schreiben"
+							path: "/musiklehre/akkorde/funktionen-kadenz/index.html#kadenzschreiben"
+						,
+							name: "~ mit Subdominanten"
+							path: "/musiklehre/akkorde/subdominante/index.html#subueb"
+						,
+							name: "Erweiterte Kadenzen"
+							path: "/musiklehre/akkorde/septakkorde/index.html#uebungschreiben"
+						,
+							name: "D7 auflösen"
+							path: "/musiklehre/akkorde/dsieben/index.html#uebd7aufloes"
+						]
+					,
+						name: "~ Umkehrungen"
+						path: "/musiklehre/akkorde/umkehrungen/index.html"
+						sections: [
+							name: "Umkehrung nennen"
+							path: "/musiklehre/akkorde/umkehrungen/index.html#umkehrungnennen"
+						,
+							name: "Dreiklangsumkehrung 1"
+							path: "/musiklehre/akkorde/umkehrungen/index.html#uebung7umkehrungen"
+						,
+							name: "Dreiklangsumkehrung 2"
+							path: "/musiklehre/akkorde/umkehrungen/index.html#uebung8umkehrungen"
+						,
+							name: "Septakkorde bestimmen"
+							path: "/musiklehre/akkorde/umkehrungen/index.html#umkehrungseptnennen"
+						,
+							name: "Umkehrungen schreiben"
+							path: "/musiklehre/akkorde/umkehrungen/index.html#uebung9umkehrungen"
+						]
+					]
+				]
+			,
+				name: "Umkehrungen"
+				path: "/musiklehre/akkorde/umkehrungen/index.html"
+				sections: [
+					name: "~ von Dreiklängen"
+					path: "/musiklehre/akkorde/umkehrungen/index.html#akkordumkehrungen"
+				,
+					name: "~ von Septakkorden"
+					path: "/musiklehre/akkorde/umkehrungen/index.html#umkehrungensept"
+				,
+					name: "Übungen"
+					path: "/musiklehre/akkorde/index.html"
+					sections: [
+						name: "~ Dreiklänge"
+						path: "/musiklehre/akkorde/aufbau-stammtoene/index.html#durmollsagen"
+						sections: [
+							name: "~ Dreiklänge nennen"
+							path: "/musiklehre/akkorde/aufbau-stammtoene/index.html#durmollsagen"
+						,
+							name: "~ Dur & Moll nennen"
+							path: "/musiklehre/akkorde/funktionen-kadenz/index.html#durmoll3klang"
+						,
+							name: "~ Dur & Moll schreiben"
+							path: "/musiklehre/akkorde/aufbau-stammtoene/index.html#durmollschreiben"
+						]
+					,
+						name: "Septakkorde nennen"
+						path: "/musiklehre/akkorde/septakkorde/index.html#septakkordnennen"
+					,
+						name: "Subdominanten nennen"
+						path: "/musiklehre/akkorde/subdominante/index.html#snennen"
+					,
+						name: "~ Funktionen"
+						path: "/musiklehre/akkorde/funktionen-kadenz/index.html"
+						sections: [
+							name: "Hauptfunktionen nennen"
+							path: "/musiklehre/akkorde/funktionen-kadenz/index.html#tsdnennen"
+						,
+							name: "Hauptfunktionen Dur"
+							path: "/musiklehre/akkorde/funktionen-kadenz/index.html#tsdschreiben"
+						,
+							name: "Haupfunktionen Moll"
+							path: "/musiklehre/akkorde/funktionen-kadenz/index.html#tsdmollschreiben"
+						,
+							name: "Funktionen nennen"
+							path: "/musiklehre/akkorde/funktionen-kadenz/index.html#funktionnennen"
+						,
+							name: "Nebenklänge nennen"
+							path: "/musiklehre/akkorde/weitere-funktionen/index.html#entfernt"
+						,
+							name: "Funktionen schreiben"
+							path: "/musiklehre/akkorde/weitere-funktionen/index.html#funktionschreiben"
+						,
+							name: "Zirkeltraining Dur"
+							path: "/musiklehre/grundlagen/training-dur/index.html"
+						,
+							name: "Zirkeltraining Moll"
+							path: "/musiklehre/grundlagen/training-moll/index.html"
+						]
+					,
+						name: "~ Kadenzen"
+						path: "/musiklehre/akkorde/funktionen-kadenz/index.html"
+						sections: [
+							name: "Kadenzen schreiben"
+							path: "/musiklehre/akkorde/funktionen-kadenz/index.html#kadenzschreiben"
+						,
+							name: "~ mit Subdominanten"
+							path: "/musiklehre/akkorde/subdominante/index.html#subueb"
+						,
+							name: "Erweiterte Kadenzen"
+							path: "/musiklehre/akkorde/septakkorde/index.html#uebungschreiben"
+						,
+							name: "D7 auflösen"
+							path: "/musiklehre/akkorde/dsieben/index.html#uebd7aufloes"
+						]
+					,
+						name: "~ Umkehrungen"
+						path: "/musiklehre/akkorde/umkehrungen/index.html"
+						sections: [
+							name: "Umkehrung nennen"
+							path: "/musiklehre/akkorde/umkehrungen/index.html#umkehrungnennen"
+						,
+							name: "Dreiklangsumkehrung 1"
+							path: "/musiklehre/akkorde/umkehrungen/index.html#uebung7umkehrungen"
+						,
+							name: "Dreiklangsumkehrung 2"
+							path: "/musiklehre/akkorde/umkehrungen/index.html#uebung8umkehrungen"
+						,
+							name: "Septakkorde bestimmen"
+							path: "/musiklehre/akkorde/umkehrungen/index.html#umkehrungseptnennen"
+						,
+							name: "Umkehrungen schreiben"
+							path: "/musiklehre/akkorde/umkehrungen/index.html#uebung9umkehrungen"
+						]
+					]
+				]
+			,
+				name: "Dominantseptakkord"
+				path: "/musiklehre/akkorde/dsieben/index.html"
+				sections: [
+					name: "D7 und Tonleiter"
+					path: "/musiklehre/akkorde/dsieben/index.html#dominantseptakkord"
+				,
+					name: "Auflösung eines D7"
+					path: "/musiklehre/akkorde/dsieben/index.html#aufloesung"
+				,
+					name: "Übungen"
+					path: "/musiklehre/akkorde/index.html"
+					sections: [
+						name: "~ Dreiklänge"
+						path: "/musiklehre/akkorde/aufbau-stammtoene/index.html#durmollsagen"
+						sections: [
+							name: "~ Dreiklänge nennen"
+							path: "/musiklehre/akkorde/aufbau-stammtoene/index.html#durmollsagen"
+						,
+							name: "~ Dur & Moll nennen"
+							path: "/musiklehre/akkorde/funktionen-kadenz/index.html#durmoll3klang"
+						,
+							name: "~ Dur & Moll schreiben"
+							path: "/musiklehre/akkorde/aufbau-stammtoene/index.html#durmollschreiben"
+						]
+					,
+						name: "Septakkorde nennen"
+						path: "/musiklehre/akkorde/septakkorde/index.html#septakkordnennen"
+					,
+						name: "Subdominanten nennen"
+						path: "/musiklehre/akkorde/subdominante/index.html#snennen"
+					,
+						name: "~ Funktionen"
+						path: "/musiklehre/akkorde/funktionen-kadenz/index.html"
+						sections: [
+							name: "Hauptfunktionen nennen"
+							path: "/musiklehre/akkorde/funktionen-kadenz/index.html#tsdnennen"
+						,
+							name: "Hauptfunktionen Dur"
+							path: "/musiklehre/akkorde/funktionen-kadenz/index.html#tsdschreiben"
+						,
+							name: "Haupfunktionen Moll"
+							path: "/musiklehre/akkorde/funktionen-kadenz/index.html#tsdmollschreiben"
+						,
+							name: "Funktionen nennen"
+							path: "/musiklehre/akkorde/funktionen-kadenz/index.html#funktionnennen"
+						,
+							name: "Nebenklänge nennen"
+							path: "/musiklehre/akkorde/weitere-funktionen/index.html#entfernt"
+						,
+							name: "Funktionen schreiben"
+							path: "/musiklehre/akkorde/weitere-funktionen/index.html#funktionschreiben"
+						,
+							name: "Zirkeltraining Dur"
+							path: "/musiklehre/grundlagen/training-dur/index.html"
+						,
+							name: "Zirkeltraining Moll"
+							path: "/musiklehre/grundlagen/training-moll/index.html"
+						]
+					,
+						name: "~ Kadenzen"
+						path: "/musiklehre/akkorde/funktionen-kadenz/index.html"
+						sections: [
+							name: "Kadenzen schreiben"
+							path: "/musiklehre/akkorde/funktionen-kadenz/index.html#kadenzschreiben"
+						,
+							name: "~ mit Subdominanten"
+							path: "/musiklehre/akkorde/subdominante/index.html#subueb"
+						,
+							name: "Erweiterte Kadenzen"
+							path: "/musiklehre/akkorde/septakkorde/index.html#uebungschreiben"
+						,
+							name: "D7 auflösen"
+							path: "/musiklehre/akkorde/dsieben/index.html#uebd7aufloes"
+						]
+					,
+						name: "~ Umkehrungen"
+						path: "/musiklehre/akkorde/umkehrungen/index.html"
+						sections: [
+							name: "Umkehrung nennen"
+							path: "/musiklehre/akkorde/umkehrungen/index.html#umkehrungnennen"
+						,
+							name: "Dreiklangsumkehrung 1"
+							path: "/musiklehre/akkorde/umkehrungen/index.html#uebung7umkehrungen"
+						,
+							name: "Dreiklangsumkehrung 2"
+							path: "/musiklehre/akkorde/umkehrungen/index.html#uebung8umkehrungen"
+						,
+							name: "Septakkorde bestimmen"
+							path: "/musiklehre/akkorde/umkehrungen/index.html#umkehrungseptnennen"
+						,
+							name: "Umkehrungen schreiben"
+							path: "/musiklehre/akkorde/umkehrungen/index.html#uebung9umkehrungen"
+						]
+					]
+				]
+			,
+				name: "Subdominanten"
+				path: "/musiklehre/akkorde/subdominante/index.html"
+				sections: [
+					name: "Sixte ajoutée"
+					path: "/musiklehre/akkorde/subdominante/index.html#sixteajoutee"
+				,
+					name: "Sexte statt Quinte"
+					path: "/musiklehre/akkorde/subdominante/index.html#sextestatt"
+				,
+					name: "Neapolitaner"
+					path: "/musiklehre/akkorde/subdominante/index.html#neapolitaner"
+				,
+					name: "Übungen"
+					path: "/musiklehre/akkorde/index.html"
+					sections: [
+						name: "~ Dreiklänge"
+						path: "/musiklehre/akkorde/aufbau-stammtoene/index.html#durmollsagen"
+						sections: [
+							name: "~ Dreiklänge nennen"
+							path: "/musiklehre/akkorde/aufbau-stammtoene/index.html#durmollsagen"
+						,
+							name: "~ Dur & Moll nennen"
+							path: "/musiklehre/akkorde/funktionen-kadenz/index.html#durmoll3klang"
+						,
+							name: "~ Dur & Moll schreiben"
+							path: "/musiklehre/akkorde/aufbau-stammtoene/index.html#durmollschreiben"
+						]
+					,
+						name: "Septakkorde nennen"
+						path: "/musiklehre/akkorde/septakkorde/index.html#septakkordnennen"
+					,
+						name: "Subdominanten nennen"
+						path: "/musiklehre/akkorde/subdominante/index.html#snennen"
+					,
+						name: "~ Funktionen"
+						path: "/musiklehre/akkorde/funktionen-kadenz/index.html"
+						sections: [
+							name: "Hauptfunktionen nennen"
+							path: "/musiklehre/akkorde/funktionen-kadenz/index.html#tsdnennen"
+						,
+							name: "Hauptfunktionen Dur"
+							path: "/musiklehre/akkorde/funktionen-kadenz/index.html#tsdschreiben"
+						,
+							name: "Haupfunktionen Moll"
+							path: "/musiklehre/akkorde/funktionen-kadenz/index.html#tsdmollschreiben"
+						,
+							name: "Funktionen nennen"
+							path: "/musiklehre/akkorde/funktionen-kadenz/index.html#funktionnennen"
+						,
+							name: "Nebenklänge nennen"
+							path: "/musiklehre/akkorde/weitere-funktionen/index.html#entfernt"
+						,
+							name: "Funktionen schreiben"
+							path: "/musiklehre/akkorde/weitere-funktionen/index.html#funktionschreiben"
+						,
+							name: "Zirkeltraining Dur"
+							path: "/musiklehre/grundlagen/training-dur/index.html"
+						,
+							name: "Zirkeltraining Moll"
+							path: "/musiklehre/grundlagen/training-moll/index.html"
+						]
+					,
+						name: "~ Kadenzen"
+						path: "/musiklehre/akkorde/funktionen-kadenz/index.html"
+						sections: [
+							name: "Kadenzen schreiben"
+							path: "/musiklehre/akkorde/funktionen-kadenz/index.html#kadenzschreiben"
+						,
+							name: "~ mit Subdominanten"
+							path: "/musiklehre/akkorde/subdominante/index.html#subueb"
+						,
+							name: "Erweiterte Kadenzen"
+							path: "/musiklehre/akkorde/septakkorde/index.html#uebungschreiben"
+						,
+							name: "D7 auflösen"
+							path: "/musiklehre/akkorde/dsieben/index.html#uebd7aufloes"
+						]
+					,
+						name: "~ Umkehrungen"
+						path: "/musiklehre/akkorde/umkehrungen/index.html"
+						sections: [
+							name: "Umkehrung nennen"
+							path: "/musiklehre/akkorde/umkehrungen/index.html#umkehrungnennen"
+						,
+							name: "Dreiklangsumkehrung 1"
+							path: "/musiklehre/akkorde/umkehrungen/index.html#uebung7umkehrungen"
+						,
+							name: "Dreiklangsumkehrung 2"
+							path: "/musiklehre/akkorde/umkehrungen/index.html#uebung8umkehrungen"
+						,
+							name: "Septakkorde bestimmen"
+							path: "/musiklehre/akkorde/umkehrungen/index.html#umkehrungseptnennen"
+						,
+							name: "Umkehrungen schreiben"
+							path: "/musiklehre/akkorde/umkehrungen/index.html#uebung9umkehrungen"
+						]
+					]
+				]
+			,
+				name: "Septakkorde"
+				path: "/musiklehre/akkorde/septakkorde/index.html"
+				sections: [
+					name: "Verminderter Septakkord"
+					path: "/musiklehre/akkorde/septakkorde/index.html#vermsept"
+				,
+					name: "Übungen"
+					path: "/musiklehre/akkorde/index.html"
+					sections: [
+						name: "~ Dreiklänge"
+						path: "/musiklehre/akkorde/aufbau-stammtoene/index.html#durmollsagen"
+						sections: [
+							name: "~ Dreiklänge nennen"
+							path: "/musiklehre/akkorde/aufbau-stammtoene/index.html#durmollsagen"
+						,
+							name: "~ Dur & Moll nennen"
+							path: "/musiklehre/akkorde/funktionen-kadenz/index.html#durmoll3klang"
+						,
+							name: "~ Dur & Moll schreiben"
+							path: "/musiklehre/akkorde/aufbau-stammtoene/index.html#durmollschreiben"
+						]
+					,
+						name: "Septakkorde nennen"
+						path: "/musiklehre/akkorde/septakkorde/index.html#septakkordnennen"
+					,
+						name: "Subdominanten nennen"
+						path: "/musiklehre/akkorde/subdominante/index.html#snennen"
+					,
+						name: "~ Funktionen"
+						path: "/musiklehre/akkorde/funktionen-kadenz/index.html"
+						sections: [
+							name: "Hauptfunktionen nennen"
+							path: "/musiklehre/akkorde/funktionen-kadenz/index.html#tsdnennen"
+						,
+							name: "Hauptfunktionen Dur"
+							path: "/musiklehre/akkorde/funktionen-kadenz/index.html#tsdschreiben"
+						,
+							name: "Haupfunktionen Moll"
+							path: "/musiklehre/akkorde/funktionen-kadenz/index.html#tsdmollschreiben"
+						,
+							name: "Funktionen nennen"
+							path: "/musiklehre/akkorde/funktionen-kadenz/index.html#funktionnennen"
+						,
+							name: "Nebenklänge nennen"
+							path: "/musiklehre/akkorde/weitere-funktionen/index.html#entfernt"
+						,
+							name: "Funktionen schreiben"
+							path: "/musiklehre/akkorde/weitere-funktionen/index.html#funktionschreiben"
+						,
+							name: "Zirkeltraining Dur"
+							path: "/musiklehre/grundlagen/training-dur/index.html"
+						,
+							name: "Zirkeltraining Moll"
+							path: "/musiklehre/grundlagen/training-moll/index.html"
+						]
+					,
+						name: "~ Kadenzen"
+						path: "/musiklehre/akkorde/funktionen-kadenz/index.html"
+						sections: [
+							name: "Kadenzen schreiben"
+							path: "/musiklehre/akkorde/funktionen-kadenz/index.html#kadenzschreiben"
+						,
+							name: "~ mit Subdominanten"
+							path: "/musiklehre/akkorde/subdominante/index.html#subueb"
+						,
+							name: "Erweiterte Kadenzen"
+							path: "/musiklehre/akkorde/septakkorde/index.html#uebungschreiben"
+						,
+							name: "D7 auflösen"
+							path: "/musiklehre/akkorde/dsieben/index.html#uebd7aufloes"
+						]
+					,
+						name: "~ Umkehrungen"
+						path: "/musiklehre/akkorde/umkehrungen/index.html"
+						sections: [
+							name: "Umkehrung nennen"
+							path: "/musiklehre/akkorde/umkehrungen/index.html#umkehrungnennen"
+						,
+							name: "Dreiklangsumkehrung 1"
+							path: "/musiklehre/akkorde/umkehrungen/index.html#uebung7umkehrungen"
+						,
+							name: "Dreiklangsumkehrung 2"
+							path: "/musiklehre/akkorde/umkehrungen/index.html#uebung8umkehrungen"
+						,
+							name: "Septakkorde bestimmen"
+							path: "/musiklehre/akkorde/umkehrungen/index.html#umkehrungseptnennen"
+						,
+							name: "Umkehrungen schreiben"
+							path: "/musiklehre/akkorde/umkehrungen/index.html#uebung9umkehrungen"
+						]
+					]
+				]
+			,
+				name: "Liedharmonisierung Dur"
+				path: "/musiklehre/akkorde/harmonisier-dur/index.html"
+				sections: [
+					name: "Übungen"
+					path: "/musiklehre/akkorde/index.html"
+					sections: [
+						name: "~ Dreiklänge"
+						path: "/musiklehre/akkorde/aufbau-stammtoene/index.html#durmollsagen"
+						sections: [
+							name: "~ Dreiklänge nennen"
+							path: "/musiklehre/akkorde/aufbau-stammtoene/index.html#durmollsagen"
+						,
+							name: "~ Dur & Moll nennen"
+							path: "/musiklehre/akkorde/funktionen-kadenz/index.html#durmoll3klang"
+						,
+							name: "~ Dur & Moll schreiben"
+							path: "/musiklehre/akkorde/aufbau-stammtoene/index.html#durmollschreiben"
+						]
+					,
+						name: "Septakkorde nennen"
+						path: "/musiklehre/akkorde/septakkorde/index.html#septakkordnennen"
+					,
+						name: "Subdominanten nennen"
+						path: "/musiklehre/akkorde/subdominante/index.html#snennen"
+					,
+						name: "~ Funktionen"
+						path: "/musiklehre/akkorde/funktionen-kadenz/index.html"
+						sections: [
+							name: "Hauptfunktionen nennen"
+							path: "/musiklehre/akkorde/funktionen-kadenz/index.html#tsdnennen"
+						,
+							name: "Hauptfunktionen Dur"
+							path: "/musiklehre/akkorde/funktionen-kadenz/index.html#tsdschreiben"
+						,
+							name: "Haupfunktionen Moll"
+							path: "/musiklehre/akkorde/funktionen-kadenz/index.html#tsdmollschreiben"
+						,
+							name: "Funktionen nennen"
+							path: "/musiklehre/akkorde/funktionen-kadenz/index.html#funktionnennen"
+						,
+							name: "Nebenklänge nennen"
+							path: "/musiklehre/akkorde/weitere-funktionen/index.html#entfernt"
+						,
+							name: "Funktionen schreiben"
+							path: "/musiklehre/akkorde/weitere-funktionen/index.html#funktionschreiben"
+						,
+							name: "Zirkeltraining Dur"
+							path: "/musiklehre/grundlagen/training-dur/index.html"
+						,
+							name: "Zirkeltraining Moll"
+							path: "/musiklehre/grundlagen/training-moll/index.html"
+						]
+					,
+						name: "~ Kadenzen"
+						path: "/musiklehre/akkorde/funktionen-kadenz/index.html"
+						sections: [
+							name: "Kadenzen schreiben"
+							path: "/musiklehre/akkorde/funktionen-kadenz/index.html#kadenzschreiben"
+						,
+							name: "~ mit Subdominanten"
+							path: "/musiklehre/akkorde/subdominante/index.html#subueb"
+						,
+							name: "Erweiterte Kadenzen"
+							path: "/musiklehre/akkorde/septakkorde/index.html#uebungschreiben"
+						,
+							name: "D7 auflösen"
+							path: "/musiklehre/akkorde/dsieben/index.html#uebd7aufloes"
+						]
+					,
+						name: "~ Umkehrungen"
+						path: "/musiklehre/akkorde/umkehrungen/index.html"
+						sections: [
+							name: "Umkehrung nennen"
+							path: "/musiklehre/akkorde/umkehrungen/index.html#umkehrungnennen"
+						,
+							name: "Dreiklangsumkehrung 1"
+							path: "/musiklehre/akkorde/umkehrungen/index.html#uebung7umkehrungen"
+						,
+							name: "Dreiklangsumkehrung 2"
+							path: "/musiklehre/akkorde/umkehrungen/index.html#uebung8umkehrungen"
+						,
+							name: "Septakkorde bestimmen"
+							path: "/musiklehre/akkorde/umkehrungen/index.html#umkehrungseptnennen"
+						,
+							name: "Umkehrungen schreiben"
+							path: "/musiklehre/akkorde/umkehrungen/index.html#uebung9umkehrungen"
+						]
+					]
+				]
+			]
+		,
+			name: "Modulation"
+			path: "/musiklehre/fahrplan/index.html"
+			children: [
 
+			]
+		,
+			name: "Rhythmus"
+			path: "/musiklehre/fahrplan/index.html"
+			children: [
+
+			]
+		,
+			name: "Gehörbildung"
+			path: "/musiklehre/fahrplan/index.html"
+			children: [
+
+			]
+		,
+			name: "Texte / Musikschule"
+			path: "/musiklehre/fahrplan/index.html"
+			children: [
+
+			]
+		,
 		]
 	,
 		name: "Blockflöte"
