@@ -55,16 +55,20 @@ page "/blockfloete/behandlung/index.html", :layout => :layoutImproved
 helpers do
 	def menu_helper (cmd)
 		fullCmd = 'node menu.js ' + cmd + ' -p '
-		current_page.data.menuStructure.each do |entry|
-			fullCmd += entry + ' '
+		
+		if current_page.data.menuStructure?
+			current_page.data.menuStructure.each do |entry|
+				fullCmd += entry + ' '
+			end
 		end
-		#return %x[node menu.js menu -p Blockflöte]
-		#tmp = 'node menu.js menu -p Blockflöte'
+		
 		return `#{fullCmd}`
 	end
 	
 	def color_helper
-		ancestor = current_page.data.menuStructure[0]
+		if current_page.data.menuStructure?
+			ancestor = current_page.data.menuStructure[0]
+		end
 		if ancestor == 'Blockflöte'
 			return 'bflColor'
 		end
@@ -75,6 +79,42 @@ helpers do
 			return 'musColor'
 		end
 		return 'defaultColor'
+	end
+	
+	def minimenu_helper
+		html = ''
+		html += '<ul>'
+		html += '<li><a href="/index.html">Home</a></li>'
+		
+		if current_page.data.menuStructure?
+			ancestor = current_page.data.menuStructure[0]
+		else
+			ancestor = 'default'
+		end
+		
+		if ancestor == 'Blockflöte'
+			html += '<li><a href="/blockfloete/index.html">Blockflöte</a></li>'
+			html += '<li><a href="/blockfloete/index.html#stichwortverzeichnisbfl">Stichworte</a></li>'
+		end
+		
+		if ancestor == 'Musiklehre'
+			html += '<li><a href="/musiklehre/index.html">Musiklehre</a></li>'
+			html += '<li><a href="/musiklehre/index.html#stichwortverzeichnismusik">Stichworte</a></li>'
+		end
+		
+		if ancestor == 'Gitarre'
+			html += '<li><a href="/gitarre/index.html">Gitarre</a></li>'
+			html += '<li><a href="/gitarre/index.html#stichwortverzeichnisgitarre">Stichworte</a></li>'
+		end
+		
+		if ancestor != 'Blockflöte' && ancestor != 'Musiklehre' && ancestor != 'Gitarre'
+			html += '<li><a href="/gitarre/index.html">Gitarre</a></li>'
+			html += '<li><a href="/musiklehre/index.html">Musiklehre</a></li>'
+			html += '<li><a href="/blockfloete/index.html">Blockflöte</a></li>'
+			html += '<li><a href="/meta/sitemap.html">Sitemap</a></li>'
+		end
+		
+		html += '</ul>'
 	end
 end
 
