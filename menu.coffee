@@ -85,15 +85,30 @@ renderBreadcrumbs = (p) ->
   makeOrderedList('breadcrumbs', entries)
 
 #ol mit Kindern als Einträgen, oder Sections falls keine Kinder
-renderMenuEntry = (clazz, p) ->
+renderMenuEntry = (clazz, p, ignoreImportant = false) ->
   lis = []
   lis.push(renderLink(p))
 
   if p.children? and p.children.length > 0
-    lis.push(renderMenuEntry(null, child)) for child in p.children
+    lis.push(renderMenuEntry(null, child, ignoreImportant)) for child in p.children
   else
-    if p.sections?
-      lis.push(renderLink(section)) for section in p.sections
+    if p.sections? and p.sections.length > 0
+      lis.push(renderMenuEntry(null, section, ignoreImportant)) for section in p.sections
+
+  importants = []
+  for page in getParentsInclusive(p)
+    if page.important? and page.important.length > 0
+      importants.unshift(imp) for imp in page.important
+
+  if not ignoreImportant
+    for i in importants
+      importantEntry = renderMenuEntry('important', i, true)
+      importantEntryClassless = renderMenuEntry(null, i, true)
+      if not (importantEntry in lis or importantEntryClassless in lis)
+        flag = true
+        flag = false for li in lis when ((li.indexOf(importantEntry) isnt -1) or (li.indexOf(importantEntryClassless) isnt -1))
+        if flag
+          lis.push(importantEntry)
 
   makeOrderedList(clazz, lis)
 

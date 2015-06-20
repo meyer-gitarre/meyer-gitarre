@@ -3,25 +3,29 @@
   var Page;
 
   module.exports = Page = (function() {
-    function Page(name, path, parent1, sections, children) {
+    function Page(name, path, parent1, sections, children, important) {
       this.name = name;
       this.path = path;
       this.parent = parent1;
       this.sections = sections;
       this.children = children;
+      this.important = important;
       if (this.sections == null) {
         this.sections = [];
       }
       if (this.children == null) {
         this.children = [];
       }
+      if (this.important == null) {
+        this.important = [];
+      }
     }
 
     Page.prototype.directChild = function(pname) {
-      var child, i, len, page, ref;
+      var child, j, len, page, ref;
       ref = this.children;
-      for (i = 0, len = ref.length; i < len; i++) {
-        child = ref[i];
+      for (j = 0, len = ref.length; j < len; j++) {
+        child = ref[j];
         if (child.name === pname) {
           page = child;
         }
@@ -35,23 +39,30 @@
     };
 
     Page.prototype.recursiveChild = function(pnames) {
-      var i, len, pname, tmp;
+      var j, len, pname, tmp;
       tmp = this;
-      for (i = 0, len = pnames.length; i < len; i++) {
-        pname = pnames[i];
+      for (j = 0, len = pnames.length; j < len; j++) {
+        pname = pnames[j];
         tmp = tmp.directChild(pname);
       }
       return tmp;
     };
 
     Page.parsePage = function(page, parent) {
-      var c, i, len, parsedPage, ref;
-      parsedPage = new Page(page.name, page.path, parent, page.sections, []);
+      var c, i, j, k, len, len1, parsedPage, ref, ref1;
+      parsedPage = new Page(page.name, page.path, parent, page.sections, [], []);
       if (page.children != null) {
         ref = page.children;
-        for (i = 0, len = ref.length; i < len; i++) {
-          c = ref[i];
+        for (j = 0, len = ref.length; j < len; j++) {
+          c = ref[j];
           parsedPage.children.push(Page.parsePage(c, parsedPage));
+        }
+      }
+      if (page.important != null) {
+        ref1 = page.important;
+        for (k = 0, len1 = ref1.length; k < len1; k++) {
+          i = ref1[k];
+          parsedPage.important.push(Page.parsePage(i, parsedPage));
         }
       }
       return parsedPage;

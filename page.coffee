@@ -1,8 +1,9 @@
 module.exports =
 class Page
-  constructor: (@name, @path, @parent, @sections, @children) ->
+  constructor: (@name, @path, @parent, @sections, @children, @important) ->
     @sections ?= []
     @children ?= []
+    @important ?= []
 
   directChild: (pname) ->
     page = child for child in @.children when child.name is pname
@@ -20,10 +21,13 @@ class Page
     return tmp
 
   @parsePage: (page, parent) ->
-    parsedPage = new Page(page.name, page.path, parent, page.sections, [])
+    parsedPage = new Page(page.name, page.path, parent, page.sections, [], [])
 
     if page.children?
       parsedPage.children.push(Page.parsePage(c, parsedPage)) for c in page.children
+
+    if page.important?
+      parsedPage.important.push(Page.parsePage(i, parsedPage)) for i in page.important
 
     return parsedPage
 
