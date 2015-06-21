@@ -1884,15 +1884,21 @@ module.exports =
 		]
 	,
 		name: "Impressum, Links"
-		path: "/impressum/index.html"
+		path: "/meta/impressum/index.html"
 		sections: [
 			name: "Credits"
-			path: "/impressum/index.html#credits"
+			path: "/meta/impressum/index.html#credits"
 		,
 			name: "Links"
-			path: "/impressum/index.html#links"
+			path: "/meta/impressum/index.html#links"
 		,
 			name: "Disclaimer"
-			path: "/impressum/index.html#disclaimer"
+			path: "/meta/impressum/index.html#disclaimer"
 		]
+	,
+		name: "Sitemap"
+		path: "/meta/sitemap/index.html"
+	,
+		name: "Dachsbau"
+		path: "/meta/dachsbau/index.html"
 	]
