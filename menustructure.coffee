@@ -702,6 +702,9 @@ module.exports =
 				name: "Akkordübung"
 				path: "/gitarre/akkorde/griffuebung/index.html"
 			,
+				name: "Akkordübung alternativ"
+				path: "/gitarre/akkorde/griffuebung/index.html"
+			,
 				name: "Kapodaster"
 				path: "/gitarre/akkorde/kapo/index.html"
 				sections: [
@@ -1032,7 +1035,7 @@ module.exports =
 					path: "/musiklehre/tonleitern/quintenzirkel/index.html#mollarten"
 				]
 			,
-				name: "Pentatonische Tonl."
+				name: "Pentatonik"
 				path: "/musiklehre/tonleitern/pentatonik/index.html"
 				sections: [
 					name: "Pentatonik für Gitarre"
