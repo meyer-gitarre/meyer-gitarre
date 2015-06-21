@@ -30,7 +30,7 @@ end
 
 # With alternative layout
 page "/blockfloete/behandlung/index.html", :layout => :layoutImproved
-#page "/*", :layout => :layoutImproved
+page "/*", :layout => :layoutImproved
 
 #Disable all Layouts
 #set :layout, false

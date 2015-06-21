@@ -178,6 +178,9 @@ module.exports =
 				name: "E-Gitarre"
 				path: "/gitarre/unterricht/egit/index.html"
 				sections: [
+					name: "Wechsel zur E-Gitarre"
+					path: "/gitarre/unterricht/egit/index.html#wechsel"
+				,
 					name: "E-Gitarre kaufen"
 					path: "/gitarre/unterricht/egit/index.html#tippszuranschaffung"
 				,
@@ -210,9 +213,6 @@ module.exports =
 				,
 					name: "genug üben"
 					path: "/gitarre/ueben/uebetipps/index.html#genugueben"
-				,
-					name: ""
-					path: "/gitarre/ueben/uebetipps/index.html"
 				,
 					name: "Hausaufgaben"
 					path: "/musiklehre/musik-text/texte/index.html#hausauf"
