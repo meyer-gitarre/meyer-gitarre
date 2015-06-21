@@ -1,6 +1,10 @@
 module.exports =
 	name: "Home"
 	path: "/index.html"
+	sections: [
+		name: "Aktualisierungen"
+		path: "/index.html#aktualisierungen"
+	]
 	children: [
 		name: "Gitarre"
 		path: "/gitarre/index.html"
@@ -1898,7 +1902,21 @@ module.exports =
 	,
 		name: "Sitemap"
 		path: "/meta/sitemap/index.html"
+		sections: [
+			name: "Aufbau und Menüstruktur"
+			path: "/meta/sitemap/index.html#struktur"
+		]
 	,
 		name: "Dachsbau"
 		path: "/meta/dachsbau/index.html"
+		sections: [
+			name: "Seitenstruktur"
+			path: "/meta/dachsbau/index.html#seitenstruktur"
+		,
+			name: "CSS-Elemente"
+			path: "/meta/dachsbau/index.html#csselemente"
+		,
+			name: "Aktualisierungen"
+			path: "/meta/dachsbau/index.html#aktualisierungen"
+		]
 	]
