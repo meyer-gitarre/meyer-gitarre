@@ -1723,7 +1723,7 @@ module.exports =
 				name: "Intervalle abwärts"
 				path: "/musiklehre/gehoerbildung/intervalle-ab/index.html"
 			,
-				name: "Stufen hören"
+				name: "Stufen singen"
 				path: "/musiklehre/gehoerbildung/stufen-singen/index.html"
 				sections: [
 					name: "Intervalle singen"
