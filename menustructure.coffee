@@ -1627,7 +1627,7 @@ module.exports =
 					path: "/musiklehre/rhythmus/notenwerte/index.html#punktierungen"
 				]
 			,
-				name: "Besonderheiten"
+				name: "Besondere Rhythmen"
 				path: "/musiklehre/rhythmus/besonders/index.html"
 				sections: [
 					name: "Hemiole"

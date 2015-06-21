@@ -1858,7 +1858,7 @@
                   }
                 ]
               }, {
-                name: "Besonderheiten",
+                name: "Besondere Rhythmen",
                 path: "/musiklehre/rhythmus/besonders/index.html",
                 sections: [
                   {
