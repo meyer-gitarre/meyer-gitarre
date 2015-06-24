@@ -527,7 +527,7 @@ module.exports =
 			name: "Das Griffbrett"
 			path: "/gitarre/griffbrett/index.html"
 			children: [
-				name: "Griffbrett: Töne"
+				name: "Griffbrett - Töne"
 				path: "/gitarre/griffbrett/toene/index.html"
 				sections: [
 					name: "~ im Violinschlüssel"
@@ -1123,7 +1123,7 @@ module.exports =
 			]
 		,
 			name: "Intervalle"
-			path: "/musiklehre/fahrplan/index.html"
+			path: "/musiklehre/intervalle/index.html"
 			children: [
 				name: "Bezeichnung & Größe"
 				path: "/musiklehre/intervalle/name/index.html"

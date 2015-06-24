@@ -3,6 +3,12 @@
   module.exports = {
     name: "Home",
     path: "/index.html",
+    sections: [
+      {
+        name: "Aktualisierungen",
+        path: "/index.html#aktualisierungen"
+      }
+    ],
     children: [
       {
         name: "Gitarre",
@@ -604,7 +610,7 @@
             path: "/gitarre/griffbrett/index.html",
             children: [
               {
-                name: "Griffbrett: Töne",
+                name: "Griffbrett - Töne",
                 path: "/gitarre/griffbrett/toene/index.html",
                 sections: [
                   {
@@ -1273,7 +1279,7 @@
             ]
           }, {
             name: "Intervalle",
-            path: "/musiklehre/fahrplan/index.html",
+            path: "/musiklehre/intervalle/index.html",
             children: [
               {
                 name: "Bezeichnung & Größe",
@@ -2166,10 +2172,28 @@
         ]
       }, {
         name: "Sitemap",
-        path: "/meta/sitemap/index.html"
+        path: "/meta/sitemap/index.html",
+        sections: [
+          {
+            name: "Aufbau und Menüstruktur",
+            path: "/meta/sitemap/index.html#struktur"
+          }
+        ]
       }, {
         name: "Dachsbau",
-        path: "/meta/dachsbau/index.html"
+        path: "/meta/dachsbau/index.html",
+        sections: [
+          {
+            name: "Seitenstruktur",
+            path: "/meta/dachsbau/index.html#seitenstruktur"
+          }, {
+            name: "CSS-Elemente",
+            path: "/meta/dachsbau/index.html#csselemente"
+          }, {
+            name: "Aktualisierungen",
+            path: "/meta/dachsbau/index.html#aktualisierungen"
+          }
+        ]
       }
     ]
   };
