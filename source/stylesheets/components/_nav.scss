@@ -38,6 +38,8 @@
 
 
 .menu {
+	position: absolute;
+	z-index: 1000;
 	width:190px;
 	/*background: orange;*/
 	list-style-type: none;
@@ -49,12 +51,9 @@
 .menu a, .menu a:visited {
 	display: block;
 	text-decoration: none;
-	height: 24px;
-	line-height: 22px;
 	width: 190px;
-	padding: 0px;
 	color: white;
-	/*background-color: #5798f8;*/
+	background-color: #5798f8;
 	background: linear-gradient(to right, #5997e7, #3885e0 45%, #5997e7);
 	border-width: 1px;
 	border-style: solid;
@@ -66,36 +65,28 @@
 	background: linear-gradient(to right, #5496f8, #d4e5fd);
 }
 
+.menu ol, li {
+	padding: 0;
+	margin: 0;
+}
+
 .menu ol li ol {
 	position: relative;
 	left: 189px;
 }
-.menu ol, li {
-	padding: 0;
-	margin: 0;
-	list-style-type: none;
-	list-style-position: outside;
-}
 
 .menu li ol li{
-	padding:0px;
-	display:block;
-	color:#fff;
-	/*background-color: navy;*/
+	padding: 0px;
+	display: block;
+	color: #fff;
+	top: 0;
 }
-.menu ol li:hover{
-	/*background: pink;*/
-	list-style-type: none;
-}
+
 .menu ol li ol {
 	display: none;          /* HIDE ALL INNER UL */
-	/*background: green;*/
-	list-style-type: none;
 }
 .menu ol:hover li > ol {
 	display:block;         /* SHOW INNER UL ON LI PARENT HOVER */
-	list-style-type: none;
-	/*background: purple;*/
 }
 /*Platzhalter für den linken Teil der Navigation. Wird obsolet, wenn das Klappmenü nicht mehr position:absolute verwendet*/
 .tmp {
