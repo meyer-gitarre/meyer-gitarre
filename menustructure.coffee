@@ -1772,7 +1772,6 @@ module.exports =
 					name: "wie gemalt"
 					path: "/musiklehre/musik-text/musikschule/index.html#gemalt"
 				]
-			]
 			,
 				name: "Glossen"
 				path: "/musiklehre/musik-text/glossen/index.html"
@@ -1808,6 +1807,7 @@ module.exports =
 					name: "Kampf um Bildung"
 					path: "/musiklehre/musik-text/texte/index.html#bildung"
 				]
+			]
 		]
 	,
 		name: "Blockflöte"

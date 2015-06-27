@@ -2025,45 +2025,45 @@
                     path: "/musiklehre/musik-text/musikschule/index.html#gemalt"
                   }
                 ]
-              }
-            ]
-          }, {
-            name: "Glossen",
-            path: "/musiklehre/musik-text/glossen/index.html",
-            sections: [
-              {
-                name: "Gitarre als Geschenk",
-                path: "/musiklehre/musik-text/glossen/index.html#geschenk"
               }, {
-                name: "Weihnachtslieder",
-                path: "/musiklehre/musik-text/glossen/index.html#allejahre"
+                name: "Glossen",
+                path: "/musiklehre/musik-text/glossen/index.html",
+                sections: [
+                  {
+                    name: "Gitarre als Geschenk",
+                    path: "/musiklehre/musik-text/glossen/index.html#geschenk"
+                  }, {
+                    name: "Weihnachtslieder",
+                    path: "/musiklehre/musik-text/glossen/index.html#allejahre"
+                  }, {
+                    name: "Zeit zu üben",
+                    path: "/musiklehre/musik-text/glossen/index.html#beethoven"
+                  }, {
+                    name: "Instrumentenbau: Ästhetik",
+                    path: "/musiklehre/musik-text/glossen/index.html#aesthetik"
+                  }
+                ]
               }, {
-                name: "Zeit zu üben",
-                path: "/musiklehre/musik-text/glossen/index.html#beethoven"
-              }, {
-                name: "Instrumentenbau: Ästhetik",
-                path: "/musiklehre/musik-text/glossen/index.html#aesthetik"
-              }
-            ]
-          }, {
-            name: "Texte",
-            path: "/musiklehre/musik-text/texte/index.html",
-            sections: [
-              {
-                name: "Frühförderung",
-                path: "/musiklehre/musik-text/texte/index.html#frueh"
-              }, {
-                name: "Begabung & Förderung",
-                path: "/musiklehre/musik-text/texte/index.html#begabung"
-              }, {
-                name: "Ende der Kindheit",
-                path: "/musiklehre/musik-text/texte/index.html#selbst"
-              }, {
-                name: "Hausaufgaben",
-                path: "/musiklehre/musik-text/texte/index.html#hausauf"
-              }, {
-                name: "Kampf um Bildung",
-                path: "/musiklehre/musik-text/texte/index.html#bildung"
+                name: "Texte",
+                path: "/musiklehre/musik-text/texte/index.html",
+                sections: [
+                  {
+                    name: "Frühförderung",
+                    path: "/musiklehre/musik-text/texte/index.html#frueh"
+                  }, {
+                    name: "Begabung & Förderung",
+                    path: "/musiklehre/musik-text/texte/index.html#begabung"
+                  }, {
+                    name: "Ende der Kindheit",
+                    path: "/musiklehre/musik-text/texte/index.html#selbst"
+                  }, {
+                    name: "Hausaufgaben",
+                    path: "/musiklehre/musik-text/texte/index.html#hausauf"
+                  }, {
+                    name: "Kampf um Bildung",
+                    path: "/musiklehre/musik-text/texte/index.html#bildung"
+                  }
+                ]
               }
             ]
           }
