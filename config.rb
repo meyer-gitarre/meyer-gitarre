@@ -53,18 +53,6 @@ page "/*", :layout => :layoutImproved
 
 # Methods defined in the helpers block are available in templates
 helpers do
-	def menu_helper (cmd)
-		fullCmd = 'node menu.js ' + cmd + ' -p '
-		
-		if current_page.data.menuStructure?
-			current_page.data.menuStructure.each do |entry|
-				fullCmd += entry + ' '
-			end
-		end
-		
-		return `#{fullCmd}`
-	end
-	
 	def color_helper
 		if current_page.data.menuStructure?
 			ancestor = current_page.data.menuStructure[0]
@@ -80,40 +68,40 @@ helpers do
 		end
 		return 'defaultColor'
 	end
-	
+
 	def minimenu_helper
 		html = ''
 		html += '<ul>'
 		html += '<li><a href="/index.html">Home</a></li>'
-		
+
 		if current_page.data.menuStructure?
 			ancestor = current_page.data.menuStructure[0]
 		else
 			ancestor = 'default'
 		end
-		
+
 		if ancestor == 'Blockflöte'
 			html += '<li><a href="/blockfloete/index.html">Blockflöte</a></li>'
 			html += '<li><a href="/blockfloete/index.html#stichwortverzeichnisbfl">Stichworte</a></li>'
 		end
-		
+
 		if ancestor == 'Musiklehre'
 			html += '<li><a href="/musiklehre/index.html">Musiklehre</a></li>'
 			html += '<li><a href="/musiklehre/index.html#stichwortverzeichnismusik">Stichworte</a></li>'
 		end
-		
+
 		if ancestor == 'Gitarre'
 			html += '<li><a href="/gitarre/index.html">Gitarre</a></li>'
 			html += '<li><a href="/gitarre/index.html#stichwortverzeichnisgitarre">Stichworte</a></li>'
 		end
-		
+
 		if ancestor != 'Blockflöte' && ancestor != 'Musiklehre' && ancestor != 'Gitarre'
 			html += '<li><a href="/gitarre/index.html">Gitarre</a></li>'
 			html += '<li><a href="/musiklehre/index.html">Musiklehre</a></li>'
 			html += '<li><a href="/blockfloete/index.html">Blockflöte</a></li>'
 			html += '<li><a href="/meta/sitemap.html">Sitemap</a></li>'
 		end
-		
+
 		html += '</ul>'
 	end
 end

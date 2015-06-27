@@ -1,4 +1,3 @@
-module.exports =
 	name: "Home"
 	path: "/index.html"
 	sections: [

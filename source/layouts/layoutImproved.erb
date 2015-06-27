@@ -16,8 +16,8 @@
 			<h1>Gitarre und Musiklehre, U. Meyer</h1>
 		</header>
 		<nav id="mainNav" class="clearfix">
-			<%= menu_helper 'breadcrumbs'%>
-			<%= menu_helper 'menu'%>
+			<%= renderBreadcrumbs(getPage(current_page.data.menuStructure)) %>
+			<%= renderMenuDefault(getPage(current_page.data.menuStructure)) %>
 			<div class="caption">
 				<div class="clearfix">
 					<div class="imageWrapper img23 floatedRight exBorder">
@@ -33,10 +33,10 @@
 		</nav>
 		<div class="series navContext">
 			<div>
-				<%= menu_helper 'linkPrevPage'%>
+				<%= renderLinkPreviousPage(getPage(current_page.data.menuStructure)) %>
 			</div>
 			<div>
-				<%= menu_helper 'linkNextPage'%>
+				<%= renderLinkNextPage(getPage(current_page.data.menuStructure)) %>
 			</div>
 		</div>
 		<main>
@@ -44,10 +44,10 @@
 		</main>
 		<div class="series navContext">
 			<div>
-				<%= menu_helper 'linkPrevPage'%>
+				<%= renderLinkPreviousPage(getPage(current_page.data.menuStructure)) %>
 			</div>
 			<div>
-				<%= menu_helper 'linkNextPage'%>
+				<%= renderLinkNextPage(getPage(current_page.data.menuStructure)) %>
 			</div>
 		</div>
 		<footer id="mainFooter">
