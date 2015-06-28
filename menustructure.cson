@@ -7,6 +7,10 @@
 	children: [
 		name: "Gitarre"
 		path: "/gitarre/index.html"
+		important: [
+      name: "Stichworte"
+      path: "/gitarre/index.html#stichwortverzeichnisgitarre"
+    ]
 		children: [
 			name: "Das Instrument"
 			path: "/gitarre/instrument/index.html"
@@ -747,6 +751,13 @@
 	,
 		name: "Musiklehre"
 		path: "/musiklehre/index.html"
+		important: [
+      name: "Stichworte"
+      path: "/musiklehre/index.html#stichwortverzeichnismusik"
+    ,
+      name: "Fahrplan Musiklehre"
+			path: "/musiklehre/fahrplan/index.html"
+    ]
 		children: [
 			name: "Fahrplan Musiklehre"
 			path: "/musiklehre/fahrplan/index.html"
@@ -952,6 +963,10 @@
 		,
 			name: "Tonleitern"
 			path: "/musiklehre/tonleitern/index.html"
+			important: [
+	      name: "Quintenzirkel"
+	      path: "/musiklehre/tonleitern/quintenzirkel/index.html"
+	    ]
 			children: [
 				name: "Durtonleitern mit #"
 				path: "/musiklehre/tonleitern/kreuz/index.html"
@@ -1242,6 +1257,10 @@
 		,
 			name: "Akkorde"
 			path: "/musiklehre/akkorde/index.html"
+			important: [
+	      name: "Quintenzirkel"
+	      path: "/musiklehre/tonleitern/quintenzirkel/index.html"
+	    ]
 			children: [
 				name: "Dreiklang"
 				path: "/musiklehre/akkorde/dreiklang/index.html"
@@ -1811,6 +1830,10 @@
 	,
 		name: "Blockflöte"
 		path: "/blockfloete/index.html"
+		important: [
+      name: "Stichworte"
+      path: "/blockfloete/index.html#stichwortverzeichnisbfl"
+    ]
 		children: [
 			name: "Das Instrument"
 			path: "/blockfloete/instrument/index.html"
@@ -1904,18 +1927,5 @@
 		sections: [
 			name: "Aufbau und Menüstruktur"
 			path: "/meta/sitemap/index.html#struktur"
-		]
-	,
-		name: "Dachsbau"
-		path: "/meta/dachsbau/index.html"
-		sections: [
-			name: "Seitenstruktur"
-			path: "/meta/dachsbau/index.html#seitenstruktur"
-		,
-			name: "CSS-Elemente"
-			path: "/meta/dachsbau/index.html#csselemente"
-		,
-			name: "Aktualisierungen"
-			path: "/meta/dachsbau/index.html#aktualisierungen"
 		]
 	]
