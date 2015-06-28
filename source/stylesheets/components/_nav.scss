@@ -6,94 +6,6 @@
 	padding-bottom: 0.125em;
 }
 
-.breadcrumbs li {
-	display: inline;
-	color: #1171e3;
-	font-weight: bold;
-	font-size: 90%;
-	margin: 0;
-	padding: 0;
-}
-
-.breadcrumbs > li::after {
-	content: " >> ";
-}
-
-.breadcrumbs a {
-	color: #2447B2;
-	font-weight: bold;
-	font-size: 90%;
-	letter-spacing: 0.05em;
-	background-color: transparent;
-}
-
-.breadcrumbs ol {
-	visibility: hidden;
-	//position: absolute;
-}	
-
-.breadcrumbs li::hover > ol {
-	visibility: visible;
-}
-
-
-.menu {
-	position: absolute;
-	z-index: 1000;
-	width:190px;
-	/*background: orange;*/
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	text-align: center;
-}
-
-.menu a, .menu a:visited {
-	display: block;
-	text-decoration: none;
-	width: 190px;
-	color: white;
-	background-color: #5798f8;
-	background: linear-gradient(to right, #5997e7, #3885e0 45%, #5997e7);
-	border-width: 1px;
-	border-style: solid;
-	border-color: navy;
-}
-
-.menu :hover>a, .menu :focus>a {
-	color: black;
-	background: linear-gradient(to right, #5496f8, #d4e5fd);
-}
-
-.menu ol, li {
-	padding: 0;
-	margin: 0;
-}
-
-.menu ol li ol {
-	position: relative;
-	left: 189px;
-}
-
-.menu li ol li{
-	padding: 0px;
-	display: block;
-	color: #fff;
-	top: 0;
-}
-
-.menu ol li ol {
-	display: none;          /* HIDE ALL INNER UL */
-}
-.menu ol:hover li > ol {
-	display:block;         /* SHOW INNER UL ON LI PARENT HOVER */
-}
-/*Platzhalter für den linken Teil der Navigation. Wird obsolet, wenn das Klappmenü nicht mehr position:absolute verwendet*/
-.tmp {
-	float: left;
-	width: 22%;
-}
-
 .caption {
 	float: right;
 	width: 75%;
@@ -103,4 +15,170 @@
 
 .caption div {
 	text-align: justify;
+}
+
+
+/* Breadcrumbs Klappfunktionalität */
+.breadcrumbs {
+	position: relative;
+}
+
+.breadcrumbs > li > ol {
+	display: none;
+	
+	position: absolute;
+}
+
+.breadcrumbs > li:hover > ol {
+	display: block;
+}
+
+/* Breadcrumbs Design */
+.breadcrumbs {	
+	list-style-type: none;
+}
+
+.breadcrumbs > li {
+	background-color: #2447B2;
+	color: white;
+	
+	display: inline-block;
+	height: 2em;
+	
+	padding-right: 0.5em;
+	
+	//color: #1171e3;
+	font-weight: bold;
+	font-size: 90%;
+}
+
+.breadcrumbs > li ol {
+	z-index: 5;
+	
+	background-color: #2447B2;
+}
+
+.breadcrumbs a {
+	color: white;
+	font-weight: bold;
+	font-size: 90%;
+	letter-spacing: 0.05em;
+	background-color: #2447B2;
+}
+
+.breadcrumbs li {
+	padding-left: 0;
+}
+
+.breadcrumbs > li::after {
+	content: " >> ";
+}
+
+.breadcrumbs > li:last-of-type::after {
+	content: ""
+}
+
+.breadcrumbs ol {
+	list-style-type: none;
+}
+
+$menuWidth: 12.5em;
+$menuBorderWidth: 1px;
+$menuBorderColor: navy;
+
+
+/* Menü Klappfunktionalität */
+.menu li {
+	position: relative;
+}
+
+.menu ol ol {
+	display: none;
+	
+	position: absolute;
+}
+
+.menu li:hover > ol {
+	display: block;
+}
+
+.menu ol {
+	top: -1 * $menuBorderWidth;
+	right: -1 * $menuWidth;
+	
+	margin-bottom: 0;
+}
+
+/* Menü Design */
+
+.menu {
+	overflow: none;
+	width: $menuWidth;
+	
+	text-align: center;
+	
+	/*Styling für den Eintrag der aktuellen Seite*/
+	background: linear-gradient(to right, #5496f8, #d4e5fd);
+}
+
+.menu li {
+	list-style-type: none;
+	padding-left: 0;
+	
+	overflow: none;
+	width: $menuWidth;
+	
+	background: linear-gradient(to right, #5997e7, #3885e0 45%, #5997e7);
+	border-top-width: $menuBorderWidth;
+	border-right-width: $menuBorderWidth;
+	border-bottom-width: 0;
+	border-left-width: $menuBorderWidth;
+	
+	border-style: solid;
+	border-color: $menuBorderColor;
+}
+
+.menu li:last-child {
+	border-bottom-width: $menuBorderWidth;
+}
+
+.menu a {
+	color: white;
+	background-color: transparent;
+}
+
+.menu li:hover {
+	background: linear-gradient(to right, #5496f8, #d4e5fd);
+}
+
+.menu li:hover > a, .menu a:focus {
+	color: black;
+	text-decoration: none;
+	background-color: transparent;
+}
+
+.menu > a {
+	display: block;
+	border: $menuBorderWidth solid $menuBorderColor;
+	border-bottom-width: 0;
+	
+	color: black;
+	font-weight: bold;
+}
+
+.menu > a:hover {
+	text-decoration: none;
+	background-color: transparent;
+}
+
+.menu > a:only-child {
+	border-bottom-width: $menuBorderWidth;
+}
+
+.menu li>a:after {
+	content: ' >';
+}
+
+.menu li>a:only-child:after {
+	content: '';
 }
