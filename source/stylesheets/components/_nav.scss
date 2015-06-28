@@ -1,201 +1,171 @@
 #mainNav {
-	background-color: #EDF3FF;
-	background: linear-gradient(to right, #9bc6fc, #d8e8fc 55%, #a4c9f9);
-	border-bottom: 1px solid #1171e3;
-	padding-top: 0.125em;
-	padding-bottom: 0.125em;
+  background-color: #edf3ff;
+  background: linear-gradient(to right, #9bc6fc, #d8e8fc 55%, #a4c9f9);
+  border-bottom: 1px solid #1171e3;
+  padding-top: 0.125em;
+  padding-bottom: 0.125em;
 }
-
 #mainNav > .series > div:first-child {
-	width: 25.77%;
+  width: 25.77%;
 }
-
 .navbar {
-	margin-bottom: 1em;
+  margin-bottom: 1em;
 }
-
-.navbar > .breadcrumbs, .navbar > form {
-	display: inline-block;
+.navbar > .breadcrumbs,
+.navbar > form {
+  display: inline-block;
 }
 .navbar > .breadcrumbs {
-	float: left;
+  float: left;
 }
-
 .navbar > form {
-	float:right;
+  float: right;
 }
-
 .caption {
-	line-height: 1.2;
-	vertical-align: middle;
+  line-height: 1.2;
+  vertical-align: middle;
 }
-
 
 /* Breadcrumbs Klappfunktionalität */
 .breadcrumbs {
-	position: relative;
+  position: relative;
 }
-
 .breadcrumbs > li > ol {
-	display: none;
-	
-	position: absolute;
+  display: none;
+  position: absolute;
 }
-
 .breadcrumbs > li:hover > ol {
-	display: block;
+  display: block;
 }
 
 /* Breadcrumbs Design */
-.breadcrumbs {	
-	list-style-type: none;
-	margin-bottom: 0;
+.breadcrumbs {
+  list-style-type: none;
+  margin-bottom: 0;
 }
-
 .breadcrumbs > li {
-	background-color: #2447B2;
-	color: white;
-	
-	display: inline-block;
-	
-	padding-right: 0.5em;
-	
-	font-weight: bold;
-	font-size: 90%;
+  background-color: #2447b2;
+  color: white;
+  display: inline-block;
+  padding-right: 0.5em;
+  font-weight: bold;
+  font-size: 90%;
 }
-
 .breadcrumbs > li ol {
-	z-index: 5;
-	
-	background-color: #2447B2;
+  z-index: 5;
+  background-color: #2447b2;
 }
-
 .breadcrumbs a {
-	color: white;
-	font-weight: bold;
-	font-size: 90%;
-	letter-spacing: 0.05em;
-	background-color: #2447B2;
+  color: white;
+  font-weight: bold;
+  font-size: 90%;
+  letter-spacing: 0.05em;
+  background-color: #2447b2;
 }
-
 .breadcrumbs li {
-	padding-left: 0;
+  padding-left: 0;
 }
-
 .breadcrumbs > li::after {
-	content: " >> ";
+  content: " >> ";
 }
-
 .breadcrumbs > li:last-of-type::after {
-	content: ""
+  content: "";
 }
-
 .breadcrumbs ol {
-	list-style-type: none;
+  list-style-type: none;
 }
-
 $menuWidth: 12.5em;
 $menuBorderWidth: 1px;
 $menuBorderColor: navy;
 
-
 /* Menü Klappfunktionalität */
 .menu li {
-	position: relative;
+  position: relative;
 }
-
 .menu ol ol {
-	display: none;
-	
-	position: absolute;
+  display: none;
+  position: absolute;
 }
-
 .menu li:hover > ol {
-	display: block;
+  display: block;
 }
-
 .menu ol {
-	top: -1 * $menuBorderWidth;
-	right: -1 * $menuWidth;
-	
-	margin-bottom: 0;
+  top: -1 * $menuBorderWidth;
+  right: -1 * $menuWidth;
+  margin-bottom: 0;
 }
 
 /* Menü Design */
-
 .menu {
-	overflow: none;
-	width: $menuWidth;
-	
-	text-align: center;
-	
-	/*Styling für den Eintrag der aktuellen Seite*/
-	background: linear-gradient(to right, #5496f8, #d4e5fd);
-}
+  overflow: none;
+  width: $menuWidth;
+  text-align: center;
 
+  /*Styling für den Eintrag der aktuellen Seite*/
+  background: linear-gradient(to right, #5496f8, #d4e5fd);
+}
 .menu li {
-	list-style-type: none;
-	padding-left: 0;
-	
-	overflow: none;
-	width: $menuWidth;
-	
-	background: linear-gradient(to right, #5997e7, #3885e0 45%, #5997e7);
-	border-top-width: $menuBorderWidth;
-	border-right-width: $menuBorderWidth;
-	border-bottom-width: 0;
-	border-left-width: $menuBorderWidth;
-	
-	border-style: solid;
-	border-color: $menuBorderColor;
-	
-	z-index: 3;
+  list-style-type: none;
+  padding-left: 0;
+  overflow: none;
+  width: $menuWidth;
+  border-top-width: $menuBorderWidth;
+  border-right-width: $menuBorderWidth;
+  border-bottom-width: 0;
+  border-left-width: $menuBorderWidth;
+  border-style: solid;
+  border-color: $menuBorderColor;
+  z-index: 3;
 }
-
+.defaultColor .menu li,
+.gitColor .menu li {
+  background: linear-gradient(to right, #5997e7, #3885e0 45%, #5997e7);
+}
+.musColor .menu li {
+  background: linear-gradient(to right, #7895ee, #6184eb, #7895ee);
+}
+.bflColor .menu li {
+  background: linear-gradient(to right, #549dce, #4094cf, #549dce);
+}
 .menu li:last-child {
-	border-bottom-width: $menuBorderWidth;
+  border-bottom-width: $menuBorderWidth;
 }
-
 .menu a {
-	color: white;
-	background-color: transparent;
-	
-	/* The link fills the whole li */
-	display: block;
-}
+  color: white;
+  background-color: transparent;
 
+  /* The link fills the whole li */
+  display: block;
+}
 .menu li:hover {
-	background: linear-gradient(to right, #5496f8, #d4e5fd);
+  background: linear-gradient(to right, #5496f8, #d4e5fd);
 }
-
-.menu li:hover > a, .menu a:focus {
-	color: black;
-	text-decoration: none;
-	background-color: transparent;
+.menu li:hover > a,
+.menu a:focus {
+  color: black;
+  text-decoration: none;
+  background-color: transparent;
 }
-
 .menu > a {
-	display: block;
-	border: $menuBorderWidth solid $menuBorderColor;
-	border-bottom-width: 0;
-	
-	color: black;
-	font-weight: bold;
+  display: block;
+  border: $menuBorderWidth solid $menuBorderColor;
+  border-bottom-width: 0;
+  color: black;
+  font-weight: bold;
 }
-
 .menu > a:hover {
-	text-decoration: none;
-	background-color: transparent;
+  text-decoration: none;
+  background-color: transparent;
 }
-
 .menu > a:only-child {
-	border-bottom-width: $menuBorderWidth;
+  border-bottom-width: $menuBorderWidth;
 }
-
 .menu li>a:after {
-	content: ' >';
+  content: ' >';
 }
-
 .menu li>a:only-child:after {
-	content: '';
+  content: '';
+}
+.menu .important {
+  background-color: pink;
 }
