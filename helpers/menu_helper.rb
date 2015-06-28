@@ -249,7 +249,7 @@ module MenuHelper
     return makeOrderedList('breadcrumbs', entries)
   end
 
-  def renderMenuEntry(clazz, p, ignoreImportant = false)
+  def renderMenuEntry(clazz, p, ignoreImportant = false, isImportant = false)
     lis = []
 
     if defined?(p.children) && p.children.length > 0
@@ -284,9 +284,13 @@ module MenuHelper
         end
 
         if flag
-            lis.push(renderMenuEntry('important', i, true))
+            lis.push(renderMenuEntry('important', i, true, true))
         end
       end
+    end
+
+    if isImportant
+        return "<a href=\"#{p.path}\" class=\"important\">#{p.name}</a>#{makeOrderedList(clazz, lis)}"
     end
 
     return "#{renderLink(p)}#{makeOrderedList(clazz, lis)}"
