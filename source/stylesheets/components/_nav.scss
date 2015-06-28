@@ -6,15 +6,28 @@
 	padding-bottom: 0.125em;
 }
 
-.caption {
-	float: right;
-	width: 75%;
-	text-align: right;
-	line-height: 1.2;
+#mainNav > .series > div:first-child {
+	width: 25.77%;
 }
 
-.caption div {
-	text-align: justify;
+.navbar {
+	margin-bottom: 1em;
+}
+
+.navbar > .breadcrumbs, .navbar > form {
+	display: inline-block;
+}
+.navbar > .breadcrumbs {
+	float: left;
+}
+
+.navbar > form {
+	float:right;
+}
+
+.caption {
+	line-height: 1.2;
+	vertical-align: middle;
 }
 
 
@@ -36,6 +49,7 @@
 /* Breadcrumbs Design */
 .breadcrumbs {	
 	list-style-type: none;
+	margin-bottom: 0;
 }
 
 .breadcrumbs > li {
@@ -43,11 +57,9 @@
 	color: white;
 	
 	display: inline-block;
-	height: 2em;
 	
 	padding-right: 0.5em;
 	
-	//color: #1171e3;
 	font-weight: bold;
 	font-size: 90%;
 }
@@ -136,6 +148,8 @@ $menuBorderColor: navy;
 	
 	border-style: solid;
 	border-color: $menuBorderColor;
+	
+	z-index: 3;
 }
 
 .menu li:last-child {
@@ -145,6 +159,9 @@ $menuBorderColor: navy;
 .menu a {
 	color: white;
 	background-color: transparent;
+	
+	/* The link fills the whole li */
+	display: block;
 }
 
 .menu li:hover {
