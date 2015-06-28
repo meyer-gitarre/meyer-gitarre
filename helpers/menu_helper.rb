@@ -121,13 +121,16 @@ module MenuHelper
   end
 
   def makeOrderedList(clazz, entries)
+    if entries.length == 0
+      return ''
+    end
+
     lis = ''
 
     for entry in entries
       lis += "<li>#{entry}</li>"
     end
-
-    if defined?(clazz)
+    if clazz != nil
       classattr = " class=\"#{clazz}\""
     else
       classattr = ''
@@ -137,7 +140,7 @@ module MenuHelper
   end
 
   def renderLink(p)
-    if defined?(p)
+    if p != nil
       return "<a href=\"#{p.path}\">#{p.name}</a>"
     else
       return ''
@@ -145,7 +148,7 @@ module MenuHelper
   end
 
   def renderLinkParent(p)
-    if defined?(p.parent)
+    if p.parent != nil
       return renderLink(p.parent)
     else
       return ''
@@ -153,7 +156,7 @@ module MenuHelper
   end
 
   def renderLinkPreviousSibling(p)
-    if defined?(p.parent)
+    if p.parent != nil
       prevSibling = nil
       for sib in p.parent.children
         if (p.parent.children.index(sib) + 1) == (p.parent.children.index(p))
@@ -167,7 +170,7 @@ module MenuHelper
   end
 
   def renderLinkNextSibling(p)
-    if defined?(p.parent)
+    if p.parent != nil
       nextSibling = nil
       for sib in p.parent.children
         if (p.parent.children.index(sib) - 1) == (p.parent.children.index(p))
@@ -181,7 +184,7 @@ module MenuHelper
   end
 
   def renderLinkPreviousPage(p)
-    if defined?(p.parent)
+    if p.parent != nil
       prevSibling = nil
       for sib in p.parent.children
         if (p.parent.children.index(sib) + 1) == (p.parent.children.index(p))
@@ -199,7 +202,7 @@ module MenuHelper
   end
 
   def renderLinkNextPage(p)
-    if defined?(p.parent)
+    if p.parent != nil
       nextSibling = nil
       for sib in p.parent.children
         if (p.parent.children.index(sib) - 1) == (p.parent.children.index(p))
@@ -244,7 +247,6 @@ module MenuHelper
 
   def renderMenuEntry(clazz, p, ignoreImportant = false)
     lis = []
-    lis.push(renderLink(p))
 
     if defined?(p.children) && p.children.length > 0
       for child in p.children
@@ -285,11 +287,11 @@ module MenuHelper
       end
     end
 
-    return makeOrderedList(clazz, lis)
+    return "#{renderLink(p)}#{makeOrderedList(clazz, lis)}"
   end
 
   def renderMenuDefault(p)
-    return renderMenuEntry('menu', p)
+    return "<div class=\"menu\">#{renderMenuEntry(nil, p)}</div>"
   end
 
   require 'json'
@@ -300,6 +302,9 @@ module MenuHelper
   # Return the correct Page instance from the given pagehierarchy,
   # which is an array of page name, e.g. ['Blockflöte', 'Behandlung']
   def getPage(pageHierarchy)
+    if pageHierarchy == nil
+      return @@home
+    end
     return @@home.recursiveChild(pageHierarchy)
   end
 end
