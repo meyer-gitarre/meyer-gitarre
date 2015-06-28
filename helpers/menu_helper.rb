@@ -16,6 +16,10 @@ module MenuHelper
     def parent
       return nil
     end
+
+    def important
+      return nil
+    end
   end
 
   # A page on the website
@@ -262,7 +266,7 @@ module MenuHelper
 
     importants = []
     for page in getParentsInclusive(p)
-      if defined?(page.important) && page.important.length > 0
+      if (page.important != nil) && page.important.length > 0
         for imp in page.important
           importants.insert(0, imp)
         end
@@ -271,18 +275,16 @@ module MenuHelper
 
     if !ignoreImportant
       for i in importants
-        importantEntry = renderMenuEntry('important', i, true)
-        importantEntryClassless = renderMenuEntry(nil, i, true)
-        if !(lis.include?(importantEntry) || lis.include?(importantEntryClassless))
-          flag = true
-          for li in lis
-            if li.include?(importantEntry) || li.include?(importantEntryClassless)
+        flag = true
+
+        for li in lis
+            if li['name'] == i.name
               flag = false
             end
-          end
-          if flag
-            lis.push(importantEntry)
-          end
+        end
+
+        if flag
+            lis.push(renderMenuEntry('important', i, true))
         end
       end
     end
