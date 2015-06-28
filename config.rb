@@ -17,20 +17,6 @@
 # page "/path/to/file.html", :layout => false
 #
 #
-# A path which all have the same layout
-with_layout :layoutGit do
-   page "/gitarre/*"
-end
-with_layout :layoutBfl do
-   page "/blockfloete/*"
-end
-with_layout :layoutMus do
-   page "/musiklehre/*"
-end
-
-# With alternative layout
-page "/blockfloete/behandlung/index.html", :layout => :layoutImproved
-page "/*", :layout => :layoutImproved
 
 #Disable all Layouts
 #set :layout, false
