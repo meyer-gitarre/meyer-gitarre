@@ -275,6 +275,10 @@
               "path": "/gitarre/unterricht/material/index.html",
               "sections": [
                 {
+                  "name": "Lieblingshefte",
+                  "path": "/gitarre/unterricht/material/index.html#lieblings"
+                },
+                {
                   "name": "Populäre Musik",
                   "path": "/gitarre/unterricht/material/index.html#popmusik"
                 },
@@ -585,64 +589,82 @@
               "path": "/gitarre/technisches/zubehoer/index.html",
               "sections": [
                 {
-                  "name": "Fußbank / Gitarrenstütze",
-                  "path": "/gitarre/technisches/zubehoer/index.html#fussbank"
+                  "name": "Zur Gitarre",
+                  "path": "/gitarre/technisches/zubehoer/index.html#fussbank",
+                  "sections": [
+                    {
+                      "name": "Fußbank / Gitarrenstütze",
+                      "path": "/gitarre/technisches/zubehoer/index.html#fussbank"
+                    },
+                    {
+                      "name": "Leder",
+                      "path": "/gitarre/technisches/zubehoer/index.html#leder"
+                    },
+                    {
+                      "name": "Unterarmauflagen",
+                      "path": "/gitarre/technisches/zubehoer/index.html#unterarmauflagen"
+                    },
+                    {
+                      "name": "Kapodaster",
+                      "path": "/gitarre/technisches/zubehoer/index.html#kapodaster"
+                    }
+                  ]
                 },
                 {
-                  "name": "Leder",
-                  "path": "/gitarre/technisches/zubehoer/index.html#leder"
+                  "name": "Zur Musik",
+                  "path": "/gitarre/technisches/zubehoer/index.html#stimmgabel",
+                  "sections": [
+                    {
+                      "name": "Stimmgabel",
+                      "path": "/gitarre/technisches/zubehoer/index.html#stimmgabel"
+                    },
+                    {
+                      "name": "Stimmgerät",
+                      "path": "/gitarre/technisches/zubehoer/index.html#stimmgeraete"
+                    },
+                    {
+                      "name": "Metronom",
+                      "path": "/gitarre/technisches/zubehoer/index.html#metronom"
+                    },
+                    {
+                      "name": "Notenständer",
+                      "path": "/gitarre/technisches/zubehoer/index.html#notenstaender"
+                    },
+                    {
+                      "name": "Notenständer aufbauen",
+                      "path": "/gitarre/technisches/zubehoer/index.html#aufzubauen"
+                    }
+                  ]
                 },
                 {
-                  "name": "Unterarmauflagen",
-                  "path": "/gitarre/technisches/zubehoer/index.html#unterarmauflagen"
-                },
-                {
-                  "name": "Kapodaster",
-                  "path": "/gitarre/technisches/zubehoer/index.html#kapodaster"
-                },
-                {
-                  "name": "Stimmgabel",
-                  "path": "/gitarre/technisches/zubehoer/index.html#stimmgabel"
-                },
-                {
-                  "name": "Stimmgerät",
-                  "path": "/gitarre/technisches/zubehoer/index.html#stimmgeraete"
-                },
-                {
-                  "name": "Metronom",
-                  "path": "/gitarre/technisches/zubehoer/index.html#metronom"
-                },
-                {
-                  "name": "Wandhalterung",
-                  "path": "/gitarre/technisches/zubehoer/index.html#wandhalterung"
-                },
-                {
-                  "name": "Gitarrenständer",
-                  "path": "/gitarre/technisches/zubehoer/index.html#wandhalterung"
-                },
-                {
-                  "name": "Saiten",
-                  "path": "/gitarre/technisches/zubehoer/index.html#wandhalterung"
-                },
-                {
-                  "name": "Saitenkurbel",
-                  "path": "/gitarre/technisches/zubehoer/index.html#wandhalterung"
-                },
-                {
-                  "name": "Luftbefeuchter",
-                  "path": "/gitarre/technisches/zubehoer/index.html#luftbefeuchter"
-                },
-                {
-                  "name": "Gitarrentasche",
-                  "path": "/gitarre/technisches/zubehoer/index.html#gitarrentasche"
-                },
-                {
-                  "name": "Notenständer",
-                  "path": "/gitarre/technisches/zubehoer/index.html#notenstaender"
-                },
-                {
-                  "name": "Notenständer aufbauen",
-                  "path": "/gitarre/technisches/zubehoer/index.html#aufzubauen"
+                  "name": "Zur Pflege",
+                  "path": "/gitarre/technisches/zubehoer/index.html#wandhalterung",
+                  "sections": [
+                    {
+                      "name": "Wandhalterung",
+                      "path": "/gitarre/technisches/zubehoer/index.html#wandhalterung"
+                    },
+                    {
+                      "name": "Gitarrenständer",
+                      "path": "/gitarre/technisches/zubehoer/index.html#wandhalterung"
+                    },
+                    {
+                      "name": "Saiten",
+                      "path": "/gitarre/technisches/zubehoer/index.html#wandhalterung"
+                    },
+                    {
+                      "name": "Saitenkurbel",
+                      "path": "/gitarre/technisches/zubehoer/index.html#wandhalterung"
+                    },
+                    {
+                      "name": "Luftbefeuchter",
+                      "path": "/gitarre/technisches/zubehoer/index.html#luftbefeuchter"
+                    },
+                    {
+                      "name": "Gitarrentasche",
+                      "path": "/gitarre/technisches/zubehoer/index.html#gitarrentasche"
+                    }
+                  ]
                 }
               ]
             }
@@ -1339,7 +1361,7 @@
           ],
           "children": [
             {
-              "name": "Durtonleitern mit #",
+              "name": "Durtonleitern mit &#9839;",
               "path": "/musiklehre/tonleitern/kreuz/index.html",
               "sections": [
                 {
@@ -1347,7 +1369,7 @@
                   "path": "/musiklehre/tonleitern/kreuz/index.html#cdur"
                 },
                 {
-                  "name": "Wie entsteht das #?",
+                  "name": "Wie entsteht das &#9839;?",
                   "path": "/musiklehre/tonleitern/kreuz/index.html#warumgibtes"
                 },
                 {
@@ -1403,11 +1425,11 @@
               ]
             },
             {
-              "name": "Durtonleitern mit b",
+              "name": "Durtonleitern mit &#9837;",
               "path": "/musiklehre/tonleitern/b/index.html",
               "sections": [
                 {
-                  "name": "Wie entsteht das b?",
+                  "name": "Wie entsteht das &#9837;?",
                   "path": "/musiklehre/tonleitern/b/index.html#diebtonarten"
                 },
                 {
@@ -1497,11 +1519,11 @@
                   "path": "/musiklehre/tonleitern/tonart/index.html#tonart"
                 },
                 {
-                  "name": "Vorzeichenreihe #",
+                  "name": "Vorzeichenreihe &#9839;",
                   "path": "/musiklehre/tonleitern/tonart/index.html#vorzeichenreihe"
                 },
                 {
-                  "name": "Vorzeichenreihe b",
+                  "name": "Vorzeichenreihe &#9837;",
                   "path": "/musiklehre/tonleitern/tonart/index.html#vorzeichenreiheb"
                 },
                 {
