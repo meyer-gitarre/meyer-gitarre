@@ -249,55 +249,54 @@ module MenuHelper
     return makeOrderedList('breadcrumbs', entries)
   end
 
-  def renderMenuEntry(clazz, p, ignoreImportant = false, isImportant = false)
+  def renderMenuEntry(clazz, p)
     lis = []
 
     if defined?(p.children) && p.children.length > 0
       for child in p.children
-        lis.push(renderMenuEntry(nil, child, ignoreImportant))
+        lis.push(renderMenuEntry(nil, child))
       end
     else
       if defined?(p.sections) && p.sections.length > 0
         for section in p.sections
-          lis.push(renderMenuEntry(nil, section, ignoreImportant))
+          lis.push(renderMenuEntry(nil, section))
         end
       end
-    end
-
-    importants = []
-    for page in getParentsInclusive(p)
-      if (page.important != nil) && page.important.length > 0
-        for imp in page.important
-          importants.insert(0, imp)
-        end
-      end
-    end
-
-    if !ignoreImportant
-      for i in importants
-        flag = true
-
-        for li in lis
-            if li['name'] == i.name
-              flag = false
-            end
-        end
-
-        if flag
-            lis.push(renderMenuEntry('important', i, true, true))
-        end
-      end
-    end
-
-    if isImportant
-        return "<a href=\"#{p.path}\" class=\"important\">#{p.name}</a>#{makeOrderedList(clazz, lis)}"
     end
 
     return "#{renderLink(p)}#{makeOrderedList(clazz, lis)}"
   end
 
+  def renderImportants(p)
+    importants = []
+    for page in getParentsInclusive(p)
+      if (page.important != nil) && page.important.length > 0
+        for imp in page.important
+          if !importants.include?(renderMenuEntry(nil, imp))
+            flag = true
+            for child in p.children
+              if child.name == imp.name
+                flag = false
+              end
+            end
+            if flag
+              importants.insert(0, renderMenuEntry(nil, imp))
+            end
+          end
+        end
+      end
+    end
+
+    if importants.length == 0
+      return ''
+    else
+      return makeOrderedList('important', importants)
+    end
+
+  end
+
   def renderMenuDefault(p)
-    return "<div class=\"menu\">#{renderMenuEntry(nil, p)}</div>"
+    return "<div class=\"menu\">#{renderMenuEntry(nil, p)}#{renderImportants(p)}</div>"
   end
 
   require 'json'
