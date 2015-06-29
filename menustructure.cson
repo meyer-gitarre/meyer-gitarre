@@ -754,12 +754,12 @@
 		important: [
       name: "Stichworte"
       path: "/musiklehre/index.html#stichwortverzeichnismusik"
-    ,
-      name: "Fahrplan Musiklehre"
+		,
+			name: "Fahrplan"
 			path: "/musiklehre/fahrplan/index.html"
     ]
 		children: [
-			name: "Fahrplan Musiklehre"
+			name: "Fahrplan"
 			path: "/musiklehre/fahrplan/index.html"
 			sections: [
 				name: "1. Grundlagen"
@@ -1574,7 +1574,7 @@
 					path: "/musiklehre/modulation/rueckung/index.html#sequenz"
 				]
 			,
-				name: "Enharmonische Modulation"
+				name: "Enharm. Modulation"
 				path: "/musiklehre/modulation/enharmonisch/index.html"
 				sections: [
 					name: "mit verm. Septakkord"
