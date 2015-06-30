@@ -52,7 +52,7 @@ h4 {
 	margin-top: 1em;
 	margin-left: 1em;
 	color: #2447B2;
-	text-shadow: 4px 4px 10px #5798f8;
+//	text-shadow: 4px 4px 10px #5798f8;
 }
 
 h5 {
@@ -127,7 +127,7 @@ section ul, article ul {
 	list-style-type: disc;
     list-style-position: inside;
     margin-bottom: 1em;
-} 
+}
 
 section ul li, article ul li {
 	margin-left: 1em;
@@ -158,7 +158,7 @@ cite {
 	font-size: 1.1em;
 	color: #000099;
  }
- 
+
 blockquote {
  	font-family: Georgia, serif;
 	font-style: italic;
@@ -167,15 +167,15 @@ blockquote {
 	margin: 0 1em 1em 1em;
 	quotes: "«" "»" "‹" "›";
  }
- 
+
  blockquote:before, .translation:before, q:before {
  	content: open-quote;
  }
- 
+
  blockquote:after, .translation:after, q:after {
  	content: close-quote;
  }
- 
+
  .translation {
  	font-style: italic;
  	text-align: justify;
@@ -183,13 +183,13 @@ blockquote {
 	margin: 0 1em 1em 1em;
 	quotes: "«" "»" "‹" "›";
  }
- 
+
  blockquote mark, .translation mark, q mark {
  	font-weight: 600;
  	background-color: inherit;
  	color: inherit;
  }
- 
+
 q {
  	font-family: Georgia, serif;
 	font-style: italic;
@@ -197,7 +197,7 @@ q {
 	color: #000099;
 	quotes: "«" "»" "‹" "›";
  }
- 
+
  pre {
 	font-family: monospace;
 	font-size: 115%;

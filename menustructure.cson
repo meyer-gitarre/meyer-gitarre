@@ -422,7 +422,7 @@
 			,
 				name: "Zubehör"
 				path: "/gitarre/technisches/zubehoer/index.html"
-				sections: [
+				children: [
 					name: "Zur Gitarre"
 					path: "/gitarre/technisches/zubehoer/index.html#fussbank"
 					sections: [
@@ -437,6 +437,9 @@
 					,
 						name: "Kapodaster"
 						path: "/gitarre/technisches/zubehoer/index.html#kapodaster"
+					,
+						name: "Saiten"
+						path: "/gitarre/technisches/zubehoer/index.html#wandhalterung"
 					]
 				,
 					name: "Zur Musik"
@@ -465,9 +468,6 @@
 						path: "/gitarre/technisches/zubehoer/index.html#wandhalterung"
 					,
 						name: "Gitarrenständer"
-						path: "/gitarre/technisches/zubehoer/index.html#wandhalterung"
-					,
-						name: "Saiten"
 						path: "/gitarre/technisches/zubehoer/index.html#wandhalterung"
 					,
 						name: "Saitenkurbel"
@@ -723,9 +723,20 @@
 			,
 				name: "Akkordübung"
 				path: "/gitarre/akkorde/griffuebung/index.html"
+				sections: [
+					name: "Gebrauchsanweisung"
+					path: "/gitarre/akkorde/griffuebung/index.html#directions"
+				]
 			,
 				name: "Akkordübung alternativ"
-				path: "/gitarre/akkorde/griffuebung/index.html"
+				path: "/gitarre/akkorde/griffuebungold/index.html"
+				sections: [
+					name: "Ohne Barré"
+					path: "/gitarre/akkorde/griffuebungold/index.html#ohnebarre"
+				,
+					name: "Mit Barré"
+					path: "/gitarre/akkorde/griffuebungold/index.html#griffuebb"
+				]
 			,
 				name: "Kapodaster"
 				path: "/gitarre/akkorde/kapo/index.html"
@@ -833,7 +844,7 @@
 					name: "Vorzeichen"
 					path: "/musiklehre/grundlagen/akzidentien/index.html#akzidentien"
 				,
-					name: "~ und Logik"
+					name: "Vorzeichen und Logik"
 					path: "/musiklehre/grundlagen/akzidentien/index.html#logik"
 				,
 					name: "Textverweise"
@@ -852,7 +863,7 @@
 			,
 				name: "Übungen"
 				path: "/musiklehre/grundlagen/schluessel-ueb/index.html"
-				sections: [
+				children: [
 					name: "Schlüssel"
 					path: "/musiklehre/grundlagen/schluessel-ueb/index.html"
 					sections: [
@@ -931,7 +942,7 @@
 					path: "/musiklehre/grundlagen/schluessel-gitarre/index.html#gitarreundalt"
 				]
 			,
-				name: "Ablauf v. Stücken"
+				name: "Ablauf von Stücken"
 				path: "/musiklehre/grundlagen/ablauf/index.html"
 				sections: [
 					name: "Voltenklammern"

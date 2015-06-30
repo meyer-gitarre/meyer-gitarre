@@ -587,7 +587,7 @@
             {
               "name": "Zubehör",
               "path": "/gitarre/technisches/zubehoer/index.html",
-              "sections": [
+              "children": [
                 {
                   "name": "Zur Gitarre",
                   "path": "/gitarre/technisches/zubehoer/index.html#fussbank",
@@ -607,6 +607,10 @@
                     {
                       "name": "Kapodaster",
                       "path": "/gitarre/technisches/zubehoer/index.html#kapodaster"
+                    },
+                    {
+                      "name": "Saiten",
+                      "path": "/gitarre/technisches/zubehoer/index.html#wandhalterung"
                     }
                   ]
                 },
@@ -646,10 +650,6 @@
                     },
                     {
                       "name": "Gitarrenständer",
-                      "path": "/gitarre/technisches/zubehoer/index.html#wandhalterung"
-                    },
-                    {
-                      "name": "Saiten",
                       "path": "/gitarre/technisches/zubehoer/index.html#wandhalterung"
                     },
                     {
@@ -1000,11 +1000,27 @@
             },
             {
               "name": "Akkordübung",
-              "path": "/gitarre/akkorde/griffuebung/index.html"
+              "path": "/gitarre/akkorde/griffuebung/index.html",
+              "sections": [
+                {
+                  "name": "Gebrauchsanweisung",
+                  "path": "/gitarre/akkorde/griffuebung/index.html#directions"
+                }
+              ]
             },
             {
               "name": "Akkordübung alternativ",
-              "path": "/gitarre/akkorde/griffuebung/index.html"
+              "path": "/gitarre/akkorde/griffuebungold/index.html",
+              "sections": [
+                {
+                  "name": "Ohne Barré",
+                  "path": "/gitarre/akkorde/griffuebungold/index.html#ohnebarre"
+                },
+                {
+                  "name": "Mit Barré",
+                  "path": "/gitarre/akkorde/griffuebungold/index.html#griffuebb"
+                }
+              ]
             },
             {
               "name": "Kapodaster",
@@ -1153,7 +1169,7 @@
                   "path": "/musiklehre/grundlagen/akzidentien/index.html#akzidentien"
                 },
                 {
-                  "name": "~ und Logik",
+                  "name": "Vorzeichen und Logik",
                   "path": "/musiklehre/grundlagen/akzidentien/index.html#logik"
                 },
                 {
@@ -1179,7 +1195,7 @@
             {
               "name": "Übungen",
               "path": "/musiklehre/grundlagen/schluessel-ueb/index.html",
-              "sections": [
+              "children": [
                 {
                   "name": "Schlüssel",
                   "path": "/musiklehre/grundlagen/schluessel-ueb/index.html",
@@ -1289,7 +1305,7 @@
               ]
             },
             {
-              "name": "Ablauf v. Stücken",
+              "name": "Ablauf von Stücken",
               "path": "/musiklehre/grundlagen/ablauf/index.html",
               "sections": [
                 {
