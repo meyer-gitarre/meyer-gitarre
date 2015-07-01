@@ -1541,54 +1541,58 @@
 				name: "Einleitung"
 				path: "/musiklehre/modulation/einleitung/index.html"
 				sections: [
-					name: "Diatonische Modulation"
+					name: "Diatonische modulieren"
 					path: "/musiklehre/modulation/einleitung/index.html#modulierdiaton"
 				,
 					name: "Beispiele Gitarre"
 					path: "/musiklehre/modulation/einleitung/index.html#gitbeispiel"
 				]
 			,
-				name: "Diatonisch, Dur"
+				name: "Diatonische Modulation"
 				path: "/musiklehre/modulation/diatonisch/index.html"
-				sections: [
-					name: "Dur, aufwärts"
-					path: "/musiklehre/modulation/diatonisch/index.html#diatondurauf"
+				children: [
+					name: "Diatonisch, Dur"
+					path: "/musiklehre/modulation/diatonisch/index.html"
+					sections: [
+						name: "Dur, aufwärts"
+						path: "/musiklehre/modulation/diatonisch/index.html#diatondurauf"
+					,
+						name: "Dur, abwärts"
+						path: "/musiklehre/modulation/diatonisch/index.html#diatondurab"
+					,
+						name: "Dur, hin und zurück"
+						path: "/musiklehre/modulation/diatonisch/index.html#hinundher"
+					]
 				,
-					name: "Dur, abwärts"
-					path: "/musiklehre/modulation/diatonisch/index.html#diatondurab"
+					name: "Diatonisch, Moll"
+					path: "/musiklehre/modulation/moll/index.html"
+					sections: [
+						name: "Moll, aufwärts"
+						path: "/musiklehre/modulation/moll/index.html#diatonmollauf"
+					,
+						name: "Moll, abwärts"
+						path: "/musiklehre/modulation/moll/index.html#diatonmollab"
+					,
+						name: "Moll, hin und zurück"
+						path: "/musiklehre/modulation/moll/index.html#hinundhermoll"
+					]
 				,
-					name: "Dur, hin und zurück"
-					path: "/musiklehre/modulation/diatonisch/index.html#hinundher"
-				]
-			,
-				name: "Diatonisch, Moll"
-				path: "/musiklehre/modulation/moll/index.html"
-				sections: [
-					name: "Moll, aufwärts"
-					path: "/musiklehre/modulation/moll/index.html#diatonmollauf"
+					name: "Varianten"
+					path: "/musiklehre/modulation/variante/index.html"
+					sections: [
+						name: "Mollsubdominante"
+						path: "/musiklehre/modulation/variante/index.html#diatons"
+					]
 				,
-					name: "Moll, abwärts"
-					path: "/musiklehre/modulation/moll/index.html#diatonmollab"
-				,
-					name: "Moll, hin und zurück"
-					path: "/musiklehre/modulation/moll/index.html#hinundhermoll"
-				]
-			,
-				name: "Varianten"
-				path: "/musiklehre/modulation/variante/index.html"
-				sections: [
-					name: "Mollsubdominante"
-					path: "/musiklehre/modulation/variante/index.html#diatons"
-				]
-			,
-				name: "Neapolitaner"
-				path: "/musiklehre/modulation/neapolitaner/index.html"
-				sections: [
-					name: "Mit N. abwärts"
-					path: "/musiklehre/modulation/neapolitaner/index.html#nab"
-				,
-					name: "Dominante als N."
-					path: "/musiklehre/modulation/neapolitaner/index.html#nd"
+					name: "Neapolitaner"
+					path: "/musiklehre/modulation/neapolitaner/index.html"
+					sections: [
+						name: "Mit N. abwärts"
+						path: "/musiklehre/modulation/neapolitaner/index.html#nab"
+					,
+						name: "Dominante als N."
+						path: "/musiklehre/modulation/neapolitaner/index.html#nd"
+					]
 				]
 			,
 				name: "Chromatische Modulation"
