@@ -1343,43 +1343,70 @@
 			,
 				name: "Akkorde: Funktionen"
 				path: "/musiklehre/akkorde/funktionen-kadenz/index.html"
-				sections: [
-					name: "Leitereigene Dreiklänge"
-					path: "/musiklehre/akkorde/funktionen-kadenz/index.html#leitereigenedreiklaenge"
+				children: [
+					name: "Funktionen"
+					path: "/musiklehre/akkorde/funktionen-kadenz/index.html"
+					sections: [
+						name: "Leitereigene Dreiklänge"
+						path: "/musiklehre/akkorde/funktionen-kadenz/index.html#leitereigenedreiklaenge"
+					,
+						name: "Schreibweisen"
+						path: "/musiklehre/akkorde/funktionen-kadenz/index.html#schreibweisen"
+					,
+						name: "Hauptfunktionen"
+						path: "/musiklehre/akkorde/funktionen-kadenz/index.html#hauptfunktionen"
+					,
+						name: "Die Kadenz"
+						path: "/musiklehre/akkorde/funktionen-kadenz/index.html#kadenz"
+					,
+						name: "Parallele"
+						path: "/musiklehre/akkorde/funktionen-kadenz/index.html#parallelakk"
+					]
 				,
-					name: "Schreibweisen"
-					path: "/musiklehre/akkorde/funktionen-kadenz/index.html#schreibweisen"
+					name: "Dominantseptakkord"
+					path: "/musiklehre/akkorde/dsieben/index.html"
+					sections: [
+						name: "D7 und Tonleiter"
+						path: "/musiklehre/akkorde/dsieben/index.html#dominantseptakkord"
+					,
+						name: "Auflösung eines D7"
+						path: "/musiklehre/akkorde/dsieben/index.html#aufloesung"
+					]
 				,
-					name: "Hauptfunktionen"
-					path: "/musiklehre/akkorde/funktionen-kadenz/index.html#hauptfunktionen"
+					name: "Subdominanten"
+					path: "/musiklehre/akkorde/subdominante/index.html"
+					sections: [
+						name: "Sixte ajoutée"
+						path: "/musiklehre/akkorde/subdominante/index.html#sixteajoutee"
+					,
+						name: "Sexte statt Quinte"
+						path: "/musiklehre/akkorde/subdominante/index.html#sextestatt"
+					,
+						name: "Neapolitaner"
+						path: "/musiklehre/akkorde/subdominante/index.html#neapolitaner"
+					]
 				,
-					name: "Die Kadenz"
-					path: "/musiklehre/akkorde/funktionen-kadenz/index.html#kadenz"
-				,
-					name: "Parallele"
-					path: "/musiklehre/akkorde/funktionen-kadenz/index.html#parallelakk"
-				]
-			,
-				name: "Weitere Funktionen"
-				path: "/musiklehre/akkorde/weitere-funktionen/index.html"
-				sections: [
-					name: "Gegenklang"
-					path: "/musiklehre/akkorde/weitere-funktionen/index.html#gegenklang"
-				,
-					name: "Kadenz, Trugschluss"
-					path: "/musiklehre/akkorde/weitere-funktionen/index.html#trugschluss"
-				,
-					name: "Erweiterte Kadenzen"
-					path: "/musiklehre/akkorde/weitere-funktionen/index.html#erweitert"
-				,
-					name: "Entfernte Verwandte"
-					path: "/musiklehre/akkorde/weitere-funktionen/index.html#entfernteverwandte"
-				,
-					name: "Medianten"
-					path: "/musiklehre/akkorde/weitere-funktionen/index.html#medianten"
-				,
-					name: "Quintezirkel vertikal"
-					path: "/musiklehre/akkorde/weitere-funktionen/index.html#zirkelvertikal"
+					name: "Weitere Funktionen"
+					path: "/musiklehre/akkorde/weitere-funktionen/index.html"
+					sections: [
+						name: "Gegenklang"
+						path: "/musiklehre/akkorde/weitere-funktionen/index.html#gegenklang"
+					,
+						name: "Kadenz, Trugschluss"
+						path: "/musiklehre/akkorde/weitere-funktionen/index.html#trugschluss"
+					,
+						name: "Erweiterte Kadenzen"
+						path: "/musiklehre/akkorde/weitere-funktionen/index.html#erweitert"
+					,
+						name: "Entfernte Verwandte"
+						path: "/musiklehre/akkorde/weitere-funktionen/index.html#entfernteverwandte"
+					,
+						name: "Medianten"
+						path: "/musiklehre/akkorde/weitere-funktionen/index.html#medianten"
+					,
+						name: "Quintezirkel vertikal"
+						path: "/musiklehre/akkorde/weitere-funktionen/index.html#zirkelvertikal"
+					]
 				]
 			,
 				name: "Umkehrungen"
@@ -1392,32 +1419,12 @@
 					path: "/musiklehre/akkorde/umkehrungen/index.html#umkehrungensept"
 				]
 			,
-				name: "Dominantseptakkord"
-				path: "/musiklehre/akkorde/dsieben/index.html"
-				sections: [
-					name: "D7 und Tonleiter"
-					path: "/musiklehre/akkorde/dsieben/index.html#dominantseptakkord"
-				,
-					name: "Auflösung eines D7"
-					path: "/musiklehre/akkorde/dsieben/index.html#aufloesung"
-				]
-			,
-				name: "Subdominanten"
-				path: "/musiklehre/akkorde/subdominante/index.html"
-				sections: [
-					name: "Sixte ajoutée"
-					path: "/musiklehre/akkorde/subdominante/index.html#sixteajoutee"
-				,
-					name: "Sexte statt Quinte"
-					path: "/musiklehre/akkorde/subdominante/index.html#sextestatt"
-				,
-					name: "Neapolitaner"
-					path: "/musiklehre/akkorde/subdominante/index.html#neapolitaner"
-				]
-			,
 				name: "Septakkorde"
 				path: "/musiklehre/akkorde/septakkorde/index.html"
 				sections: [
+					name: "Leitereigene Septakkorde"
+					path: "/musiklehre/akkorde/septakkorde/index.html#septakkorde"
+				,
 					name: "Verminderter Septakkord"
 					path: "/musiklehre/akkorde/septakkorde/index.html#vermsept"
 				]
