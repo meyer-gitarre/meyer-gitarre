@@ -1783,68 +1783,74 @@
             {
               "name": "Akkorde: Aufbau",
               "path": "/musiklehre/akkorde/dreiklang/index.html",
-              "sections": [
+              "children": [
                 {
-                  "name": "Vorbemerkungen",
-                  "path": "/musiklehre/akkorde/dreiklang/index.html#akkvor"
+                  "name": "Dreiklänge",
+                  "path": "/musiklehre/akkorde/dreiklang/index.html",
+                  "sections": [
+                    {
+                      "name": "Vorbemerkungen",
+                      "path": "/musiklehre/akkorde/dreiklang/index.html#akkvor"
+                    },
+                    {
+                      "name": "Dreiklang, Eingrenzung",
+                      "path": "/musiklehre/akkorde/dreiklang/index.html#dreiklaenge"
+                    },
+                    {
+                      "name": "Dreiklang, Struktur",
+                      "path": "/musiklehre/akkorde/dreiklang/index.html#struktur"
+                    },
+                    {
+                      "name": "Sprachliches",
+                      "path": "/musiklehre/akkorde/dreiklang/index.html#sprachliches"
+                    }
+                  ]
                 },
                 {
-                  "name": "Dreiklang, Eingrenzung",
-                  "path": "/musiklehre/akkorde/dreiklang/index.html#dreiklaenge"
+                  "name": "Vorhalt",
+                  "path": "/musiklehre/akkorde/vorhalt/index.html",
+                  "sections": [
+                    {
+                      "name": "Vorhaltstriller",
+                      "path": "/musiklehre/akkorde/vorhalt/index.html#trill"
+                    },
+                    {
+                      "name": "Vorhaltsregeln",
+                      "path": "/musiklehre/akkorde/vorhalt/index.html#regel"
+                    }
+                  ]
                 },
                 {
-                  "name": "Dreiklang, Struktur",
-                  "path": "/musiklehre/akkorde/dreiklang/index.html#struktur"
+                  "name": "Dreiklänge Aufbau 1",
+                  "path": "/musiklehre/akkorde/aufbau-intervall/index.html",
+                  "sections": [
+                    {
+                      "name": "Aufbau mit Intervallen",
+                      "path": "/musiklehre/akkorde/aufbau-intervall/index.html#dreiklaengeint"
+                    },
+                    {
+                      "name": "Fehlerquellen",
+                      "path": "/musiklehre/akkorde/aufbau-intervall/index.html#exkurs"
+                    }
+                  ]
                 },
                 {
-                  "name": "Sprachliches",
-                  "path": "/musiklehre/akkorde/dreiklang/index.html#sprachliches"
-                }
-              ]
-            },
-            {
-              "name": "Vorhalt",
-              "path": "/musiklehre/akkorde/vorhalt/index.html",
-              "sections": [
-                {
-                  "name": "Vorhaltstriller",
-                  "path": "/musiklehre/akkorde/vorhalt/index.html#trill"
-                },
-                {
-                  "name": "Vorhaltsregeln",
-                  "path": "/musiklehre/akkorde/vorhalt/index.html#regel"
-                }
-              ]
-            },
-            {
-              "name": "Dreiklänge Aufbau 1",
-              "path": "/musiklehre/akkorde/aufbau-intervall/index.html",
-              "sections": [
-                {
-                  "name": "Aufbau mit Intervallen",
-                  "path": "/musiklehre/akkorde/aufbau-intervall/index.html#dreiklaengeint"
-                },
-                {
-                  "name": "Fehlerquellen",
-                  "path": "/musiklehre/akkorde/aufbau-intervall/index.html#exkurs"
-                }
-              ]
-            },
-            {
-              "name": "Dreiklänge Aufbau 2",
-              "path": "/musiklehre/akkorde/aufbau-stammtoene/index.html",
-              "sections": [
-                {
-                  "name": "~ mit Stammtonreihe",
-                  "path": "/musiklehre/akkorde/aufbau-stammtoene/index.html#dreiklaengeaufbauen"
-                },
-                {
-                  "name": "~ mit Tonleiter",
-                  "path": "/musiklehre/akkorde/aufbau-stammtoene/index.html#dreiklaengetonl"
-                },
-                {
-                  "name": "Dreiklänge spielen",
-                  "path": "/musiklehre/akkorde/aufbau-stammtoene/index.html#dreiklaengespielen"
+                  "name": "Dreiklänge Aufbau 2",
+                  "path": "/musiklehre/akkorde/aufbau-stammtoene/index.html",
+                  "sections": [
+                    {
+                      "name": "~ mit Stammtonreihe",
+                      "path": "/musiklehre/akkorde/aufbau-stammtoene/index.html#dreiklaengeaufbauen"
+                    },
+                    {
+                      "name": "~ mit Tonleiter",
+                      "path": "/musiklehre/akkorde/aufbau-stammtoene/index.html#dreiklaengetonl"
+                    },
+                    {
+                      "name": "Dreiklänge spielen",
+                      "path": "/musiklehre/akkorde/aufbau-stammtoene/index.html#dreiklaengespielen"
+                    }
+                  ]
                 }
               ]
             },
