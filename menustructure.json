@@ -1781,7 +1781,7 @@
           ],
           "children": [
             {
-              "name": "Dreiklang",
+              "name": "Akkorde: Aufbau",
               "path": "/musiklehre/akkorde/dreiklang/index.html",
               "sections": [
                 {
@@ -1967,7 +1967,7 @@
               ]
             },
             {
-              "name": "Funktionen & Kadenz",
+              "name": "Akkorde: Funktionen",
               "path": "/musiklehre/akkorde/funktionen-kadenz/index.html",
               "sections": [
                 {
@@ -2087,7 +2087,7 @@
               "path": "/musiklehre/akkorde/harmonisier-moll/index.html"
             },
             {
-              "name": "Analyseübungen",
+              "name": "Übungen",
               "path": "/musiklehre/akkorde/analyse/index.html",
               "sections": [
                 {
