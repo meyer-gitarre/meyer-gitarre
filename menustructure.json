@@ -1455,14 +1455,6 @@
               ]
             },
             {
-              "name": "Falsche Vorzeichen",
-              "path": "/musiklehre/tonleitern/falsch/index.html"
-            },
-            {
-              "name": "Tonl. direkt aufbauen",
-              "path": "/musiklehre/tonleitern/direkt/index.html"
-            },
-            {
               "name": "Quintenzirkel",
               "path": "/musiklehre/tonleitern/quintenzirkel/index.html",
               "sections": [
@@ -1491,6 +1483,14 @@
                   "path": "/musiklehre/tonleitern/quintenzirkel/index.html#mollarten"
                 }
               ]
+            },
+            {
+              "name": "Falsche Vorzeichen",
+              "path": "/musiklehre/tonleitern/falsch/index.html"
+            },
+            {
+              "name": "Tonl. direkt aufbauen",
+              "path": "/musiklehre/tonleitern/direkt/index.html"
             },
             {
               "name": "Pentatonik",

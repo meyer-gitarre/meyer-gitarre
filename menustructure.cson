@@ -167,13 +167,13 @@
 					path: "/gitarre/unterricht/verwandte/index.html"
 				,
 					name: "Renaissancelauten"
-					path: "/gitarre/unterricht/verwandte/index.html#renstim"
+					path: "/gitarre/unterricht/verwandte/index.html#renstimm"
 				,
 					name: "Italienische Barocklauten"
 					path: "/gitarre/unterricht/verwandte/index.html#arci"
 				,
 					name: "Barocklauten"
-					path: "/gitarre/unterricht/verwandte/index.html#barockstim"
+					path: "/gitarre/unterricht/verwandte/index.html#barockstimm"
 				,
 					name: "Kostbar oder einfach"
 					path: "/gitarre/unterricht/verwandte/index.html#kostbar"
@@ -1051,12 +1051,6 @@
 					path: "/musiklehre/tonleitern/b/index.html#reiheb"
 				]
 			,
-				name: "Falsche Vorzeichen"
-				path: "/musiklehre/tonleitern/falsch/index.html"
-			,
-				name: "Tonl. direkt aufbauen"
-				path: "/musiklehre/tonleitern/direkt/index.html"
-			,
 				name: "Quintenzirkel"
 				path: "/musiklehre/tonleitern/quintenzirkel/index.html"
 				sections: [
@@ -1078,6 +1072,12 @@
 					name: "Moll: 3 Arten"
 					path: "/musiklehre/tonleitern/quintenzirkel/index.html#mollarten"
 				]
+			,
+				name: "Falsche Vorzeichen"
+				path: "/musiklehre/tonleitern/falsch/index.html"
+			,
+				name: "Tonl. direkt aufbauen"
+				path: "/musiklehre/tonleitern/direkt/index.html"
 			,
 				name: "Pentatonik"
 				path: "/musiklehre/tonleitern/pentatonik/index.html"
@@ -1541,7 +1541,7 @@
 				name: "Einleitung"
 				path: "/musiklehre/modulation/einleitung/index.html"
 				sections: [
-					name: "Diatonische modulieren"
+					name: "Diatonisch modulieren"
 					path: "/musiklehre/modulation/einleitung/index.html#modulierdiaton"
 				,
 					name: "Beispiele Gitarre"
