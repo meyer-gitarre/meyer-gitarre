@@ -493,10 +493,11 @@
 				,
 					name: "Wie lernt man Noten?"
 					path: "/gitarre/notation/gitarrennoten/index.html#wienoten"
-				,
-					name: "Tabulatur"
-					path: "/gitarre/notation/gitarrennoten/index.html#tabulaturschrift"
-				,
+				]
+			,
+				name: "Alterierte Töne"
+				path: "/gitarre/notation/alteriert/index.html"
+				sections: [
 					name: "Kreuz & b auf Gitarre"
 					path: "/gitarre/notation/gitarrennoten/index.html#kreuzb"
 				,
@@ -508,9 +509,16 @@
 				,
 					name: "zwischen Stammtönen"
 					path: "/gitarre/notation/gitarrennoten/index.html#zwischennoten"
+				]
+			,
+				name: "Tabulatur"
+				path: "/gitarre/notation/tabulatur/index.html"
+				sections: [
+					name: "Bedeutung"
+					path: "/gitarre/notation/tabulatur/index.html#bedeutung"
 				,
-					name: "Gitarrennoten"
-					path: "/gitarre/notation/gitarrennoten/index.html#notationvongitarrenmusik"
+					name: "Lernen & Umlernen"
+					path: "/gitarre/notation/tabulatur/index.html#tabodernot"
 				]
 			,
 				name: "Andere Zeichen"
