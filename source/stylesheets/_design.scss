@@ -77,3 +77,30 @@ html {
 	background-color: #d7e6fd;
 	padding: 0.5em 0.2em 0.5em 0.2em;
 }
+
+hr {
+	display: block;
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: solid;
+	border-width: 1px;
+	clear: both;
+}
+
+.defaultColor hr {
+	border-color: #1171e3;
+}
+
+.gitColor hr {
+	border-color: #1171e3;
+}
+
+.bflColor hr {
+	border-color: #4094cf;
+}
+
+.musColor hr {
+	border-color: #6184eb;
+}

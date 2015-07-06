@@ -195,7 +195,29 @@ $menuBorderColor: navy;
 .menu .important li:first-child {
   border-top-width: 0;
 }
+
+.menu .important ol li:first-child {
+  border-top-width: $menuBorderWidth;;
+}
+
 .menu .important a {
   font-family: Georgia;
   color: #d7e6fd;
+}
+
+.menu .important:only-of-type > li:first-child {
+  border-top-width: 1px;
+}
+
+.menu .important > li {
+  border-top-width: 1px;
+}
+
+nav .series {
+  margin-bottom: 1em;
+}
+
+nav .imageWrapper {
+  margin-top: 0;
+  margin-bottom: 0;
 }

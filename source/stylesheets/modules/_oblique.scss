@@ -1,0 +1,20 @@
+.oblique {
+  position: relative;
+}
+
+.oblique:before {
+  font-style: italic;
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 40%;
+  right: 0;
+  border-top: 1px solid;
+  border-color: inherit;
+
+  -webkit-transform:rotate(-45deg);
+  -moz-transform:rotate(-45deg);
+  -ms-transform:rotate(-45deg);
+  -o-transform:rotate(-45deg);
+  transform:rotate(-45deg);
+}

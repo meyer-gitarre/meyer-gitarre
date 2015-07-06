@@ -1,0 +1,30 @@
+.show {
+  display: inline;
+
+  color: white;
+  background-color: navy;
+  vertical-align: super;
+
+  position: relative;
+}
+
+.extraInfo {
+  display: none;
+
+  vertical-align: initial;
+
+  color: black;
+}
+
+.show:hover .extraInfo {
+  display: block;
+}
+
+.extraInfo::before {
+  position: absolute;
+  content: " ";
+  height: 2em;
+  width: 200%;
+  top: 0.5em;
+  left: -50%;
+}

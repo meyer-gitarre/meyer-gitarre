@@ -67,7 +67,7 @@ module MenuHelper
       end
 
       if page == nil
-        raise "Given Pagehierarchy does not match menustructure: #{pname}"
+        raise "Diese Fehlermeldung ist von Aljoscha, schöne Grüße! Bitte lese sie: Given Pagehierarchy does not match menustructure: #{pname}"
       end
 
       return page
