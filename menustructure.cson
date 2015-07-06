@@ -1462,125 +1462,117 @@
 				]
 	    ]
 			children: [
-				name: "Akkorde: Aufbau"
+				name: "Dreiklänge"
 				path: "/musiklehre/akkorde/dreiklang/index.html"
-				children: [
-					name: "Dreiklänge"
-					path: "/musiklehre/akkorde/dreiklang/index.html"
-					sections: [
-						name: "Vorbemerkungen"
-						path: "/musiklehre/akkorde/dreiklang/index.html#akkvor"
-					,
-						name: "Dreiklang, Eingrenzung"
-						path: "/musiklehre/akkorde/dreiklang/index.html#dreiklaenge"
-					,
-						name: "Dreiklang, Struktur"
-						path: "/musiklehre/akkorde/dreiklang/index.html#struktur"
-					,
-						name: "Sprachliches"
-						path: "/musiklehre/akkorde/dreiklang/index.html#sprachliches"
-					]
+				sections: [
+					name: "Vorbemerkungen"
+					path: "/musiklehre/akkorde/dreiklang/index.html#akkvor"
 				,
-					name: "Vorhalt"
-					path: "/musiklehre/akkorde/vorhalt/index.html"
-					sections: [
-						name: "Vorhaltstriller"
-						path: "/musiklehre/akkorde/vorhalt/index.html#trill"
-					,
-						name: "Vorhaltsregeln"
-						path: "/musiklehre/akkorde/vorhalt/index.html#regel"
-					]
+					name: "Dreiklang, Eingrenzung"
+					path: "/musiklehre/akkorde/dreiklang/index.html#dreiklaenge"
 				,
-					name: "Dreiklänge Aufbau 1"
-					path: "/musiklehre/akkorde/aufbau-intervall/index.html"
-					sections: [
-						name: "Aufbau mit Intervallen"
-						path: "/musiklehre/akkorde/aufbau-intervall/index.html#dreiklaengeint"
-					,
-						name: "Fehlerquellen"
-						path: "/musiklehre/akkorde/aufbau-intervall/index.html#exkurs"
-					]
+					name: "Dreiklang, Struktur"
+					path: "/musiklehre/akkorde/dreiklang/index.html#struktur"
 				,
-					name: "Dreiklänge Aufbau 2"
-					path: "/musiklehre/akkorde/aufbau-stammtoene/index.html"
-					sections: [
-						name: "~ mit Stammtonreihe"
-						path: "/musiklehre/akkorde/aufbau-stammtoene/index.html#dreiklaengeaufbauen"
-					,
-						name: "~ mit Tonleiter"
-						path: "/musiklehre/akkorde/aufbau-stammtoene/index.html#dreiklaengetonl"
-					,
-						name: "Dreiklänge spielen"
-						path: "/musiklehre/akkorde/aufbau-stammtoene/index.html#dreiklaengespielen"
-					]
+					name: "Sprachliches"
+					path: "/musiklehre/akkorde/dreiklang/index.html#sprachliches"
 				]
 			,
-				name: "Akkorde: Funktionen"
+				name: "Vorhalt"
+				path: "/musiklehre/akkorde/vorhalt/index.html"
+				sections: [
+					name: "Vorhaltstriller"
+					path: "/musiklehre/akkorde/vorhalt/index.html#trill"
+				,
+					name: "Vorhaltsregeln"
+					path: "/musiklehre/akkorde/vorhalt/index.html#regel"
+				]
+			,
+				name: "Dreiklänge Aufbau 1"
+				path: "/musiklehre/akkorde/aufbau-intervall/index.html"
+				sections: [
+					name: "Aufbau mit Intervallen"
+					path: "/musiklehre/akkorde/aufbau-intervall/index.html#dreiklaengeint"
+				,
+					name: "Fehlerquellen"
+					path: "/musiklehre/akkorde/aufbau-intervall/index.html#exkurs"
+				]
+			,
+				name: "Dreiklänge Aufbau 2"
+				path: "/musiklehre/akkorde/aufbau-stammtoene/index.html"
+				sections: [
+					name: "~ mit Stammtonreihe"
+					path: "/musiklehre/akkorde/aufbau-stammtoene/index.html#dreiklaengeaufbauen"
+				,
+					name: "~ mit Tonleiter"
+					path: "/musiklehre/akkorde/aufbau-stammtoene/index.html#dreiklaengetonl"
+				,
+					name: "Dreiklänge spielen"
+					path: "/musiklehre/akkorde/aufbau-stammtoene/index.html#dreiklaengespielen"
+				]
+			,
+				name: "Funktionen"
 				path: "/musiklehre/akkorde/funktionen-kadenz/index.html"
-				children: [
-					name: "Funktionen"
-					path: "/musiklehre/akkorde/funktionen-kadenz/index.html"
-					sections: [
-						name: "Leitereigene Dreiklänge"
-						path: "/musiklehre/akkorde/funktionen-kadenz/index.html#leitereigenedreiklaenge"
-					,
-						name: "Schreibweisen"
-						path: "/musiklehre/akkorde/funktionen-kadenz/index.html#schreibweisen"
-					,
-						name: "Hauptfunktionen"
-						path: "/musiklehre/akkorde/funktionen-kadenz/index.html#hauptfunktionen"
-					,
-						name: "Die Kadenz"
-						path: "/musiklehre/akkorde/funktionen-kadenz/index.html#kadenz"
-					,
-						name: "Parallele"
-						path: "/musiklehre/akkorde/funktionen-kadenz/index.html#parallelakk"
-					]
+				sections: [
+					name: "Leitereigene Dreiklänge"
+					path: "/musiklehre/akkorde/funktionen-kadenz/index.html#leitereigenedreiklaenge"
 				,
-					name: "Dominantseptakkord"
-					path: "/musiklehre/akkorde/dsieben/index.html"
-					sections: [
-						name: "D7 und Tonleiter"
-						path: "/musiklehre/akkorde/dsieben/index.html#dominantseptakkord"
-					,
-						name: "Auflösung eines D7"
-						path: "/musiklehre/akkorde/dsieben/index.html#aufloesung"
-					]
+					name: "Schreibweisen"
+					path: "/musiklehre/akkorde/funktionen-kadenz/index.html#schreibweisen"
 				,
-					name: "Subdominanten"
-					path: "/musiklehre/akkorde/subdominante/index.html"
-					sections: [
-						name: "Sixte ajoutée"
-						path: "/musiklehre/akkorde/subdominante/index.html#sixteajoutee"
-					,
-						name: "Sexte statt Quinte"
-						path: "/musiklehre/akkorde/subdominante/index.html#sextestatt"
-					,
-						name: "Neapolitaner"
-						path: "/musiklehre/akkorde/subdominante/index.html#neapolitaner"
-					]
+					name: "Hauptfunktionen"
+					path: "/musiklehre/akkorde/funktionen-kadenz/index.html#hauptfunktionen"
 				,
-					name: "Weitere Funktionen"
-					path: "/musiklehre/akkorde/weitere-funktionen/index.html"
-					sections: [
-						name: "Gegenklang"
-						path: "/musiklehre/akkorde/weitere-funktionen/index.html#gegenklang"
-					,
-						name: "Kadenz, Trugschluss"
-						path: "/musiklehre/akkorde/weitere-funktionen/index.html#trugschluss"
-					,
-						name: "Erweiterte Kadenzen"
-						path: "/musiklehre/akkorde/weitere-funktionen/index.html#erweitert"
-					,
-						name: "Entfernte Verwandte"
-						path: "/musiklehre/akkorde/weitere-funktionen/index.html#entfernteverwandte"
-					,
-						name: "Medianten"
-						path: "/musiklehre/akkorde/weitere-funktionen/index.html#medianten"
-					,
-						name: "Quintezirkel vertikal"
-						path: "/musiklehre/akkorde/weitere-funktionen/index.html#zirkelvertikal"
-					]
+					name: "Die Kadenz"
+					path: "/musiklehre/akkorde/funktionen-kadenz/index.html#kadenz"
+				,
+					name: "Parallele"
+					path: "/musiklehre/akkorde/funktionen-kadenz/index.html#parallelakk"
+				]
+			,
+				name: "Dominantseptakkord"
+				path: "/musiklehre/akkorde/dsieben/index.html"
+				sections: [
+					name: "D7 und Tonleiter"
+					path: "/musiklehre/akkorde/dsieben/index.html#dominantseptakkord"
+				,
+					name: "Auflösung eines D7"
+					path: "/musiklehre/akkorde/dsieben/index.html#aufloesung"
+				]
+			,
+				name: "Subdominanten"
+				path: "/musiklehre/akkorde/subdominante/index.html"
+				sections: [
+					name: "Sixte ajoutée"
+					path: "/musiklehre/akkorde/subdominante/index.html#sixteajoutee"
+				,
+					name: "Sexte statt Quinte"
+					path: "/musiklehre/akkorde/subdominante/index.html#sextestatt"
+				,
+					name: "Neapolitaner"
+					path: "/musiklehre/akkorde/subdominante/index.html#neapolitaner"
+				]
+			,
+				name: "Weitere Funktionen"
+				path: "/musiklehre/akkorde/weitere-funktionen/index.html"
+				sections: [
+					name: "Gegenklang"
+					path: "/musiklehre/akkorde/weitere-funktionen/index.html#gegenklang"
+				,
+					name: "Kadenz, Trugschluss"
+					path: "/musiklehre/akkorde/weitere-funktionen/index.html#trugschluss"
+				,
+					name: "Erweiterte Kadenzen"
+					path: "/musiklehre/akkorde/weitere-funktionen/index.html#erweitert"
+				,
+					name: "Entfernte Verwandte"
+					path: "/musiklehre/akkorde/weitere-funktionen/index.html#entfernteverwandte"
+				,
+					name: "Medianten"
+					path: "/musiklehre/akkorde/weitere-funktionen/index.html#medianten"
+				,
+					name: "Quintezirkel vertikal"
+					path: "/musiklehre/akkorde/weitere-funktionen/index.html#zirkelvertikal"
 				]
 			,
 				name: "Umkehrungen"
@@ -1725,51 +1717,47 @@
 					path: "/musiklehre/modulation/einleitung/index.html#gitbeispiel"
 				]
 			,
-				name: "Diatonische Modulation"
+				name: "Diatonisch, Dur"
 				path: "/musiklehre/modulation/diatonisch/index.html"
-				children: [
-					name: "Diatonisch, Dur"
-					path: "/musiklehre/modulation/diatonisch/index.html"
-					sections: [
-						name: "Dur, aufwärts"
-						path: "/musiklehre/modulation/diatonisch/index.html#diatondurauf"
-					,
-						name: "Dur, abwärts"
-						path: "/musiklehre/modulation/diatonisch/index.html#diatondurab"
-					,
-						name: "Dur, hin und zurück"
-						path: "/musiklehre/modulation/diatonisch/index.html#hinundher"
-					]
+				sections: [
+					name: "Dur, aufwärts"
+					path: "/musiklehre/modulation/diatonisch/index.html#diatondurauf"
 				,
-					name: "Diatonisch, Moll"
-					path: "/musiklehre/modulation/moll/index.html"
-					sections: [
-						name: "Moll, aufwärts"
-						path: "/musiklehre/modulation/moll/index.html#diatonmollauf"
-					,
-						name: "Moll, abwärts"
-						path: "/musiklehre/modulation/moll/index.html#diatonmollab"
-					,
-						name: "Moll, hin und zurück"
-						path: "/musiklehre/modulation/moll/index.html#hinundhermoll"
-					]
+					name: "Dur, abwärts"
+					path: "/musiklehre/modulation/diatonisch/index.html#diatondurab"
 				,
-					name: "Varianten"
-					path: "/musiklehre/modulation/variante/index.html"
-					sections: [
-						name: "Mollsubdominante"
-						path: "/musiklehre/modulation/variante/index.html#diatons"
-					]
+					name: "Dur, hin und zurück"
+					path: "/musiklehre/modulation/diatonisch/index.html#hinundher"
+				]
+			,
+				name: "Diatonisch, Moll"
+				path: "/musiklehre/modulation/moll/index.html"
+				sections: [
+					name: "Moll, aufwärts"
+					path: "/musiklehre/modulation/moll/index.html#diatonmollauf"
 				,
-					name: "Neapolitaner"
-					path: "/musiklehre/modulation/neapolitaner/index.html"
-					sections: [
-						name: "Mit N. abwärts"
-						path: "/musiklehre/modulation/neapolitaner/index.html#nab"
-					,
-						name: "Dominante als N."
-						path: "/musiklehre/modulation/neapolitaner/index.html#nd"
-					]
+					name: "Moll, abwärts"
+					path: "/musiklehre/modulation/moll/index.html#diatonmollab"
+				,
+					name: "Moll, hin und zurück"
+					path: "/musiklehre/modulation/moll/index.html#hinundhermoll"
+				]
+			,
+				name: "Varianten"
+				path: "/musiklehre/modulation/variante/index.html"
+				sections: [
+					name: "Mollsubdominante"
+					path: "/musiklehre/modulation/variante/index.html#diatons"
+				]
+			,
+				name: "Neapolitaner"
+				path: "/musiklehre/modulation/neapolitaner/index.html"
+				sections: [
+					name: "Mit N. abwärts"
+					path: "/musiklehre/modulation/neapolitaner/index.html#nab"
+				,
+					name: "Dominante als N."
+					path: "/musiklehre/modulation/neapolitaner/index.html#nd"
 				]
 			,
 				name: "Chromatische Modulation"
@@ -1805,7 +1793,7 @@
 				name: "Mit überm. Dreiklang"
 				path: "/musiklehre/modulation/uedrei/index.html"
 			,
-				name: "Mit. üb. Quintsextakkord"
+				name: "Mit üb. Quintsextakkord"
 				path: "/musiklehre/modulation/uequintsext/index.html"
 				sections: [
 					name: "~ als Doppeldominante"
