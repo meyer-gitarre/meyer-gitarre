@@ -1,0 +1,20 @@
+{
+  "name": "akkordetool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aljoscha Meyer <aljoscha.meyer@uni-oldenburg.de>",
+  "license": "MIT",
+  "devDependencies": {
+    "coffee-script": "^1.9.3",
+    "del": "^1.2.0",
+    "gulp": "^3.9.0",
+    "gulp-coffee": "^2.3.1",
+    "gulp-cson": "^0.3.0",
+    "gulp-uglify": "^1.2.0",
+    "run-sequence": "^1.1.1"
+  }
+}

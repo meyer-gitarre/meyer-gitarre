@@ -35,6 +35,9 @@
 # Reload the browser automatically whenever files change
  configure :development do
    activate :livereload
+
+   #TODO remove this
+   ignore 'akkordetool/*'
  end
 
 # Methods defined in the helpers block are available in templates

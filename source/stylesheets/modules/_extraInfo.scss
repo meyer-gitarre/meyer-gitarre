@@ -1,11 +1,28 @@
 .show {
   display: inline;
 
+  font-family: Georgia, serif;
   color: white;
-  background-color: navy;
+  border-radius: 50%;
   vertical-align: super;
 
   position: relative;
+}
+
+.defaultColor .show {
+  background-color: red;
+}
+
+.gitColor .show {
+  background-color: pink;
+}
+
+.musColor .show {
+  background-color: pink;
+}
+
+.bflColor .show {
+  background-color: pink;
 }
 
 .extraInfo {
