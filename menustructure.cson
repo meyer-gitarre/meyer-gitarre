@@ -1601,9 +1601,6 @@
 				name: "Liedharmonisierung Moll"
 				path: "/musiklehre/akkorde/harmonisier-moll/index.html"
 			,
-				name: "Quintenzirkel"
-				path: "/musiklehre/tonleitern/quintenzirkel/index.html"
-			,
 				name: "Übungen"
 				path: "/musiklehre/akkorde/analyse/index.html"
 				children: [
@@ -1702,6 +1699,9 @@
 						path: "/musiklehre/akkorde/umkehrungen/index.html#uebung9umkehrungen"
 					]
 				]
+			,
+				name: "Quintenzirkel"
+				path: "/musiklehre/tonleitern/quintenzirkel/index.html"
 			]
 		,
 			name: "Modulation"

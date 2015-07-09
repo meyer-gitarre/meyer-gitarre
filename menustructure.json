@@ -2217,10 +2217,6 @@
               "path": "/musiklehre/akkorde/harmonisier-moll/index.html"
             },
             {
-              "name": "Quintenzirkel",
-              "path": "/musiklehre/tonleitern/quintenzirkel/index.html"
-            },
-            {
               "name": "Übungen",
               "path": "/musiklehre/akkorde/analyse/index.html",
               "children": [
@@ -2355,6 +2351,10 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "Quintenzirkel",
+              "path": "/musiklehre/tonleitern/quintenzirkel/index.html"
             }
           ]
         },
