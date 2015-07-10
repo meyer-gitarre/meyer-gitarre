@@ -1362,7 +1362,7 @@
 			name: "Akkorde"
 			path: "/musiklehre/akkorde/index.html"
 			important: [
-	      name: "Übungen"
+				name: "Übungen"
 				path: "/musiklehre/akkorde/analyse/index.html"
 				children: [
 					name: "Analyseübungen"
@@ -1417,12 +1417,6 @@
 					,
 						name: "Funktionsanalyse"
 						path: "/musiklehre/akkorde/umkehrungen/index.html#uebungfunktionsanalyse"
-					,
-						name: "Zirkeltraining Dur"
-						path: "/musiklehre/grundlagen/training-dur/index.html"
-					,
-						name: "Zirkeltraining Moll"
-						path: "/musiklehre/grundlagen/training-moll/index.html"
 					]
 				,
 					name: "Übungen Kadenzen"
@@ -1459,8 +1453,14 @@
 						name: "Umkehrungen schreiben"
 						path: "/musiklehre/akkorde/umkehrungen/index.html#uebung9umkehrungen"
 					]
+				,
+					name: "Zirkeltraining Dur"
+					path: "/musiklehre/grundlagen/training-dur/index.html"
+				,
+					name: "Zirkeltraining Moll"
+					path: "/musiklehre/grundlagen/training-moll/index.html"
 				]
-	    ]
+			]
 			children: [
 				name: "Dreiklänge"
 				path: "/musiklehre/akkorde/dreiklang/index.html"
@@ -1656,12 +1656,6 @@
 					,
 						name: "Funktionsanalyse"
 						path: "/musiklehre/akkorde/umkehrungen/index.html#uebungfunktionsanalyse"
-					,
-						name: "Zirkeltraining Dur"
-						path: "/musiklehre/grundlagen/training-dur/index.html"
-					,
-						name: "Zirkeltraining Moll"
-						path: "/musiklehre/grundlagen/training-moll/index.html"
 					]
 				,
 					name: "Übungen Kadenzen"
@@ -1698,10 +1692,13 @@
 						name: "Umkehrungen schreiben"
 						path: "/musiklehre/akkorde/umkehrungen/index.html#uebung9umkehrungen"
 					]
+				,
+					name: "Zirkeltraining Dur"
+					path: "/musiklehre/grundlagen/training-dur/index.html"
+				,
+					name: "Zirkeltraining Moll"
+					path: "/musiklehre/grundlagen/training-moll/index.html"
 				]
-			,
-				name: "Quintenzirkel"
-				path: "/musiklehre/tonleitern/quintenzirkel/index.html"
 			]
 		,
 			name: "Modulation"

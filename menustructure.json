@@ -1885,9 +1885,7 @@
           "path": "/musiklehre/akkorde/index.html",
           "important": [
             {
-              "name": "Übungen"
-            },
-            {
+              "name": "Übungen",
               "path": "/musiklehre/akkorde/analyse/index.html",
               "children": [
                 {
@@ -1961,14 +1959,6 @@
                     {
                       "name": "Funktionsanalyse",
                       "path": "/musiklehre/akkorde/umkehrungen/index.html#uebungfunktionsanalyse"
-                    },
-                    {
-                      "name": "Zirkeltraining Dur",
-                      "path": "/musiklehre/grundlagen/training-dur/index.html"
-                    },
-                    {
-                      "name": "Zirkeltraining Moll",
-                      "path": "/musiklehre/grundlagen/training-moll/index.html"
                     }
                   ]
                 },
@@ -2019,6 +2009,14 @@
                       "path": "/musiklehre/akkorde/umkehrungen/index.html#uebung9umkehrungen"
                     }
                   ]
+                },
+                {
+                  "name": "Zirkeltraining Dur",
+                  "path": "/musiklehre/grundlagen/training-dur/index.html"
+                },
+                {
+                  "name": "Zirkeltraining Moll",
+                  "path": "/musiklehre/grundlagen/training-moll/index.html"
                 }
               ]
             }
@@ -2291,14 +2289,6 @@
                     {
                       "name": "Funktionsanalyse",
                       "path": "/musiklehre/akkorde/umkehrungen/index.html#uebungfunktionsanalyse"
-                    },
-                    {
-                      "name": "Zirkeltraining Dur",
-                      "path": "/musiklehre/grundlagen/training-dur/index.html"
-                    },
-                    {
-                      "name": "Zirkeltraining Moll",
-                      "path": "/musiklehre/grundlagen/training-moll/index.html"
                     }
                   ]
                 },
@@ -2349,12 +2339,16 @@
                       "path": "/musiklehre/akkorde/umkehrungen/index.html#uebung9umkehrungen"
                     }
                   ]
+                },
+                {
+                  "name": "Zirkeltraining Dur",
+                  "path": "/musiklehre/grundlagen/training-dur/index.html"
+                },
+                {
+                  "name": "Zirkeltraining Moll",
+                  "path": "/musiklehre/grundlagen/training-moll/index.html"
                 }
               ]
-            },
-            {
-              "name": "Quintenzirkel",
-              "path": "/musiklehre/tonleitern/quintenzirkel/index.html"
             }
           ]
         },
