@@ -43,16 +43,16 @@ aside {
 	border-left: 1px dashed blue;
 }
 
-.clearfix:before, .clearfix:after {
+.clearfix:before, .clearfix:after, .extraInfo:before, .extraInfo:after {
 	content: "";
 	display: table;
 }
 
-.clearfix:after {
+.clearfix:after, .extraInfo:after {
 	clear: both;
 }
 
-.clearfix {
+.clearfix, .extraInfo {
 	*zoom: 1;
 }
 

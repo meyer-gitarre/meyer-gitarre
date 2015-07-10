@@ -1271,6 +1271,20 @@
               ]
             },
             {
+              "name": "Gitarre & Schlüssel",
+              "path": "/musiklehre/grundlagen/schluessel-gitarre/index.html",
+              "sections": [
+                {
+                  "name": "Gitarre & Bassschlüssel",
+                  "path": "/musiklehre/grundlagen/schluessel-gitarre/index.html#gitarreund"
+                },
+                {
+                  "name": "Gitarre & Altschlüssel",
+                  "path": "/musiklehre/grundlagen/schluessel-gitarre/index.html#gitarreundalt"
+                }
+              ]
+            },
+            {
               "name": "Transponieren",
               "path": "/musiklehre/grundlagen/transponieren/index.html",
               "sections": [
@@ -1297,20 +1311,6 @@
                 {
                   "name": "~ Übungen",
                   "path": "/musiklehre/grundlagen/transponieren/index.html#uebtrans"
-                }
-              ]
-            },
-            {
-              "name": "Gitarre & Schlüssel",
-              "path": "/musiklehre/grundlagen/schluessel-gitarre/index.html",
-              "sections": [
-                {
-                  "name": "Gitarre & Bassschlüssel",
-                  "path": "/musiklehre/grundlagen/schluessel-gitarre/index.html#gitarreund"
-                },
-                {
-                  "name": "Gitarre & Altschlüssel",
-                  "path": "/musiklehre/grundlagen/schluessel-gitarre/index.html#gitarreundalt"
                 }
               ]
             },
@@ -1371,40 +1371,6 @@
                 {
                   "name": "Notenlernen: schwierig?",
                   "path": "/musiklehre/grundlagen/vorbedingungen/index.html#notenschwierig"
-                }
-              ]
-            },
-            {
-              "name": "Fahrplan",
-              "path": "/musiklehre/fahrplan/index.html",
-              "sections": [
-                {
-                  "name": "1. Grundlagen",
-                  "path": "/musiklehre/fahrplan/index.html#einsgrund"
-                },
-                {
-                  "name": "2. Tonleitern",
-                  "path": "/musiklehre/fahrplan/index.html#zweiton"
-                },
-                {
-                  "name": "3. Intervalle",
-                  "path": "/musiklehre/fahrplan/index.html#dreiint"
-                },
-                {
-                  "name": "4. Akkorde",
-                  "path": "/musiklehre/fahrplan/index.html#vierakk"
-                },
-                {
-                  "name": "5. Rhythmus",
-                  "path": "/musiklehre/fahrplan/index.html#fuenfrh"
-                },
-                {
-                  "name": "6. Gehörbildung",
-                  "path": "/musiklehre/fahrplan/index.html#sechshoer"
-                },
-                {
-                  "name": "Praktischer Einstieg",
-                  "path": "/musiklehre/fahrplan/index.html#praktisch"
                 }
               ]
             },
