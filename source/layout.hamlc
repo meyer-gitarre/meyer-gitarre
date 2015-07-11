@@ -1,0 +1,66 @@
+!!!
+%html{lang: 'de'}
+  %head
+    %meta{charset: 'UTF-8'}
+    %meta{name: 'description', content: @data.description}
+    %meta{name: 'revisit-after', content: '14days'}
+    %meta{name: 'author', content: 'Ulrich Meyer'}
+    %title
+      = "U.Meyer #{@data.title}"
+    %link{rel: 'stylesheet', href: '/stylesheets/main.css', type: 'text/css'}
+    - if @data.additionalStyles? and @data.additionalStyles.length > 0
+      - for name in @data.additionalStyles
+        %link{rel: 'stylesheet', href: "/stylesheets/#{name}.css", type: 'text/css'}
+    %link{rel: 'shortcut icon', href: '/img/dachsicon.jpg'}
+  %body
+    #wrapper{class: @helpers.color(@data.menuStructure)}
+      %header#mainHeader
+        %h1
+          Gitarre und Musiklehre, U. Meyer
+      %nav#mainNav.clearfix
+        .navbar.clearfix
+          = @helpers.structure.renderBreadcrumbs(@data.menuStructure)
+          %form{id: 'search', action: 'http://www.crawl-it.de/registration/search.it', method: 'get'}
+            %input{type: 'text', name: 'p_search', size: 18}
+            %input{type: 'submit', value: 'Suche'}
+            %input{type: 'hidden', name: 'p_userid', value: '511107'}
+              %a{href: 'http://www.crawl-it.de'}
+        .series
+          %div
+            = @helpers.structure.renderMenuDefault(@data.menuStructure)
+          .caption
+            .clearfix
+              .imageWrapper.img23.floatedRight.exBorder
+                %a{href: '/index.html'}
+                  %img{src: '/img/Dachsgr1.jpg', alt: 'Gitarrendachs'}
+              = @data.intro
+      %main
+        = @content
+        .series.navContext
+          %div
+            = @helpers.structure.renderLinkPreviousPage(@data.menuStructure)
+          %div
+            = @helpers.structure.renderLinkNextPage(@data.menuStructure)
+      %footer#mainFooter
+        %div
+          %a{href: '/index.html'}
+            Home
+          %a{href: '/gitarre/index.html'}
+            Gitarre
+          %a{href: '/musiklehre/index.html'}
+            Musiklehre
+          %a{href: '/blockfloete/index.html'}
+            Blockflöte
+          %a{href: '/meta/impressum.html'}
+            Impressum
+          %a{href: '/meta/sitemap.html'}
+            Sitemap
+          %a{href: '#'}
+            oben
+        %p
+          Copyright &copy; Ulrich Meyer
+        %a#unten
+      #miniMenuWrapper
+        #miniMenu
+          = @helpers.miniMenu(@data.menuStructure)
+          %a{href: '#'}

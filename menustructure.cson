@@ -1,3 +1,4 @@
+menustructure:
 	name: "Home"
 	path: "/index.html"
 	sections: [
@@ -157,7 +158,7 @@
 					path: "/gitarre/unterricht/lernen/index.html#gitarristen"
 				]
 			,
-				name: "Lauten, Barockgitarre..."
+				name: "Lauten & Barockgitarre"
 				path: "/gitarre/unterricht/verwandte/index.html"
 				sections: [
 					name: "Repertoire f. Lauten"
@@ -259,7 +260,7 @@
 					path: "/gitarre/ueben/konzepte/index.html#uebenspiegel"
 				]
 			,
-				name: "Vorspielen, Aufregung"
+				name: "Vorspielen & Aufregung"
 				path: "/gitarre/ueben/vorspielen/index.html"
 				sections: [
 					name: "Aufregung / Lampenfieber"
@@ -1943,7 +1944,7 @@
 				name: "Intervalle abwärts"
 				path: "/musiklehre/gehoerbildung/intervalle-ab/index.html"
 			,
-				name: "Stufen singen"
+				name: "Stufensingen"
 				path: "/musiklehre/gehoerbildung/stufen-singen/index.html"
 				sections: [
 					name: "Intervalle singen"
@@ -2107,7 +2108,7 @@
 			]
 		]
 	,
-		name: "Impressum, Links"
+		name: "Impressum / Links"
 		path: "/meta/impressum/index.html"
 		sections: [
 			name: "Credits"
