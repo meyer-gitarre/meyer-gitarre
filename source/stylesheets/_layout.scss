@@ -56,7 +56,7 @@ aside {
 	*zoom: 1;
 }
 
-.series {
+.series, .taskSeries {
 	display: table;
 	table-layout: fixed;
 	border-spacing: 0.4em 0;
@@ -64,7 +64,7 @@ aside {
 	margin-bottom: 0.8em;
 }
 
-.series > * {
+.series, .taskSeries > * {
 	display: table-cell;
 	float: none;
 }
