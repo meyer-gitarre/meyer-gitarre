@@ -59,7 +59,6 @@
             oben
         %p
           Copyright &copy; Ulrich Meyer
-        %a#unten
       #miniMenuWrapper
         #miniMenu
           = @helpers.miniMenu(@data.menuStructure)

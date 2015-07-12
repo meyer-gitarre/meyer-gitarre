@@ -4,7 +4,7 @@
 	border-top-style: solid;
 	border-top-width: 1px;
 	text-align: center;
-	padding-top: 0.625em;
+	padding: 1em;
 	font-size: 0.8em;
 	border-radius: 0 0 4px 4px;
 }
@@ -23,4 +23,12 @@
 
 .navContext > div:nth-child(2) {
 	text-align: right;
+}
+
+footer a {
+	margin-right: 0.5em;
+}
+
+footer p {
+	margin-top: 0.5em;
 }
