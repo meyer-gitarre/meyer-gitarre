@@ -95,7 +95,7 @@
 	color: blue;
 }
 
-.tip1 { /* tooltip */
+.tip1, .tip2 { /* tooltip */
 	position: relative;
 	font-weight: bold;
 	border-bottom: 1px dotted;
@@ -103,48 +103,36 @@
 	cursor: help;
 }
 
-.tip1 span.add {
+.tip1 .add, .tip2 .add {
 	display: none;
-}
 
-.tip1:hover span.add {
-	display: block;
 	z-index: 1;
 	position: absolute;
-	left: 0;
 	bottom: 100%;
 	width: 280px;
 	color: navy;
 	font-weight: normal;
-	background: red;
+	background: white;
 
 	padding-bottom: 0;
 }
 
-.tip2 {
-	position: relative;
-	font-weight: bold;
-	border-bottom: 1px dotted;
-	color: blue;
-	cursor: help;
-}
-
-.tip2 span.add {
-	display: none;
-}
-
-.tip2:hover span.add {
+.tip1:hover .add, .tip2:hover .add {
 	display: block;
-	z-index: 1;
-	position: absolute;
+}
+
+.tip1:hover .add {
+		left: 0;
+}
+
+.tip2:hover .add {
 	right: 0%;
-	bottom: 100%;
-	width: 280px;
-	color: navy;
-	font-weight: normal;
-	background: #dfe7ff;
 }
 
 a {
 	position: relative;
+}
+
+.add {
+	height: auto;
 }
