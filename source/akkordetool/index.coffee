@@ -2,6 +2,7 @@
 task = null
 solution = null
 hint = null
+hintText = null
 controls = null
 
 togglers = null
@@ -26,8 +27,11 @@ addContent = ->
   solution.id = 'solution'
   solution.src = '/img/gtak/startakk.jpg'
 
-  hint = document.createElement('div')
+  hint = document.createElement 'div'
   hint.id = 'hint'
+  hintText = document.createElement('em')
+  hint.appendChild hintText
+
 
   controls = document.createElement('form')
   controls.id = 'controls'
@@ -46,6 +50,11 @@ addContent = ->
     togglers[key].type = 'checkbox'
     togglers[key].name = 'chords'
     controls.appendChild togglers[key]
+  controls.insertBefore document.createTextNode('Standardgriffe ohne Barré'), togglers.normal.nextSibling
+  controls.insertBefore document.createTextNode('Barré auf E-Basis'), togglers.e.nextSibling
+  controls.insertBefore document.createTextNode('Barré auf A-Basis'), togglers.a.nextSibling
+  controls.insertBefore document.createTextNode('Barré auf D-Basis'), togglers.d.nextSibling
+  controls.insertBefore document.createTextNode('Barré auf C-Basis'), togglers.c.nextSibling
 
   chordTool = document.createElement('div')
   chordTool.id = 'chordTool'
@@ -84,7 +93,7 @@ handleImageClick = ->
       Der Barré liegt im #{currentChord.fret - 3}. Bund."
 
     task.innerHTML = "#{currentChord.name}: #{info}"
-    hint.innerHTML = 'Klicke auf das Bild für einen neuen Akkord!'
+    hintText.innerHTML = 'Klicke auf das Bild für einen neuen Akkord!'
   else
     chords = []
     if togglers.normal.checked
@@ -105,7 +114,7 @@ handleImageClick = ->
 
     solution.src = '/img/gtak/zwischenakk.jpg'
     task.innerHTML = "Greife #{currentChord.name}!"
-    hint.innerHTML = ''
+    hintText.innerHTML = ''
 
 loadData = ->
   req = new XMLHttpRequest()
