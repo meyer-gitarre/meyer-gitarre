@@ -30,7 +30,13 @@
             = @helpers.structure.renderMenuDefault(@data.menuStructure)
           .caption
             .clearfix
+            - if @data.menuStructure? and @data.menuStructure.length > 1
               .imageWrapper.img23.floatedRight.exBorder
+                %a{href: '/index.html'}
+                  %img{src: '/img/Dachsgr1.jpg', alt: 'Gitarrendachs'}
+              = @data.intro
+            - else
+              .imageWrapper.img33.floatedRight.exBorder
                 %a{href: '/index.html'}
                   %img{src: '/img/Dachsgr1.jpg', alt: 'Gitarrendachs'}
               = @data.intro

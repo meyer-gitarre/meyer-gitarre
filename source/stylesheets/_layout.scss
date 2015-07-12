@@ -43,7 +43,7 @@ aside {
 	border-left: 1px dashed blue;
 }
 
-.clearfix:before, .clearfix:after, .extraInfo:before, .extraInfo:after {
+.clearfix:before, .clearfix:after, .extraInfo:after {
 	content: "";
 	display: table;
 }

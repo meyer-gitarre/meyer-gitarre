@@ -64,7 +64,7 @@ renderImportants = (p) ->
         if renderMenuEntry null, imp not in importants
           flag = true
 
-          flag = false for child in p.children when child.name is  p.name
+          flag = false for child in p.children when child.name is imp.name
 
           importants.unshift renderMenuEntry(null, imp) if flag
 
