@@ -1690,7 +1690,7 @@ menustructure:
 					path: "/musiklehre/modulation/einleitung/index.html#gitbeispiel"
 				]
 			,
-				name: "Diatonisch, Dur"
+				name: "Diatonisch&#44; Dur"
 				path: "/musiklehre/modulation/diatonisch/index.html"
 				sections: [
 					name: "Dur, aufwärts"
@@ -1703,7 +1703,7 @@ menustructure:
 					path: "/musiklehre/modulation/diatonisch/index.html#hinundher"
 				]
 			,
-				name: "Diatonisch, Moll"
+				name: "Diatonisch&#44; Moll"
 				path: "/musiklehre/modulation/moll/index.html"
 				sections: [
 					name: "Moll, aufwärts"
@@ -1743,7 +1743,7 @@ menustructure:
 					path: "/musiklehre/modulation/chromatisch/index.html#chromaab"
 				]
 			,
-				name: "Rückung, Sequenz"
+				name: "Rückung&#44; Sequenz"
 				path: "/musiklehre/modulation/rueckung/index.html"
 				sections: [
 					name: "Tonzentrale Modulation"
@@ -2108,7 +2108,7 @@ menustructure:
 			]
 		]
 	,
-		name: "Impressum / Links"
+		name: "Impressum&#44; Links"
 		path: "/meta/impressum/index.html"
 		sections: [
 			name: "Credits"

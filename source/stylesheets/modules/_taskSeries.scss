@@ -1,4 +1,4 @@
-.taskSeries ul {
+.taskSeries ul, .taskSeries div {
 		border-style: solid;
 		border-width: 1px;
 		border-radius: 5px;
@@ -8,13 +8,13 @@
 		margin: 1em 0.25em 1em 0;
 }
 
-.taskSeries ul:nth-child(3n + 1) {
+.taskSeries ul:nth-child(3n + 1), .taskSeries div:nth-child(3n + 1) {
 	background-color: #fff2ff;
 }
-.taskSeries ul:nth-child(3n + 2) {
+.taskSeries ul:nth-child(3n + 2), .taskSeries div:nth-child(3n + 2) {
 	background-color: #fffff0;
 }
-.taskSeries ul:nth-child(3n + 3) {
+.taskSeries ul:nth-child(3n + 3), .taskSeries div:nth-child(3n + 3) {
 	background-color: #e9f1fd;
 }
 

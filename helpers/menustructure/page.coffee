@@ -5,19 +5,20 @@ class Page
     @children ?= []
     @important ?= []
 
-  directChild: (pname) ->
+  directChild: (pname, pnames) ->
     page = child for child in @.children when child.name is pname
 
     if not page?
-      console.error('no child for this name exists:')
-      console.error(pname)
-      process.exit(1)
+      console.error "error on pageHierarchy #{pnames}"
+      console.error 'no child for this name exists:'
+      console.error pname
+      process.exit 1
 
     return page
 
   recursiveChild: (pnames) ->
     tmp = this
-    tmp = tmp.directChild(pname) for pname in pnames
+    tmp = tmp.directChild(pname, pnames) for pname in pnames
     return tmp
 
   @parsePage: (page, parent) ->
