@@ -2124,7 +2124,7 @@ menustructure:
 		name: "Sitemap"
 		path: "/meta/sitemap/index.html"
 		sections: [
-			name: "Aufbau und Menüstruktur"
+			name: "Struktur"
 			path: "/meta/sitemap/index.html#struktur"
 		]
 	]
