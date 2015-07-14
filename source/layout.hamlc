@@ -57,9 +57,9 @@
             Musiklehre
           %a{href: '/blockfloete/index.html'}
             Blockflöte
-          %a{href: '/meta/impressum.html'}
+          %a{href: '/meta/impressum/index.html'}
             Impressum
-          %a{href: '/meta/sitemap.html'}
+          %a{href: '/meta/sitemap/index.html'}
             Sitemap
           %a{href: '#'}
             oben

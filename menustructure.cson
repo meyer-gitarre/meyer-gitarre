@@ -1092,6 +1092,9 @@ menustructure:
 				,
 					name: "Reihe der Kreuze"
 					path: "/musiklehre/tonleitern/kreuz/index.html#reihekreuz"
+				,
+					name: "Arbeitsergebnisse"
+					path: "/musiklehre/tonleitern/kreuz/index.html#ergebnisse"
 				]
 			,
 				name: "Durtonleitern mit &#9837;"
@@ -1128,6 +1131,10 @@ menustructure:
 			,
 				name: "Falsche Vorzeichen"
 				path: "/musiklehre/tonleitern/falsch/index.html"
+				sections: [
+					name: "Das &#9837; abschaffen?"
+					path: "/musiklehre/tonleitern/falsch/index.html#bsabschaffen"
+				]
 			,
 				name: "Tonl. direkt aufbauen"
 				path: "/musiklehre/tonleitern/direkt/index.html"
