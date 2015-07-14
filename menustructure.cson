@@ -316,18 +316,18 @@ menustructure:
 					path: "/gitarre/haltung/greifhand/index.html#greifen"
 				]
 			,
-				name: "Bewegung / Fehler"
-				path: "/gitarre/haltung/fehler/index.html"
+				name: "Bewegung&#44; Stehen"
+				path: "/gitarre/haltung/bewegung/index.html"
 				sections: [
 					name: "Bewegung"
 					path: "/gitarre/haltung/fehler/index.html"
 				,
 					name: "Stehen"
 					path: "/gitarre/haltung/fehler/index.html#stehen"
-				,
-					name: "Haltung: Fehler"
-					path: "/gitarre/haltung/fehler/index.html#fehler"
 				]
+			,
+				name: "Haltungsfehler"
+				path: "/gitarre/haltung/fehler/index.html"
 			]
 		,
 			name: "Stimmen"
