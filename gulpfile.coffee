@@ -35,7 +35,7 @@ gulp.task 'html', (cb) ->
   fs.readFile 'source/layout.hamlc', 'utf8', (err, layout) ->
     throw err if err?
 
-    glob 'source/**/*.html', (err, filenames) ->
+    glob '{source/**/*.html,source/meta/sitemap/index.hamlc}', (err, filenames) ->
       throw err if err?
 
       for filename in filenames
@@ -43,10 +43,27 @@ gulp.task 'html', (cb) ->
 
         frontmatter = fm template
 
-        html = hamlc.compile(layout, escapeHtml: false)(
-          helpers: helpers, data: frontmatter, content: template)
+        if filename is 'source/meta/sitemap/index.hamlc'
+          frontmatter =
+            title: 'Sitemap'
+            description: 'Sitemap der Seite \'Ulrich Meyer, Gitarre und Musiklehre\'.'
+            menuStructure: ['Sitemap']
+            additionalStyles: ['sitemap']
+            intro: '<h2>Sitemap</h2> <p>Eine Auflistung aller Seiten, Unterseiten und Kapitel</p>'
 
-        file filename.replace(/^source\//, ''), html, src: true
+          tmp = hamlc.compile(template, escapeHtml: false)(helpers: helpers)
+          html = hamlc.compile(layout, escapeHtml: false)(
+            helpers: helpers, data: frontmatter, content: tmp)
+        else
+          html = hamlc.compile(layout, escapeHtml: false)(
+            helpers: helpers, data: frontmatter, content: template)
+
+        if filename is 'source/meta/sitemap/index.hamlc'
+          newFileName = 'meta/sitemap/index.html'
+        else
+          newFileName = filename.replace(/^source\//, '')
+
+        file newFileName, html, src: true
           .pipe if config.production then minifyHTML() else gutil.noop()
           .pipe gulp.dest 'build'
 

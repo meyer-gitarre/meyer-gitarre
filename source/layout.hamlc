@@ -1,7 +1,7 @@
 !!!
 %html{lang: 'de'}
   %head
-    %meta{charset: 'UTF-8'}
+    %meta{charset: 'utf-8'}
     %meta{name: 'description', content: @data.description}
     %meta{name: 'revisit-after', content: '14days'}
     %meta{name: 'author', content: 'Ulrich Meyer'}
@@ -30,7 +30,7 @@
             = @helpers.structure.renderMenuDefault(@data.menuStructure)
           .caption
             .clearfix
-            - if @data.menuStructure? and @data.menuStructure.length > 1
+            - if (@data.title is 'Sitemap') or (@data.menuStructure? and @data.menuStructure.length > 1)
               .imageWrapper.img23.floatedRight.exBorder
                 %a{href: '/index.html'}
                   %img{src: '/img/Dachsgr1.jpg', alt: 'Gitarrendachs'}

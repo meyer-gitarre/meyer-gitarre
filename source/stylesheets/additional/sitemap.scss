@@ -1,0 +1,79 @@
+#sitemap {
+  font-size: 1.05em;
+
+  ol {
+    list-style-type: none;
+    list-style-position: inside;
+    margin-bottom: 0;
+  }
+
+  ol > li {
+    padding-left: 0;
+  }
+
+  a {
+    color: white;
+    display: block;
+    margin-bottom: 1px;
+    padding: 3px 1em;
+  }
+
+  text-align: center;
+}
+
+#sitemap > div {
+  float: left;
+  margin-right: 1em;
+}
+
+#sitemap > div > a {
+  color: black;
+  font-weight: bold;
+  background: linear-gradient(to right, #5496f8, #d4e5fd);
+  margin-bottom: 0.5em;
+}
+
+#sitemap > div > ol li > a {
+  font-weight: bold;
+  font-family: Georgia;
+  letter-spacing: 0.1em;
+  text-decoration: underline;
+}
+
+#sitemap > div > ol > li > ol li > a {
+  font-family: Arial;
+  letter-spacing: 0;
+  text-decoration: none;
+  color: #eeeeee;
+}
+
+#sitemap > div > ol > li > ol > li > ol li > a {
+  font-weight: normal;
+}
+
+#sitemap > div:nth-child(1) ol a {
+  background: linear-gradient(to right, #5997e7, #3885e0 45%, #5997e7);
+}
+
+#sitemap > div:nth-child(2) ol a {
+  background: linear-gradient(to right, #7895ee, #6184eb, #7895ee);
+}
+
+#sitemap > div:nth-child(3) ol a {
+  background: linear-gradient(to right, #549dce, #4094cf, #549dce);
+}
+
+#sitemap > div a:only-child {
+  color: #eeeeee;
+  font-weight: normal;
+}
+
+#sitemap > div:nth-child(1) {
+}
+
+#sitemap > div:nth-child(2) {
+}
+
+#sitemap > div:nth-child(3) {
+
+}
