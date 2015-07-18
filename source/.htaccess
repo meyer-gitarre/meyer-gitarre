@@ -1,0 +1,6 @@
+ErrorDocument 404 /index.html
+
+Redirect 301 /gitarre.html /gitarre/index.html
+Redirect 301 /gitarre-unterricht-material.html /gitarre/unterricht/material/index.html
+
+Redirect 301 /musiklehre.html /musiklehre/index.html

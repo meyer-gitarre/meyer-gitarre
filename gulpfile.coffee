@@ -91,6 +91,9 @@ gulp.task 'assets', (cb) ->
   gulp.src 'source/pdf/**/*'
     .pipe gulp.dest 'build/pdf'
 
+  gulp.src 'source/.htaccess'
+    .pipe gulp.dest 'build'
+
 gulp.task 'akkordetool', (cb) ->
   gulp.src 'source/akkordetool/data.cson'
     .pipe cson()
