@@ -64,6 +64,7 @@ renderImportants = (p) ->
         if renderMenuEntry null, imp not in importants
           flag = true
 
+          flag = false if p.name is imp.name
           flag = false for child in p.children when child.name is imp.name
 
           importants.unshift renderMenuEntry(null, imp) if flag
@@ -88,13 +89,18 @@ helper.renderMenuDefault = (menuStructure) ->
   return "<div class=\"menu\">#{renderMenuEntry(null, p)}\
     #{renderImportants(p)}</div>"
 
+helper.renderSitemap = () ->
+  return "<div id=\"sitemap\" class=\"clearfix\"><div>#{renderMenuEntry(null, getPage ['Gitarre'])}</div><div>#{renderMenuEntry(null, getPage ['Musiklehre'])}</div><div>#{renderMenuEntry(null, getPage ['Blockflöte'])}</div></div>"
+
 helper.renderLinkPreviousPage = (menuStructure) ->
   p = getPage menuStructure
 
   if not menuStructure?
     menuStructure = []
 
-  if menuStructure.length > 2
+  threshold = if (menuStructure[0] is 'Blockflöte') then 1 else 2
+
+  if menuStructure.length > threshold
     prevSibling = sib for sib in p.parent.children when p.
     parent.children.indexOf(sib) + 1 is p.parent.children.indexOf(p)
     if prevSibling?
@@ -111,11 +117,13 @@ helper.renderLinkNextPage = (menuStructure) ->
   if not menuStructure?
     menuStructure = []
 
-  if menuStructure.length is 2
+  threshold = if (menuStructure[0] is 'Blockflöte') then 1 else 2
+
+  if menuStructure.length is threshold
     if p.children? and p.children.length > 0
       return renderLink p.children[0], 'nextPage'
 
-  if menuStructure.length > 2
+  if menuStructure.length > threshold
     nextSibling = sib for sib in p.parent.children when p.
     parent.children.indexOf(sib) - 1 is p.parent.children.indexOf(p)
     if nextSibling?
