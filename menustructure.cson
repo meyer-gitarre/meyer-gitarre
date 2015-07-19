@@ -2044,7 +2044,7 @@ menustructure:
 			name: "Das Instrument"
 			path: "/blockfloete/instrument/index.html"
 			sections: [
-				name: "Das Instrument und Name"
+				name: "Instrument und Name"
 				path: "/blockfloete/instrument/index.html#instrument"
 			,
 				name: "Notation"
