@@ -24,7 +24,7 @@ module.exports = (menuStructure) ->
       html += '<li><a href="/gitarre/index.html">Gitarre</a></li>'
       html += '<li><a href="/musiklehre/index.html">Musiklehre</a></li>'
       html += '<li><a href="/blockfloete/index.html">Blockflöte</a></li>'
-      html += '<li><a href="/meta/sitemap.html">Sitemap</a></li>'
+      html += '<li><a href="/meta/sitemap/index.html">Sitemap</a></li>'
 
   html += '</ul>'
   return html
