@@ -320,10 +320,10 @@ menustructure:
 				path: "/gitarre/haltung/bewegung/index.html"
 				sections: [
 					name: "Bewegung"
-					path: "/gitarre/haltung/fehler/index.html"
+					path: "/gitarre/haltung/bewegung/index.html#bewegung"
 				,
 					name: "Stehen"
-					path: "/gitarre/haltung/fehler/index.html#stehen"
+					path: "/gitarre/haltung/bewegung/index.html#stehen"
 				]
 			,
 				name: "Haltungsfehler"
@@ -347,20 +347,20 @@ menustructure:
 				path: "/gitarre/stimmen/oberton/index.html"
 				sections: [
 					name: "Feinheiten"
-					path: "/gitarre/stimmen/fuenfterbund/index.html#stimmen4"
+					path: "/gitarre/stimmen/oberton/index.html#stimmen4"
 				]
 			,
 				name: "Stimmprobleme"
 				path: "/gitarre/stimmen/probleme/index.html"
 				sections: [
 					name: "Grund: Psychologie"
-					path: "/gitarre/stimmen/fuenfterbund/index.html#stimmen5"
+					path: "/gitarre/stimmen/probleme/index.html#stimmen5"
 				,
 					name: "Grund: Physik"
-					path: "/gitarre/stimmen/fuenfterbund/index.html#stimmen6"
+					path: "/gitarre/stimmen/probleme/index.html#stimmen6"
 				,
 					name: "Grund: Grifftechnik"
-					path: "/gitarre/stimmen/fuenfterbund/index.html#stimmen7"
+					path: "/gitarre/stimmen/probleme/index.html#stimmen7"
 				]
 			,
 				name: "Skordatur / Umstimmen"
@@ -500,16 +500,16 @@ menustructure:
 				path: "/gitarre/notation/alteriert/index.html"
 				sections: [
 					name: "Kreuz & b auf Gitarre"
-					path: "/gitarre/notation/gitarrennoten/index.html#kreuzb"
+					path: "/gitarre/notation/alteriert/index.html#kreuzb"
 				,
 					name: "Kreuze auf der Gitarre"
-					path: "/gitarre/notation/gitarrennoten/index.html#kreuzgit"
+					path: "/gitarre/notation/alteriert/index.html#kreuzgit"
 				,
 					name: "bs auf der Gitarre"
-					path: "/gitarre/notation/gitarrennoten/index.html#bgit"
+					path: "/gitarre/notation/alteriert/index.html#bgit"
 				,
 					name: "zwischen Stammtönen"
-					path: "/gitarre/notation/gitarrennoten/index.html#zwischennoten"
+					path: "/gitarre/notation/alteriert/index.html#zwischennoten"
 				]
 			,
 				name: "Tabulatur"
@@ -535,10 +535,10 @@ menustructure:
 					path: "/gitarre/notation/zeichen/index.html#saitenziffer"
 				,
 					name: "Lage"
-					path: "/gitarre/notation/zeichen/index.html#lagenziffern"
+					path: "/gitarre/notation/zeichen/index.html#lagenziffer"
 				,
 					name: "Barré"
-					path: "/gitarre/notation/zeichen/index.html#barreziffern"
+					path: "/gitarre/notation/zeichen/index.html#barreziffer"
 				,
 					name: "Flageolett"
 					path: "/gitarre/notation/zeichen/index.html#flagies"
@@ -592,13 +592,13 @@ menustructure:
 						path: "/gitarre/griffbrett/kennen-tief/index.html#aufgabe3"
 					,
 						name: "Bund 7-12 nennen"
-						path: "/gitarre/griffbrett/kennen-tief/index.html#aufgabe4"
+						path: "/gitarre/griffbrett/kennen-hoch/index.html#aufgabe4"
 					,
 						name: "gesamtes Griffbrett"
-						path: "/gitarre/griffbrett/kennen-tief/index.html#aufgabe5"
+						path: "/gitarre/griffbrett/kennen-hoch/index.html#aufgabe5"
 					,
-						name: "tonfolgen finden"
-						path: "/gitarre/griffbrett/kennen-tief/index.html#aufgabe6"
+						name: "Tonfolgen finden"
+						path: "/gitarre/griffbrett/kennen-hoch/index.html#aufgabe6"
 					,
 						name: "Pentatonik auf Gitarre"
 						path: "/musiklehre/tonleitern/pentatonik/index.html#pentaueb"
@@ -763,7 +763,7 @@ menustructure:
 					path: "/gitarre/akkorde/kapo/index.html#normal"
 				,
 					name: "Kapo: Zubehör"
-					path: "//gitarre/technisches/zubehoer/index.html#kapodaster"
+					path: "/gitarre/technisches/zubehoer/index.html#kapodaster"
 				]
 			]
 		,
@@ -1903,7 +1903,7 @@ menustructure:
 					path: "/musiklehre/rhythmus/strategien/index.html#lautzaehlen"
 				,
 					name: "Zusammengesetzte Takte"
-					path: "/musiklehre/rhythmus/strategien/index.htmlunterteilt"
+					path: "/musiklehre/rhythmus/strategien/index.html#unterteilt"
 				,
 					name: "Irreg. Teilungen zählen"
 					path: "/musiklehre/rhythmus/strategien/index.html#irregteilungenzaehlen"
