@@ -168,11 +168,11 @@ blockquote {
 	quotes: "«" "»" "‹" "›";
  }
 
- blockquote:before, .translation:before, q:before {
+ blockquote::before, .translation::before, q::before {
  	content: open-quote;
  }
 
- blockquote:after, .translation:after, q:after {
+ blockquote::after, .translation::after, q::after {
  	content: close-quote;
  }
 

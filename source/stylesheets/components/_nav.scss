@@ -185,10 +185,10 @@ $menuBorderColor: navy;
 .menu > a:only-child {
   border-bottom-width: $menuBorderWidth;
 }
-.menu li>a:after {
+.menu li>a::after {
   content: ' >';
 }
-.menu li>a:only-child:after {
+.menu li>a:only-child::after {
   content: '';
 }
 

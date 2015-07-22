@@ -3,7 +3,7 @@ html {
 	box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*, *::before, *::after {
 	box-sizing: inherit;
 }
 
@@ -43,12 +43,12 @@ aside {
 	border-left: 1px dashed blue;
 }
 
-.clearfix:before, .clearfix:after, .extraInfo:after {
+.clearfix::before, .clearfix::after, .extraInfo::after {
 	content: "";
 	display: table;
 }
 
-.clearfix:after, .extraInfo:after {
+.clearfix::after, .extraInfo::after {
 	clear: both;
 }
 

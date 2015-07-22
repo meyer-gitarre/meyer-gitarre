@@ -24,7 +24,7 @@
             %input{type: 'text', name: 'p_search', size: 18}
             %input{type: 'submit', value: 'Suche'}
             %input{type: 'hidden', name: 'p_userid', value: '511107'}
-              %a{href: 'http://www.crawl-it.de'}
+              %a{href: 'http://www.crawl-it.de/'}
         .series
           %div
             = @helpers.structure.renderMenuDefault(@data.menuStructure)

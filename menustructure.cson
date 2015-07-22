@@ -624,13 +624,13 @@ menustructure:
 						path: "/gitarre/griffbrett/kennen-tief/index.html#aufgabe3"
 					,
 						name: "Bund 7-12 nennen"
-						path: "/gitarre/griffbrett/kennen-tief/index.html#aufgabe4"
+						path: "/gitarre/griffbrett/kennen-hoch/index.html#aufgabe4"
 					,
 						name: "gesamtes Griffbrett"
-						path: "/gitarre/griffbrett/kennen-tief/index.html#aufgabe5"
+						path: "/gitarre/griffbrett/kennen-hoch/index.html#aufgabe5"
 					,
 						name: "tonfolgen finden"
-						path: "/gitarre/griffbrett/kennen-tief/index.html#aufgabe6"
+						path: "/gitarre/griffbrett/kennen-hoch/index.html#aufgabe6"
 					,
 						name: "Pentatonik auf Gitarre"
 						path: "/musiklehre/tonleitern/pentatonik/index.html#pentaueb"
@@ -2064,13 +2064,13 @@ menustructure:
 			path: "/blockfloete/qualitaet/index.html"
 			sections: [
 				name: "Auswahlkriterien"
-				path: "blockfloete/qualitaet/index.html#kriterien"
+				path: "/blockfloete/qualitaet/index.html#kriterien"
 			,
 				name: "Wo kaufen?"
-				path: "blockfloete/qualitaet/index.html#wokaufen"
+				path: "/blockfloete/qualitaet/index.html#wokaufen"
 			,
 				name: "Konkrete Tips"
-				path: "blockfloete/qualitaet/index.html#konkret"
+				path: "/blockfloete/qualitaet/index.html#konkret"
 			]
 		,
 			name: "Behandlung"
