@@ -94,6 +94,9 @@ gulp.task 'assets', (cb) ->
   gulp.src 'source/.htaccess'
     .pipe gulp.dest 'build'
 
+  browserSync.reload()
+  cb()
+
 gulp.task 'akkordetool', (cb) ->
   gulp.src 'source/akkordetool/data.cson'
     .pipe cson()
@@ -122,5 +125,6 @@ gulp.task 'dev', ['setDevEnv', 'build'], ->
   gulp.watch ['source/**/*.html', 'source/**/*.hamlc'], ['html']
   gulp.watch 'source/stylesheets/**/*', ['sass']
   gulp.watch 'source/akkordetool/**/*', ['akkordetool']
+  gulp.watch ['source/img/**/*', 'source/midi/**/*', 'source/mp3/**/*', 'source/pdf/**/*'], ['assets']
 
 gulp.task 'default', ['dev']
