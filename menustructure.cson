@@ -1081,13 +1081,13 @@ menustructure:
 				]
 			]
 			children: [
-				name: "Durtonleitern mit &#9839;"
+				name: "Durtonleitern mit ♯"
 				path: "/musiklehre/tonleitern/kreuz/index.html"
 				sections: [
 					name: "Die C-Dur-Tonleiter"
 					path: "/musiklehre/tonleitern/kreuz/index.html#cdur"
 				,
-					name: "Wie entsteht das &#9839;?"
+					name: "Wie entsteht das ♯?"
 					path: "/musiklehre/tonleitern/kreuz/index.html#warumgibtes"
 				,
 					name: "Reihe der Kreuze"
@@ -1097,13 +1097,13 @@ menustructure:
 					path: "/musiklehre/tonleitern/kreuz/index.html#ergebnisse"
 				]
 			,
-				name: "Durtonleitern mit &#9837;"
+				name: "Durtonleitern mit ♭"
 				path: "/musiklehre/tonleitern/b/index.html"
 				sections: [
-					name: "Wie entsteht das &#9837;?"
+					name: "Wie entsteht das ♭?"
 					path: "/musiklehre/tonleitern/b/index.html#diebtonarten"
 				,
-					name: "Reihe der &#9837;"
+					name: "Reihe der ♭"
 					path: "/musiklehre/tonleitern/b/index.html#reiheb"
 				]
 			,
@@ -1132,7 +1132,7 @@ menustructure:
 				name: "Falsche Vorzeichen"
 				path: "/musiklehre/tonleitern/falsch/index.html"
 				sections: [
-					name: "Das &#9837; abschaffen?"
+					name: "Das ♭ abschaffen?"
 					path: "/musiklehre/tonleitern/falsch/index.html#bsabschaffen"
 				]
 			,
@@ -1170,10 +1170,10 @@ menustructure:
 					name: "Einleitung"
 					path: "/musiklehre/tonleitern/tonart/index.html#tonart"
 				,
-					name: "Vorzeichenreihe &#9839;"
+					name: "Vorzeichenreihe ♯"
 					path: "/musiklehre/tonleitern/tonart/index.html#vorzeichenreihe"
 				,
-					name: "Vorzeichenreihe &#9837;"
+					name: "Vorzeichenreihe ♭"
 					path: "/musiklehre/tonleitern/tonart/index.html#vorzeichenreiheb"
 				,
 					name: "Welche Tonart?"
