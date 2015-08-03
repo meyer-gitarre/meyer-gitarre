@@ -1,0 +1,111 @@
+$menuWidth: 12.5em;
+$menuBorderWidth: 1px;
+$menuBorderColor: navy;
+
+/* Menü Klappfunktionalität */
+.menu li {
+  position: relative;
+}
+.menu ol ol {
+  display: none;
+  position: absolute;
+}
+.menu li:hover > ol {
+  display: block;
+}
+.menu ol {
+  top: -1 * $menuBorderWidth;
+  right: -1 * $menuWidth;
+  margin-bottom: 0;
+}
+
+/* Menü Design */
+.menu {
+  width: $menuWidth;
+  text-align: center;
+
+  /*Styling für den Eintrag der aktuellen Seite*/
+  background: linear-gradient(to right, #5496f8, #d4e5fd);
+}
+.menu li {
+  list-style-type: none;
+  padding-left: 0;
+  width: $menuWidth;
+  border-top-width: $menuBorderWidth;
+  border-right-width: $menuBorderWidth;
+  border-bottom-width: 0;
+  border-left-width: $menuBorderWidth;
+  border-style: solid;
+  border-color: $menuBorderColor;
+  z-index: 3;
+}
+.defaultColor .menu li,
+.gitColor .menu li {
+  background: linear-gradient(to right, #5997e7, #3885e0 45%, #5997e7);
+}
+.musColor .menu li {
+  background: linear-gradient(to right, #7895ee, #6184eb, #7895ee);
+}
+.bflColor .menu li {
+  background: linear-gradient(to right, #549dce, #4094cf, #549dce);
+}
+.menu li:last-child {
+  border-bottom-width: $menuBorderWidth;
+}
+.menu a {
+  color: white;
+  background-color: transparent;
+
+  /* The link fills the whole li */
+  display: block;
+}
+.menu li:hover {
+  background: linear-gradient(to right, #5496f8, #d4e5fd);
+}
+.menu li:hover > a,
+.menu a:focus {
+  color: black;
+  text-decoration: none;
+  background-color: transparent;
+}
+.menu > a {
+  display: block;
+  border: $menuBorderWidth solid $menuBorderColor;
+  border-bottom-width: 0;
+  color: black;
+  font-weight: bold;
+}
+.menu > a:hover {
+  text-decoration: none;
+  background-color: transparent;
+}
+.menu > a:only-child {
+  border-bottom-width: $menuBorderWidth;
+}
+.menu li>a::after {
+  content: ' >';
+}
+.menu li>a:only-child::after {
+  content: '';
+}
+
+.menu .important li:first-child {
+  border-top-width: 0;
+}
+
+.menu .important ol li:first-child {
+  border-top-width: $menuBorderWidth;;
+}
+
+.menu .important a {
+  font-family: Georgia;
+  color: #d7e6fd;
+}
+
+.menu .important:only-of-type > li:first-child {
+  border-top-width: 1px;
+}
+
+.menu .important > li {
+  border-top-width: 1px;
+}

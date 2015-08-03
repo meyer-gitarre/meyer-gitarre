@@ -1,0 +1,73 @@
+/* Breadcrumbs Klappfunktionalität */
+.breadcrumbs {
+  position: relative;
+}
+.breadcrumbs > li > ol {
+  display: none;
+  position: absolute;
+}
+.breadcrumbs > li:hover > ol {
+  display: block;
+}
+
+/* Breadcrumbs Design */
+.breadcrumbs {
+  list-style-type: none;
+  margin-bottom: 0;
+}
+.defaultColor .breadcrumbs li, .gitColor .breadcrumbs li {
+  background-color: #3885e0;
+}
+.musColor .breadcrumbs li {
+    background-color: #6184eb;
+}
+.bflColor .breadcrumbs li {
+    background-color: #4094cf;
+}
+
+.defaultColor .breadcrumbs > li ol, .gitColor .breadcrumbs > li ol {
+  background-color: #3885e0;
+}
+.musColor .breadcrumbs > li ol {
+    background-color: #6184eb;
+}
+.bflColor .breadcrumbs > li ol {
+    background-color: #4094cf;
+}
+
+.breadcrumbs > li {
+  color: #edf3ff;
+  display: inline-block;
+  padding-right: 0.5em;
+  font-weight: bold;
+  font-size: 90%;
+}
+.breadcrumbs > li ol {
+  z-index: 5;
+  border: 1px solid navy;
+  border-radius: 5px;
+}
+.breadcrumbs a {
+  color: #edf3ff;
+  font-weight: bold;
+  font-size: 90%;
+  letter-spacing: 0.05em;
+  margin-right: 0.5em;
+  background-color: transparent;
+}
+.breadcrumbs li {
+  padding: 0.1em 0.5em 0.1em 0.2em;
+
+  border-radius: 5px;
+
+  margin-right: 0.5em;
+}
+.breadcrumbs > li::after {
+  content: " > ";
+}
+.breadcrumbs > li:last-of-type::after {
+  content: "";
+}
+.breadcrumbs ol {
+  list-style-type: none;
+}
