@@ -6,11 +6,13 @@
   padding-bottom: 0.5em;
 }
 
+/* .caption fills the horizontal space left over by the #menuContainer*/
 #menuContainer {
   margin-right: 1em;
   float: left;
 }
 
+/* .caption fills the horizontal space left over by the #menuContainer*/
 .caption {
   overflow: hidden;
   width: auto;
@@ -32,10 +34,6 @@
 .caption {
   line-height: 1.2;
   vertical-align: middle;
-}
-
-nav .series {
-  margin-bottom: 1em;
 }
 
 nav .imageWrapper {
