@@ -3,11 +3,19 @@
   background: linear-gradient(to right, #9bc6fc, #d8e8fc 55%, #a4c9f9);
   border-bottom: 1px solid #1171e3;
   padding-top: 0.125em;
-  padding-bottom: 0.125em;
+  padding-bottom: 0.5em;
 }
-#mainNav > .series > div:first-child {
-  width: 25.77%;
+
+#menuContainer {
+  margin-right: 1em;
+  float: left;
 }
+
+.caption {
+  overflow: hidden;
+  width: auto;
+}
+
 .navbar {
   margin-bottom: 1em;
 }
@@ -122,7 +130,6 @@ $menuBorderColor: navy;
 
 /* Menü Design */
 .menu {
-//  overflow: none;
   width: $menuWidth;
   text-align: center;
 
@@ -132,7 +139,6 @@ $menuBorderColor: navy;
 .menu li {
   list-style-type: none;
   padding-left: 0;
-  //overflow: none;
   width: $menuWidth;
   border-top-width: $menuBorderWidth;
   border-right-width: $menuBorderWidth;

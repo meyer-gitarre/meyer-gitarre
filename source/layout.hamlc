@@ -25,8 +25,8 @@
             %input{type: 'submit', value: 'Suche'}
             %input{type: 'hidden', name: 'p_userid', value: '511107'}
               %a{href: 'http://www.crawl-it.de/'}
-        .series
-          %div
+        #containerMenuCaption
+          #menuContainer
             = @helpers.structure.renderMenuDefault(@data.menuStructure)
           .caption
             .clearfix
