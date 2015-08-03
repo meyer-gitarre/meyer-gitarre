@@ -1,3 +1,5 @@
+$break-small: 32em;
+
 #mainNav {
   background-color: #edf3ff;
   background: linear-gradient(to right, #9bc6fc, #d8e8fc 55%, #a4c9f9);
@@ -9,25 +11,41 @@
 #menuContainer {
   margin-right: 1em;
   float: left;
+
+  @media screen and (max-width: $break-small) {
+    float: none;
+  }
 }
 
 .caption {
   overflow: hidden;
   width: auto;
+
+  @media screen and (max-width: $break-small) {
+    margin-top: 1em;
+  }
 }
 
 .navbar {
   margin-bottom: 1em;
 }
+
 .navbar > .breadcrumbs,
 .navbar > form {
   display: inline-block;
 }
+
 .navbar > .breadcrumbs {
   float: left;
 }
+
 .navbar > form {
   float: right;
+
+  @media screen and (max-width: $break-small) {
+    margin-top: 0.25em;
+    float: none;
+  }
 }
 .caption {
   line-height: 1.2;
@@ -37,4 +55,8 @@
 nav .imageWrapper {
   margin-top: 0;
   margin-bottom: 0;
+
+  @media screen and (max-width: $break-small) {
+    display: none;
+  }
 }
