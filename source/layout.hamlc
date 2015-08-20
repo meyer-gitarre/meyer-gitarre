@@ -31,7 +31,7 @@
           .caption
             .clearfix
             - if (@data.title is 'Sitemap') or (@data.menuStructure? and @data.menuStructure.length > 1)
-              .imageWrapper.img23.floatedRight.exBorder
+              .imageWrapper.img200.floatedRight.exBorder
                 %a{href: '/index.html'}
                   %img{src: '/img/Dachsgr1.jpg', alt: 'Gitarrendachs'}
               = @data.intro
