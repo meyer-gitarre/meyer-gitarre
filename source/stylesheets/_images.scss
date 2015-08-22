@@ -61,7 +61,7 @@
 
 .img600 { /*600px*/
 	@extend %floatedImageLeft;
-	width: 69.76%;
+	width: 69.77%;
 }
 
 .img580 { /*580px*/
@@ -229,12 +229,7 @@
 	width: 39.5%;
 }
 
-.img38 { /*334px*/
-	@extend %floatedImageLeft;
-	width: 38.8%;
-}
-
-.img300 {
+.img330 {
 	@extend %floatedImageLeft;
 	width: 38.37%;
 }
@@ -254,7 +249,7 @@
 	width: 35.6%;
 }
 
-.img300 {
+.img330 {
 	@extend %floatedImageLeft;
 	width: 34.88%;
 }
