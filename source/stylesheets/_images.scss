@@ -44,11 +44,6 @@
 	width: 76.7%;
 }
 
-.img650 { /*650px*/
-	@extend %floatedImageLeft;
-	width: 75.6%;
-}
-
 .img640 { /*640px*/
 	@extend %floatedImageLeft;
 	width: 74.4%;
@@ -69,7 +64,7 @@
 	width: 67.4%;
 }
 
-.img65 { /*565px*/
+.img565 {
 	@extend %floatedImageLeft;
 	width: 65.6%;
 }
@@ -129,9 +124,9 @@
 	width: 55.8%;
 }
 
-.img54 { /*471px*/
+.img470 { /*470px*/
 	@extend %floatedImageLeft;
-	width: 54.8%;
+	width: 54.651%;
 }
 
 .img460 { /*460 preferred*/
