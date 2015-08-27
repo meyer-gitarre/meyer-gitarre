@@ -44,37 +44,42 @@
 	width: 76.7%;
 }
 
-.img640 { /*640px*/
+.img640 {
 	@extend %floatedImageLeft;
 	width: 74.4%;
 }
 
-.img630 { /*630px*/
+.img630 {
 	@extend %floatedImageLeft;
 	width: 73.2%;
 }
 
-.img600 { /*600px*/
+.img615 {
+	@extend %floatedImageLeft;
+	width: 71.51%;
+}
+
+.img600 {
 	@extend %floatedImageLeft;
 	width: 69.77%;
 }
 
-.img580 { /*580px*/
+.img580 {
 	@extend %floatedImageLeft;
 	width: 67.4%;
 }
 
 .img565 {
 	@extend %floatedImageLeft;
-	width: 65.6%;
+	width: 65.697%;
 }
 
-.img550 { /*550.px preferred*/
+.img550 {
 	@extend %floatedImageLeft;
 	width: 63.95%;
 }
 
-.img63 { /*547px*/
+.img63 {
 	@extend %floatedImageLeft;
 	width: 63.6%;
 }
