@@ -36,7 +36,7 @@
                   %img{src: '/img/Dachsgr1.jpg', alt: 'Gitarrendachs'}
               = @data.intro
             - else
-              .imageWrapper.img33.floatedRight.exBorder
+              .imageWrapper.img280.floatedRight.exBorder
                 %a{href: '/index.html'}
                   %img{src: '/img/Dachsgr1.jpg', alt: 'Gitarrendachs'}
               = @data.intro

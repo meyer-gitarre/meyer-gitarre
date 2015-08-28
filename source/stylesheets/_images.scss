@@ -234,6 +234,11 @@
 	width: 25%;
 }
 
+.img210 {
+	@extend %floatedImageLeft;
+	width: 24.42%;
+}
+
 .img200 {
 	@extend %floatedImageLeft;
 	width: 23.25%;
@@ -279,7 +284,7 @@
 	width: 9.3%;
 }
 
-.img20 { /*px*/
+.img20 {
 	@extend %floatedImageLeft;
 	width: 2.325%;
 }
