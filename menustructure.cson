@@ -1469,16 +1469,6 @@ menustructure:
           path: "/musiklehre/akkorde/dreiklang/index.html#sprachliches"
         ]
       ,
-        name: "Vorhalt"
-        path: "/musiklehre/akkorde/vorhalt/index.html"
-        sections: [
-          name: "Vorhaltstriller"
-          path: "/musiklehre/akkorde/vorhalt/index.html#trill"
-        ,
-          name: "Vorhaltsregeln"
-          path: "/musiklehre/akkorde/vorhalt/index.html#regel"
-        ]
-      ,
         name: "Dreiklänge Aufbau 1"
         path: "/musiklehre/akkorde/aufbau-intervall/index.html"
         sections: [
@@ -1500,6 +1490,26 @@ menustructure:
         ,
           name: "Dreiklänge spielen"
           path: "/musiklehre/akkorde/aufbau-stammtoene/index.html#dreiklaengespielen"
+        ]
+      ,
+        name: "Umkehrungen"
+        path: "/musiklehre/akkorde/umkehrungen/index.html"
+        sections: [
+          name: "~ von Dreiklängen"
+          path: "/musiklehre/akkorde/umkehrungen/index.html#akkordumkehrungen"
+        ,
+          name: "~ von Septakkorden"
+          path: "/musiklehre/akkorde/umkehrungen/index.html#umkehrungensept"
+        ]
+      ,
+        name: "Vorhalt"
+        path: "/musiklehre/akkorde/vorhalt/index.html"
+        sections: [
+          name: "Vorhaltstriller"
+          path: "/musiklehre/akkorde/vorhalt/index.html#trill"
+        ,
+          name: "Vorhaltsregeln"
+          path: "/musiklehre/akkorde/vorhalt/index.html#regel"
         ]
       ,
         name: "Funktionen"
@@ -1564,16 +1574,6 @@ menustructure:
         ,
           name: "Quintezirkel vertikal"
           path: "/musiklehre/akkorde/weitere-funktionen/index.html#zirkelvertikal"
-        ]
-      ,
-        name: "Umkehrungen"
-        path: "/musiklehre/akkorde/umkehrungen/index.html"
-        sections: [
-          name: "~ von Dreiklängen"
-          path: "/musiklehre/akkorde/umkehrungen/index.html#akkordumkehrungen"
-        ,
-          name: "~ von Septakkorden"
-          path: "/musiklehre/akkorde/umkehrungen/index.html#umkehrungensept"
         ]
       ,
         name: "Septakkorde"
