@@ -1469,6 +1469,16 @@ menustructure:
           path: "/musiklehre/akkorde/dreiklang/index.html#sprachliches"
         ]
       ,
+        name: "Aufbaumethode"
+        path: "/musiklehre/akkorde/aufbau-methode/index.html"
+        sections: [
+          name: "Terzenschichtung"
+          path: "/musiklehre/akkorde/aufbau-methode/index.html#konstruktion"
+        ,
+          name: "Akustische Experimente"
+          path: "/musiklehre/akkorde/aufbau-methode/index.html#resonanz"
+        ]
+      ,
         name: "Dreiklänge Aufbau 1"
         path: "/musiklehre/akkorde/aufbau-intervall/index.html"
         sections: [
