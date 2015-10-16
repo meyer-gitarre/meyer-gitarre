@@ -1486,7 +1486,16 @@ menustructure:
           path: "/musiklehre/akkorde/aufbau-intervall/index.html#dreiklaengeint"
         ,
           name: "Fehlerquellen"
-          path: "/musiklehre/akkorde/aufbau-intervall/index.html#exkurs"
+          path: "/musiklehre/akkorde/aufbau-intervall/index.html#fehlerquellen"
+        ,
+          name: "Fehlerquelle Tastatur"
+          path: "/musiklehre/akkorde/aufbau-intervall/index.html#tastatur"
+        ,
+          name:"Quinten aufsagen"
+          path: "/musiklehre/akkorde/aufbau-intervall/index.html#aufsagen"
+        ,
+          name:"Beispiele"
+          path: "/musiklehre/akkorde/aufbau-intervall/index.html#beispiele"
         ]
       ,
         name: "Dreiklänge Aufbau 2"
@@ -1495,7 +1504,16 @@ menustructure:
           name: "~ mit Stammtonreihe"
           path: "/musiklehre/akkorde/aufbau-stammtoene/index.html#dreiklaengeaufbauen"
         ,
-          name: "~ mit Tonleiter"
+          name: "Das Rahmenintervall"
+          path: "/musiklehre/akkorde/aufbau-stammtoene/index.html#rahmen"
+        ,
+          name: "Die Terz"
+          path: "/musiklehre/akkorde/aufbau-stammtoene/index.html#terzen"
+        ,
+          name: "Beispiele"
+          path: "/musiklehre/akkorde/aufbau-stammtoene/index.html#durmoll"
+        ,
+          name: "Aufbau mit Tonleiter"
           path: "/musiklehre/akkorde/aufbau-stammtoene/index.html#dreiklaengetonl"
         ,
           name: "Dreiklänge spielen"
@@ -1507,6 +1525,9 @@ menustructure:
         sections: [
           name: "~ von Dreiklängen"
           path: "/musiklehre/akkorde/umkehrungen/index.html#akkordumkehrungen"
+        ,
+          name: "Begriffe"
+          path: "/musiklehre/akkorde/umkehrungen/index.html#basston"
         ,
           name: "~ von Septakkorden"
           path: "/musiklehre/akkorde/umkehrungen/index.html#umkehrungensept"
