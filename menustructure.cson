@@ -1565,6 +1565,9 @@ menustructure:
         name: "Dominantseptakkord"
         path: "/musiklehre/akkorde/dsieben/index.html"
         sections: [
+          name: "D7 und verm. Dreiklang"
+          path: "/musiklehre/akkorde/dsieben/index.html#vermdrei"
+        ,
           name: "D7 und Tonleiter"
           path: "/musiklehre/akkorde/dsieben/index.html#dominantseptakkord"
         ,
