@@ -127,6 +127,40 @@ menustructure:
           path: "/gitarre/unterricht/lernen/index.html#konzept"
         ]
       ,
+        name: "Beispielstück"
+        path: "/gitarre/unterricht/beispielstueck/index.html"
+        sections: [
+          name: "Das Beispielstück"
+          path: "/gitarre/unterricht/beispielstueck/index.html#stueck"
+        ,
+          name: "Zeit"
+          path: "/gitarre/unterricht/beispielstueck/index.html#zeit"
+        ,
+          name: "Haltung am Anfang"
+          path: "/gitarre/unterricht/beispielstueck/index.html#haltlern"
+        ,
+          name: "Melodiespiel"
+          path: "/gitarre/unterricht/beispielstueck/index.html#einstimmmig"
+        ,
+          name: "Basstöne"
+          path: "/gitarre/unterricht/beispielstueck/index.html#baesse"
+        ,
+          name: "Zweistimmig 1"
+          path: "/gitarre/unterricht/beispielstueck/index.html#zweist"
+        ,
+          name: "Zweistimmig 2"
+          path: "/gitarre/unterricht/beispielstueck/index.html#Zweistimmig"
+        ,
+          name: "Akkorde arpeggiert"
+          path: "/gitarre/unterricht/beispielstueck/index.html#zerl"
+        ,
+          name: "Akkorde geschlagen"
+          path: "/gitarre/unterricht/beispielstueck/index.html#akkschlag"
+        ,
+          name: "Zusammenfassung"
+          path: "/gitarre/unterricht/beispielstueck/index.html#zusam"
+        ]
+      ,
         name: "Unterrichtsform"
         path: "/gitarre/unterricht/form/index.html"
         sections: [
