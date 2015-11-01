@@ -156,9 +156,6 @@ menustructure:
         ,
           name: "Akkorde geschlagen"
           path: "/gitarre/unterricht/beispielstueck/index.html#akkschlag"
-        ,
-          name: "Zusammenfassung"
-          path: "/gitarre/unterricht/beispielstueck/index.html#zusam"
         ]
       ,
         name: "Unterrichtsform"
@@ -370,6 +367,16 @@ menustructure:
       ,
         name: "Haltungsfehler"
         path: "/gitarre/haltung/fehler/index.html"
+        sections: [
+          name: "Körper"
+          path: "/gitarre/haltung/fehler/index.html#fehler"
+        ,
+          name: "Greifhand"
+          path: "/gitarre/haltung/fehler/index.html#greifhand"
+        ,
+          name: "Anschlagshand"
+          path: "/gitarre/haltung/fehler/index.html#anschlagshand"
+        ]
       ]
     ,
       name: "Stimmen"
