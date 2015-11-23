@@ -149,7 +149,7 @@ menustructure:
           path: "/gitarre/unterricht/beispielstueck/index.html#zweist"
         ,
           name: "Zweistimmig 2"
-          path: "/gitarre/unterricht/beispielstueck/index.html#Zweistimmig"
+          path: "/gitarre/unterricht/beispielstueck/index.html#zweistimmig"
         ,
           name: "Akkorde arpeggiert"
           path: "/gitarre/unterricht/beispielstueck/index.html#zerl"
@@ -760,7 +760,7 @@ menustructure:
           name: "Barrégriffe suchen"
           path: "/gitarre/akkorde/barre/index.html#barresuchen"
         ,
-          name: "Barré: Eintieg"
+          name: "Barré: Einstieg"
           path: "/gitarre/akkorde/barre/index.html#barreeinstieg"
         ,
           name: "Einstieg 2: Knickbarré"
