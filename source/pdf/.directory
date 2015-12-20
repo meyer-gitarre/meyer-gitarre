@@ -1,8 +1,6 @@
 [Dolphin]
 PreviewsShown=true
-SortOrder=1
-SortRole=size
-Timestamp=2015,11,21,22,8,1
+Timestamp=2015,12,19,10,54,39
 Version=3
 ViewMode=1
 VisibleRoles=Details_text,Details_size,Details_date,Details_type,CustomizedDetails
