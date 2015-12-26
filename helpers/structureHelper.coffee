@@ -58,6 +58,26 @@ renderMenuEntry = (clazz, p) ->
 renderImportants = (p) ->
   importants = []
 
+  # Bei Home Seite sind die importants gehardcoded.
+  unless p.parent?
+    console.log p.name
+    homeImps = [
+      name: "Stichworte"
+      path: "/gitarre/index.html#stichwortverzeichnisgitarre"
+      sections: [
+        name: "Gitarre"
+        path: "/gitarre/index.html#stichwortverzeichnisgitarre"
+      ,
+        name: "Musiklehre"
+        path: "/musiklehre/index.html#stichwortverzeichnismusik"
+      ,
+        name: "Blockflöte"
+        path: "/blockfloete/index.html#stichwortverzeichnisbfl"
+      ]
+    ]
+    for homeImp in homeImps
+      importants.unshift renderMenuEntry(null, homeImp)
+
   for page in getParentsInclusive p
     if page.important? and page.important.length > 0
       for imp in page.important

@@ -1,10 +1,6 @@
 menustructure:
   name: "Home"
   path: "/index.html"
-  sections: [
-    name: "Aktualisierungen"
-    path: "/index.html#aktualisierungen"
-  ]
   children: [
     name: "Gitarre"
     path: "/gitarre/index.html"
