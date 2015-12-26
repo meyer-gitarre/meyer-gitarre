@@ -1194,6 +1194,9 @@ menustructure:
           name: "Pentatonik für Gitarre"
           path: "/musiklehre/tonleitern/pentatonik/index.html#pentagit"
         ,
+          name: "Namen der Patterns"
+          path: "/musiklehre/tonleitern/pentatonik/index.html#patternname"
+        ,
           name: "5 Formen der ~"
           path: "/musiklehre/tonleitern/pentatonik/index.html#varianten"
         ,
