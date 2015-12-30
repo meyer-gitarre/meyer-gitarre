@@ -41,6 +41,11 @@
                   %img{src: '/img/Dachsgr1.jpg', alt: 'Gitarrendachs'}
               = @data.intro
       %main
+        .series.navContext
+          %div
+            = @helpers.structure.renderLinkPreviousPage(@data.menuStructure)
+          %div
+            = @helpers.structure.renderLinkNextPage(@data.menuStructure)
         = @content
         .series.navContext
           %div

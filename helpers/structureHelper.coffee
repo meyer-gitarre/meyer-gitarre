@@ -60,7 +60,6 @@ renderImportants = (p) ->
 
   # Bei Home Seite sind die importants gehardcoded.
   unless p.parent?
-    console.log p.name
     homeImps = [
       name: "Stichworte"
       path: "/gitarre/index.html#stichwortverzeichnisgitarre"

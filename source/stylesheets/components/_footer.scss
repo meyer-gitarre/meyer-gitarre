@@ -10,13 +10,18 @@
 }
 
 .prevPage::before {
-	content: "<< Seite"
+	font-size:1.2em;
+	content: "↩";
 }
 
 .nextPage::before {
-	content: "Seite >>"
+	font-size:1.2em;
+	content: "↪";
 }
 
+.navContext {
+	//margin-bottom: -0.1em;
+}
 .navContext > div:nth-child(1) {
 	text-align: left;
 }
