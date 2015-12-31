@@ -1571,6 +1571,9 @@ menustructure:
         ,
           name: "~ von Septakkorden"
           path: "/musiklehre/akkorde/umkehrungen/index.html#umkehrungensept"
+        ,
+          name: "Bezeichnungen"
+          path: "/musiklehre/akkorde/umkehrungen/index.html#bezeichnungen"
         ]
       ,
         name: "Vorhalt"
