@@ -7,8 +7,8 @@
 	<p>
 		Die "Hauptseiten"
 		<strong>Gitarre und Musiklehre</strong> verzweigen sich weiter auf
-		<strong>Themen-Startseiten</strong>. Von diesen aus geht es weiter auf die Folgeseiten mit den einzelnen Kapiteln. <strong>Blockflöte</strong> hat selbst direkte Folgeseiten.
-		<br>Am Anfang und am Ende jeder Seite finden sich Links zur vorherigen "<b><span class="blue">↩</span></b>" und zur folgenden "<b><span class="blue">↪</span></b>" Seite, damit man quasi vor- und zurückblättern kann.
+		<strong>Themen-Startseiten</strong>. Von diesen aus geht es weiter auf die Folgeseiten mit den einzelnen Kapiteln. <strong>Blockflöte</strong> hat selbst direkte Folgeseiten.</p>
+		<p>Am Anfang und am Ende jeder Seite finden sich Links zur vorherigen "<b><span class="blue">↩</span></b>" und zur folgenden "<b><span class="blue">↪</span></b>" Seite, damit man quasi vor- und zurückblättern kann.
 	</p>
 	<p>
 		Es gibt <a href="/musiklehre/index.html#stichwortverzeichnismusik">Stichworte</a> zu den Hauptseiten und eine <a href="#wrapper">Suche</a>, die über einen externen Server läuft und anzeigt, ob und auf welcher Seite ein Begriff vorkommt. Auf der gefundenen
