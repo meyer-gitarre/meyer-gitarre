@@ -1861,6 +1861,9 @@ menustructure:
         name: "Mit üb. Quintsextakkord"
         path: "/musiklehre/modulation/uequintsext/index.html"
         sections: [
+          name: "~ als Dominante"
+          path: "/musiklehre/modulation/uequintsext/index.html#alsd"
+        ,
           name: "~ als Doppeldominante"
           path: "/musiklehre/modulation/uequintsext/index.html#dd"
         ,
