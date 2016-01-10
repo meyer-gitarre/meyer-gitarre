@@ -118,7 +118,6 @@ Redirect 301 /musiklehre-hoeren.html#gehoerbildung /musiklehre/gehoerbildung/hoe
 Redirect 301 /musiklehre-hoeren-intervalle-auf.html /musiklehre/gehoerbildung/intervalle-auf/index.html
 Redirect 301 /musiklehre-hoeren-intervalle-ab.html /musiklehre/gehoerbildung/intervalle-ab/index.html
 Redirect 301 /musiklehre-hoeren-singen-stufen.html /musiklehre/gehoerbildung/stufen-singen/index.html
-Redirect 301 /musiklehre-hoeren-kadenz-absolut.html /musiklehre/gehoerbildung/kadenz-absolut/index.html
 Redirect 301 /musiklehre-rhythmus.html /musiklehre/rhythmus/index.html
 Redirect 301 /musiklehre-rhythmus.html#zeiteinteilungen /musiklehre/rhythmus/ueberblick/index.html
 Redirect 301 /musiklehre-rhythmus-takt.html /musiklehre/rhythmus/takt/index.html
