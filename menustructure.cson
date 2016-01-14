@@ -1573,7 +1573,7 @@ menustructure:
           path: "/musiklehre/akkorde/umkehrungen/index.html#umkehrungensept"
         ,
           name: "Bezeichnungen"
-          path: "/musiklehre/akkorde/umkehrungen/index.html#bezeichnungen"
+          path: "/musiklehre/akkorde/umkehrungen/index.html#bezeichnung"
         ]
       ,
         name: "Vorhalt"
@@ -2019,6 +2019,23 @@ menustructure:
     ,
       name: "Gehörbildung"
       path: "/musiklehre/gehoerbildung/index.html"
+      important: [
+        name: "Übungen"
+        path: "/musiklehre/gehoerbildung/index.html"
+        sections: [
+          name: "Intervalle üben"
+          path: "/musiklehre/gehoerbildung/intervalle-ab/index.html#intervalleueben"
+        ,
+          name: "Übung Stufensingen"
+          path: "/musiklehre/gehoerbildung/stufen-singen/index.html#uebstufen"
+        ,
+          name: "Akkorde üben"
+          path: "/musiklehre/gehoerbildung/akkorde-hoeren/index.html#akkordeueben"
+        ,
+          name: "Kadenzen üben"
+          path: "/musiklehre/gehoerbildung/akkorde-hoeren/index.html#kadenzueben"
+        ]
+      ]
       children: [
         name: "Arbeitsbereiche"
         path: "/musiklehre/gehoerbildung/hoeren/index.html"
@@ -2029,31 +2046,48 @@ menustructure:
           name: "Arbeitsbereiche"
           path: "/musiklehre/gehoerbildung/hoeren/index.html#arbeitsbereiche"
         ,
+          name: "Hilfsmittel"
+          path: "/musiklehre/gehoerbildung/hoeren/index.html#hilfen"
+        ,
           name: "Themen"
           path: "/musiklehre/gehoerbildung/hoeren/index.html#themen"
+        ,
+          name: "Absolutes Gehör"
+          path: "/musiklehre/gehoerbildung/hoeren/index.html#absoluten"
         ]
       ,
-        name: "Intervalle aufwärts"
+        name: "Blattsingen 1"
         path: "/musiklehre/gehoerbildung/intervalle-auf/index.html"
+        sections: [
+          name: "Intervalle singen"
+          path: "/musiklehre/gehoerbildung/intervalle-auf/index.html#intsing"
+        ,
+          name: "Intervalle aufwärts"
+          path: "/musiklehre/gehoerbildung/intervalle-auf/index.html#beispieleintervalleauf"
+        ]
       ,
-        name: "Intervalle abwärts"
+        name: "Blattsingen 2"
         path: "/musiklehre/gehoerbildung/intervalle-ab/index.html"
+        sections: [
+          name: "Intervalle abwärts"
+          path: "/musiklehre/gehoerbildung/intervalle-ab/index.html#beispieleintervalleab"
+        ]
       ,
         name: "Stufensingen"
         path: "/musiklehre/gehoerbildung/stufen-singen/index.html"
         sections: [
-          name: "Intervalle singen"
-          path: "/musiklehre/gehoerbildung/stufen-singen/index.html#intervallesingen"
-        ,
           name: "Stufen hören"
           path: "/musiklehre/gehoerbildung/stufen-singen/index.html#stufenhoeren"
+        ,
+          name: "Kadenzlagen"
+          path: "/musiklehre/gehoerbildung/stufen-singen/index.html#diekadenz"
         ]
       ,
-        name: "Kadenzlagen"
-        path: "/musiklehre/gehoerbildung/kadenz-absolut/index.html"
+        name: "Akkorde hören"
+        path: "/musiklehre/gehoerbildung/akkorde-hoeren/index.html"
         sections: [
-          name: "Absolutes Gehör"
-          path: "/musiklehre/gehoerbildung/kadenz-absolut/index.html#absoluten"
+          name: "Akkorde erarbeiten"
+          path: "/musiklehre/gehoerbildung/akkorde-hoeren/index.html#akkorde"
         ]
       ]
     ,
