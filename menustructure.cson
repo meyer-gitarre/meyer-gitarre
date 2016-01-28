@@ -2086,8 +2086,11 @@ menustructure:
         name: "Akkorde hören"
         path: "/musiklehre/gehoerbildung/akkorde-hoeren/index.html"
         sections: [
-          name: "Akkorde erarbeiten"
+          name: "Dreiklänge erarbeiten"
           path: "/musiklehre/gehoerbildung/akkorde-hoeren/index.html#akkorde"
+        ,
+          name: "Septakkorde erarbeiten"
+          path: "/musiklehre/gehoerbildung/akkorde-hoeren/index.html#septakkorde"
         ]
       ]
     ,
