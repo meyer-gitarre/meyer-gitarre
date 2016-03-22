@@ -1399,6 +1399,12 @@ menustructure:
           name: "Analyseübungen"
           path: "/musiklehre/akkorde/analyse/index.html"
           sections: [
+            name: "Harmonische Analyse"
+            path: "/musiklehre/akkorde/analyse/index.html#analyse"
+          ,
+            name: "Carcassi Opus 60"
+            path: "/musiklehre/akkorde/analyse/index.html#carcassi"
+          ,
             name: "Tárrega-Preludio"
             path: "/musiklehre/akkorde/analyse/index.html#preludio"
           ,
@@ -1675,6 +1681,12 @@ menustructure:
           name: "Analyseübungen"
           path: "/musiklehre/akkorde/analyse/index.html"
           sections: [
+            name: "Harmonische Analyse"
+            path: "/musiklehre/akkorde/analyse/index.html#analyse"
+          ,
+            name: "Carcassi Opus 60"
+            path: "/musiklehre/akkorde/analyse/index.html#carcassi"
+          ,
             name: "Tárrega-Preludio"
             path: "/musiklehre/akkorde/analyse/index.html#preludio"
           ,
