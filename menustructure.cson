@@ -1408,6 +1408,9 @@ menustructure:
             name: "Tárrega-Preludio"
             path: "/musiklehre/akkorde/analyse/index.html#preludio"
           ,
+            name: "Praeludium BWV 882"
+            path: "/musiklehre/akkorde/analyse/index.html#bachprel"
+          ,
             name: "Bach-Choral"
             path: "/musiklehre/akkorde/analyse/index.html#chorals"
           ]
@@ -1689,6 +1692,9 @@ menustructure:
           ,
             name: "Tárrega-Preludio"
             path: "/musiklehre/akkorde/analyse/index.html#preludio"
+          ,
+            name: "Praeludium BWV 882"
+            path: "/musiklehre/akkorde/analyse/index.html#bachprel"
           ,
             name: "Bach-Choral"
             path: "/musiklehre/akkorde/analyse/index.html#chorals"
