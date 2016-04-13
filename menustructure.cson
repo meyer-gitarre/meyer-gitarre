@@ -239,6 +239,9 @@ menustructure:
           name: "Werktreue & Bearbeitung"
           path: "/gitarre/unterricht/material/index.html#courantevisee"
         ,
+          name: "Bearbeitungen für Gitarre"
+          path: "/gitarre/unterricht/material/index.html#bearbeitung"
+        ,
           name: "Hausaufgaben"
           path: "/musiklehre/musik-text/texte/index.html#hausauf"
         ]
