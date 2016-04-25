@@ -756,6 +756,9 @@ menustructure:
         name: "Barrégriffe"
         path: "/gitarre/akkorde/barre/index.html"
         sections: [
+          name: "Drei Haupttypen"
+          path: "/gitarre/akkorde/barre/index.html#haupttypen"
+        ,
           name: "Barrégriffe suchen"
           path: "/gitarre/akkorde/barre/index.html#barresuchen"
         ,
