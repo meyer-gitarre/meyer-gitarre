@@ -1,3 +1,6 @@
+# ignore dolphin's .directory files
+.directory
+
 # keeps git from tracking dachsbau
 /source/meta/dachsbau/*
 
