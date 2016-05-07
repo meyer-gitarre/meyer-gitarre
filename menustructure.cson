@@ -2149,6 +2149,9 @@ menustructure:
         name: "Glossen"
         path: "/musiklehre/musik-text/glossen/index.html"
         sections: [
+          name: "Gitarre und Musiktheorie"
+          path: "/musiklehre/musik-text/glossen/index.html#gittheorie"
+        ,
           name: "Gitarre als Geschenk"
           path: "/musiklehre/musik-text/glossen/index.html#geschenk"
         ,
