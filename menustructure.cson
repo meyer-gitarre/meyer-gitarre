@@ -1317,11 +1317,18 @@ menustructure:
           name: "Name und Größe"
           path: "/musiklehre/intervalle/name/index.html#intervallebezeichnungen"
         ,
+          name: "Die Intervallnamen"
+          path: "/musiklehre/intervalle/name/index.html#intervallnamen"
+        ,
+          name: "Übung Intervallnamen"
+          path: "/musiklehre/intervalle/name/index.html#uebungintervallnamen"
+        ]
+      ,
+        name: "Größe in Halbtonschritten"
+        path: "/musiklehre/intervalle/groesse/index.html"
+        sections: [
           name: "Halbtonschritte & Größe"
           path: "/musiklehre/intervalle/name/index.html#halbton"
-        ,
-          name: "Intervallnamen"
-          path: "/musiklehre/intervalle/name/index.html#intervallnamen"
         ]
       ,
         name: "Intervallarten"
@@ -1333,11 +1340,11 @@ menustructure:
           name: "übermäßig / vermindert"
           path: "/musiklehre/intervalle/arten/index.html#vermue"
         ,
-          name: "Umkehrungen"
-          path: "/musiklehre/intervalle/arten/index.html#umkehrung"
-        ,
           name: "Genaue Größe"
           path: "/musiklehre/intervalle/arten/index.html#genauegroesse"
+        ,
+          name: "Umkehrungen"
+          path: "/musiklehre/intervalle/arten/index.html#umkehrung"
         ]
       ,
         name: "Enharmonische Int."
@@ -1345,6 +1352,9 @@ menustructure:
         sections: [
           name: "~ Beispiele"
           path: "/musiklehre/intervalle/enharmonisch/index.html#beienharm"
+        ,
+          name: "Intervallnamen abschaffen"
+          path: "/musiklehre/intervalle/name/index.html#abschaffen"
         ]
       ,
         name: "Aufbaufehler"
