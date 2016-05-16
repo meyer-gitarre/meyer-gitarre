@@ -16,23 +16,23 @@
   margin-bottom: 0;
 }
 .defaultColor .breadcrumbs li, .gitColor .breadcrumbs li {
-  background-color: #3885e0;
+  background-color: #2d7fe0;
 }
 .musColor .breadcrumbs li {
-    background-color: #6184eb;
+    background-color: #597eeb;
 }
 .bflColor .breadcrumbs li {
-    background-color: #4094cf;
+    background-color: #348fcf;
 }
 
 .defaultColor .breadcrumbs > li ol, .gitColor .breadcrumbs > li ol {
-  background-color: #3885e0;
+  background-color: #2d7fe0;
 }
 .musColor .breadcrumbs > li ol {
-    background-color: #6184eb;
+    background-color: #597eeb;
 }
 .bflColor .breadcrumbs > li ol {
-    background-color: #4094cf;
+    background-color: #348fcf;
 }
 
 .breadcrumbs > li {
@@ -40,7 +40,7 @@
   display: inline-block;
   padding-right: 0.5em;
   font-weight: bold;
-  font-size: 90%;
+  font-size: 85%;
 
   @media screen and (max-width: $break-small) {
     margin-bottom: 0.25em;

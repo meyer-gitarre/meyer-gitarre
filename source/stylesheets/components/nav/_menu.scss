@@ -41,13 +41,13 @@ $menuBorderColor: navy;
 }
 .defaultColor .menu li,
 .gitColor .menu li {
-  background: linear-gradient(to right, #5997e7, #3885e0 45%, #5997e7);
+  background: linear-gradient(to right, #5997e7, #2d7fe0 45%, #5997e7);
 }
 .musColor .menu li {
-  background: linear-gradient(to right, #7895ee, #6184eb, #7895ee);
+  background: linear-gradient(to right, #7895ee, #597eeb, #7895ee);
 }
 .bflColor .menu li {
-  background: linear-gradient(to right, #549dce, #4094cf, #549dce);
+  background: linear-gradient(to right, #549dce, #348fcf, #549dce);
 }
 .menu li:last-child {
   border-bottom-width: $menuBorderWidth;
