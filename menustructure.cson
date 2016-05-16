@@ -2055,7 +2055,7 @@ menustructure:
       path: "/musiklehre/gehoerbildung/index.html"
       important: [
         name: "Übungen"
-        path: "/musiklehre/gehoerbildung/index.html"
+        path: "/musiklehre/fahrplan/index.html#uebsing"
         sections: [
           name: "Intervalle üben"
           path: "/musiklehre/gehoerbildung/intervalle-ab/index.html#intervalleueben"
