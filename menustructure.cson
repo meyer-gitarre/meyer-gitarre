@@ -542,6 +542,9 @@ menustructure:
         ,
           name: "Wie lernt man Noten?"
           path: "/gitarre/notation/gitarrennoten/index.html#wienoten"
+        ,
+          name: "Blattspielübungen"
+          path: "/gitarre/griffbrett/blattspiel/index.html#uebblatt"
         ]
       ,
         name: "Alterierte Töne"
