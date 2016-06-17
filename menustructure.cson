@@ -1331,7 +1331,7 @@ menustructure:
         path: "/musiklehre/intervalle/groesse/index.html"
         sections: [
           name: "Halbtonschritte & Größe"
-          path: "/musiklehre/intervalle/name/index.html#halbton"
+          path: "/musiklehre/intervalle/groesse/index.html#halbton"
         ]
       ,
         name: "Intervallarten"
@@ -1357,7 +1357,7 @@ menustructure:
           path: "/musiklehre/intervalle/enharmonisch/index.html#beienharm"
         ,
           name: "Intervallnamen abschaffen"
-          path: "/musiklehre/intervalle/name/index.html#abschaffen"
+          path: "/musiklehre/intervalle/enharmonisch/index.html#abschaffen"
         ]
       ,
         name: "Aufbaufehler"
