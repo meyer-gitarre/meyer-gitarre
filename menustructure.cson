@@ -257,8 +257,11 @@ menustructure:
         name: "Übetipps"
         path: "/gitarre/ueben/uebetipps/index.html"
         sections: [
-          name: "Lesetipps"
-          path: "/gitarre/ueben/uebetipps/index.html#lesetipps"
+          name: "Übetipps"
+          path: "/gitarre/ueben/uebetipps/index.html#ueben"
+        ,
+          name: "Mit Erfolg lernen"
+          path: "/gitarre/ueben/uebetipps/index.html#erfolgreich"
         ,
           name: "genug üben"
           path: "/gitarre/ueben/uebetipps/index.html#genugueben"
@@ -268,6 +271,9 @@ menustructure:
         ,
           name: "Singen & Gitarre"
           path: "/gitarre/unterricht/egit/index.html#singen"
+        ,
+          name: "Lesetipps"
+          path: "/gitarre/ueben/uebetipps/index.html#lesetipps"
         ]
       ,
         name: "Übekonzepte"
