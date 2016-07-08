@@ -30,6 +30,7 @@ $menuBorderColor: navy;
 .menu li {
   list-style-type: none;
   padding-left: 0;
+  line-height: 1.5em;
   width: $menuWidth;
   border-top-width: $menuBorderWidth;
   border-right-width: $menuBorderWidth;
