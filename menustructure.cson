@@ -471,6 +471,18 @@ menustructure:
         name: "Pflege & Behandlung"
         path: "/gitarre/technisches/pflege/index.html"
         sections: [
+          name: "Größere Schäden"
+          path: "/gitarre/technisches/pflege/index.html#schaeden"
+        ,
+          name: "Aufbewahrung"
+          path: "/gitarre/technisches/pflege/index.html#aufbewahrung"
+        ,
+          name: "Saiten, Putzen, Ölen"
+          path: "/gitarre/technisches/pflege/index.html#putzen"
+        ,
+          name: "E-Gitarren"
+          path: "/gitarre/technisches/pflege/index.html#egit"
+        ,
           name: "Reparaturen"
           path: "/gitarre/technisches/pflege/index.html#reparaturen"
         ]
