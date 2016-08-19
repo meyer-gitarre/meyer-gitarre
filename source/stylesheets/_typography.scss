@@ -161,7 +161,6 @@ cite {
 	font-family: Times New Roman, serif;
 	font-style: italic;
 	font-weight: bold;
-	font-size: 1.1em;
 	color: #000099;
  }
 
@@ -334,4 +333,7 @@ span.underline {
 }
 span.overline {
 	text-decoration: overline;
+}
+span.degree {
+	font-family: Georgia, serif;
 }
