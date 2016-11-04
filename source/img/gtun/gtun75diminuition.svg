@@ -1,0 +1,1948 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.2"
+   width="506.07166"
+   height="438.55533"
+   viewBox="0 0 81.275126 70.432"
+   id="svg2"
+   inkscape:version="0.91 r"
+   sodipodi:docname="diminuition.svg">
+  <metadata
+     id="metadata594">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs592" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1025"
+     id="namedview590"
+     showgrid="false"
+     units="px"
+     showborder="true"
+     fit-margin-top="5"
+     fit-margin-left="5"
+     fit-margin-right="5"
+     fit-margin-bottom="5"
+     inkscape:zoom="1"
+     inkscape:cx="232.61911"
+     inkscape:cy="68.756358"
+     inkscape:window-x="-3"
+     inkscape:window-y="-3"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <!-- Page: 1/1 -->
+  <text
+     font-size="2.2001"
+     id="text4"
+     style="font-size:2.20009995px;font-family:'Century Schoolbook L';text-anchor:start;fill:currentColor"
+     x="0.80371231"
+     y="-0.19699983">
+    <tspan
+       id="tspan6" />
+  </text>
+  <rect
+     x="80.28141"
+     y="2.5790002"
+     width="0.19"
+     height="4"
+     ry="0.0000"
+     id="rect8"
+     style="fill:currentColor" />
+  <line
+     x1="9.3895121"
+     y1="6.579"
+     x2="80.421417"
+     y2="6.579"
+     id="line10"
+     style="stroke:currentColor;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round" />
+  <line
+     x1="9.3895121"
+     y1="5.579"
+     x2="80.421417"
+     y2="5.579"
+     id="line12"
+     style="stroke:currentColor;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round" />
+  <line
+     x1="9.3895121"
+     y1="4.579"
+     x2="80.421417"
+     y2="4.579"
+     id="line14"
+     style="stroke:currentColor;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round" />
+  <line
+     x1="9.3895121"
+     y1="3.5790002"
+     x2="80.421417"
+     y2="3.5790002"
+     id="line16"
+     style="stroke:currentColor;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round" />
+  <line
+     x1="9.3895121"
+     y1="2.5790002"
+     x2="80.421417"
+     y2="2.5790002"
+     id="line18"
+     style="stroke:currentColor;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round" />
+  <a
+     style="color:inherit"
+     xlink:href="textedit:///home/uli/lilypond/diminuition.ly:18:5:6"
+     id="a20"
+     transform="translate(-4.8868877,-3.0422998)">
+    <path
+       transform="matrix(0.004,0,0,-0.004,54.0473,7.1213)"
+       d="m 315,65 c 0,24 -21,41 -42,41 -4,0 -8,0 -12,-1 C 230,96 184,65 147,41 110,17 63,-12 43,-37 36,-45 32,-55 32,-65 c 0,-24 21,-41 42,-41 4,0 8,0 12,1 31,9 78,40 115,64 37,24 84,53 104,78 7,8 10,18 10,28 z m -51,72 c 47,0 83,-21 83,-72 0,-19 -4,-37 -10,-56 -12,-38 -32,-74 -65,-96 -54,-36 -113,-51 -188,-51 -47,0 -84,22 -84,73 0,19 5,37 11,56 12,38 31,74 64,96 54,36 114,50 189,50 z"
+       id="path22"
+       inkscape:connector-curvature="0"
+       style="fill:currentColor" />
+  </a>
+  <rect
+     x="49.160412"
+     y="4.3404002"
+     width="0.13"
+     height="3.2386"
+     ry="0.039999999"
+     id="rect24"
+     style="fill:currentColor" />
+  <a
+     style="color:inherit"
+     xlink:href="textedit:///home/uli/lilypond/diminuition.ly:18:2:3"
+     id="a26"
+     transform="translate(-4.8868877,-3.0422998)">
+    <path
+       transform="matrix(0.004,0,0,-0.004,22.9264,7.6213)"
+       d="m 315,65 c 0,24 -21,41 -42,41 -4,0 -8,0 -12,-1 C 230,96 184,65 147,41 110,17 63,-12 43,-37 36,-45 32,-55 32,-65 c 0,-24 21,-41 42,-41 4,0 8,0 12,1 31,9 78,40 115,64 37,24 84,53 104,78 7,8 10,18 10,28 z m -51,72 c 47,0 83,-21 83,-72 0,-19 -4,-37 -10,-56 -12,-38 -32,-74 -65,-96 -54,-36 -113,-51 -188,-51 -47,0 -84,22 -84,73 0,19 5,37 11,56 12,38 31,74 64,96 54,36 114,50 189,50 z"
+       id="path28"
+       inkscape:connector-curvature="0"
+       style="fill:currentColor" />
+  </a>
+  <path
+     d="m 11.643512,4.5310002 c 0.016,0 0.036,-0.004 0.052,-0.004 0.62,0 1.024,0.512 1.024,1.044 0,0.304 -0.132,0.616 -0.428,0.84 -0.088,0.068 -0.188,0.112 -0.292,0.144 0.012,0.14 0.02,0.28 0.02,0.42 0,0.076 -0.004,0.156 -0.008,0.232 -0.028,0.48 -0.36,0.912 -0.832,0.912 -0.432,0 -0.78,-0.352 -0.78,-0.788 0,-0.232 0.212,-0.412 0.448,-0.412 0.216,0 0.38,0.188 0.38,0.412 0,0.208 -0.172,0.38 -0.38,0.38 -0.044,0 -0.084,-0.008 -0.124,-0.024 0.104,0.156 0.272,0.26 0.468,0.26 0.384,0 0.628,-0.368 0.652,-0.764 0.004,-0.072 0.008,-0.148 0.008,-0.22 0,-0.124 -0.004,-0.244 -0.016,-0.368 -0.116,0.02 -0.232,0.032 -0.356,0.032 -0.752,0 -1.332,-0.688 -1.332,-1.496 0,-0.708 0.524,-1.224 0.992,-1.764 -0.076,-0.248 -0.148,-0.5 -0.18,-0.76 -0.024,-0.208 -0.028,-0.416 -0.028,-0.624 0,-0.46 0.22,-0.896 0.596,-1.16800004 0.012,-0.008 0.028,-0.012 0.04,-0.012 0.016,0 0.028,0 0.04,0.012 0.284,0.33600004 0.532,0.98000004 0.532,1.43200004 0,0.572 -0.344,1.02 -0.72,1.456 0.084,0.272 0.156,0.552 0.224,0.828 z m 0.34,1.86 c 0.272,-0.096 0.452,-0.38 0.452,-0.656 0,-0.36 -0.264,-0.716 -0.692,-0.76 0.096,0.464 0.184,0.924 0.24,1.416 z m -1.548,-0.924 c 0,0.54 0.516,0.988 1.056,0.988 0.112,0 0.22,-0.008 0.328,-0.024 -0.056,-0.508 -0.148,-0.98 -0.252,-1.456 -0.316,0.032 -0.496,0.244 -0.496,0.476 0,0.176 0.1,0.364 0.324,0.492 0.02,0.02 0.028,0.04 0.028,0.06 0,0.044 -0.04,0.088 -0.088,0.088 -0.012,0 -0.024,-0.004 -0.036,-0.008 -0.32,-0.172 -0.468,-0.46 -0.468,-0.74 0,-0.352 0.232,-0.696 0.64,-0.788 -0.056,-0.232 -0.116,-0.468 -0.184,-0.7 -0.428,0.484 -0.852,0.972 -0.852,1.612 z m 1.336,-4.068 c -0.396,0.192 -0.648,0.596 -0.648,1.036 0,0.296 0.072,0.532 0.144,0.776 0.32,-0.388 0.584,-0.792 0.584,-1.296 0,-0.22 -0.016,-0.316 -0.08,-0.516 z"
+     id="path30"
+     inkscape:connector-curvature="0"
+     style="fill:currentColor" />
+  <text
+     font-style="italic"
+     font-size="1.3860"
+     id="text32"
+     style="font-style:italic;font-size:1.38600004px;font-family:'Century Schoolbook L';text-anchor:start;fill:currentColor"
+     x="11.029312"
+     y="9.1091003">
+    <tspan
+       id="tspan34">8</tspan>
+  </text>
+  <a
+     style="color:inherit"
+     xlink:href="textedit:///home/uli/lilypond/diminuition.ly:14:0:1"
+     id="a36"
+     transform="translate(-4.8868877,-3.0422998)" />
+  <path
+     d="m 15.775512,4.4710002 c -0.196,0 -0.3,-0.168 -0.3,-0.3 0,-0.152 0.108,-0.308 0.288,-0.308 0.016,0 0.036,0 0.056,0.004 -0.112,-0.148 -0.288,-0.236 -0.48,-0.236 -0.424,0 -0.452,0.292 -0.452,0.744 l 0,0.204 0,0.204 c 0,0.452 0.028,0.748 0.452,0.748 0.32,0 0.556,-0.28 0.632,-0.604 0.008,-0.028 0.028,-0.04 0.048,-0.04 0.024,0 0.052,0.016 0.052,0.048 0,0.376 -0.42,0.696 -0.732,0.696 -0.272,0 -0.548,-0.084 -0.736,-0.28 -0.196,-0.204 -0.264,-0.488 -0.264,-0.772 0,-0.284 0.068,-0.568 0.264,-0.772 0.188,-0.196 0.464,-0.276 0.736,-0.276 0.348,0 0.64,0.256 0.7,0.6 0.004,0.02 0.004,0.036 0.004,0.052 0,0.16 -0.12,0.288 -0.268,0.288 z"
+     id="path38"
+     inkscape:connector-curvature="0"
+     style="fill:currentColor" />
+  <rect
+     x="18.039513"
+     y="4.8404002"
+     width="0.13"
+     height="3.0718999"
+     ry="0.039999999"
+     id="rect40"
+     style="fill:currentColor" />
+  <line
+     x1="0.85371226"
+     y1="18.579"
+     x2="80.42141"
+     y2="18.579"
+     id="line42"
+     style="stroke:currentColor;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round" />
+  <line
+     x1="0.85371226"
+     y1="17.579"
+     x2="80.42141"
+     y2="17.579"
+     id="line44"
+     style="stroke:currentColor;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round" />
+  <line
+     x1="0.85371226"
+     y1="16.579"
+     x2="80.42141"
+     y2="16.579"
+     id="line46"
+     style="stroke:currentColor;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round" />
+  <line
+     x1="0.85371226"
+     y1="15.579"
+     x2="80.42141"
+     y2="15.579"
+     id="line48"
+     style="stroke:currentColor;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round" />
+  <line
+     x1="0.85371226"
+     y1="14.579"
+     x2="80.42141"
+     y2="14.579"
+     id="line50"
+     style="stroke:currentColor;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round" />
+  <rect
+     x="80.28141"
+     y="14.579"
+     width="0.19"
+     height="4"
+     ry="0.0000"
+     id="rect52"
+     style="fill:currentColor" />
+  <a
+     style="color:inherit"
+     xlink:href="textedit:///home/uli/lilypond/diminuition.ly:19:7:8"
+     id="a54"
+     transform="translate(-4.8868877,-3.0422998)">
+    <path
+       transform="matrix(0.004,0,0,-0.004,37.7755,19.1213)"
+       d="m 220,138 c 56,0 109,-29 109,-91 0,-72 -56,-121 -103,-149 -36,-21 -76,-36 -117,-36 -56,0 -109,29 -109,91 0,72 56,121 103,149 36,21 76,36 117,36 z"
+       id="path56"
+       inkscape:connector-curvature="0"
+       style="fill:currentColor" />
+  </a>
+  <rect
+     x="34.074814"
+     y="13.769"
+     width="0.13"
+     height="2.1222"
+     ry="0.039999999"
+     id="rect58"
+     style="fill:currentColor" />
+  <a
+     style="color:inherit"
+     xlink:href="textedit:///home/uli/lilypond/diminuition.ly:19:9:10"
+     id="a60"
+     transform="translate(-4.8868877,-3.0422998)">
+    <path
+       transform="matrix(0.004,0,0,-0.004,50.918,19.6213)"
+       d="m 220,138 c 56,0 109,-29 109,-91 0,-72 -56,-121 -103,-149 -36,-21 -76,-36 -117,-36 -56,0 -109,29 -109,91 0,72 56,121 103,149 36,21 76,36 117,36 z"
+       id="path62"
+       inkscape:connector-curvature="0"
+       style="fill:currentColor" />
+  </a>
+  <rect
+     x="47.217312"
+     y="13.769"
+     width="0.13"
+     height="2.6222"
+     ry="0.039999999"
+     id="rect64"
+     style="fill:currentColor" />
+  <a
+     style="color:inherit"
+     xlink:href="textedit:///home/uli/lilypond/diminuition.ly:19:11:12"
+     id="a66"
+     transform="translate(-4.8868877,-3.0422998)">
+    <path
+       transform="matrix(0.004,0,0,-0.004,64.0678,19.1213)"
+       d="m 315,65 c 0,24 -21,41 -42,41 -4,0 -8,0 -12,-1 C 230,96 184,65 147,41 110,17 63,-12 43,-37 36,-45 32,-55 32,-65 c 0,-24 21,-41 42,-41 4,0 8,0 12,1 31,9 78,40 115,64 37,24 84,53 104,78 7,8 10,18 10,28 z m -51,72 c 47,0 83,-21 83,-72 0,-19 -4,-37 -10,-56 -12,-38 -32,-74 -65,-96 -54,-36 -113,-51 -188,-51 -47,0 -84,22 -84,73 0,19 5,37 11,56 12,38 31,74 64,96 54,36 114,50 189,50 z"
+       id="path68"
+       inkscape:connector-curvature="0"
+       style="fill:currentColor" />
+  </a>
+  <rect
+     x="59.180912"
+     y="16.340401"
+     width="0.13"
+     height="3.2386"
+     ry="0.039999999"
+     id="rect70"
+     style="fill:currentColor" />
+  <polygon
+     transform="translate(7.7898123,13.769)"
+     points="39.5175,0.2 0.04,0.2 0.04,-0.2 39.5175,-0.2 "
+     id="polygon72"
+     style="fill:currentColor;stroke:currentColor;stroke-width:0.08;stroke-linecap:round;stroke-linejoin:round" />
+  <path
+     d="m 3.1077123,16.531 c 0.016,0 0.036,-0.004 0.052,-0.004 0.62,0 1.024,0.512 1.024,1.044 0,0.304 -0.132,0.616 -0.428,0.84 -0.088,0.068 -0.188,0.112 -0.292,0.144 0.012,0.14 0.02,0.28 0.02,0.42 0,0.076 -0.004,0.156 -0.008,0.232 -0.028,0.48 -0.36,0.912 -0.832,0.912 -0.432,0 -0.78,-0.352 -0.78,-0.788 0,-0.232 0.212,-0.412 0.448,-0.412 0.216,0 0.38,0.188 0.38,0.412 0,0.208 -0.172,0.38 -0.38,0.38 -0.044,0 -0.084,-0.008 -0.124,-0.024 0.104,0.156 0.272,0.26 0.468,0.26 0.384,0 0.628,-0.368 0.652,-0.764 0.004,-0.072 0.008,-0.148 0.008,-0.22 0,-0.124 -0.004,-0.244 -0.016,-0.368 -0.116,0.02 -0.232,0.032 -0.356,0.032 -0.752,0 -1.332,-0.688 -1.332,-1.496 0,-0.708 0.524,-1.224 0.992,-1.764 -0.076,-0.248 -0.148,-0.5 -0.18,-0.76 -0.024,-0.208 -0.028,-0.416 -0.028,-0.624 0,-0.46 0.22,-0.896 0.596,-1.168 0.012,-0.008 0.028,-0.012 0.04,-0.012 0.016,0 0.028,0 0.04,0.012 0.284,0.336 0.532,0.98 0.532,1.432 0,0.572 -0.344,1.02 -0.72,1.456 0.084,0.272 0.156,0.552 0.224,0.828 z m 0.34,1.86 c 0.272,-0.096 0.452,-0.38 0.452,-0.656 0,-0.36 -0.264,-0.716 -0.692,-0.76 0.096,0.464 0.184,0.924 0.24,1.416 z m -1.548,-0.924 c 0,0.54 0.516,0.988 1.056,0.988 0.112,0 0.22,-0.008 0.328,-0.024 -0.056,-0.508 -0.148,-0.98 -0.252,-1.456 -0.316,0.032 -0.496,0.244 -0.496,0.476 0,0.176 0.1,0.364 0.324,0.492 0.02,0.02 0.028,0.04 0.028,0.06 0,0.044 -0.04,0.088 -0.088,0.088 -0.012,0 -0.024,-0.004 -0.036,-0.008 -0.32,-0.172 -0.468,-0.46 -0.468,-0.74 0,-0.352 0.232,-0.696 0.64,-0.788 -0.056,-0.232 -0.116,-0.468 -0.184,-0.7 -0.428,0.484 -0.852,0.972 -0.852,1.612 z m 1.336,-4.068 c -0.396,0.192 -0.648,0.596 -0.648,1.036 0,0.296 0.072,0.532 0.144,0.776 0.32,-0.388 0.584,-0.792 0.584,-1.296 0,-0.22 -0.016,-0.316 -0.08,-0.516 z"
+     id="path74"
+     inkscape:connector-curvature="0"
+     style="fill:currentColor" />
+  <text
+     font-style="italic"
+     font-size="1.3860"
+     id="text76"
+     style="font-style:italic;font-size:1.38600004px;font-family:'Century Schoolbook L';text-anchor:start;fill:currentColor"
+     x="2.4935124"
+     y="21.1091">
+    <tspan
+       id="tspan78">8</tspan>
+  </text>
+  <a
+     style="color:inherit"
+     xlink:href="textedit:///home/uli/lilypond/diminuition.ly:19:2:3"
+     id="a80"
+     transform="translate(-4.8868877,-3.0422998)">
+    <path
+       transform="matrix(0.004,0,0,-0.004,11.4906,19.6213)"
+       d="m 220,138 c 56,0 109,-29 109,-91 0,-72 -56,-121 -103,-149 -36,-21 -76,-36 -117,-36 -56,0 -109,29 -109,91 0,72 56,121 103,149 36,21 76,36 117,36 z"
+       id="path82"
+       inkscape:connector-curvature="0"
+       style="fill:currentColor" />
+  </a>
+  <rect
+     x="20.682312"
+     y="13.769"
+     width="0.13"
+     height="3.6222"
+     ry="0.039999999"
+     id="rect84"
+     style="fill:currentColor" />
+  <a
+     style="color:inherit"
+     xlink:href="textedit:///home/uli/lilypond/diminuition.ly:19:5:6"
+     id="a86"
+     transform="translate(-4.8868877,-3.0422998)">
+    <path
+       transform="matrix(0.004,0,0,-0.004,24.383,20.6213)"
+       d="m 220,138 c 56,0 109,-29 109,-91 0,-72 -56,-121 -103,-149 -36,-21 -76,-36 -117,-36 -56,0 -109,29 -109,91 0,72 56,121 103,149 36,21 76,36 117,36 z"
+       id="path88"
+       inkscape:connector-curvature="0"
+       style="fill:currentColor" />
+  </a>
+  <rect
+     x="7.7898121"
+     y="13.769"
+     width="0.13"
+     height="2.6222"
+     ry="0.039999999"
+     id="rect90"
+     style="fill:currentColor" />
+  <line
+     x1="0.85371226"
+     y1="30.579"
+     x2="80.42141"
+     y2="30.579"
+     id="line92"
+     style="stroke:currentColor;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round" />
+  <line
+     x1="0.85371226"
+     y1="29.579"
+     x2="80.42141"
+     y2="29.579"
+     id="line94"
+     style="stroke:currentColor;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round" />
+  <line
+     x1="0.85371226"
+     y1="28.579"
+     x2="80.42141"
+     y2="28.579"
+     id="line96"
+     style="stroke:currentColor;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round" />
+  <line
+     x1="0.85371226"
+     y1="27.579"
+     x2="80.42141"
+     y2="27.579"
+     id="line98"
+     style="stroke:currentColor;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round" />
+  <line
+     x1="0.85371226"
+     y1="26.579"
+     x2="80.42141"
+     y2="26.579"
+     id="line100"
+     style="stroke:currentColor;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round" />
+  <rect
+     x="80.28141"
+     y="26.579"
+     width="0.19"
+     height="4"
+     ry="0.0000"
+     id="rect102"
+     style="fill:currentColor" />
+  <a
+     style="color:inherit"
+     xlink:href="textedit:///home/uli/lilypond/diminuition.ly:20:18:19"
+     id="a104"
+     transform="translate(-4.8868877,-3.0422998)">
+    <path
+       transform="matrix(0.004,0,0,-0.004,61.7986,31.6213)"
+       d="m 220,138 c 56,0 109,-29 109,-91 0,-72 -56,-121 -103,-149 -36,-21 -76,-36 -117,-36 -56,0 -109,29 -109,91 0,72 56,121 103,149 36,21 76,36 117,36 z"
+       id="path106"
+       inkscape:connector-curvature="0"
+       style="fill:currentColor" />
+  </a>
+  <rect
+     x="49.941711"
+     y="27.7668"
+     width="0.13"
+     height="3.8122001"
+     ry="0.039999999"
+     id="rect108"
+     style="fill:currentColor" />
+  <a
+     style="color:inherit"
+     xlink:href="textedit:///home/uli/lilypond/diminuition.ly:20:16:17"
+     id="a110"
+     transform="translate(-4.8868877,-3.0422998)">
+    <path
+       transform="matrix(0.004,0,0,-0.004,54.8286,30.6213)"
+       d="m 220,138 c 56,0 109,-29 109,-91 0,-72 -56,-121 -103,-149 -36,-21 -76,-36 -117,-36 -56,0 -109,29 -109,91 0,72 56,121 103,149 36,21 76,36 117,36 z"
+       id="path112"
+       inkscape:connector-curvature="0"
+       style="fill:currentColor" />
+  </a>
+  <rect
+     x="42.721611"
+     y="28.2668"
+     width="0.13"
+     height="3.3122001"
+     ry="0.039999999"
+     id="rect114"
+     style="fill:currentColor" />
+  <a
+     style="color:inherit"
+     xlink:href="textedit:///home/uli/lilypond/diminuition.ly:20:14:15"
+     id="a116"
+     transform="translate(-4.8868877,-3.0422998)">
+    <path
+       transform="matrix(0.004,0,0,-0.004,47.6085,31.1213)"
+       d="m 220,138 c 56,0 109,-29 109,-91 0,-72 -56,-121 -103,-149 -36,-21 -76,-36 -117,-36 -56,0 -109,29 -109,91 0,72 56,121 103,149 36,21 76,36 117,36 z"
+       id="path118"
+       inkscape:connector-curvature="0"
+       style="fill:currentColor" />
+  </a>
+  <rect
+     x="35.501614"
+     y="28.7668"
+     width="0.13"
+     height="2.8122001"
+     ry="0.039999999"
+     id="rect120"
+     style="fill:currentColor" />
+  <a
+     style="color:inherit"
+     xlink:href="textedit:///home/uli/lilypond/diminuition.ly:20:12:13"
+     id="a122"
+     transform="translate(-4.8868877,-3.0422998)">
+    <path
+       transform="matrix(0.004,0,0,-0.004,40.3885,31.6213)"
+       d="m 220,138 c 56,0 109,-29 109,-91 0,-72 -56,-121 -103,-149 -36,-21 -76,-36 -117,-36 -56,0 -109,29 -109,91 0,72 56,121 103,149 36,21 76,36 117,36 z"
+       id="path124"
+       inkscape:connector-curvature="0"
+       style="fill:currentColor" />
+  </a>
+  <polygon
+     transform="translate(7.7898123,25.579)"
+     points="21.7501,0.39 0.04,0.2 0.04,-0.2 21.7501,-0.01 "
+     id="polygon126"
+     style="fill:currentColor;stroke:currentColor;stroke-width:0.08;stroke-linecap:round;stroke-linejoin:round" />
+  <polygon
+     transform="translate(7.7898123,26.389)"
+     points="21.7501,0.39 0.04,0.2 0.04,-0.2 21.7501,-0.01 "
+     id="polygon128"
+     style="fill:currentColor;stroke:currentColor;stroke-width:0.08;stroke-linecap:round;stroke-linejoin:round" />
+  <polygon
+     transform="translate(35.501612,30.769)"
+     points="21.5001,0.2 0.04,0.2 0.04,-0.2 21.5001,-0.2 "
+     id="polygon130"
+     style="fill:currentColor;stroke:currentColor;stroke-width:0.08;stroke-linecap:round;stroke-linejoin:round" />
+  <polygon
+     transform="translate(35.501612,31.579)"
+     points="21.5001,0.2 0.04,0.2 0.04,-0.2 21.5001,-0.2 "
+     id="polygon132"
+     style="fill:currentColor;stroke:currentColor;stroke-width:0.08;stroke-linecap:round;stroke-linejoin:round" />
+  <rect
+     x="64.131714"
+     y="28.340401"
+     width="0.13"
+     height="3.2386"
+     ry="0.039999999"
+     id="rect134"
+     style="fill:currentColor" />
+  <a
+     style="color:inherit"
+     xlink:href="textedit:///home/uli/lilypond/diminuition.ly:20:20:21"
+     id="a136"
+     transform="translate(-4.8868877,-3.0422998)">
+    <path
+       transform="matrix(0.004,0,0,-0.004,69.0186,31.1213)"
+       d="m 315,65 c 0,24 -21,41 -42,41 -4,0 -8,0 -12,-1 C 230,96 184,65 147,41 110,17 63,-12 43,-37 36,-45 32,-55 32,-65 c 0,-24 21,-41 42,-41 4,0 8,0 12,1 31,9 78,40 115,64 37,24 84,53 104,78 7,8 10,18 10,28 z m -51,72 c 47,0 83,-21 83,-72 0,-19 -4,-37 -10,-56 -12,-38 -32,-74 -65,-96 -54,-36 -113,-51 -188,-51 -47,0 -84,22 -84,73 0,19 5,37 11,56 12,38 31,74 64,96 54,36 114,50 189,50 z"
+       id="path138"
+       inkscape:connector-curvature="0"
+       style="fill:currentColor" />
+  </a>
+  <rect
+     x="56.911713"
+     y="28.7668"
+     width="0.13"
+     height="2.8122001"
+     ry="0.039999999"
+     id="rect140"
+     style="fill:currentColor" />
+  <a
+     style="color:inherit"
+     xlink:href="textedit:///home/uli/lilypond/diminuition.ly:20:6:7"
+     id="a142"
+     transform="translate(-4.8868877,-3.0422998)">
+    <path
+       transform="matrix(0.004,0,0,-0.004,18.7106,32.1213)"
+       d="m 220,138 c 56,0 109,-29 109,-91 0,-72 -56,-121 -103,-149 -36,-21 -76,-36 -117,-36 -56,0 -109,29 -109,91 0,72 56,121 103,149 36,21 76,36 117,36 z"
+       id="path144"
+       inkscape:connector-curvature="0"
+       style="fill:currentColor" />
+  </a>
+  <rect
+     x="7.7898121"
+     y="25.579599"
+     width="0.13"
+     height="2.8116"
+     ry="0.039999999"
+     id="rect146"
+     style="fill:currentColor" />
+  <a
+     style="color:inherit"
+     xlink:href="textedit:///home/uli/lilypond/diminuition.ly:20:2:3"
+     id="a148"
+     transform="translate(-4.8868877,-3.0422998)">
+    <path
+       transform="matrix(0.004,0,0,-0.004,11.4906,31.6213)"
+       d="m 220,138 c 56,0 109,-29 109,-91 0,-72 -56,-121 -103,-149 -36,-21 -76,-36 -117,-36 -56,0 -109,29 -109,91 0,72 56,121 103,149 36,21 76,36 117,36 z"
+       id="path150"
+       inkscape:connector-curvature="0"
+       style="fill:currentColor" />
+  </a>
+  <text
+     font-style="italic"
+     font-size="1.3860"
+     id="text152"
+     style="font-style:italic;font-size:1.38600004px;font-family:'Century Schoolbook L';text-anchor:start;fill:currentColor"
+     x="2.4935124"
+     y="33.1091">
+    <tspan
+       id="tspan154">8</tspan>
+  </text>
+  <path
+     d="m 3.1077123,28.531 c 0.016,0 0.036,-0.004 0.052,-0.004 0.62,0 1.024,0.512 1.024,1.044 0,0.304 -0.132,0.616 -0.428,0.84 -0.088,0.068 -0.188,0.112 -0.292,0.144 0.012,0.14 0.02,0.28 0.02,0.42 0,0.076 -0.004,0.156 -0.008,0.232 -0.028,0.48 -0.36,0.912 -0.832,0.912 -0.432,0 -0.78,-0.352 -0.78,-0.788 0,-0.232 0.212,-0.412 0.448,-0.412 0.216,0 0.38,0.188 0.38,0.412 0,0.208 -0.172,0.38 -0.38,0.38 -0.044,0 -0.084,-0.008 -0.124,-0.024 0.104,0.156 0.272,0.26 0.468,0.26 0.384,0 0.628,-0.368 0.652,-0.764 0.004,-0.072 0.008,-0.148 0.008,-0.22 0,-0.124 -0.004,-0.244 -0.016,-0.368 -0.116,0.02 -0.232,0.032 -0.356,0.032 -0.752,0 -1.332,-0.688 -1.332,-1.496 0,-0.708 0.524,-1.224 0.992,-1.764 -0.076,-0.248 -0.148,-0.5 -0.18,-0.76 -0.024,-0.208 -0.028,-0.416 -0.028,-0.624 0,-0.46 0.22,-0.896 0.596,-1.168 0.012,-0.008 0.028,-0.012 0.04,-0.012 0.016,0 0.028,0 0.04,0.012 0.284,0.336 0.532,0.98 0.532,1.432 0,0.572 -0.344,1.02 -0.72,1.456 0.084,0.272 0.156,0.552 0.224,0.828 z m 0.34,1.86 c 0.272,-0.096 0.452,-0.38 0.452,-0.656 0,-0.36 -0.264,-0.716 -0.692,-0.76 0.096,0.464 0.184,0.924 0.24,1.416 z m -1.548,-0.924 c 0,0.54 0.516,0.988 1.056,0.988 0.112,0 0.22,-0.008 0.328,-0.024 -0.056,-0.508 -0.148,-0.98 -0.252,-1.456 -0.316,0.032 -0.496,0.244 -0.496,0.476 0,0.176 0.1,0.364 0.324,0.492 0.02,0.02 0.028,0.04 0.028,0.06 0,0.044 -0.04,0.088 -0.088,0.088 -0.012,0 -0.024,-0.004 -0.036,-0.008 -0.32,-0.172 -0.468,-0.46 -0.468,-0.74 0,-0.352 0.232,-0.696 0.64,-0.788 -0.056,-0.232 -0.116,-0.468 -0.184,-0.7 -0.428,0.484 -0.852,0.972 -0.852,1.612 z m 1.336,-4.068 c -0.396,0.192 -0.648,0.596 -0.648,1.036 0,0.296 0.072,0.532 0.144,0.776 0.32,-0.388 0.584,-0.792 0.584,-1.296 0,-0.22 -0.016,-0.316 -0.08,-0.516 z"
+     id="path156"
+     inkscape:connector-curvature="0"
+     style="fill:currentColor" />
+  <rect
+     x="29.449913"
+     y="25.7684"
+     width="0.13"
+     height="3.1228001"
+     ry="0.039999999"
+     id="rect158"
+     style="fill:currentColor" />
+  <a
+     style="color:inherit"
+     xlink:href="textedit:///home/uli/lilypond/diminuition.ly:20:10:11"
+     id="a160"
+     transform="translate(-4.8868877,-3.0422998)">
+    <path
+       transform="matrix(0.004,0,0,-0.004,33.1507,32.1213)"
+       d="m 220,138 c 56,0 109,-29 109,-91 0,-72 -56,-121 -103,-149 -36,-21 -76,-36 -117,-36 -56,0 -109,29 -109,91 0,72 56,121 103,149 36,21 76,36 117,36 z"
+       id="path162"
+       inkscape:connector-curvature="0"
+       style="fill:currentColor" />
+  </a>
+  <rect
+     x="22.229912"
+     y="25.7055"
+     width="0.13"
+     height="3.6856999"
+     ry="0.039999999"
+     id="rect164"
+     style="fill:currentColor" />
+  <rect
+     x="15.009912"
+     y="25.6425"
+     width="0.13"
+     height="3.2486999"
+     ry="0.039999999"
+     id="rect166"
+     style="fill:currentColor" />
+  <a
+     style="color:inherit"
+     xlink:href="textedit:///home/uli/lilypond/diminuition.ly:20:8:9"
+     id="a168"
+     transform="translate(-4.8868877,-3.0422998)">
+    <path
+       transform="matrix(0.004,0,0,-0.004,25.9306,32.6213)"
+       d="m 220,138 c 56,0 109,-29 109,-91 0,-72 -56,-121 -103,-149 -36,-21 -76,-36 -117,-36 -56,0 -109,29 -109,91 0,72 56,121 103,149 36,21 76,36 117,36 z"
+       id="path170"
+       inkscape:connector-curvature="0"
+       style="fill:currentColor" />
+  </a>
+  <line
+     x1="0.85371226"
+     y1="42.578999"
+     x2="80.42141"
+     y2="42.578999"
+     id="line172"
+     style="stroke:currentColor;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round" />
+  <line
+     x1="0.85371226"
+     y1="41.578999"
+     x2="80.42141"
+     y2="41.578999"
+     id="line174"
+     style="stroke:currentColor;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round" />
+  <line
+     x1="0.85371226"
+     y1="40.578999"
+     x2="80.42141"
+     y2="40.578999"
+     id="line176"
+     style="stroke:currentColor;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round" />
+  <line
+     x1="0.85371226"
+     y1="39.578999"
+     x2="80.42141"
+     y2="39.578999"
+     id="line178"
+     style="stroke:currentColor;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round" />
+  <line
+     x1="0.85371226"
+     y1="38.578999"
+     x2="80.42141"
+     y2="38.578999"
+     id="line180"
+     style="stroke:currentColor;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round" />
+  <rect
+     x="80.28141"
+     y="38.578999"
+     width="0.19"
+     height="4"
+     ry="0.0000"
+     id="rect182"
+     style="fill:currentColor" />
+  <rect
+     x="53.421513"
+     y="40.2668"
+     width="0.13"
+     height="3.8355"
+     ry="0.039999999"
+     id="rect184"
+     style="fill:currentColor" />
+  <a
+     style="color:inherit"
+     xlink:href="textedit:///home/uli/lilypond/diminuition.ly:21:24:25"
+     id="a186"
+     transform="translate(-4.8868877,-3.0422998)">
+    <path
+       transform="matrix(0.004,0,0,-0.004,58.3084,43.1213)"
+       d="m 220,138 c 56,0 109,-29 109,-91 0,-72 -56,-121 -103,-149 -36,-21 -76,-36 -117,-36 -56,0 -109,29 -109,91 0,72 56,121 103,149 36,21 76,36 117,36 z"
+       id="path188"
+       inkscape:connector-curvature="0"
+       style="fill:currentColor" />
+  </a>
+  <rect
+     x="49.415112"
+     y="39.7668"
+     width="0.13"
+     height="4.1932998"
+     ry="0.039999999"
+     id="rect190"
+     style="fill:currentColor" />
+  <a
+     style="color:inherit"
+     xlink:href="textedit:///home/uli/lilypond/diminuition.ly:21:22:23"
+     id="a192"
+     transform="translate(-4.8868877,-3.0422998)">
+    <path
+       transform="matrix(0.004,0,0,-0.004,54.302,42.6213)"
+       d="m 220,138 c 56,0 109,-29 109,-91 0,-72 -56,-121 -103,-149 -36,-21 -76,-36 -117,-36 -56,0 -109,29 -109,91 0,72 56,121 103,149 36,21 76,36 117,36 z"
+       id="path194"
+       inkscape:connector-curvature="0"
+       style="fill:currentColor" />
+  </a>
+  <rect
+     x="45.408813"
+     y="40.2668"
+     width="0.13"
+     height="3.5511"
+     ry="0.039999999"
+     id="rect196"
+     style="fill:currentColor" />
+  <a
+     style="color:inherit"
+     xlink:href="textedit:///home/uli/lilypond/diminuition.ly:21:20:21"
+     id="a198"
+     transform="translate(-4.8868877,-3.0422998)">
+    <path
+       transform="matrix(0.004,0,0,-0.004,50.2957,43.1213)"
+       d="m 220,138 c 56,0 109,-29 109,-91 0,-72 -56,-121 -103,-149 -36,-21 -76,-36 -117,-36 -56,0 -109,29 -109,91 0,72 56,121 103,149 36,21 76,36 117,36 z"
+       id="path200"
+       inkscape:connector-curvature="0"
+       style="fill:currentColor" />
+  </a>
+  <rect
+     x="41.402412"
+     y="39.7668"
+     width="0.13"
+     height="3.9089"
+     ry="0.039999999"
+     id="rect202"
+     style="fill:currentColor" />
+  <a
+     style="color:inherit"
+     xlink:href="textedit:///home/uli/lilypond/diminuition.ly:21:18:19"
+     id="a204"
+     transform="translate(-4.8868877,-3.0422998)">
+    <path
+       transform="matrix(0.004,0,0,-0.004,46.2893,42.6213)"
+       d="m 220,138 c 56,0 109,-29 109,-91 0,-72 -56,-121 -103,-149 -36,-21 -76,-36 -117,-36 -56,0 -109,29 -109,91 0,72 56,121 103,149 36,21 76,36 117,36 z"
+       id="path206"
+       inkscape:connector-curvature="0"
+       style="fill:currentColor" />
+  </a>
+  <polygon
+     transform="translate(6.6037123,42.769)"
+     points="20.1796,-0.8 0.04,0.2 0.04,-0.2 20.1796,-1.2 "
+     id="polygon208"
+     style="fill:currentColor;stroke:currentColor;stroke-width:0.08;stroke-linecap:round;stroke-linejoin:round" />
+  <polygon
+     transform="translate(6.6037123,43.579)"
+     points="20.1796,-0.8 0.04,0.2 0.04,-0.2 20.1796,-1.2 "
+     id="polygon210"
+     style="fill:currentColor;stroke:currentColor;stroke-width:0.08;stroke-linecap:round;stroke-linejoin:round" />
+  <polygon
+     transform="translate(33.389712,41.769)"
+     points="28.1344,1.2 0.04,0.2 0.04,-0.2 28.1344,0.8 "
+     id="polygon212"
+     style="fill:currentColor;stroke:currentColor;stroke-width:0.08;stroke-linecap:round;stroke-linejoin:round" />
+  <polygon
+     transform="translate(33.389712,42.579)"
+     points="28.1344,1.2 0.04,0.2 0.04,-0.2 28.1344,0.8 "
+     id="polygon214"
+     style="fill:currentColor;stroke:currentColor;stroke-width:0.08;stroke-linecap:round;stroke-linejoin:round" />
+  <polygon
+     transform="translate(33.389712,43.389)"
+     points="28.1344,1.2 0.04,0.2 0.04,-0.2 28.1344,0.8 "
+     id="polygon216"
+     style="fill:currentColor;stroke:currentColor;stroke-width:0.08;stroke-linecap:round;stroke-linejoin:round" />
+  <rect
+     x="65.440514"
+     y="40.340401"
+     width="0.13"
+     height="3.2386"
+     ry="0.039999999"
+     id="rect218"
+     style="fill:currentColor" />
+  <a
+     style="color:inherit"
+     xlink:href="textedit:///home/uli/lilypond/diminuition.ly:21:30:31"
+     id="a220"
+     transform="translate(-4.8868877,-3.0422998)">
+    <path
+       transform="matrix(0.004,0,0,-0.004,70.3274,43.1213)"
+       d="m 315,65 c 0,24 -21,41 -42,41 -4,0 -8,0 -12,-1 C 230,96 184,65 147,41 110,17 63,-12 43,-37 36,-45 32,-55 32,-65 c 0,-24 21,-41 42,-41 4,0 8,0 12,1 31,9 78,40 115,64 37,24 84,53 104,78 7,8 10,18 10,28 z m -51,72 c 47,0 83,-21 83,-72 0,-19 -4,-37 -10,-56 -12,-38 -32,-74 -65,-96 -54,-36 -113,-51 -188,-51 -47,0 -84,22 -84,73 0,19 5,37 11,56 12,38 31,74 64,96 54,36 114,50 189,50 z"
+       id="path222"
+       inkscape:connector-curvature="0"
+       style="fill:currentColor" />
+  </a>
+  <rect
+     x="61.434212"
+     y="40.7668"
+     width="0.13"
+     height="3.6199"
+     ry="0.039999999"
+     id="rect224"
+     style="fill:currentColor" />
+  <a
+     style="color:inherit"
+     xlink:href="textedit:///home/uli/lilypond/diminuition.ly:21:28:29"
+     id="a226"
+     transform="translate(-4.8868877,-3.0422998)">
+    <path
+       transform="matrix(0.004,0,0,-0.004,66.3211,43.6213)"
+       d="m 220,138 c 56,0 109,-29 109,-91 0,-72 -56,-121 -103,-149 -36,-21 -76,-36 -117,-36 -56,0 -109,29 -109,91 0,72 56,121 103,149 36,21 76,36 117,36 z"
+       id="path228"
+       inkscape:connector-curvature="0"
+       style="fill:currentColor" />
+  </a>
+  <rect
+     x="57.427811"
+     y="40.2668"
+     width="0.13"
+     height="3.9777"
+     ry="0.039999999"
+     id="rect230"
+     style="fill:currentColor" />
+  <a
+     style="color:inherit"
+     xlink:href="textedit:///home/uli/lilypond/diminuition.ly:21:26:27"
+     id="a232"
+     transform="translate(-4.8868877,-3.0422998)">
+    <path
+       transform="matrix(0.004,0,0,-0.004,62.3147,43.1213)"
+       d="m 220,138 c 56,0 109,-29 109,-91 0,-72 -56,-121 -103,-149 -36,-21 -76,-36 -117,-36 -56,0 -109,29 -109,91 0,72 56,121 103,149 36,21 76,36 117,36 z"
+       id="path234"
+       inkscape:connector-curvature="0"
+       style="fill:currentColor" />
+  </a>
+  <rect
+     x="19.996712"
+     y="39.7668"
+     width="0.13"
+     height="3.1466"
+     ry="0.039999999"
+     id="rect236"
+     style="fill:currentColor" />
+  <a
+     style="color:inherit"
+     xlink:href="textedit:///home/uli/lilypond/diminuition.ly:21:8:9"
+     id="a238"
+     transform="translate(-4.8868877,-3.0422998)">
+    <path
+       transform="matrix(0.004,0,0,-0.004,24.8836,42.6213)"
+       d="m 220,138 c 56,0 109,-29 109,-91 0,-72 -56,-121 -103,-149 -36,-21 -76,-36 -117,-36 -56,0 -109,29 -109,91 0,72 56,121 103,149 36,21 76,36 117,36 z"
+       id="path240"
+       inkscape:connector-curvature="0"
+       style="fill:currentColor" />
+  </a>
+  <rect
+     x="13.300212"
+     y="40.2668"
+     width="0.13"
+     height="2.9777999"
+     ry="0.039999999"
+     id="rect242"
+     style="fill:currentColor" />
+  <a
+     style="color:inherit"
+     xlink:href="textedit:///home/uli/lilypond/diminuition.ly:21:6:7"
+     id="a244"
+     transform="translate(-4.8868877,-3.0422998)">
+    <path
+       transform="matrix(0.004,0,0,-0.004,18.1871,43.1213)"
+       d="m 220,138 c 56,0 109,-29 109,-91 0,-72 -56,-121 -103,-149 -36,-21 -76,-36 -117,-36 -56,0 -109,29 -109,91 0,72 56,121 103,149 36,21 76,36 117,36 z"
+       id="path246"
+       inkscape:connector-curvature="0"
+       style="fill:currentColor" />
+  </a>
+  <rect
+     x="6.6037121"
+     y="40.7668"
+     width="0.13"
+     height="2.809"
+     ry="0.039999999"
+     id="rect248"
+     style="fill:currentColor" />
+  <a
+     style="color:inherit"
+     xlink:href="textedit:///home/uli/lilypond/diminuition.ly:21:2:3"
+     id="a250"
+     transform="translate(-4.8868877,-3.0422998)">
+    <path
+       transform="matrix(0.004,0,0,-0.004,11.4906,43.6213)"
+       d="m 220,138 c 56,0 109,-29 109,-91 0,-72 -56,-121 -103,-149 -36,-21 -76,-36 -117,-36 -56,0 -109,29 -109,91 0,72 56,121 103,149 36,21 76,36 117,36 z"
+       id="path252"
+       inkscape:connector-curvature="0"
+       style="fill:currentColor" />
+  </a>
+  <text
+     font-style="italic"
+     font-size="1.3860"
+     id="text254"
+     style="font-style:italic;font-size:1.38600004px;font-family:'Century Schoolbook L';text-anchor:start;fill:currentColor"
+     x="2.4935124"
+     y="45.1091">
+    <tspan
+       id="tspan256">8</tspan>
+  </text>
+  <path
+     d="m 3.1077123,40.531 c 0.016,0 0.036,-0.004 0.052,-0.004 0.62,0 1.024,0.512 1.024,1.044 0,0.304 -0.132,0.616 -0.428,0.84 -0.088,0.068 -0.188,0.112 -0.292,0.144 0.012,0.14 0.02,0.28 0.02,0.42 0,0.076 -0.004,0.156 -0.008,0.232 -0.028,0.48 -0.36,0.912 -0.832,0.912 -0.432,0 -0.78,-0.352 -0.78,-0.788 0,-0.232 0.212,-0.412 0.448,-0.412 0.216,0 0.38,0.188 0.38,0.412 0,0.208 -0.172,0.38 -0.38,0.38 -0.044,0 -0.084,-0.008 -0.124,-0.024 0.104,0.156 0.272,0.26 0.468,0.26 0.384,0 0.628,-0.368 0.652,-0.764 0.004,-0.072 0.008,-0.148 0.008,-0.22 0,-0.124 -0.004,-0.244 -0.016,-0.368 -0.116,0.02 -0.232,0.032 -0.356,0.032 -0.752,0 -1.332,-0.688 -1.332,-1.496 0,-0.708 0.524,-1.224 0.992,-1.764 -0.076,-0.248 -0.148,-0.5 -0.18,-0.76 -0.024,-0.208 -0.028,-0.416 -0.028,-0.624 0,-0.46 0.22,-0.896 0.596,-1.168 0.012,-0.008 0.028,-0.012 0.04,-0.012 0.016,0 0.028,0 0.04,0.012 0.284,0.336 0.532,0.98 0.532,1.432 0,0.572 -0.344,1.02 -0.72,1.456 0.084,0.272 0.156,0.552 0.224,0.828 z m 0.34,1.86 c 0.272,-0.096 0.452,-0.38 0.452,-0.656 0,-0.36 -0.264,-0.716 -0.692,-0.76 0.096,0.464 0.184,0.924 0.24,1.416 z m -1.548,-0.924 c 0,0.54 0.516,0.988 1.056,0.988 0.112,0 0.22,-0.008 0.328,-0.024 -0.056,-0.508 -0.148,-0.98 -0.252,-1.456 -0.316,0.032 -0.496,0.244 -0.496,0.476 0,0.176 0.1,0.364 0.324,0.492 0.02,0.02 0.028,0.04 0.028,0.06 0,0.044 -0.04,0.088 -0.088,0.088 -0.012,0 -0.024,-0.004 -0.036,-0.008 -0.32,-0.172 -0.468,-0.46 -0.468,-0.74 0,-0.352 0.232,-0.696 0.64,-0.788 -0.056,-0.232 -0.116,-0.468 -0.184,-0.7 -0.428,0.484 -0.852,0.972 -0.852,1.612 z m 1.336,-4.068 c -0.396,0.192 -0.648,0.596 -0.648,1.036 0,0.296 0.072,0.532 0.144,0.776 0.32,-0.388 0.584,-0.792 0.584,-1.296 0,-0.22 -0.016,-0.316 -0.08,-0.516 z"
+     id="path258"
+     inkscape:connector-curvature="0"
+     style="fill:currentColor" />
+  <rect
+     x="37.396111"
+     y="39.2668"
+     width="0.13"
+     height="4.2666998"
+     ry="0.039999999"
+     id="rect260"
+     style="fill:currentColor" />
+  <a
+     style="color:inherit"
+     xlink:href="textedit:///home/uli/lilypond/diminuition.ly:21:16:17"
+     id="a262"
+     transform="translate(-4.8868877,-3.0422998)">
+    <path
+       transform="matrix(0.004,0,0,-0.004,42.283,42.1213)"
+       d="m 220,138 c 56,0 109,-29 109,-91 0,-72 -56,-121 -103,-149 -36,-21 -76,-36 -117,-36 -56,0 -109,29 -109,91 0,72 56,121 103,149 36,21 76,36 117,36 z"
+       id="path264"
+       inkscape:connector-curvature="0"
+       style="fill:currentColor" />
+  </a>
+  <rect
+     x="33.389713"
+     y="38.7668"
+     width="0.13"
+     height="4.6244998"
+     ry="0.039999999"
+     id="rect266"
+     style="fill:currentColor" />
+  <a
+     style="color:inherit"
+     xlink:href="textedit:///home/uli/lilypond/diminuition.ly:21:12:13"
+     id="a268"
+     transform="translate(-4.8868877,-3.0422998)">
+    <path
+       transform="matrix(0.004,0,0,-0.004,38.2766,41.6213)"
+       d="m 220,138 c 56,0 109,-29 109,-91 0,-72 -56,-121 -103,-149 -36,-21 -76,-36 -117,-36 -56,0 -109,29 -109,91 0,72 56,121 103,149 36,21 76,36 117,36 z"
+       id="path270"
+       inkscape:connector-curvature="0"
+       style="fill:currentColor" />
+  </a>
+  <a
+     style="color:inherit"
+     xlink:href="textedit:///home/uli/lilypond/diminuition.ly:21:10:11"
+     id="a272"
+     transform="translate(-4.8868877,-3.0422998)">
+    <path
+       transform="matrix(0.004,0,0,-0.004,31.5801,42.1213)"
+       d="m 220,138 c 56,0 109,-29 109,-91 0,-72 -56,-121 -103,-149 -36,-21 -76,-36 -117,-36 -56,0 -109,29 -109,91 0,72 56,121 103,149 36,21 76,36 117,36 z"
+       id="path274"
+       inkscape:connector-curvature="0"
+       style="fill:currentColor" />
+  </a>
+  <rect
+     x="26.693213"
+     y="39.2668"
+     width="0.13"
+     height="3.3153999"
+     ry="0.039999999"
+     id="rect276"
+     style="fill:currentColor" />
+  <rect
+     x="80.28141"
+     y="50.578999"
+     width="0.19"
+     height="4"
+     ry="0.0000"
+     id="rect278"
+     style="fill:currentColor" />
+  <line
+     x1="0.85371226"
+     y1="54.578999"
+     x2="80.42141"
+     y2="54.578999"
+     id="line280"
+     style="stroke:currentColor;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round" />
+  <line
+     x1="0.85371226"
+     y1="53.578999"
+     x2="80.42141"
+     y2="53.578999"
+     id="line282"
+     style="stroke:currentColor;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round" />
+  <line
+     x1="0.85371226"
+     y1="52.578999"
+     x2="80.42141"
+     y2="52.578999"
+     id="line284"
+     style="stroke:currentColor;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round" />
+  <line
+     x1="0.85371226"
+     y1="51.578999"
+     x2="80.42141"
+     y2="51.578999"
+     id="line286"
+     style="stroke:currentColor;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round" />
+  <line
+     x1="0.85371226"
+     y1="50.578999"
+     x2="80.42141"
+     y2="50.578999"
+     id="line288"
+     style="stroke:currentColor;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round" />
+  <a
+     style="color:inherit"
+     xlink:href="textedit:///home/uli/lilypond/diminuition.ly:23:2:3"
+     id="a290"
+     transform="translate(-4.8868877,-3.0422998)">
+    <path
+       transform="matrix(0.004,0,0,-0.004,55.8521,53.1213)"
+       d="m 220,138 c 56,0 109,-29 109,-91 0,-72 -56,-121 -103,-149 -36,-21 -76,-36 -117,-36 -56,0 -109,29 -109,91 0,72 56,121 103,149 36,21 76,36 117,36 z"
+       id="path292"
+       inkscape:connector-curvature="0"
+       style="fill:currentColor" />
+  </a>
+  <rect
+     x="50.965214"
+     y="50.2668"
+     width="0.13"
+     height="5.1222"
+     ry="0.039999999"
+     id="rect294"
+     style="fill:currentColor" />
+  <a
+     style="color:inherit"
+     xlink:href="textedit:///home/uli/lilypond/diminuition.ly:23:6:7"
+     id="a296"
+     transform="translate(-4.8868877,-3.0422998)">
+    <path
+       transform="matrix(0.004,0,0,-0.004,59.6862,53.6213)"
+       d="m 220,138 c 56,0 109,-29 109,-91 0,-72 -56,-121 -103,-149 -36,-21 -76,-36 -117,-36 -56,0 -109,29 -109,91 0,72 56,121 103,149 36,21 76,36 117,36 z"
+       id="path298"
+       inkscape:connector-curvature="0"
+       style="fill:currentColor" />
+  </a>
+  <rect
+     x="54.799313"
+     y="50.7668"
+     width="0.13"
+     height="4.6222"
+     ry="0.039999999"
+     id="rect300"
+     style="fill:currentColor" />
+  <rect
+     x="46.086014"
+     y="50.7668"
+     width="0.13"
+     height="4.6222"
+     ry="0.039999999"
+     id="rect302"
+     style="fill:currentColor" />
+  <a
+     style="color:inherit"
+     xlink:href="textedit:///home/uli/lilypond/diminuition.ly:22:56:57"
+     id="a304"
+     transform="translate(-4.8868877,-3.0422998)">
+    <path
+       transform="matrix(0.004,0,0,-0.004,50.9729,53.6213)"
+       d="m 220,138 c 56,0 109,-29 109,-91 0,-72 -56,-121 -103,-149 -36,-21 -76,-36 -117,-36 -56,0 -109,29 -109,91 0,72 56,121 103,149 36,21 76,36 117,36 z"
+       id="path306"
+       inkscape:connector-curvature="0"
+       style="fill:currentColor" />
+  </a>
+  <rect
+     x="41.206814"
+     y="51.2668"
+     width="0.13"
+     height="4.1222"
+     ry="0.039999999"
+     id="rect308"
+     style="fill:currentColor" />
+  <a
+     style="color:inherit"
+     xlink:href="textedit:///home/uli/lilypond/diminuition.ly:22:54:55"
+     id="a310"
+     transform="translate(-4.8868877,-3.0422998)">
+    <path
+       transform="matrix(0.004,0,0,-0.004,46.0937,54.1213)"
+       d="m 220,138 c 56,0 109,-29 109,-91 0,-72 -56,-121 -103,-149 -36,-21 -76,-36 -117,-36 -56,0 -109,29 -109,91 0,72 56,121 103,149 36,21 76,36 117,36 z"
+       id="path312"
+       inkscape:connector-curvature="0"
+       style="fill:currentColor" />
+  </a>
+  <rect
+     x="36.327713"
+     y="51.7668"
+     width="0.13"
+     height="3.6222"
+     ry="0.039999999"
+     id="rect314"
+     style="fill:currentColor" />
+  <a
+     style="color:inherit"
+     xlink:href="textedit:///home/uli/lilypond/diminuition.ly:22:50:51"
+     id="a316"
+     transform="translate(-4.8868877,-3.0422998)">
+    <path
+       transform="matrix(0.004,0,0,-0.004,41.2146,54.6213)"
+       d="m 220,138 c 56,0 109,-29 109,-91 0,-72 -56,-121 -103,-149 -36,-21 -76,-36 -117,-36 -56,0 -109,29 -109,91 0,72 56,121 103,149 36,21 76,36 117,36 z"
+       id="path318"
+       inkscape:connector-curvature="0"
+       style="fill:currentColor" />
+  </a>
+  <a
+     style="color:inherit"
+     xlink:href="textedit:///home/uli/lilypond/diminuition.ly:22:12:13"
+     id="a320"
+     transform="translate(-4.8868877,-3.0422998)">
+    <line
+       transform="translate(26.577,60.8572)"
+       x1="10.0882"
+       y1="-0.39860001"
+       x2="10.0882"
+       y2="-1.0986"
+       id="line322"
+       style="stroke:currentColor;stroke-width:0.16;stroke-linecap:round;stroke-linejoin:round" />
+    <line
+       transform="translate(26.577,60.8572)"
+       x1="10.0882"
+       y1="-0.39860001"
+       x2="6.0212998"
+       y2="-0.2379"
+       id="line324"
+       style="stroke:currentColor;stroke-width:0.16;stroke-linecap:round;stroke-linejoin:round" />
+    <line
+       transform="translate(26.577,60.8572)"
+       x1="-0.1998"
+       y1="0.0078999996"
+       x2="-0.1998"
+       y2="-0.69209999"
+       id="line326"
+       style="stroke:currentColor;stroke-width:0.16;stroke-linecap:round;stroke-linejoin:round" />
+    <line
+       transform="translate(26.577,60.8572)"
+       x1="-0.1998"
+       y1="0.0078999996"
+       x2="4.0668001"
+       y2="-0.16069999"
+       id="line328"
+       style="stroke:currentColor;stroke-width:0.16;stroke-linecap:round;stroke-linejoin:round" />
+  </a>
+  <a
+     style="color:inherit"
+     xlink:href="textedit:///home/uli/lilypond/diminuition.ly:22:12:13"
+     id="a330"
+     transform="translate(-4.8868877,-3.0422998)">
+    <text
+       transform="translate(31.0432,61.2593)"
+       font-style="italic"
+       font-size="1.7461"
+       id="text332"
+       style="font-style:italic;font-size:1.74609995px;font-family:'Century Schoolbook L';text-anchor:start;fill:currentColor">
+      <tspan
+         id="tspan334">3</tspan>
+    </text>
+  </a>
+  <a
+     style="color:inherit"
+     xlink:href="textedit:///home/uli/lilypond/diminuition.ly:22:36:37"
+     id="a336"
+     transform="translate(-4.8868877,-3.0422998)">
+    <line
+       transform="translate(41.2146,59.7713)"
+       x1="10.0883"
+       y1="0"
+       x2="10.0883"
+       y2="-0.69999999"
+       id="line338"
+       style="stroke:currentColor;stroke-width:0.16;stroke-linecap:round;stroke-linejoin:round" />
+    <line
+       transform="translate(41.2146,59.7713)"
+       x1="10.0883"
+       y1="0"
+       x2="6.0222001"
+       y2="0"
+       id="line340"
+       style="stroke:currentColor;stroke-width:0.16;stroke-linecap:round;stroke-linejoin:round" />
+    <line
+       transform="translate(41.2146,59.7713)"
+       x1="-0.2"
+       y1="0"
+       x2="-0.2"
+       y2="-0.69999999"
+       id="line342"
+       style="stroke:currentColor;stroke-width:0.16;stroke-linecap:round;stroke-linejoin:round" />
+    <line
+       transform="translate(41.2146,59.7713)"
+       x1="-0.2"
+       y1="0"
+       x2="4.0661998"
+       y2="0"
+       id="line344"
+       style="stroke:currentColor;stroke-width:0.16;stroke-linecap:round;stroke-linejoin:round" />
+  </a>
+  <a
+     style="color:inherit"
+     xlink:href="textedit:///home/uli/lilypond/diminuition.ly:22:36:37"
+     id="a346"
+     transform="translate(-4.8868877,-3.0422998)">
+    <text
+       transform="translate(45.6807,60.3688)"
+       font-style="italic"
+       font-size="1.7461"
+       id="text348"
+       style="font-style:italic;font-size:1.74609995px;font-family:'Century Schoolbook L';text-anchor:start;fill:currentColor">
+      <tspan
+         id="tspan350">3</tspan>
+    </text>
+  </a>
+  <polygon
+     transform="translate(6.6037123,55.459)"
+     points="11.3424,-0.2558 0.04,0.2 0.04,-0.2 11.3424,-0.6558 "
+     id="polygon352"
+     style="fill:currentColor;stroke:currentColor;stroke-width:0.08;stroke-linecap:round;stroke-linejoin:round" />
+  <polygon
+     transform="translate(6.6037123,56.269)"
+     points="24.9348,-0.8 0.04,0.2 0.04,-0.2 24.9348,-1.2 "
+     id="polygon354"
+     style="fill:currentColor;stroke:currentColor;stroke-width:0.08;stroke-linecap:round;stroke-linejoin:round" />
+  <polygon
+     transform="translate(6.6037123,57.079)"
+     points="24.9348,-0.8 0.04,0.2 0.04,-0.2 24.9348,-1.2 "
+     id="polygon356"
+     style="fill:currentColor;stroke:currentColor;stroke-width:0.08;stroke-linecap:round;stroke-linejoin:round" />
+  <polygon
+     transform="translate(50.965212,53.769)"
+     points="11.5924,0.2 0.04,0.2 0.04,-0.2 11.5924,-0.2 "
+     id="polygon358"
+     style="fill:currentColor;stroke:currentColor;stroke-width:0.08;stroke-linecap:round;stroke-linejoin:round" />
+  <polygon
+     transform="translate(36.327712,54.579)"
+     points="26.2299,0.2 0.04,0.2 0.04,-0.2 26.2299,-0.2 "
+     id="polygon360"
+     style="fill:currentColor;stroke:currentColor;stroke-width:0.08;stroke-linecap:round;stroke-linejoin:round" />
+  <polygon
+     transform="translate(36.327712,55.389)"
+     points="26.2299,0.2 0.04,0.2 0.04,-0.2 26.2299,-0.2 "
+     id="polygon362"
+     style="fill:currentColor;stroke:currentColor;stroke-width:0.08;stroke-linecap:round;stroke-linejoin:round" />
+  <rect
+     x="66.301712"
+     y="52.340401"
+     width="0.13"
+     height="3.2386"
+     ry="0.039999999"
+     id="rect364"
+     style="fill:currentColor" />
+  <a
+     style="color:inherit"
+     xlink:href="textedit:///home/uli/lilypond/diminuition.ly:23:12:13"
+     id="a366"
+     transform="translate(-4.8868877,-3.0422998)">
+    <path
+       transform="matrix(0.004,0,0,-0.004,71.1886,55.1213)"
+       d="m 315,65 c 0,24 -21,41 -42,41 -4,0 -8,0 -12,-1 C 230,96 184,65 147,41 110,17 63,-12 43,-37 36,-45 32,-55 32,-65 c 0,-24 21,-41 42,-41 4,0 8,0 12,1 31,9 78,40 115,64 37,24 84,53 104,78 7,8 10,18 10,28 z m -51,72 c 47,0 83,-21 83,-72 0,-19 -4,-37 -10,-56 -12,-38 -32,-74 -65,-96 -54,-36 -113,-51 -188,-51 -47,0 -84,22 -84,73 0,19 5,37 11,56 12,38 31,74 64,96 54,36 114,50 189,50 z"
+       id="path368"
+       inkscape:connector-curvature="0"
+       style="fill:currentColor" />
+  </a>
+  <rect
+     x="62.467514"
+     y="51.7668"
+     width="0.13"
+     height="3.6222"
+     ry="0.039999999"
+     id="rect370"
+     style="fill:currentColor" />
+  <a
+     style="color:inherit"
+     xlink:href="textedit:///home/uli/lilypond/diminuition.ly:23:10:11"
+     id="a372"
+     transform="translate(-4.8868877,-3.0422998)">
+    <path
+       transform="matrix(0.004,0,0,-0.004,67.3544,54.6213)"
+       d="m 220,138 c 56,0 109,-29 109,-91 0,-72 -56,-121 -103,-149 -36,-21 -76,-36 -117,-36 -56,0 -109,29 -109,91 0,72 56,121 103,149 36,21 76,36 117,36 z"
+       id="path374"
+       inkscape:connector-curvature="0"
+       style="fill:currentColor" />
+  </a>
+  <rect
+     x="58.633411"
+     y="51.2668"
+     width="0.13"
+     height="4.1222"
+     ry="0.039999999"
+     id="rect376"
+     style="fill:currentColor" />
+  <a
+     style="color:inherit"
+     xlink:href="textedit:///home/uli/lilypond/diminuition.ly:23:8:9"
+     id="a378"
+     transform="translate(-4.8868877,-3.0422998)">
+    <path
+       transform="matrix(0.004,0,0,-0.004,63.5203,54.1213)"
+       d="m 220,138 c 56,0 109,-29 109,-91 0,-72 -56,-121 -103,-149 -36,-21 -76,-36 -117,-36 -56,0 -109,29 -109,91 0,72 56,121 103,149 36,21 76,36 117,36 z"
+       id="path380"
+       inkscape:connector-curvature="0"
+       style="fill:currentColor" />
+  </a>
+  <rect
+     x="14.021913"
+     y="53.2668"
+     width="0.13"
+     height="3.5125999"
+     ry="0.039999999"
+     id="rect382"
+     style="fill:currentColor" />
+  <a
+     style="color:inherit"
+     xlink:href="textedit:///home/uli/lilypond/diminuition.ly:22:8:9"
+     id="a384"
+     transform="translate(-4.8868877,-3.0422998)">
+    <path
+       transform="matrix(0.004,0,0,-0.004,18.9088,56.1213)"
+       d="m 220,138 c 56,0 109,-29 109,-91 0,-72 -56,-121 -103,-149 -36,-21 -76,-36 -117,-36 -56,0 -109,29 -109,91 0,72 56,121 103,149 36,21 76,36 117,36 z"
+       id="path386"
+       inkscape:connector-curvature="0"
+       style="fill:currentColor" />
+  </a>
+  <rect
+     x="10.187812"
+     y="53.7668"
+     width="0.13"
+     height="3.1661"
+     ry="0.039999999"
+     id="rect388"
+     style="fill:currentColor" />
+  <a
+     style="color:inherit"
+     xlink:href="textedit:///home/uli/lilypond/diminuition.ly:22:6:7"
+     id="a390"
+     transform="translate(-4.8868877,-3.0422998)">
+    <path
+       transform="matrix(0.004,0,0,-0.004,15.0747,56.6213)"
+       d="m 220,138 c 56,0 109,-29 109,-91 0,-72 -56,-121 -103,-149 -36,-21 -76,-36 -117,-36 -56,0 -109,29 -109,91 0,72 56,121 103,149 36,21 76,36 117,36 z"
+       id="path392"
+       inkscape:connector-curvature="0"
+       style="fill:currentColor" />
+  </a>
+  <rect
+     x="6.6037121"
+     y="52.7668"
+     width="0.13"
+     height="4.3095999"
+     ry="0.039999999"
+     id="rect394"
+     style="fill:currentColor" />
+  <a
+     style="color:inherit"
+     xlink:href="textedit:///home/uli/lilypond/diminuition.ly:22:2:3"
+     id="a396"
+     transform="translate(-4.8868877,-3.0422998)">
+    <path
+       transform="matrix(0.004,0,0,-0.004,11.4906,55.6213)"
+       d="m 220,138 c 56,0 109,-29 109,-91 0,-72 -56,-121 -103,-149 -36,-21 -76,-36 -117,-36 -56,0 -109,29 -109,91 0,72 56,121 103,149 36,21 76,36 117,36 z"
+       id="path398"
+       inkscape:connector-curvature="0"
+       style="fill:currentColor" />
+  </a>
+  <text
+     font-style="italic"
+     font-size="1.3860"
+     id="text400"
+     style="font-style:italic;font-size:1.38600004px;font-family:'Century Schoolbook L';text-anchor:start;fill:currentColor"
+     x="2.4935124"
+     y="57.1091">
+    <tspan
+       id="tspan402">8</tspan>
+  </text>
+  <path
+     d="m 3.1077123,52.531 c 0.016,0 0.036,-0.004 0.052,-0.004 0.62,0 1.024,0.512 1.024,1.044 0,0.304 -0.132,0.616 -0.428,0.84 -0.088,0.068 -0.188,0.112 -0.292,0.144 0.012,0.14 0.02,0.28 0.02,0.42 0,0.076 -0.004,0.156 -0.008,0.232 -0.028,0.48 -0.36,0.912 -0.832,0.912 -0.432,0 -0.78,-0.352 -0.78,-0.788 0,-0.232 0.212,-0.412 0.448,-0.412 0.216,0 0.38,0.188 0.38,0.412 0,0.208 -0.172,0.38 -0.38,0.38 -0.044,0 -0.084,-0.008 -0.124,-0.024 0.104,0.156 0.272,0.26 0.468,0.26 0.384,0 0.628,-0.368 0.652,-0.764 0.004,-0.072 0.008,-0.148 0.008,-0.22 0,-0.124 -0.004,-0.244 -0.016,-0.368 -0.116,0.02 -0.232,0.032 -0.356,0.032 -0.752,0 -1.332,-0.688 -1.332,-1.496 0,-0.708 0.524,-1.224 0.992,-1.764 -0.076,-0.248 -0.148,-0.5 -0.18,-0.76 -0.024,-0.208 -0.028,-0.416 -0.028,-0.624 0,-0.46 0.22,-0.896 0.596,-1.168 0.012,-0.008 0.028,-0.012 0.04,-0.012 0.016,0 0.028,0 0.04,0.012 0.284,0.336 0.532,0.98 0.532,1.432 0,0.572 -0.344,1.02 -0.72,1.456 0.084,0.272 0.156,0.552 0.224,0.828 z m 0.34,1.86 c 0.272,-0.096 0.452,-0.38 0.452,-0.656 0,-0.36 -0.264,-0.716 -0.692,-0.76 0.096,0.464 0.184,0.924 0.24,1.416 z m -1.548,-0.924 c 0,0.54 0.516,0.988 1.056,0.988 0.112,0 0.22,-0.008 0.328,-0.024 -0.056,-0.508 -0.148,-0.98 -0.252,-1.456 -0.316,0.032 -0.496,0.244 -0.496,0.476 0,0.176 0.1,0.364 0.324,0.492 0.02,0.02 0.028,0.04 0.028,0.06 0,0.044 -0.04,0.088 -0.088,0.088 -0.012,0 -0.024,-0.004 -0.036,-0.008 -0.32,-0.172 -0.468,-0.46 -0.468,-0.74 0,-0.352 0.232,-0.696 0.64,-0.788 -0.056,-0.232 -0.116,-0.468 -0.184,-0.7 -0.428,0.484 -0.852,0.972 -0.852,1.612 z m 1.336,-4.068 c -0.396,0.192 -0.648,0.596 -0.648,1.036 0,0.296 0.072,0.532 0.144,0.776 0.32,-0.388 0.584,-0.792 0.584,-1.296 0,-0.22 -0.016,-0.316 -0.08,-0.516 z"
+     id="path404"
+     inkscape:connector-curvature="0"
+     style="fill:currentColor" />
+  <rect
+     x="31.448513"
+     y="51.2668"
+     width="0.13"
+     height="4.8147998"
+     ry="0.039999999"
+     id="rect406"
+     style="fill:currentColor" />
+  <a
+     style="color:inherit"
+     xlink:href="textedit:///home/uli/lilypond/diminuition.ly:22:32:33"
+     id="a408"
+     transform="translate(-4.8868877,-3.0422998)">
+    <path
+       transform="matrix(0.004,0,0,-0.004,36.3354,54.1213)"
+       d="m 220,138 c 56,0 109,-29 109,-91 0,-72 -56,-121 -103,-149 -36,-21 -76,-36 -117,-36 -56,0 -109,29 -109,91 0,72 56,121 103,149 36,21 76,36 117,36 z"
+       id="path410"
+       inkscape:connector-curvature="0"
+       style="fill:currentColor" />
+  </a>
+  <rect
+     x="26.569313"
+     y="51.7668"
+     width="0.13"
+     height="4.5102"
+     ry="0.039999999"
+     id="rect412"
+     style="fill:currentColor" />
+  <a
+     style="color:inherit"
+     xlink:href="textedit:///home/uli/lilypond/diminuition.ly:22:30:31"
+     id="a414"
+     transform="translate(-4.8868877,-3.0422998)">
+    <path
+       transform="matrix(0.004,0,0,-0.004,31.4562,54.6213)"
+       d="m 220,138 c 56,0 109,-29 109,-91 0,-72 -56,-121 -103,-149 -36,-21 -76,-36 -117,-36 -56,0 -109,29 -109,91 0,72 56,121 103,149 36,21 76,36 117,36 z"
+       id="path416"
+       inkscape:connector-curvature="0"
+       style="fill:currentColor" />
+  </a>
+  <a
+     style="color:inherit"
+     xlink:href="textedit:///home/uli/lilypond/diminuition.ly:22:10:11"
+     id="a418"
+     transform="translate(-4.8868877,-3.0422998)">
+    <path
+       transform="matrix(0.004,0,0,-0.004,22.7429,55.6213)"
+       d="m 220,138 c 56,0 109,-29 109,-91 0,-72 -56,-121 -103,-149 -36,-21 -76,-36 -117,-36 -56,0 -109,29 -109,91 0,72 56,121 103,149 36,21 76,36 117,36 z"
+       id="path420"
+       inkscape:connector-curvature="0"
+       style="fill:currentColor" />
+  </a>
+  <rect
+     x="17.856012"
+     y="52.7668"
+     width="0.13"
+     height="3.859"
+     ry="0.039999999"
+     id="rect422"
+     style="fill:currentColor" />
+  <a
+     style="color:inherit"
+     xlink:href="textedit:///home/uli/lilypond/diminuition.ly:22:26:27"
+     id="a424"
+     transform="translate(-4.8868877,-3.0422998)">
+    <path
+       transform="matrix(0.004,0,0,-0.004,26.577,55.1213)"
+       d="m 220,138 c 56,0 109,-29 109,-91 0,-72 -56,-121 -103,-149 -36,-21 -76,-36 -117,-36 -56,0 -109,29 -109,91 0,72 56,121 103,149 36,21 76,36 117,36 z"
+       id="path426"
+       inkscape:connector-curvature="0"
+       style="fill:currentColor" />
+  </a>
+  <rect
+     x="21.690113"
+     y="52.2668"
+     width="0.13"
+     height="4.2055001"
+     ry="0.039999999"
+     id="rect428"
+     style="fill:currentColor" />
+  <line
+     x1="0.85371226"
+     y1="66.579002"
+     x2="80.42141"
+     y2="66.579002"
+     id="line430"
+     style="stroke:currentColor;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round" />
+  <line
+     x1="0.85371226"
+     y1="65.579002"
+     x2="80.42141"
+     y2="65.579002"
+     id="line432"
+     style="stroke:currentColor;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round" />
+  <line
+     x1="0.85371226"
+     y1="64.579002"
+     x2="80.42141"
+     y2="64.579002"
+     id="line434"
+     style="stroke:currentColor;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round" />
+  <line
+     x1="0.85371226"
+     y1="63.578999"
+     x2="80.42141"
+     y2="63.578999"
+     id="line436"
+     style="stroke:currentColor;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round" />
+  <line
+     x1="0.85371226"
+     y1="62.578999"
+     x2="80.42141"
+     y2="62.578999"
+     id="line438"
+     style="stroke:currentColor;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round" />
+  <rect
+     x="80.28141"
+     y="62.578999"
+     width="0.19"
+     height="4"
+     ry="0.0000"
+     id="rect440"
+     style="fill:currentColor" />
+  <rect
+     x="49.415112"
+     y="64.7668"
+     width="0.13"
+     height="4.6222"
+     ry="0.039999999"
+     id="rect442"
+     style="fill:currentColor" />
+  <a
+     style="color:inherit"
+     xlink:href="textedit:///home/uli/lilypond/diminuition.ly:24:32:33"
+     id="a444"
+     transform="translate(-4.8868877,-3.0422998)">
+    <path
+       transform="matrix(0.004,0,0,-0.004,57.8697,67.1213)"
+       d="m 220,138 c 56,0 109,-29 109,-91 0,-72 -56,-121 -103,-149 -36,-21 -76,-36 -117,-36 -56,0 -109,29 -109,91 0,72 56,121 103,149 36,21 76,36 117,36 z"
+       id="path446"
+       inkscape:connector-curvature="0"
+       style="fill:currentColor" />
+  </a>
+  <rect
+     x="52.982811"
+     y="64.2668"
+     width="0.13"
+     height="5.1222"
+     ry="0.039999999"
+     id="rect448"
+     style="fill:currentColor" />
+  <a
+     style="color:inherit"
+     xlink:href="textedit:///home/uli/lilypond/diminuition.ly:24:36:37"
+     id="a450"
+     transform="translate(-4.8868877,-3.0422998)">
+    <path
+       transform="matrix(0.004,0,0,-0.004,60.3116,67.6213)"
+       d="m 220,138 c 56,0 109,-29 109,-91 0,-72 -56,-121 -103,-149 -36,-21 -76,-36 -117,-36 -56,0 -109,29 -109,91 0,72 56,121 103,149 36,21 76,36 117,36 z"
+       id="path452"
+       inkscape:connector-curvature="0"
+       style="fill:currentColor" />
+  </a>
+  <rect
+     x="55.424713"
+     y="64.7668"
+     width="0.13"
+     height="4.6222"
+     ry="0.039999999"
+     id="rect454"
+     style="fill:currentColor" />
+  <a
+     style="color:inherit"
+     xlink:href="textedit:///home/uli/lilypond/diminuition.ly:24:38:39"
+     id="a456"
+     transform="translate(-4.8868877,-3.0422998)">
+    <path
+       transform="matrix(0.004,0,0,-0.004,62.7535,67.1213)"
+       d="m 220,138 c 56,0 109,-29 109,-91 0,-72 -56,-121 -103,-149 -36,-21 -76,-36 -117,-36 -56,0 -109,29 -109,91 0,72 56,121 103,149 36,21 76,36 117,36 z"
+       id="path458"
+       inkscape:connector-curvature="0"
+       style="fill:currentColor" />
+  </a>
+  <a
+     style="color:inherit"
+     xlink:href="textedit:///home/uli/lilypond/diminuition.ly:24:24:25"
+     id="a460"
+     transform="translate(-4.8868877,-3.0422998)">
+    <path
+       transform="matrix(0.004,0,0,-0.004,43.5992,67.1213)"
+       d="m 220,138 c 56,0 109,-29 109,-91 0,-72 -56,-121 -103,-149 -36,-21 -76,-36 -117,-36 -56,0 -109,29 -109,91 0,72 56,121 103,149 36,21 76,36 117,36 z"
+       id="path462"
+       inkscape:connector-curvature="0"
+       style="fill:currentColor" />
+  </a>
+  <rect
+     x="38.712311"
+     y="64.2668"
+     width="0.13"
+     height="5.1222"
+     ry="0.039999999"
+     id="rect464"
+     style="fill:currentColor" />
+  <a
+     style="color:inherit"
+     xlink:href="textedit:///home/uli/lilypond/diminuition.ly:24:26:27"
+     id="a466"
+     transform="translate(-4.8868877,-3.0422998)">
+    <path
+       transform="matrix(0.004,0,0,-0.004,47.1668,66.6213)"
+       d="m 220,138 c 56,0 109,-29 109,-91 0,-72 -56,-121 -103,-149 -36,-21 -76,-36 -117,-36 -56,0 -109,29 -109,91 0,72 56,121 103,149 36,21 76,36 117,36 z"
+       id="path468"
+       inkscape:connector-curvature="0"
+       style="fill:currentColor" />
+  </a>
+  <rect
+     x="42.279911"
+     y="63.7668"
+     width="0.13"
+     height="5.6222"
+     ry="0.039999999"
+     id="rect470"
+     style="fill:currentColor" />
+  <a
+     style="color:inherit"
+     xlink:href="textedit:///home/uli/lilypond/diminuition.ly:24:28:29"
+     id="a472"
+     transform="translate(-4.8868877,-3.0422998)">
+    <path
+       transform="matrix(0.004,0,0,-0.004,50.7344,67.1213)"
+       d="m 220,138 c 56,0 109,-29 109,-91 0,-72 -56,-121 -103,-149 -36,-21 -76,-36 -117,-36 -56,0 -109,29 -109,91 0,72 56,121 103,149 36,21 76,36 117,36 z"
+       id="path474"
+       inkscape:connector-curvature="0"
+       style="fill:currentColor" />
+  </a>
+  <rect
+     x="45.847511"
+     y="64.2668"
+     width="0.13"
+     height="5.1222"
+     ry="0.039999999"
+     id="rect476"
+     style="fill:currentColor" />
+  <a
+     style="color:inherit"
+     xlink:href="textedit:///home/uli/lilypond/diminuition.ly:24:30:31"
+     id="a478"
+     transform="translate(-4.8868877,-3.0422998)">
+    <path
+       transform="matrix(0.004,0,0,-0.004,54.302,67.6213)"
+       d="m 220,138 c 56,0 109,-29 109,-91 0,-72 -56,-121 -103,-149 -36,-21 -76,-36 -117,-36 -56,0 -109,29 -109,91 0,72 56,121 103,149 36,21 76,36 117,36 z"
+       id="path480"
+       inkscape:connector-curvature="0"
+       style="fill:currentColor" />
+  </a>
+  <a
+     style="color:inherit"
+     xlink:href="textedit:///home/uli/lilypond/diminuition.ly:24:46:47"
+     id="a482"
+     transform="translate(-4.8868877,-3.0422998)">
+    <path
+       transform="matrix(0.004,0,0,-0.004,72.5211,67.1213)"
+       d="m 315,65 c 0,24 -21,41 -42,41 -4,0 -8,0 -12,-1 C 230,96 184,65 147,41 110,17 63,-12 43,-37 36,-45 32,-55 32,-65 c 0,-24 21,-41 42,-41 4,0 8,0 12,1 31,9 78,40 115,64 37,24 84,53 104,78 7,8 10,18 10,28 z m -51,72 c 47,0 83,-21 83,-72 0,-19 -4,-37 -10,-56 -12,-38 -32,-74 -65,-96 -54,-36 -113,-51 -188,-51 -47,0 -84,22 -84,73 0,19 5,37 11,56 12,38 31,74 64,96 54,36 114,50 189,50 z"
+       id="path484"
+       inkscape:connector-curvature="0"
+       style="fill:currentColor" />
+  </a>
+  <rect
+     x="67.634209"
+     y="64.340401"
+     width="0.13"
+     height="3.2386"
+     ry="0.039999999"
+     id="rect486"
+     style="fill:currentColor" />
+  <polygon
+     transform="translate(52.982812,66.769)"
+     points="12.2995,0.2 0.04,0.2 0.04,-0.2 12.2995,-0.2 "
+     id="polygon488"
+     style="fill:currentColor;stroke:currentColor;stroke-width:0.08;stroke-linecap:round;stroke-linejoin:round" />
+  <polygon
+     transform="translate(35.144612,67.6423)"
+     points="30.1376,0.2 0.04,0.2 0.04,-0.2 30.1376,-0.2 "
+     id="polygon490"
+     style="fill:currentColor;stroke:currentColor;stroke-width:0.08;stroke-linecap:round;stroke-linejoin:round" />
+  <polygon
+     transform="translate(35.144612,68.5156)"
+     points="30.1376,0.2 0.04,0.2 0.04,-0.2 30.1376,-0.2 "
+     id="polygon492"
+     style="fill:currentColor;stroke:currentColor;stroke-width:0.08;stroke-linecap:round;stroke-linejoin:round" />
+  <polygon
+     transform="translate(35.144612,69.389)"
+     points="30.1376,0.2 0.04,0.2 0.04,-0.2 30.1376,-0.2 "
+     id="polygon494"
+     style="fill:currentColor;stroke:currentColor;stroke-width:0.08;stroke-linecap:round;stroke-linejoin:round" />
+  <polygon
+     transform="translate(6.6037123,67.459)"
+     points="25.0634,0.2 0.04,0.2 0.04,-0.2 25.0634,-0.2 "
+     id="polygon496"
+     style="fill:currentColor;stroke:currentColor;stroke-width:0.08;stroke-linecap:round;stroke-linejoin:round" />
+  <polygon
+     transform="translate(6.6037123,68.269)"
+     points="25.0634,0.2 0.04,0.2 0.04,-0.2 25.0634,-0.2 "
+     id="polygon498"
+     style="fill:currentColor;stroke:currentColor;stroke-width:0.08;stroke-linecap:round;stroke-linejoin:round" />
+  <polygon
+     transform="translate(6.6037123,69.079)"
+     points="25.0634,0.2 0.04,0.2 0.04,-0.2 25.0634,-0.2 "
+     id="polygon500"
+     style="fill:currentColor;stroke:currentColor;stroke-width:0.08;stroke-linecap:round;stroke-linejoin:round" />
+  <rect
+     x="57.866611"
+     y="64.2668"
+     width="0.13"
+     height="5.1222"
+     ry="0.039999999"
+     id="rect502"
+     style="fill:currentColor" />
+  <a
+     style="color:inherit"
+     xlink:href="textedit:///home/uli/lilypond/diminuition.ly:24:40:41"
+     id="a504"
+     transform="translate(-4.8868877,-3.0422998)">
+    <path
+       transform="matrix(0.004,0,0,-0.004,65.1954,67.6213)"
+       d="m 220,138 c 56,0 109,-29 109,-91 0,-72 -56,-121 -103,-149 -36,-21 -76,-36 -117,-36 -56,0 -109,29 -109,91 0,72 56,121 103,149 36,21 76,36 117,36 z"
+       id="path506"
+       inkscape:connector-curvature="0"
+       style="fill:currentColor" />
+  </a>
+  <rect
+     x="60.308514"
+     y="64.7668"
+     width="0.13"
+     height="4.6222"
+     ry="0.039999999"
+     id="rect508"
+     style="fill:currentColor" />
+  <a
+     style="color:inherit"
+     xlink:href="textedit:///home/uli/lilypond/diminuition.ly:24:42:43"
+     id="a510"
+     transform="translate(-4.8868877,-3.0422998)">
+    <path
+       transform="matrix(0.004,0,0,-0.004,67.6373,68.1213)"
+       d="m 220,138 c 56,0 109,-29 109,-91 0,-72 -56,-121 -103,-149 -36,-21 -76,-36 -117,-36 -56,0 -109,29 -109,91 0,72 56,121 103,149 36,21 76,36 117,36 z"
+       id="path512"
+       inkscape:connector-curvature="0"
+       style="fill:currentColor" />
+  </a>
+  <rect
+     x="62.750412"
+     y="65.2668"
+     width="0.13"
+     height="4.1222"
+     ry="0.039999999"
+     id="rect514"
+     style="fill:currentColor" />
+  <a
+     style="color:inherit"
+     xlink:href="textedit:///home/uli/lilypond/diminuition.ly:24:44:45"
+     id="a516"
+     transform="translate(-4.8868877,-3.0422998)">
+    <path
+       transform="matrix(0.004,0,0,-0.004,70.0792,67.6213)"
+       d="m 220,138 c 56,0 109,-29 109,-91 0,-72 -56,-121 -103,-149 -36,-21 -76,-36 -117,-36 -56,0 -109,29 -109,91 0,72 56,121 103,149 36,21 76,36 117,36 z"
+       id="path518"
+       inkscape:connector-curvature="0"
+       style="fill:currentColor" />
+  </a>
+  <rect
+     x="65.192314"
+     y="64.7668"
+     width="0.13"
+     height="4.6222"
+     ry="0.039999999"
+     id="rect520"
+     style="fill:currentColor" />
+  <a
+     style="color:inherit"
+     xlink:href="textedit:///home/uli/lilypond/diminuition.ly:24:6:7"
+     id="a522"
+     transform="translate(-4.8868877,-3.0422998)">
+    <path
+       transform="matrix(0.004,0,0,-0.004,15.3082,65.1213)"
+       d="m 220,138 c 56,0 109,-29 109,-91 0,-72 -56,-121 -103,-149 -36,-21 -76,-36 -117,-36 -56,0 -109,29 -109,91 0,72 56,121 103,149 36,21 76,36 117,36 z"
+       id="path524"
+       inkscape:connector-curvature="0"
+       style="fill:currentColor" />
+  </a>
+  <rect
+     x="10.421312"
+     y="62.2668"
+     width="0.13"
+     height="6.8122001"
+     ry="0.039999999"
+     id="rect526"
+     style="fill:currentColor" />
+  <a
+     style="color:inherit"
+     xlink:href="textedit:///home/uli/lilypond/diminuition.ly:24:9:10"
+     id="a528"
+     transform="translate(-4.8868877,-3.0422998)">
+    <path
+       transform="matrix(0.004,0,0,-0.004,18.8758,65.6213)"
+       d="m 220,138 c 56,0 109,-29 109,-91 0,-72 -56,-121 -103,-149 -36,-21 -76,-36 -117,-36 -56,0 -109,29 -109,91 0,72 56,121 103,149 36,21 76,36 117,36 z"
+       id="path530"
+       inkscape:connector-curvature="0"
+       style="fill:currentColor" />
+  </a>
+  <rect
+     x="13.988913"
+     y="62.7668"
+     width="0.13"
+     height="6.3122001"
+     ry="0.039999999"
+     id="rect532"
+     style="fill:currentColor" />
+  <a
+     style="color:inherit"
+     xlink:href="textedit:///home/uli/lilypond/diminuition.ly:24:11:12"
+     id="a534"
+     transform="translate(-4.8868877,-3.0422998)">
+    <path
+       transform="matrix(0.004,0,0,-0.004,22.4434,66.1213)"
+       d="m 220,138 c 56,0 109,-29 109,-91 0,-72 -56,-121 -103,-149 -36,-21 -76,-36 -117,-36 -56,0 -109,29 -109,91 0,72 56,121 103,149 36,21 76,36 117,36 z"
+       id="path536"
+       inkscape:connector-curvature="0"
+       style="fill:currentColor" />
+  </a>
+  <rect
+     x="17.556513"
+     y="63.2668"
+     width="0.13"
+     height="5.8122001"
+     ry="0.039999999"
+     id="rect538"
+     style="fill:currentColor" />
+  <a
+     style="color:inherit"
+     xlink:href="textedit:///home/uli/lilypond/diminuition.ly:24:13:14"
+     id="a540"
+     transform="translate(-4.8868877,-3.0422998)">
+    <path
+       transform="matrix(0.004,0,0,-0.004,26.011,66.6213)"
+       d="m 220,138 c 56,0 109,-29 109,-91 0,-72 -56,-121 -103,-149 -36,-21 -76,-36 -117,-36 -56,0 -109,29 -109,91 0,72 56,121 103,149 36,21 76,36 117,36 z"
+       id="path542"
+       inkscape:connector-curvature="0"
+       style="fill:currentColor" />
+  </a>
+  <path
+     d="m 3.1077123,64.531 c 0.016,0 0.036,-0.004 0.052,-0.004 0.62,0 1.024,0.512 1.024,1.044 0,0.304 -0.132,0.616 -0.428,0.84 -0.088,0.068 -0.188,0.112 -0.292,0.144 0.012,0.14 0.02,0.28 0.02,0.42 0,0.076 -0.004,0.156 -0.008,0.232 -0.028,0.48 -0.36,0.912 -0.832,0.912 -0.432,0 -0.78,-0.352 -0.78,-0.788 0,-0.232 0.212,-0.412 0.448,-0.412 0.216,0 0.38,0.188 0.38,0.412 0,0.208 -0.172,0.38 -0.38,0.38 -0.044,0 -0.084,-0.008 -0.124,-0.024 0.104,0.156 0.272,0.26 0.468,0.26 0.384,0 0.628,-0.368 0.652,-0.764 0.004,-0.072 0.008,-0.148 0.008,-0.22 0,-0.124 -0.004,-0.244 -0.016,-0.368 -0.116,0.02 -0.232,0.032 -0.356,0.032 -0.752,0 -1.332,-0.688 -1.332,-1.496 0,-0.708 0.524,-1.224 0.992,-1.764 -0.076,-0.248 -0.148,-0.5 -0.18,-0.76 -0.024,-0.208 -0.028,-0.416 -0.028,-0.624 0,-0.46 0.22,-0.896 0.596,-1.168 0.012,-0.008 0.028,-0.012 0.04,-0.012 0.016,0 0.028,0 0.04,0.012 0.284,0.336 0.532,0.98 0.532,1.432 0,0.572 -0.344,1.02 -0.72,1.456 0.084,0.272 0.156,0.552 0.224,0.828 z m 0.34,1.86 c 0.272,-0.096 0.452,-0.38 0.452,-0.656 0,-0.36 -0.264,-0.716 -0.692,-0.76 0.096,0.464 0.184,0.924 0.24,1.416 z m -1.548,-0.924 c 0,0.54 0.516,0.988 1.056,0.988 0.112,0 0.22,-0.008 0.328,-0.024 -0.056,-0.508 -0.148,-0.98 -0.252,-1.456 -0.316,0.032 -0.496,0.244 -0.496,0.476 0,0.176 0.1,0.364 0.324,0.492 0.02,0.02 0.028,0.04 0.028,0.06 0,0.044 -0.04,0.088 -0.088,0.088 -0.012,0 -0.024,-0.004 -0.036,-0.008 -0.32,-0.172 -0.468,-0.46 -0.468,-0.74 0,-0.352 0.232,-0.696 0.64,-0.788 -0.056,-0.232 -0.116,-0.468 -0.184,-0.7 -0.428,0.484 -0.852,0.972 -0.852,1.612 z m 1.336,-4.068 c -0.396,0.192 -0.648,0.596 -0.648,1.036 0,0.296 0.072,0.532 0.144,0.776 0.32,-0.388 0.584,-0.792 0.584,-1.296 0,-0.22 -0.016,-0.316 -0.08,-0.516 z"
+     id="path544"
+     inkscape:connector-curvature="0"
+     style="fill:currentColor" />
+  <text
+     font-style="italic"
+     font-size="1.3860"
+     id="text546"
+     style="font-style:italic;font-size:1.38600004px;font-family:'Century Schoolbook L';text-anchor:start;fill:currentColor"
+     x="2.4935124"
+     y="69.1091">
+    <tspan
+       id="tspan548">8</tspan>
+  </text>
+  <a
+     style="color:inherit"
+     xlink:href="textedit:///home/uli/lilypond/diminuition.ly:24:2:3"
+     id="a550"
+     transform="translate(-4.8868877,-3.0422998)">
+    <path
+       transform="matrix(0.004,0,0,-0.004,11.4906,67.6213)"
+       d="m 220,138 c 56,0 109,-29 109,-91 0,-72 -56,-121 -103,-149 -36,-21 -76,-36 -117,-36 -56,0 -109,29 -109,91 0,72 56,121 103,149 36,21 76,36 117,36 z"
+       id="path552"
+       inkscape:connector-curvature="0"
+       style="fill:currentColor" />
+  </a>
+  <rect
+     x="6.6037121"
+     y="64.7668"
+     width="0.13"
+     height="4.3122001"
+     ry="0.039999999"
+     id="rect554"
+     style="fill:currentColor" />
+  <a
+     style="color:inherit"
+     xlink:href="textedit:///home/uli/lilypond/diminuition.ly:24:18:19"
+     id="a556"
+     transform="translate(-4.8868877,-3.0422998)">
+    <path
+       transform="matrix(0.004,0,0,-0.004,32.8963,68.1213)"
+       d="m 220,138 c 56,0 109,-29 109,-91 0,-72 -56,-121 -103,-149 -36,-21 -76,-36 -117,-36 -56,0 -109,29 -109,91 0,72 56,121 103,149 36,21 76,36 117,36 z"
+       id="path558"
+       inkscape:connector-curvature="0"
+       style="fill:currentColor" />
+  </a>
+  <rect
+     x="28.009413"
+     y="65.2668"
+     width="0.13"
+     height="3.8122001"
+     ry="0.039999999"
+     id="rect560"
+     style="fill:currentColor" />
+  <a
+     style="color:inherit"
+     xlink:href="textedit:///home/uli/lilypond/diminuition.ly:24:20:21"
+     id="a562"
+     transform="translate(-4.8868877,-3.0422998)">
+    <path
+       transform="matrix(0.004,0,0,-0.004,36.4639,67.6213)"
+       d="m 220,138 c 56,0 109,-29 109,-91 0,-72 -56,-121 -103,-149 -36,-21 -76,-36 -117,-36 -56,0 -109,29 -109,91 0,72 56,121 103,149 36,21 76,36 117,36 z"
+       id="path564"
+       inkscape:connector-curvature="0"
+       style="fill:currentColor" />
+  </a>
+  <rect
+     x="31.577013"
+     y="64.7668"
+     width="0.13"
+     height="4.3122001"
+     ry="0.039999999"
+     id="rect566"
+     style="fill:currentColor" />
+  <a
+     style="color:inherit"
+     xlink:href="textedit:///home/uli/lilypond/diminuition.ly:24:22:23"
+     id="a568"
+     transform="translate(-4.8868877,-3.0422998)">
+    <path
+       transform="matrix(0.004,0,0,-0.004,40.0315,67.6213)"
+       d="m 220,138 c 56,0 109,-29 109,-91 0,-72 -56,-121 -103,-149 -36,-21 -76,-36 -117,-36 -56,0 -109,29 -109,91 0,72 56,121 103,149 36,21 76,36 117,36 z"
+       id="path570"
+       inkscape:connector-curvature="0"
+       style="fill:currentColor" />
+  </a>
+  <rect
+     x="35.144611"
+     y="64.7668"
+     width="0.13"
+     height="4.6222"
+     ry="0.039999999"
+     id="rect572"
+     style="fill:currentColor" />
+  <a
+     style="color:inherit"
+     xlink:href="textedit:///home/uli/lilypond/diminuition.ly:24:15:16"
+     id="a574"
+     transform="translate(-4.8868877,-3.0422998)">
+    <path
+       transform="matrix(0.004,0,0,-0.004,29.3287,68.6213)"
+       d="m 220,138 c 56,0 109,-29 109,-91 0,-72 -56,-121 -103,-149 -36,-21 -76,-36 -117,-36 -56,0 -109,29 -109,91 0,72 56,121 103,149 36,21 76,36 117,36 z"
+       id="path576"
+       inkscape:connector-curvature="0"
+       style="fill:currentColor" />
+  </a>
+  <rect
+     x="24.441813"
+     y="65.7668"
+     width="0.13"
+     height="3.3122001"
+     ry="0.039999999"
+     id="rect578"
+     style="fill:currentColor" />
+  <rect
+     x="21.124113"
+     y="63.7668"
+     width="0.13"
+     height="5.3122001"
+     ry="0.039999999"
+     id="rect580"
+     style="fill:currentColor" />
+  <a
+     transform="translate(12.349812,162.1089)"
+     xlink:href="http://lilypond.org/"
+     id="a582">
+    <rect
+       x="0"
+       y="-0.44389999"
+       width="56.5755"
+       height="2.0827"
+       id="rect584"
+       style="fill:none;stroke:none;stroke-width:0" />
+  </a>
+  <text
+     font-size="2.2001"
+     id="text586"
+     style="font-size:2.20009995px;font-family:'Century Schoolbook L';text-anchor:start;fill:currentColor"
+     x="12.349813"
+     y="162.1089">
+    <tspan
+       id="tspan588">Music engraving by LilyPond 2.18.2—www.lilypond.org</tspan>
+  </text>
+</svg>
