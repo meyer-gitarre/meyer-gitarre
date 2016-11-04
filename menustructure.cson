@@ -245,6 +245,139 @@ menustructure:
           name: "Hausaufgaben"
           path: "/musiklehre/musik-text/texte/index.html#hausauf"
         ]
+      ,
+        name: "Improvisationsideen"
+        path: "/gitarre/unterricht/improvisationsideen/index.html"
+        children: [
+          name: "Harmoniemodelle"
+          path: "/gitarre/unterricht/improvisationsideen/harmoniemodelle/index.html"
+          sections: [
+            name: "Zeiten und Stile"
+            path: "/gitarre/unterricht/improvisationsideen/harmoniemodelle/index.html#intro"
+          ,
+            name: "Diminuieren"
+            path: "/gitarre/unterricht/improvisationsideen/harmoniemodelle/index.html#diminuition"
+          ,
+            name: "Tanzstrukturen"
+            path: "/gitarre/unterricht/improvisationsideen/harmoniemodelle/index.html#taenze"
+          ,
+            name: "Harmoniefolgen"
+            path: "/gitarre/unterricht/improvisationsideen/harmoniemodelle/index.html#tenores"
+          ,
+            name: "Übertragung"
+            path: "/gitarre/unterricht/improvisationsideen/harmoniemodelle/index.html#uebertragung"
+          ,
+            name: "Quellen"
+            path: "/gitarre/unterricht/improvisationsideen/harmoniemodelle/index.html#quellen"
+          ]
+        ,
+          name: "Passemezzo Antico"
+          path: "/gitarre/unterricht/improvisationsideen/passemezzoa/index.html"
+          sections: [
+            name: "Passemezzo Antico"
+            path: "/gitarre/unterricht/improvisationsideen/passemezzoa/index.html#antico"
+          ,
+            name: "Diego Ortiz"
+            path: "/gitarre/unterricht/improvisationsideen/passemezzoa/index.html#ortiz"
+          ,
+            name: "Dominico Bianchini"
+            path: "/gitarre/unterricht/improvisationsideen/passemezzoa/index.html#bianchini"
+          ,
+            name: "Le Roy"
+            path: "/gitarre/unterricht/improvisationsideen/passemezzoa/index.html#leroy"
+          ,
+            name: "Gio. A. Terzi"
+            path: "/gitarre/unterricht/improvisationsideen/passemezzoa/index.html#terzi"
+          ,
+            name: "Simone Molinaro"
+            path: "/gitarre/unterricht/improvisationsideen/passemezzoa/index.html#molinaro"
+          ,
+            name: "Robinson"
+            path: "/gitarre/unterricht/improvisationsideen/passemezzoa/index.html#robinson"
+          ,
+            name: "Vallet"
+            path: "/gitarre/unterricht/improvisationsideen/passemezzoa/index.html#vallet"
+          ,
+            name: "Galilei"
+            path: "/gitarre/unterricht/improvisationsideen/passemezzoa/index.html#galilei"
+          ,
+            name: "Division Flute"
+            path: "/gitarre/unterricht/improvisationsideen/passemezzoa/index.html#division"
+          ]
+        ,
+          name: "Passemezzo Moderno"
+          path: "/gitarre/unterricht/improvisationsideen/passemezzom/index.html"
+          sections: [
+            name: "Diego Ortiz"
+            path: "/gitarre/unterricht/improvisationsideen/passemezzom/index.html#ortiz"
+          ,
+            name: "Gio. A. Terzi"
+            path: "/gitarre/unterricht/improvisationsideen/passemezzom/index.html#terzi"
+          ,
+            name: "Simone Molinaro"
+            path: "/gitarre/unterricht/improvisationsideen/passemezzom/index.html#molinaro"
+          ,
+            name: "Girolamo Kapsberger"
+            path: "/gitarre/unterricht/improvisationsideen/passemezzom/index.html#kapsberger"
+          ]
+        ,
+          name: "La Gamba"
+          path: "/gitarre/unterricht/improvisationsideen/lagamba/index.html"
+          sections: [
+            name: "Diego Ortiz"
+            path: "/gitarre/unterricht/improvisationsideen/lagamba/index.html#ortiz"
+          ,
+            name: "Dominico Bianchini"
+            path: "/gitarre/unterricht/improvisationsideen/lagamba/index.html#bianchini"
+          ,
+            name: "Le Roy 1551"
+            path: "/gitarre/unterricht/improvisationsideen/lagamba/index.html#leroy"
+          ,
+            name: "Diego Pisador"
+            path: "/gitarre/unterricht/improvisationsideen/lagamba/index.html#pisador"
+          ,
+            name: "Le Roy 1568"
+            path: "/gitarre/unterricht/improvisationsideen/lagamba/index.html#leroy2"
+          ]
+        ,
+          name: "Romanesca"
+          path: "/gitarre/unterricht/improvisationsideen/romanesca/index.html"
+          sections: [
+            name: "Diego Ortiz"
+            path: "/gitarre/unterricht/improvisationsideen/romanesca/index.html#ortiz"
+          ,
+            name: "Luys de Narváez"
+            path: "/gitarre/unterricht/improvisationsideen/romanesca/index.html#narvaez"
+          ,
+            name: "Le Roy"
+            path: "/gitarre/unterricht/improvisationsideen/romanesca/index.html#leroy"
+          ,
+            name: "Girolamo Kapsberger"
+            path: "/gitarre/unterricht/improvisationsideen/romanesca/index.html#kapsberger"
+          ,
+            name: "Alessandro Piccinini"
+            path: "/gitarre/unterricht/improvisationsideen/romanesca/index.html#piccinini"
+          ]
+        ,
+          name: "Folia"
+          path: "/gitarre/unterricht/improvisationsideen/folia/index.html"
+          sections: [
+            name: "La Folia"
+            path: "/gitarre/unterricht/improvisationsideen/folia/index.html#folia"
+          ,
+            name: "Andrea Falconieri"
+            path: "/gitarre/unterricht/improvisationsideen/folia/index.html#falconieri"
+          ,
+            name: "Jacques Gallot"
+            path: "/gitarre/unterricht/improvisationsideen/folia/index.html#gallot"
+          ,
+            name: "Gaspar Sanz"
+            path: "/gitarre/unterricht/improvisationsideen/folia/index.html#sanz"
+          ,
+            name: "Division Flute"
+            path: "/gitarre/unterricht/improvisationsideen/folia/index.html#divisions"
+          ]
+        ]
       ]
     ,
       name: "Üben"
