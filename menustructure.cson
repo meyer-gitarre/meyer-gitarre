@@ -283,7 +283,7 @@ menustructure:
             name: "Dominico Bianchini"
             path: "/gitarre/unterricht/improvisationsideen/passemezzoa/index.html#bianchini"
           ,
-            name: "Le Roy"
+            name: "Adrian Le Roy"
             path: "/gitarre/unterricht/improvisationsideen/passemezzoa/index.html#leroy"
           ,
             name: "Gio. A. Terzi"
@@ -292,13 +292,13 @@ menustructure:
             name: "Simone Molinaro"
             path: "/gitarre/unterricht/improvisationsideen/passemezzoa/index.html#molinaro"
           ,
-            name: "Robinson"
+            name: "Thomas Robinson"
             path: "/gitarre/unterricht/improvisationsideen/passemezzoa/index.html#robinson"
           ,
-            name: "Vallet"
+            name: "Nicolaes Vallet"
             path: "/gitarre/unterricht/improvisationsideen/passemezzoa/index.html#vallet"
           ,
-            name: "Galilei"
+            name: "Michelangelo Galilei"
             path: "/gitarre/unterricht/improvisationsideen/passemezzoa/index.html#galilei"
           ,
             name: "Division Flute"
@@ -319,6 +319,9 @@ menustructure:
           ,
             name: "Girolamo Kapsberger"
             path: "/gitarre/unterricht/improvisationsideen/passemezzom/index.html#kapsberger"
+          ,
+            name: "Nicolaes Vallet"
+            path: "/gitarre/unterricht/improvisationsideen/passemezzom/index.html#vallet"
           ]
         ,
           name: "La Gamba"
@@ -349,7 +352,7 @@ menustructure:
             name: "Luys de Narváez"
             path: "/gitarre/unterricht/improvisationsideen/romanesca/index.html#narvaez"
           ,
-            name: "Le Roy"
+            name: "Adrian Le Roy"
             path: "/gitarre/unterricht/improvisationsideen/romanesca/index.html#leroy"
           ,
             name: "Girolamo Kapsberger"
