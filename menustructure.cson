@@ -38,6 +38,15 @@ menustructure:
         name: "Kindergitarren"
         path: "/gitarre/instrument/kinder/index.html"
         sections: [
+          name: "Kindergitarren"
+          path: "/gitarre/instrument/kinder/index.html#kindergitarren"
+        ,
+          name: "Argumente in Stichworten"
+          path: "/gitarre/instrument/kinder/index.html#stichworte"
+        ,
+          name: "Kaufpschologie"
+          path: "/gitarre/instrument/kinder/index.html#psychologie"
+        ,
           name: "Größe & Spieler"
           path: "/gitarre/instrument/kinder/index.html#groessen"
         ,
