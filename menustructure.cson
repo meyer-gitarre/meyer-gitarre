@@ -2359,6 +2359,13 @@ menustructure:
           name: "Kampf um Bildung"
           path: "/musiklehre/musik-text/texte/index.html#bildung"
         ]
+      ,
+        name: "Schreiben"
+        path: "/musiklehre/musik-text/schreiben/index.html"
+        sections: [
+          name: "LilyPond Notensatz"
+          path: "/musiklehre/musik-text/schreiben/index.html#notenschreiben"
+        ]
       ]
     ]
   ,
