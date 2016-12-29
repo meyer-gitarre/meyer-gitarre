@@ -74,7 +74,7 @@ intro:
     <p>Eine ausgereifte GUI-Anwendung bietet für alle diese Eventualitäten Strukturen an. Genauso, wie ich bei einer LibreOffice Textdatei davon ausgehen kann, dass Formatierungen für Seite, Ränder, Überschriften etc. vorhanden sind, stellt mir Capella einen
         Stapel Grundeinstellungen zur Verfügung:</p>
     <h5>Strukturbaum einer Note in Capella</h5>
-    <p>Im Programm Capella kann man sich im Menü <span class="code">Ansicht</span> den Strukturbaum einer Partitur anschauen, und diesen habe ich per Screenshot hier sichtbar gemacht um anzudeuten, was alles mit einer Note verbunden ist.</p>
+    <p>Im Programm Capella kann man sich im Menü <span class="code">Ansicht</span> den Strukturbaum einer Partitur anschauen. Ein Beispiel habe ich hier per Screenshot sichtbar gemacht um anzudeuten, was alles mit einer Note verbunden ist.</p>
     <div class="imageWrapper img550 floatedRight"><img src="/img/mlmu/mlmu76Struktur.jpg" alt="Strukturbaum in Capella"></div>
     <p><span class="refer">1:</span> Über allem steht "score", und darunter zunächst mal Infos zum Dateiformat und der verwendeten Programmversion.</p>
     <p>Bei Ziffer <span class="refer">2</span> beginnt die Abteilung "layout", mit Papiergröße und Seitenrändern. Unter <span class="refer">3</span> sind die Größen der Notenzeilen, unter <span class="refer">4</span> die Abstände der Systeme geregelt. Bei
@@ -82,13 +82,14 @@ intro:
     <p>Bei Punkt <span class="refer">6</span> sind die Eigenschaften der Akkoladen gelistet, Schlüssel, ob Taktstriche zwischen Notenlinien durchgezogen werden oder nicht, zusätzliche Abstände über und unter jeder Notenzeile, Instrumentenname und -abkürzung,
         Midieinstellungen.
     </p>
-    <p>Punkt <span class="refer">7</span> zeigt den horizontalen Platzbedarf von Noten und Balkensteigung - auch das kann man einstellen.</p>
+    <p>Punkt <span class="refer">7</span> zeigt den horizontalen Platzbedarf von Noten und die Balkensteigung - auch das kann man einstellen.</p>
     <p>Bei Ziffer <span class="refer">8</span> beginnen die Einstellungen zu "Systems". Zunächst wird festgelegt, dass das eingestellte Tempo MM = 120 ist, und dass Namen der Instrumente lang ausgeschrieben werden.</p>
     <p><span class="refer">9</span> gibt an, dass dieses Layout "unbenannt1" heißt, und dass 4/4-Takt eingestellt ist.</p>
     <p>Dann beginnen bei <span class="refer">10</span> die Eigenschaften eines möglichen Liedtextes, Schriftart und -größe, Abstand von der Notenzeile und Abstände zwischen Strophenzeilen, bei <span class="refer">11</span> werden den Noten nochmals bestimmte
         Werte zugeordnet, und bei <span class="refer">12</span> wird es langsam spannend: es gibt einen Akkord (ein Ton ist ein Akkord), der eine Viertelnote dauert, aber keine Dauer hat, weil ich die Note als Vorhalt (klein und ohne Wert) formatiert
         habe.
-        <br>Der Akkord hat also <span class="refer">(13)</span> bei <span class="code">"small"</span> den Wert <span class="code">"true"</span> und ist außerdem um "-2" auf der x-Achse verschoben. Diese Verschiebung wird genutzt, um zusammenstoßende Notenköpfe
+    </p>
+    <p>Der Akkord hat also <span class="refer">(13)</span> bei <span class="code">"small"</span> den Wert <span class="code">"true"</span> und ist außerdem um "-2" auf der x-Achse verschoben. Diese Verschiebung wird genutzt, um zusammenstoßende Notenköpfe
         zu trennen.
         <br>Bei <span class="refer">14</span> steht, dass als Artikulation "staccato" eingetragen ist.</p>
     <p>Unter <span class="refer">15</span> ist der Liedtext (dessen Einstellungen bei <span class="refer">10</span> angegeben sind, z.B. dass er über den Noten steht) "Hu!" zu sehen, und bei <span class="refer">16</span> beginnen die gezeichneten Objekte.
@@ -96,7 +97,7 @@ intro:
     <p>Dabei handelt es sich zunächst um einen Textfeld, das an bestimmten Koordinaten liegt, eine Schriftart und -größe hat, und als Inhalt (<span class="refer">16</span>) "Struktur!".
         <br>Bei <span class="refer">(17)</span> ist das zweite Objekt beschrieben: ein Crescendo -Keil mit genauen Koordinaten und Linienstärke.</p>
     <p>Schließlich bei <span class="refer">18</span> - tadaa: die Note, um die es geht heißt <span class="mn">"G5"</span>, und sie hat eine besondere Kopfform: <span class="code">shape="crossDiamond"</span>! - Das ist also die Essenz des ganzen Theaters!</p>
-    <p>All diese Eigenschaften finden sich in der Menüstruktur von Capella wieder, und das sind nur die Grundlagen. Grafiken, Zeichenelemente und über Plugins steuerbare Sondertricks kommen noch dazu.</p>
+    <p>All diese Eigenschaften finden sich in der Menüstruktur von Capella wieder, und das hier sind nur die Grundlagen. Grafiken, Zeichenelemente und über Plugins steuerbare Sondertricks kommen noch dazu.</p>
     <h5>Übersicht in der Hilfe zu Capella</h5>
     <p>In der <span class="code">Hilfe</span> zu Capella wird folgende Übersicht gegeben:
         <ul>
@@ -105,7 +106,7 @@ intro:
             <li>Eine <em>Notenzeile</em> besteht aus einer oder mehreren unabhängigen <i>Stimmen</i>.</li>
             <li>Eine <em>Stimme</em> ist eine Aufreihung von Notenobjekten (u. a. <i>Akkorde</i>, Pausen, Vorzeichnungen, feste Taktstriche).</li>
             <li>Ein <em>Akkord</em> besteht aus einer oder mehreren Noten.</li>
-            <li>An jeden Akkord und jede Pause kann ein (oder mehrere) Grafikobjekt des in capella integrierten Zeichenprogramms gehängt werden, das sich bei Änderungen der Partitur mit dem Akkord (bzw. der Pause) mitbewegt.</li>
+            <li>An jeden Akkord und jede Pause kann ein (oder mehrere) <em>Grafikobjekt</em> des in capella integrierten Zeichenprogramms gehängt werden, das sich bei Änderungen der Partitur mit dem Akkord (bzw. der Pause) mitbewegt.</li>
             <li>Die Notenzeilen aller Systeme werden aus einem gemeinsamen <em>Mustersystem</em> entnommen.</li>
         </ul>
         <p>Den Umgang mit diesem komplexen System muss man lernen. Man muss lernen, wo man was einstellt, also kämpft man sich durch das Handbuch, experimentiert, flucht, sucht und freut sich, wenn man etwas hinbekommen hat.
@@ -113,7 +114,7 @@ intro:
             im Menü "<span class="code">Datei - Seite einrichten</span>" eingestellt wird, und nicht unter "<span class="code">Format</span>" oder "<span class="code">Format - Mustersystem</span>" finde ich nicht selbstverständlich.</p>
         <p>Aber in Menüs steht neben Befehlen - wenn vorhanden - eine Tastenkombination, und so merkt man sich zunehmend häufig gebrauchte Shortcuts wie zum Beispiel "<span class="code">strg+alt+z</span>" um zusätzlichen Zeilenabstand hinzuzufügen, was man
             bei Gitarrennoten häufig braucht, oder "<span class="code">shift + /</span>", was den vorherigen Akkord wiederholt, oder "<span class="code"><</span>" bzw. "<span class="code">></span>", die dafür sorgen, dass der folgende Akkord zum nächsten
-            Wert vergrößert bzw. verkleinert wird. So hat nach einiger Zeit das Gefühl, schnell und sicher mit dem Programm arbeiten zu können.</p>
+            Wert vergrößert bzw. verkleinert wird. So hat man nach einiger Zeit das Gefühl, schnell und sicher mit dem Programm arbeiten zu können.</p>
         <h4 id="lernen">Sich in LilyPond einarbeiten</h4>
         <p>Die Arbeit mit LilyPond beginnt damit, dass man eine Textdatei erstellt, die man mit der Endung "<span class="code">*.ly</span>" abspeichert.</p>
         <h5>Einen Text-Editor benutzen</h5>
@@ -140,26 +141,27 @@ intro:
         <div class="imageWrapper img200 floatedRight"><img src="/img/mlmu/mlmu77.jpg" alt="Verschachtelte Noten"></div>
         <p>Man klickt vielleicht zuerst auf der Seite <a href="http://lilypond.org/manuals.de.html">Handbücher</a>, auf der tatsächlich ein Dutzend Dokumente verlinkt sind, die in "Einleitung", "Regelmäßig benötigt" und "Seltener benötigt" eingeteilt sind,
             auf <a href="http://lilypond.org/text-input.de.html">Texteingabe</a>, um dort gesagt zu bekommen, dass man bitte sehr die <a href="http://lilypond.org/doc/v2.18/Documentation/learning/index.de.html">Einführung</a> lesen soll. Hier muss man
-            sich zunächst mal an die Ästhetik der Seite gewöhnen, die manchmal fast ausschließlich aus weiterführenden Links besteht.
+            sich zunächst mal an die quasi wissenschaftliche Ästhetik der Seite gewöhnen, die manchmal fast ausschließlich aus weiterführenden Links besteht.
             <br>Nach dem Klick auf "Grundbegriffe" wechselt die Sprache auf Englisch, was man aber unten in der Sprachleiste wieder ändern kann, und nach zwei weiteren <a href="http://lilypond.org/doc/v2.18/Documentation/learning/introduction-to-the-lilypond-file-structure">Klicks</a>            sieht man die russischen Puppen, die verschachtelten Ebenen, in denen die Noten verpackt sind.</p>
         <h5>Strukturebenen in LilyPond</h5>
         <p>Jede Ebene, die geöffnet wird, muss geschlossen werden. Man muss behalten, wie welche Ebene heißt, was mit einem kleinen und was mit einem großen Buchstaben zu beginnen hat, und welche Begriffe zusammen, aber mit einem oder mehreren internen Großbuchstaben,
             wie zum Beispiel <span class="code">"\autoBeamOff"</span> geschrieben werden. Die schiere Menge an zu verdauendem Lerninhalt kann jemanden, bei dem Schule und Studium schon einen Moment her sind ganz schön zur Verzweiflung bringen, denn der
             kleinste Fehler, selbst eine vergessene Leertaste, kann das erfolgreiche Kompilieren verhindern.
         </p>
-        <div class="imageWrapper img260 floatedRight"><img src="/img/mlmu/mlmu78.jpg" alt="Verschachtelte Noten 2"></div>
         <h5>Klammern für den Zusammenhalt</h5>
+        <div class="imageWrapper img260 floatedRight"><img src="/img/mlmu/mlmu78.jpg" alt="Verschachtelte Noten 2"></div>
         <h6>Gleichzeitige Ereignisse</h6>
         <p>In LilyPond gibt es viele Ebenen und viele Arten von Verschachtelung, die mit unterschiedlichen Klammern eingefasst werden. Außer in den geschweiften Klammern <span class="code">"{...}"</span> werden simultan stattfindende Dinge in diesen Klammern
             <span class="code">"&lt;&lt;...&gt;&gt;"</span> eingefasst.</p>
         <p>Nach der Zeile <span class="code">"\score"</span> mit der sich öffnenden geschweiften Klammer öffnen sich die ersten spitzen Klammern, die Gesang und Klavier zusammenfassen. Hinter <span class="code">\new Staff = "singer"</span> öffnen sich die
-            zweiten, dann folgt der Inhalt an Noten samt Text, diese Ebene spitzer Klammern wird geschlossen, dann folgt <span class="code">\new PianoStaff = "piano"</span>, worauf sich wieder spitze Klammern öffnen, die nach den zwei "Inhaltszeilen"
+            zweiten, dann folgt der Inhalt an Noten samt Text für "singer", diese Ebene spitzer Klammern wird geschlossen, dann folgt <span class="code">\new PianoStaff = "piano"</span>, worauf sich wieder spitze Klammern öffnen, die nach den zwei "Inhaltszeilen"
             geschlossen werden, und dann werden die nach der ersten Zeile geöffneten spitzen Klammern geschlossen, und schließlich die geschweifte Klammer der ersten Zeile.</p>
         <p>Wenn man mehr als eine ganze Note schreibt, wird die Sache schnell unübersichtlich. Man beschließt vielleicht, dass eine Zeile der Textdatei vier Takte enthalten könnte, weil sich das Stück sehr brav in viertaktige Gruppen einteilen lässt, aber
             dann kommt ein Takt mit Sechzehntelnoten, und schon sieht das Bild schief aus. Also sollte man doch besser nur zwei, oder gar einen Takt pro Zeile schreiben? Dann wird die Datei deutlich länger als in Noten, vor allem, wenn man sich 64 Takte
             für vier Stimmen vorstellt! Eine Textdatei, die keinen textlichen Inhalt, sondern Buchstaben, Ziffern und Markup-Befehle enthält, ist nicht wirklich augenfreundlich.</p>
         <div class="imageWrapper"><img src="/img/mlmu/mlmu101.jpg" alt="Terzi als Beispiel">
-            <p>Die erste Stimme des dritten Teils von <a href="/gitarre/unterricht/improvisationsideen/passemezzoa/index.html#terzi">Terzis</a> Passemezzo antico als Beispiel.</div>
+            <p>Die erste Stimme des dritten Teils von <a href="/gitarre/unterricht/improvisationsideen/passemezzoa/index.html#terzi">Terzis</a> Passemezzo antico als Beispiel. Der Eintrag "<span class="code">%4</span>" am Zeilenende ist meine Notiz für "hier
+                endet Takt 4".</div>
         <h6>Akkorde</h6>
         <div class="imageWrapper img180 floatedRight"><img src="/img/mlmu/mlmu85.jpg" alt="Akkorde"></div>
         <p>Akkorde schreibt man mit einfachen spitzen Klammern <span class="code">"&lt;...&gt;"</span>. Am Anfang des Beispiels steht eine Viertelpause ("r" = rest, die "4" bedeutet Viertelnote oder -pause), der folgende Dreiklang behält den rhythmischen
@@ -167,10 +169,10 @@ intro:
         <p>Während diese drei ersten "Arten" von Klammern Dinge "umschließen", und deshalb in genau der richtigen Reihenfolge wieder geschlossen werden müssen, zeigen die folgenden Arten von Klammern lediglich an, wo etwas beginnt und endet. Sie werden einfach
             dort geschlossen, wo der Vorgang abgeschlossen ist.
             <br>Es gibt also zwei verschiedene <a href="http://lilypond.org/doc/v2.18/Documentation/learning/on-the-un_002dnestedness-of-brackets-and-ties.de.html">Grundkonzepte</a> von Klammern.</p>
-        <h6>Ligaturen, Phrasierungsbögen, Balken</h6>
+        <h6>Bindungen, Phrasierungsbögen, Balken</h6>
         <div class="imageWrapper img500 floatedRight"><img src="/img/mlmu/mlmu79.jpg" alt="Bindungen"></div>
-        <p>Weitere Anwendungen von Klammern sind: runde Klammern <span class="code">"(...)"</span> werden benutzt, um Bindungen zu zeichnen. Bitte beachten: die öffnende Klammer steht direkt nach einer Note, dann folgt eine Leertaste, und die schließende
-            Klammer folgt direkt auf die letzte Note, ebenfalls zwingend gefolgt von einer Leertaste.</p>
+        <p>Weitere Anwendungen von Klammern: Runde Klammern <span class="code">"(...)"</span> werden benutzt, um Bindungen zu zeichnen. Bitte beachten: die öffnende Klammer steht direkt nach einer Note, dann folgt eine Leertaste, und die schließende Klammer
+            folgt direkt auf die letzte Note, ebenfalls zwingend gefolgt von einer Leertaste.</p>
         <div class="imageWrapper img230 floatedRight"><img src="/img/mlmu/mlmu80.jpg" alt="Bindungen und Phrasierungsbögen"></div>
         <p>Bei Phrasierungsbögen, im Bild gemeinsam mit Bindungen zu sehen, muss vor die öffnenden und schließenden runden Klammern ein <i>Backslash</i> gesetzt werden. Haltebögen oder Ligaturen werden erstellt, indem man einfach eine Tilde an einen Tonbuchstaben
             anhängt. Dass Ligaturen, Bindungen (die in Gitarrennoten Aufschläge beziehungsweise Abzüge bedeuten) und Phrasierungsbögen nicht dasselbe sind, sollte man als Musiker wissen, wie sie in Lilypond erzeugt werden, muss man sich merken.
@@ -183,19 +185,19 @@ intro:
             und andere Dinge, die schwieriger zu beherrschen sind.</p>
         <h5>Relative oder absolute Notation</h5>
         <div class="imageWrapper img400 floatedRight"><img src="/img/mlmu/mlmu100.jpg" alt="absolute Notierung"></div>
-        <p>Man kann in Lilypond Noten absolut oder relativ zu einer vorher angegebenen Tonhöhe eingeben.
-            <br>Im Beispiel sieht man oben den Text zum Beginn der Melodie von Mozarts A-Dur Klaviersonate in absoluter Notierung. Man braucht viele Apostrophe oder Kommata bei hohen und tiefen Noten. Unter den Noten steht der Text zur relativen Notierung:
-            "
-            <span class="code">\relative c''</span>" bedeutet, dass die Tonbuchstaben relativ zu <span class="mn">c''</span> zu interpretieren sind. Die Apostrophe bei jeder einzelnen Note spart man sich so.</p>
+        <p>Man kann in Lilypond Noten absolut oder relativ zu einer vorher angegebenen Tonhöhe eingeben.</p>
+        <p>Im Beispiel sieht man oben den Text zum Beginn der Melodie von Mozarts A-Dur Klaviersonate in absoluter Notierung. Man braucht viele Apostrophe oder Kommata bei hohen und tiefen Noten. Unter den Noten steht der Text zur relativen Notierung: "
+            <span
+                class="code">\relative c''</span>" bedeutet, dass die Tonbuchstaben relativ zu <span class="mn">c''</span> zu interpretieren sind. Die Apostrophe bei jeder einzelnen Note spart man sich so.</p>
         <p>Bei Capella fungieren die Tasten <span class="code">F1 - F4</span> als Shortcut für die Oktavbereiche. Wenn man Noten auf der Computertastatur schreibt, muss man hier zwischen <span class="mn">h'</span> und <span class="mn">c''</span> am Beginn
             des zweiten Taktes ständig umschalten. Aber das harte Leben wird einem auch erleichtert: Fehler sind schnell korrigiert, indem man den Cursor vor eine falsche Note setzt, die Taste "<span class="code">o</span>" hält und dazu "
             <span class="code">Bild aufwärts</span>" drückt. Schon ist der Ton oktaviert.
-            <br>In LilyPond ist der <em>workflow</em> vor allem bei relativer Notation sehr <i>flüssig</i> - man hängt einen Apostroph an, fertig.</p>
+            <br>Hat man den Luxus eines Midi-Keyboards zur Verfügung, braucht man sich über solche Dinge nur Gedanken zu machen, wenn man den Umfang der Tastatur überschreitet.
+            <br>In LilyPond ist der <em>workflow</em> vor allem bei relativer Notation sehr <i>flüssig</i> - bei kleinen Intervallen muss man gar nichts tun, bei größeren Sprüngen hängt man einen Apostroph oder ein Komma an, fertig.</p>
         <h5>Notenfolge</h5>
         <div class="imageWrapper img600 floatedRight"><img src="/img/mlmu/mlmu98.jpg" alt="Oktavierungen"></div>
         <p>Grundsätzlich nimmt Lilypond bei relativer Notierung an, dass jede folgende Note <em>möglichst nahe</em> an der vorherigen liegt. Schreibe ich "<span class="code">f c</span>", erhalte ich eine Quarte abwärts, möchte ich statt dessen eine Quinte
-            aufwärts als Ergebnis, muss ich "
-            <span class="code">f c'</span>" tippen. Die Septime abwärts von <span class="mn">f nach g</span> muss ich so schreiben: "<span class="code">f g,</span>". Das ist lernbar.</p>
+            aufwärts als Ergebnis, muss ich "<span class="code">f c'</span>" tippen. Die Septime abwärts von <span class="mn">f nach g</span> muss ich so schreiben: "<span class="code">f g,</span>". Das ist lernbar.</p>
         <p>Man muss aber beim Transponieren sehr aufpassen. Die "Umschaltstellen" von einer Oktave in die nächste können verschoben werden, und plötzlich tauchen kuriose Oktavverschiebungen auf. Das Beispiel zeigt die ersten acht Takte des Passemezzo von
             <a href="/gitarre/unterricht/improvisationsideen/passemezzoa/index.html#bianchini">Bianchini</a>, nachdem ich in <span class="tooltipM" data-tip="Interner Link zum Abschnitt über 'erleichterte Bedienung'."><a href="#bedienung">Frescobaldi</a></span>            den Befehl "Alles um einen Ganzton nach oben" eingegeben hatte. So darf man das offenbar nicht machen! (Die Mididatei zu diesem Beispiel klang großartig!)</p>
         <h5>Sprachwahl</h5>
@@ -224,10 +226,11 @@ intro:
         <p>In <span class="tooltipM" data-tip="In Takt 47 des Passemezzo moderno von Vallet sieht man die Lösung in Capella."><a href="/gitarre/unterricht/improvisationsideen/passemezzom/index.html#vallet">Capella</a></span> setze ich einfach ein Grafikobjekt,
             allerdings bewirkt dieses nicht, dass der Ton nach unten oktaviert klingt. Dafür muss ich tatsächlich die Datei unter einem anderen Namen speichern, die entsprechenden Töne wirklich oktavieren, und habe dann eine Datei, aus der ich das Bild
             generiere, und eine, aus der ich die Midi-Datei exportiere. Oder ich ändere die Datei bis ich die Midi-Datei exportieren kann, und mache die Änderungen dann wieder rückgängig. Auch das ist nicht unkompliziert, aber ich weiß, was ich haben
-            will, und was ich dafür tun muss.</p>
+            will, und was ich dafür tun muss.
+          <br>Ein andere Möglichkeit wäre, die Note, die sichtbar sein soll als Grafik (mit dem Oktava-Zeichen) einzufügen, und den tatsächlichen Ton zu oktavieren, aber als "unsichtbar" zu formatieren. Man muss halt wissen, wie man schummelt.</p>
         <h5>Musikalische Ausdrücke verschachteln</h5>
         <div class="imageWrapper img600 floatedRight"><img src="/img/mlmu/mlmu94.jpg" alt="Text zum Blues in A"></div>
-        <p>Ein besonderes Abenteuer ist die Möglichkeit, Stückteile aufzuschreiben, und dann in einer Partitur unter einem vorher vergebenen Namen einzutragen. Das heißt "Nesting Music Expressions", was so viel wie "Musikalische Ausdrücke verschachteln"
+        <p>Ein besonderes Abenteuer in LilyPond ist die Möglichkeit, Stückteile aufzuschreiben, und dann in einer Partitur unter einem vorher vergebenen Namen einzutragen. Das heißt "Nesting Music Expressions", was so viel wie "Musikalische Ausdrücke verschachteln"
             bedeutet.
             <br>Ein einfaches Beispiel dafür ist der <a href="/gitarre/unterricht/improvisationsideen/harmoniemodelle/index.html#intro">Blues</a> in A, bei dem in der Textdatei oben die Noten für <span class="code">riffA, riffD und riffE</span> aufgeschrieben
             sind. Dann folgen nach "<span class="code">\new Staff <<</span>" die Angaben zu Notensystem, Schlüssel, Tonart, Taktart, relativer Tonhöhe, und Wiederholungszeichen. In den geschweiften Klammern steht statt Notenbuchstaben nur noch, welches
@@ -249,7 +252,7 @@ intro:
             weil ich sie überlesen oder vergessen hatte, oder weil sie nicht im Learning Manual selbst, sondern in anderen Hilfedateien stehen. Teilweise habe ich <span class="space">lange</span> gesucht!</p>
         <div class="imageWrapper img480 floatedRight"><img src="/img/mlmu/mlmu83.jpg" alt="AutoBeam off und on"></div>
         <p>Eine weitere Sache fand ich besonders störend: logischer Weise man muss viele besondere Formatierungen an- und abschalten. In den Handbüchern kann man sich aber <em>nicht</em> darauf verlassen, dass der Befehl zum rückgängig Machen einer Formatierung
-            dort erklärt wird, wo sie selbst erklärt ist. Die Verfasser verlassen sich hier oft darauf, dass der Lernende alles Bisherige verstanden und behalten hat, und damit weiß, wo er suchen muss oder was das strukturelle Problem ist.</p>
+            dort erklärt wird, wo sie selbst erklärt ist. Die Verfasser gehen eher davon aus, dass der Lernende alles Bisherige verstanden und behalten hat, und damit weiß, wo er suchen muss oder was das strukturelle Problem ist.</p>
         <p>Man <em>muss</em> verstanden haben, welche Ebenen es gibt, welche man gerade bearbeitet, und wie die <a href="http://lilypond.org/doc/v2.18/Documentation/notation/overview-of-modifying-properties.de.html">Befehle</a> zum Beeinflussen einer Eigenschaft
             lauten. Der <span class="code">\set</span> - <a href="http://lilypond.org/doc/v2.18/Documentation/notation/the-set-command.de.html">Befehl</a> ist für <a href="http://lilypond.org/doc/v2.18/Documentation/notation/set-versus-override">andere</a>            Dinge zuständig, als der <span class="code">\override</span> - <a href="http://lilypond.org/doc/v2.18/Documentation/notation/the-override-command.de.html">Befehl</a>, und ihre Gegenspieler heißen auch sehr verschieden.</p>
         <p>Im Notenbeispiel sorgt der Befehl <span class="code">"\autoBeamOff"</span> nach dem ersten Takt dafür, dass die Noten nicht mehr verbalkt werden, und der entsprechene Befehl <span class="code">"\autoBeamOn"</span> vor den letzten zwei Noten setzt
@@ -258,7 +261,7 @@ intro:
         <h5>Wenig Hilfe</h5>
         <p>Wenn Hilfe-Dateien wenig helfen, fühlt man sich allein gelassen und verfällt leicht in die "Ich verstehe diesen Kram einfach nicht - Depression".</p>
         <p>Es gibt Foren, in denen Fragen diskutiert werden, und eine <em>Mailing-list</em>, der man <a href="http://lilypond.org/contact.de.html">beitreten</a> kann. Dort kann man Fragen eingeben und bekommt wohl auch schnell Antworten - ein Prozedere,
-            das für Informatikstudenten sehr selbstverständlich zu sein scheint. Ich habe mich noch nicht aufgerafft, diese Wege zu beschreiten, vor allem, weil ich es selbst zwingen wollte.</p>
+            das für Informatikstudenten sehr selbstverständlich zu sein scheint. Ich habe mich noch nicht aufgerafft, diese Wege zu beschreiten, vor allem, weil ich sehen wollte, ob ich es allein schaffe.</p>
         <p>Dabei war des öfteren mein Problem, dass mir nicht immer klar war, ob ich eigentlich gerade über ein musikalisches, oder über ein Informatik-Problem nachdachte. Nachdem ich einen Befehl zum Beeinflussen des Notenbildes gefunden hatte, habe ich
             nach dem Gegenbefehl an gleicher Stelle gesucht. Das war ein Fehler: ich hätte auf die Meta-Ebene zurückkehren müssen, die beschreibt, wie ein bestimmter Typus von Befehl in LilyPond grundsätzlich rückgängig gemacht wird. Womit noch nicht
             immer heraus ist, welche Zusätze er für ein bestimmtes Ergebnis benötigt.</p>
@@ -267,7 +270,7 @@ intro:
             <a href="http://lilypond.org/doc/v2.18/Documentation/notation/distances-and-measurements.de.html">Abständen</a> und Maßen" oder "<a href="http://lilypond.org/doc/v2.18/Documentation/notation/unpure_002dpure-containers.de.html">reinen</a> und
             unreinen Containern", unterschiedlichen Konzepten für das Steuern des Ergebnisses, habe ich mich noch gar nicht beschäftigt. Dass diese Dinge in LilyPond existieren bedeutet allerdings, dass der Benutzer irgendwann, wenn er ein spezifisches
             Problem hat, erst mal lernen muss, dass Jemand für dieses Problem eine Kategorie und eine spezifische Bezeichnung gefunden hat, und dass man sich deren Handhabung dann erarbeiten muss.</p>
-        <p>Möchte man veränderte Notenköpfe haben, findet man leicht die <a href="http://lilypond.org/doc/v2.18/Documentation/notation/note-heads.de.html">Seite</a> über eben diese. Aber es gibt auch die "<a href="http://lilypond.org/doc/v2.18/Documentation/notation/modifying-stencils.de.html">Stempel</a>            - Eigenschaft", mit der man anscheinend die Größe eines veränderten Notenkopfes manipulieren kann. Auf der Seite über Notenköpfe sucht man allerdings die Vokabel "Stempel" oder "stencil" vergeblich.</p>
+        <p>Möchte man veränderte Notenköpfe haben, findet man leicht die <a href="http://lilypond.org/doc/v2.18/Documentation/notation/note-heads.de.html">Seite</a> über eben diese. Aber es gibt auch die "<a href="http://lilypond.org/doc/v2.18/Documentation/notation/modifying-stencils.de.html">Stempel</a>            - Eigenschaft", mit der man anscheinend die Größe eines Notenkopfes manipulieren kann. Auf der Seite über Notenköpfe sucht man allerdings die Vokabel "Stempel" oder "stencil" vergeblich.</p>
         <h5>Irrwege</h5>
         <p>Mein Beispiel für eine lang dauernde Suche seien noch einmal die unterteilten Balken. Das ist offenbar ein absolutes musikalisches Randproblem (Tatsächlich enthält z.B. Bachs Manuskript des Adagio der ersten Sonate für Violine solo keine unterteilten
             Balken; wenn man eine Peters-Edition von Beethovens Klaviersonaten durchblättert findet man sie sehr wohl.) - für mein Vorhaben, Lautenstücke mit Diminuitionen zu übertragen, war es eine der ersten Fragen. Transkriptionen solcher Stücke sehen
@@ -280,7 +283,7 @@ intro:
             ist der Text ohne Finessen.
         </p>
         <div class="imageWrapper img420 floatedRight"><img src="/img/mlmu/mlmu88.jpg" alt="unterteilte Balken 3"></div>
-        <p><span class="refer">Bild 3</span> enthält eine Trennung der Balken auf der vierten Zählzeit nach einer Achtel. Ich wollte aber nicht eine Trennung, sondern eine Unterteilung der Balken.</p>
+        <p><span class="refer">Bild 3</span> enthält eine Trennung der Balken innerhalb der vierten Zählzeit nach einer Achtel. Ich wollte aber nicht eine Trennung, sondern eine Unterteilung der Balken.</p>
         <div class="imageWrapper img600 floatedRight"><img src="/img/mlmu/mlmu89.jpg" alt="unterteilte Balken 4"></div>
         <p>Der Text dazu steht in <span class="refer">Bild 4</span>: Die von AtLilyPond in Atom automatisch rot angezeigten eckigen Klammern in der letzten Zeile sorgen für die Trennung der Balken.
         </p>
@@ -294,6 +297,7 @@ intro:
         <p>In <span class="refer">Bild 7</span> ist das gewünschte Resultat endlich erreicht: die Balken werden in Takt 3 am Anfang durch den Befehl <span class="code">"\unset subdivideBeams"</span> wieder verbunden, und in der zweiten Takthälfte mittels
             <span class="code">"\set subdivideBeams = ##t"</span> (Darauf muss man erst mal kommen!) unterteilt, aber für eine halbe Note zusammengefasst, wie man in <span class="refer">Bild 8</span> sehen kann.</p>
         <div class="imageWrapper img600 floatedRight"><img src="/img/mlmu/mlmu93.jpg" alt="unterteilte Balken 8"></div>
+        <p>Ich vermute, dass ich das Ganze nicht wirklich richtig gemacht habe, aber nach dem Finden einer Lösung habe ich nicht weiter geforscht. Irgendwann war mir näher, mit der Seite weiter zu kommen.</p>
         <p>Die Erläuterungen zu unterteilten Balken findet man wie bereits erwähnt nicht über ein verlinktes Suchergebnis, sondern indem man diese <a href="http://lilypond.org/doc/v2.18/Documentation/notation/beams">Seite</a> der Dokumentation über Balken
             durchliest, also eher versteckt. Das lag letztlich daran, das der entsprechende Abschnitt (noch) nicht auf deutsch vorlag. Rückwirkend muss ich mich also schuldig bekennen: wenn ich zunächst den Begriff auf englisch gesucht und dann weiter
             geforscht hätte, wäre ich vielleicht schneller zum Ziel gekommen. Die Internet-Suche ist ein mächtiges Instrument, das aber sehr abhängig davon ist, wie geschickt sich der Suchende anstellt.</p>
@@ -331,7 +335,7 @@ intro:
             Capella nicht einfach.</p>
         <h4>Tolle und merkwürdige Ideen</h4>
         <p>Die ganze Idee von LilyPond ist toll. Wie großartig sie ist, merkt man erst, wenn man sich in den <em>tweaks</em> oder bei den <em>snippets</em> umschaut. Dass man mit blosem Text derartig verrückte graphische Dinge beschreiben kann! Hier beginnt
-            aber irgendwann die Grenze zu dem Gebiet, wo der Leser (ich zumindest) extrem gefordert wird. Zum Beispiel ist diese Grundsatzerklärung zum <a href="http://lilypond.org/doc/v2.18/Documentation/notation/set-versus-override">Thema</a> <em>"grob definitions"</em>            nicht ganz einfach, hier wird munter mit Begriffen um sich geworfen, die man eher mit Informatik als mit Musik assoziiert.</p>
+            aber irgendwann die Grenze zu dem Gebiet, wo der Leser (ich zumindest) extrem gefordert wird. Zum Beispiel ist diese Grundsatzerklärung zum <a href="http://lilypond.org/doc/v2.18/Documentation/internals/grob_002dinterface">Thema</a> <em>"grob interface"</em>            nicht ganz einfach, hier wird munter mit Begriffen um sich geworfen, die man eher mit Informatik als mit Musik assoziiert.</p>
         <p>Die nötige Präzision der <em>markup language</em> ist für den normalen Nutzer irgendwie auch ein Pferdefuß. Man <em>kann</em> die Position eines Fingersatzes oder sonstigen Textelementes immer irgendwie beeinflussen. Aber wenn man von seiner konventionellen
             Lieblingsanwendung gewohnt ist, einfach den Cursor in einer Zeile zu platzieren, die <span class="code">TAB</span>-Taste zu drücken, das erste Grafikelement damit markiert zu haben und dieses dann mit den Pfeiltasten punktgenau verschieben
             zu können, fühlt man sich bei LilyPond doch ein bisschen gezwungen, Dinge zu tun, für die Computer doch eigentlich erfunden worden waren. Die Software sollte mir doch Arbeitsschritte abnehmen?</p>
@@ -357,8 +361,7 @@ intro:
         <p>Könnte man parallel eine "Hilfe für Dummies" zu Lilypond schreiben? Könnte man, graphisch anders aufbereitet, mehr Hinweise einbauen, wo man sich möglicherweise vergallopiert, wo man Problemlösungen besser auf einer Meta-Ebene suchen sollte? Wenn
             man überall "Gegenbefehle" verlinken wollte, wäre das sicher eine Heidenarbeit, aber - die LilyPond Handbücher sind ja jetzt schon umfangreich!</p>
         <p>Nicht alle Menschen sind gleich intelligent, oder verfügen über die gleiche Art analytischer Intelligenz, möchten aber vielleicht trotzdem diese herausfordernde Software benutzen.</p>
-        <p>Ich habe mich - wie bereits ganz zu Anfang gesagt - oft als ziemlich lernunfähig erlebt, aber hartnäckig gesucht, dabei fröhlich meine grauen Zellen strapaziert, was ich immer schätze, aber oft eben auch länger gesucht, als mich fröhlich gestimmt
-            hätte, und ich habe dabei trotzdem nur das Nötigste gelernt. Die drei Fingersatzziffern für einen Akkord in eine andere als die vorgegebene Schriftart setzen, jede Ziffer genau, und so, dass sie nicht aneinander stoßen, aber möglichst deutlich
+        <p>Ich habe mich - wie bereits ganz zu Anfang gesagt - oft als ziemlich lernunfähig erlebt, aber hartnäckig gesucht, dabei fröhlich meine grauen Zellen strapaziert, was ich immer schätze, aber oft eben auch länger gesucht, als mir gefallen hat, und dabei trotzdem nur das Nötigste gelernt. Die drei Fingersatzziffern für einen Akkord in eine andere als die vorgegebene Schriftart setzen, jede Ziffer genau, und so, dass sie nicht aneinander stoßen, aber möglichst deutlich
             bei "ihrer" Note platzieren, eine Lagenbezeichnung in römischen Zahlen, ein Zeichen für Barré - das habe ich mir aufgehoben für später, oder nie. Natürlich <i>könnte</i> ich mir sagen "Du lernst das jetzt, und für die "snippets" speicherst
-            du dir Tastenkürzel in <em>Autotext</em> wie für HTML!", aber der für mich nicht so einladende Stil der Anleitungen hat <i>mich</i> noch nicht so weit motiviert.</p>
+            du dir Tastenkürzel in <em>Autokey</em> wie für HTML!", aber der für mich nicht so einladende Stil der Anleitungen hat <i>mich</i> noch nicht so weit motiviert.</p>
 </article>
