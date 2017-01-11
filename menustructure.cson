@@ -796,6 +796,9 @@ menustructure:
           name: "Aufgaben"
           path: "/gitarre/griffbrett/kennen-tief/index.html#aufgabe1"
           sections: [
+            name: "Stammtöne 1. Lage"
+            path: "/gitarre/griffbrett/kennen-tief/index.html#erstelage"
+          ,
             name: "Stammtöne würfeln"
             path: "/gitarre/griffbrett/kennen-tief/index.html#aufgabe1"
           ,
@@ -828,6 +831,9 @@ menustructure:
           name: "Aufgaben"
           path: "/gitarre/griffbrett/kennen-tief/index.html#aufgabe1"
           sections: [
+            name: "Stammtöne 1. Lage"
+            path: "/gitarre/griffbrett/kennen-tief/index.html#erstelage"
+          ,
             name: "Stammtöne würfeln"
             path: "/gitarre/griffbrett/kennen-tief/index.html#aufgabe1"
           ,
