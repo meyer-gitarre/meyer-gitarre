@@ -1386,6 +1386,9 @@ menustructure:
           name: "Zusammenfassung"
           path: "/musiklehre/tonleitern/pentatonik/index.html#zusammen"
         ,
+          name: "Three notes per string"
+          path: "/musiklehre/tonleitern/pentatonik/index.html#three"
+        ,
           name: "Übung für Gitarre"
           path: "/musiklehre/tonleitern/pentatonik/index.html#pentaueb"
         ]
