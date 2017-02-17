@@ -1647,7 +1647,7 @@ menustructure:
             path: "/musiklehre/akkorde/weitere-funktionen/index.html#funktionschreiben"
           ,
             name: "Funktionsanalyse"
-            path: "/musiklehre/akkorde/umkehrungen/index.html#uebungfunktionsanalyse"
+            path: "/musiklehre/akkorde/vierklangsumkehrung/index.html#uebungfunktionsanalyse"
           ]
         ,
           name: "Übungen Kadenzen"
@@ -1667,22 +1667,22 @@ menustructure:
           ]
         ,
           name: "Übungen Umkehrungen"
-          path: "/musiklehre/akkorde/umkehrungen/index.html#umkehrungnennen"
+          path: "/musiklehre/akkorde/dreiklangsumkehrung/index.html#umkehrungnennen"
           sections: [
             name: "Umkehrung nennen"
-            path: "/musiklehre/akkorde/umkehrungen/index.html#umkehrungnennen"
+            path: "/musiklehre/akkorde/dreiklangsumkehrung/index.html#umkehrungnennen"
           ,
             name: "Dreiklangsumkehrung 1"
-            path: "/musiklehre/akkorde/umkehrungen/index.html#uebung7umkehrungen"
+            path: "/musiklehre/akkorde/dreiklangsumkehrung/index.html#uebung7umkehrungen"
           ,
             name: "Dreiklangsumkehrung 2"
-            path: "/musiklehre/akkorde/umkehrungen/index.html#uebung8umkehrungen"
+            path: "/musiklehre/akkorde/dreiklangsumkehrung/index.html#uebung8umkehrungen"
           ,
             name: "Septakkorde bestimmen"
-            path: "/musiklehre/akkorde/umkehrungen/index.html#umkehrungseptnennen"
+            path: "/musiklehre/akkorde/vierklangsumkehrung/index.html#umkehrungseptnennen"
           ,
             name: "Umkehrungen schreiben"
-            path: "/musiklehre/akkorde/umkehrungen/index.html#uebung9umkehrungen"
+            path: "/musiklehre/akkorde/vierklangsumkehrung/index.html#uebung9umkehrungen"
           ]
         ,
           name: "Zirkeltraining Dur"
@@ -1760,20 +1760,27 @@ menustructure:
           path: "/musiklehre/akkorde/aufbau-stammtoene/index.html#dreiklaengespielen"
         ]
       ,
-        name: "Umkehrungen"
-        path: "/musiklehre/akkorde/umkehrungen/index.html"
+        name: "Dreiklangsumkehrung"
+        path: "/musiklehre/akkorde/dreiklangsumkehrung/index.html"
         sections: [
-          name: "~ von Dreiklängen"
-          path: "/musiklehre/akkorde/umkehrungen/index.html#akkordumkehrungen"
+          name: "Dreiklangsumkehrung"
+          path: "/musiklehre/akkorde/dreiklangsumkehrung/index.html#akkordumkehrungen"
         ,
           name: "Begriffe"
-          path: "/musiklehre/akkorde/umkehrungen/index.html#basston"
+          path: "/musiklehre/akkorde/dreiklangsumkehrung/index.html#basston"
         ,
-          name: "~ von Septakkorden"
-          path: "/musiklehre/akkorde/umkehrungen/index.html#umkehrungensept"
+          name: "Umkehrungen analysieren"
+          path: "/musiklehre/akkorde/dreiklangsumkehrung/index.html#analysieren"
+        ]
+      ,
+        name: "Vierklangsumkehrung"
+        path: "/musiklehre/akkorde/vierklangsumkehrung/index.html"
+        sections: [
+          name: "Vierklangsumkehrung"
+          path: "/musiklehre/akkorde/vierklangsumkehrung/index.html#umkehrungensept"
         ,
           name: "Bezeichnungen"
-          path: "/musiklehre/akkorde/umkehrungen/index.html#bezeichnung"
+          path: "/musiklehre/akkorde/vierklangsumkehrung/index.html#bezeichnung"
         ]
       ,
         name: "Vorhalt"
@@ -1932,7 +1939,7 @@ menustructure:
             path: "/musiklehre/akkorde/weitere-funktionen/index.html#funktionschreiben"
           ,
             name: "Funktionsanalyse"
-            path: "/musiklehre/akkorde/umkehrungen/index.html#uebungfunktionsanalyse"
+            path: "/musiklehre/akkorde/vierklangsumkehrung/index.html#uebungfunktionsanalyse"
           ]
         ,
           name: "Übungen Kadenzen"
@@ -1952,22 +1959,22 @@ menustructure:
           ]
         ,
           name: "Übungen Umkehrungen"
-          path: "/musiklehre/akkorde/umkehrungen/index.html#umkehrungnennen"
+          path: "/musiklehre/akkorde/dreiklangsumkehrung/index.html#umkehrungnennen"
           sections: [
             name: "Umkehrung nennen"
-            path: "/musiklehre/akkorde/umkehrungen/index.html#umkehrungnennen"
+            path: "/musiklehre/akkorde/dreiklangsumkehrung/index.html#umkehrungnennen"
           ,
             name: "Dreiklangsumkehrung 1"
-            path: "/musiklehre/akkorde/umkehrungen/index.html#uebung7umkehrungen"
+            path: "/musiklehre/akkorde/dreiklangsumkehrung/index.html#uebung7umkehrungen"
           ,
             name: "Dreiklangsumkehrung 2"
-            path: "/musiklehre/akkorde/umkehrungen/index.html#uebung8umkehrungen"
+            path: "/musiklehre/akkorde/dreiklangsumkehrung/index.html#uebung8umkehrungen"
           ,
             name: "Septakkorde bestimmen"
-            path: "/musiklehre/akkorde/umkehrungen/index.html#umkehrungseptnennen"
+            path: "/musiklehre/akkorde/vierklangsumkehrung/index.html#umkehrungseptnennen"
           ,
             name: "Umkehrungen schreiben"
-            path: "/musiklehre/akkorde/umkehrungen/index.html#uebung9umkehrungen"
+            path: "/musiklehre/akkorde/vierklangsumkehrung/index.html#uebung9umkehrungen"
           ]
         ,
           name: "Zirkeltraining Dur"
