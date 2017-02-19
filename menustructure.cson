@@ -1763,14 +1763,20 @@ menustructure:
         name: "Dreiklangsumkehrung"
         path: "/musiklehre/akkorde/dreiklangsumkehrung/index.html"
         sections: [
-          name: "Dreiklangsumkehrung"
-          path: "/musiklehre/akkorde/dreiklangsumkehrung/index.html#akkordumkehrungen"
-        ,
           name: "Begriffe"
           path: "/musiklehre/akkorde/dreiklangsumkehrung/index.html#basston"
         ,
+          name: "Drei Umkehrungen"
+          path: "/musiklehre/akkorde/dreiklangsumkehrung/index.html#akkordumkehrungen"
+        ,
+          name: "Beispiele"
+          path: "/musiklehre/akkorde/dreiklangsumkehrung/index.html#umkehrungenbeispiel"
+        ,
           name: "Umkehrungen analysieren"
           path: "/musiklehre/akkorde/dreiklangsumkehrung/index.html#analysieren"
+        ,
+          name: "Umkehrungen üben"
+          path: "/musiklehre/akkorde/dreiklangsumkehrung/index.html#umkehrungnennen"
         ]
       ,
         name: "Vierklangsumkehrung"
@@ -1780,6 +1786,15 @@ menustructure:
           path: "/musiklehre/akkorde/vierklangsumkehrung/index.html#umkehrungensept"
         ,
           name: "Bezeichnungen"
+          path: "/musiklehre/akkorde/vierklangsumkehrung/index.html#bezeichnung"
+        ,
+          name: "Umkehrungen analysieren"
+          path: "/musiklehre/akkorde/vierklangsumkehrung/index.html#vierklanganalyse"
+        ,
+          name: "Umkehrungen üben"
+          path: "/musiklehre/akkorde/vierklangsumkehrung/index.html#umkehrungseptnennen"
+        ,
+          name: "Funktionslehre"
           path: "/musiklehre/akkorde/vierklangsumkehrung/index.html#bezeichnung"
         ]
       ,
