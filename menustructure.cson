@@ -1339,8 +1339,8 @@ menustructure:
           name: "Quintenzirkel Dur & Moll"
           path: "/musiklehre/tonleitern/quintenzirkel/index.html#zirkeldurmoll"
         ,
-          name: "Quintezirkel vertikal"
-          path: "/musiklehre/akkorde/weitere-funktionen/index.html#zirkelvertikal"
+          name: "Quintenzirkel vertikal"
+          path: "/musiklehre/akkorde/entfernte/index.html#zirkelvertikal"
         ,
           name: "Die Quintenreihe"
           path: "/musiklehre/tonleitern/quintenzirkel/index.html#quintenreihe"
@@ -1641,10 +1641,10 @@ menustructure:
             path: "/musiklehre/akkorde/subdominante/index.html#snennen"
           ,
             name: "Nebenklänge nennen"
-            path: "/musiklehre/akkorde/weitere-funktionen/index.html#entfernt"
+            path: "/musiklehre/akkorde/entfernte/index.html#entfernt"
           ,
             name: "Funktionen schreiben"
-            path: "/musiklehre/akkorde/weitere-funktionen/index.html#funktionschreiben"
+            path: "/musiklehre/akkorde/entfernte/index.html#funktionschreiben"
           ,
             name: "Funktionsanalyse"
             path: "/musiklehre/akkorde/vierklangsumkehrung/index.html#uebungfunktionsanalyse"
@@ -1660,7 +1660,7 @@ menustructure:
             path: "/musiklehre/akkorde/subdominante/index.html#subueb"
           ,
             name: "Erweiterte Kadenzen"
-            path: "/musiklehre/akkorde/septakkorde/index.html#uebungschreiben"
+            path: "/musiklehre/akkorde/weitere/index.html#uebungschreiben"
           ,
             name: "D7 auflösen"
             path: "/musiklehre/akkorde/dsieben/index.html#uebd7aufloes"
@@ -1854,25 +1854,32 @@ menustructure:
         ]
       ,
         name: "Weitere Funktionen"
-        path: "/musiklehre/akkorde/weitere-funktionen/index.html"
+        path: "/musiklehre/akkorde/weitere/index.html"
         sections: [
           name: "Gegenklang"
-          path: "/musiklehre/akkorde/weitere-funktionen/index.html#gegenklang"
+          path: "/musiklehre/akkorde/weitere/index.html#gegenklang"
         ,
           name: "Kadenz, Trugschluss"
-          path: "/musiklehre/akkorde/weitere-funktionen/index.html#trugschluss"
+          path: "/musiklehre/akkorde/weitere/index.html#trugschluss"
         ,
           name: "Erweiterte Kadenzen"
-          path: "/musiklehre/akkorde/weitere-funktionen/index.html#erweitert"
-        ,
+          path: "/musiklehre/akkorde/weitere/index.html#erweitert"
+        ]
+      ,
+        name: "Entfernte Funktionen"
+        path: "/musiklehre/akkorde/entfernte/index.html"
+        sections: [
           name: "Entfernte Verwandte"
-          path: "/musiklehre/akkorde/weitere-funktionen/index.html#entfernteverwandte"
+          path: "/musiklehre/akkorde/entfernte/index.html#entfernteverwandte"
+        ,
+          name: "Varianten"
+          path: "/musiklehre/akkorde/entfernte/index.html#variante"
         ,
           name: "Medianten"
-          path: "/musiklehre/akkorde/weitere-funktionen/index.html#medianten"
+          path: "/musiklehre/akkorde/entfernte/index.html#medianten"
         ,
-          name: "Quintezirkel vertikal"
-          path: "/musiklehre/akkorde/weitere-funktionen/index.html#zirkelvertikal"
+          name: "Quintenzirkel vertikal"
+          path: "/musiklehre/akkorde/entfernte/index.html#zirkelvertikal"
         ]
       ,
         name: "Septakkorde"
@@ -1948,10 +1955,10 @@ menustructure:
             path: "/musiklehre/akkorde/subdominante/index.html#snennen"
           ,
             name: "Nebenklänge nennen"
-            path: "/musiklehre/akkorde/weitere-funktionen/index.html#entfernt"
+            path: "/musiklehre/akkorde/entfernte/index.html#entfernt"
           ,
             name: "Funktionen schreiben"
-            path: "/musiklehre/akkorde/weitere-funktionen/index.html#funktionschreiben"
+            path: "/musiklehre/akkorde/entfernte/index.html#funktionschreiben"
           ,
             name: "Funktionsanalyse"
             path: "/musiklehre/akkorde/vierklangsumkehrung/index.html#uebungfunktionsanalyse"
@@ -1967,7 +1974,7 @@ menustructure:
             path: "/musiklehre/akkorde/subdominante/index.html#subueb"
           ,
             name: "Erweiterte Kadenzen"
-            path: "/musiklehre/akkorde/septakkorde/index.html#uebungschreiben"
+            path: "/musiklehre/akkorde/weitere/index.html#uebungschreiben"
           ,
             name: "D7 auflösen"
             path: "/musiklehre/akkorde/dsieben/index.html#uebd7aufloes"
