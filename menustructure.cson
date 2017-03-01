@@ -2089,6 +2089,9 @@ menustructure:
         name: "Enharm. Modulation"
         path: "/musiklehre/modulation/enharmonisch/index.html"
         sections: [
+          name: "Enharm. Modulation"
+          path: "/musiklehre/modulation/enharmonisch/index.html#enharmonisch"
+        ,
           name: "mit verm. Septakkord"
           path: "/musiklehre/modulation/enharmonisch/index.html#vermsept"
         ]
