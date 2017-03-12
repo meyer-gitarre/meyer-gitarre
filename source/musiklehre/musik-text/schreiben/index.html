@@ -10,12 +10,12 @@ intro:
     <h3 id="notenschreiben">Notenschreiben mit LilyPond</h3>
     <p>Für die Seiten <a href="/gitarre/unterricht/improvisationsideen/harmoniemodelle/index.html">Harmoniemodelle</a> und <a href="/gitarre/unterricht/improvisationsideen/passemezzoa/index.html">Passemezzo</a> antico habe ich die meisten Notenbeispiele
         mit der freien Software <em>LilyPond</em> erstellt. Auf den weiteren Seiten zur Improvisation über harmonische Modelle aus Renaissance und Barock bin ich dann zu meiner gewohnten Software
-        <a href="http://www.capella-software.com/de/">Capella</a> zurückgekehrt, und hier möchte ich meine Erfahrungen mit <a href="http://lilypond.org/index.de.html">LilyPond</a> beschreiben.</p>
+        <a href="http://www.capella-software.com/de/">Capella</a> zurückgekehrt. Hier möchte ich meine Erfahrungen mit <a href="http://lilypond.org/index.de.html">LilyPond</a> beschreiben.</p>
     <p>Dies ist ein sehr subjektiver Bericht: Was ich als problematisch an LilyPond sehe, ist immer in erster Linie <em>mein</em> Problem, nur <i>vielleicht</i> tatsächlich ein Problem des Programmes. Aber vielleicht kann ich einen Eindruck davon vermitteln,
         was einen beim Einstieg in LilyPond erwartet, damit man nicht sofort wieder aufgibt - als Newbie ist es nicht so einfach.</p>
     <p>Im Folgenden geht es um</p>
     <ul>
-        <li><a href="#grund">Gründe</a> für die Arbeit mit LilyPond</li>
+        <li><a href="#grund">Gründe</a> für die Arbeit mit LilyPond,</li>
         <li>den <a href="#gui">Vergleich</a> zwischen konventionellen Notenschreibprogrammen und LilyPond,</li>
         <li>die <a href="#komplex">Komplexität</a> von Noten schreiben an sich,</li>
         <li>das <a href="#lernen">Erlernen</a> der Bedienung von LilyPond,</li>
@@ -23,7 +23,7 @@ intro:
         <li>die <a href="#zugang">Benutzerfreundlichkeit</a> der Hilfedateien und Anleitungen,</li>
         <li>allgemeine <a href="#probleme">Probleme</a> bei Noten für Gitarre,</li>
         <li>Möglichkeiten einfacherer <a href="#bedienung">Bedienung</a> von LilyPond und</li>
-        <li><a href="#zusammen">Zusammenfassung</a>.</li>
+        <li>eine <a href="#zusammen">Zusammenfassung</a>.</li>
     </ul>
     <h4 id="grund">Gründe, mit LilyPond zu arbeiten</h4>
     <p>Die wichtigsten Gründe, die einen zur Nutzung von Lilypond motivieren könnten sind:</p>
@@ -180,8 +180,8 @@ intro:
         <h5>Relative oder absolute Notation</h5>
         <div class="imageWrapper img400 floatedRight"><img src="/img/mlmu/mlmu100.jpg" alt="absolute Notierung"></div>
         <p>Man kann in Lilypond Noten absolut oder relativ zu einer vorher angegebenen Tonhöhe eingeben.</p>
-        <p>Im Beispiel sieht man oben den Text zum Beginn der Melodie von Mozarts A-Dur Klaviersonate in absoluter Notierung. Man braucht viele Apostrophe oder Kommata bei hohen und tiefen Noten.
-            <br>Unter den Noten steht der Text zur relativen Notierung: <span class="code">\relative c''</span> bedeutet, dass die Tonbuchstaben relativ zu <span class="mn">c''</span> zu interpretieren sind. Die Apostrophe bei jeder einzelnen Note spart
+        <p>Im Beispiel sieht man oben den Text zum Beginn der Melodie von Mozarts A-Dur Klaviersonate in absoluter Notierung. Das erste <span class="mn">cis''</span> wird tatsächlich mit zwei Apostrophen geschrieben, man braucht also viele Apostrophe oder Kommata bei hohen und tiefen Noten.</p>
+            <p>Unter den Noten steht der Text zur relativen Notierung: <span class="code">\relative c''</span> bedeutet, dass die Tonbuchstaben relativ zu <span class="mn">c''</span> zu interpretieren sind. Die Apostrophe bei jeder einzelnen Note spart
             man sich so.</p>
         <p>Bei Capella fungieren die Tasten <span class="code">F1 - F4</span> als Shortcut für die Oktavbereiche. Wenn man Noten auf der Computertastatur schreibt, muss man hier zwischen <span class="mn">h'</span> und <span class="mn">c''</span> am Beginn
             des zweiten Taktes ständig umschalten. Aber das harte Leben wird einem auch erleichtert: Fehler sind schnell korrigiert, indem man den Cursor vor eine falsche Note setzt, die Taste <span class="code">"o"</span> hält und dazu
@@ -260,7 +260,7 @@ intro:
         <h5>Wenig Hilfe</h5>
         <p>Wenn Hilfe-Dateien wenig helfen, fühlt man sich allein gelassen und verfällt leicht in die "Ich verstehe diesen Kram einfach nicht - Depression".</p>
         <p>Es gibt Foren, in denen Fragen diskutiert werden, und eine <em>Mailing-list</em>, der man <a href="http://lilypond.org/contact.de.html">beitreten</a> kann. Dort kann man Fragen eingeben und bekommt wohl auch schnell Antworten - ein Prozedere,
-            das für Informatikstudenten sehr selbstverständlich zu sein scheint. Ich wollte zunächst sehen, was ich allein schaffe.</p>
+            das für Informatikstudenten sehr selbstverständlich zu sein scheint. Ich wollte aber zunächst sehen, was ich allein schaffe.</p>
         <p>Dabei war des öfteren mein Problem, dass mir nicht immer klar war, ob ich eigentlich gerade über ein musikalisches, oder über ein Informatik-Problem nachdachte. Nachdem ich einen Befehl zum Beeinflussen des Notenbildes gefunden hatte, habe ich
             nach dem Gegenbefehl an gleicher Stelle gesucht. Das war ein Fehler: ich hätte auf die Meta-Ebene zurückkehren müssen, die beschreibt, wie ein bestimmter Typus von Befehl in LilyPond grundsätzlich rückgängig gemacht wird. Womit noch nicht
             immer heraus ist, welche Zusätze er für ein bestimmtes Ergebnis benötigt. Das findet man eventuell bei den "Snippets", Beispielen für Sonderfälle.</p>
@@ -296,11 +296,11 @@ intro:
         <p>In <span class="refer">Bild 7</span> ist das gewünschte Resultat endlich erreicht: die Balken werden in Takt 3 am Anfang durch den Befehl <span class="code">\unset subdivideBeams</span> wieder verbunden, und in der zweiten Takthälfte mittels
             <span class="code">\set subdivideBeams = ##t</span> (Darauf muss man erst mal kommen!) unterteilt, aber für eine halbe Note zusammengefasst, wie man in <span class="refer">Bild 8</span> sehen kann.</p>
         <div class="imageWrapper img600 floatedRight"><img src="/img/mlmu/mlmu93.jpg" alt="unterteilte Balken 8"></div>
-        <p>Ich vermute, dass ich das Ganze nicht wirklich richtig gemacht habe. Aber nachdem ich eine funktionierende Lösung gefunden hatte, habe ich nicht weiter geforscht. Irgendwann war mir näher, mit der Seite weiter zu kommen.</p>
-        <p>Die Erläuterungen zu unterteilten Balken findet man wie bereits erwähnt nicht über ein verlinktes Suchergebnis, sondern indem man diese <a href="http://lilypond.org/doc/v2.18/Documentation/notation/beams">Seite</a> der Dokumentation über Balken
+        <p>Ich vermute, dass ich das Ganze nicht wirklich richtig gemacht habe. Aber nachdem ich eine funktionierende Lösung gefunden hatte, habe ich nicht weiter geforscht. Irgendwann war mir näher, mit meiner Seite weiter zu kommen.</p>
+        <p>Die Erläuterungen zu unterteilten Balken findet man, wie bereits erwähnt, nicht über ein verlinktes Suchergebnis, sondern indem man diese <a href="http://lilypond.org/doc/v2.18/Documentation/notation/beams">Seite</a> der Dokumentation über Balken
             durchliest, also eher versteckt. Das lag letztlich daran, das der entsprechende Abschnitt (noch) nicht auf deutsch vorlag. Rückwirkend muss ich mich also schuldig bekennen: wenn ich zunächst den Begriff <em>auf englisch</em> gesucht und dann
             weiter geforscht hätte, wäre ich vielleicht schneller zum Ziel gekommen. Die Internet-Suche ist ein mächtiges Instrument, das aber sehr abhängig davon ist, wie geschickt sich der Suchende anstellt.</p>
-        <p>Was das rückgängig Machen des Befehls angeht, bin ich wirklich fast an meine Grenzen gestoßen: Es ist in LilyPond eben nicht so, dass Befehl und "Anti-Befehl" an einer Stelle erklärt werden, oder zumindest ein Link vorhanden ist, sondern man muss
+        <p>Was das rückgängig Machen des Befehls angeht, bin ich wirklich fast an meine Grenzen gestoßen: Es ist in den Hilfeseiten zu LilyPond eben nicht so, dass Befehl und "Anti-Befehl" an einer Stelle erklärt werden, oder zumindest ein Link vorhanden ist, sondern man muss
             sich fragen "Was tue ich gerade? - Ich wende einen <span class="code">\set</span> - Befehl an." Also suche ich nicht nach "Wie widerrufe ich unterteilte Balken?", sondern nach "Wie widerrufe ich <span class="code">\set</span>?"</p>
         <p>Wenn man diese <a href="http://lilypond.org/doc/v2.18/Documentation/notation/the-set-command.de.html">Seite</a> über den Befehl <span class="code">\set</span> in aller Ruhe durchliest, wird einem klar, dass man wirklich gezwungen ist, die Strukturen
             des Programmes zu verstehen, bis dahin, dass sich ein Befehl hierarchisch auf bestimmte Ebenen bezieht, er also eventuell nichts bewirkt, weil man ihn im falschen Kontext gesetzt hat.</p>
@@ -333,7 +333,7 @@ intro:
             <em>Atom und LilyCompile</em> zurückgekehrt.</p>
         <h4 id="zusammen">Zusammenfassung</h4>
         <p>Wenn ich Noten mit einem Computer schreiben möchte, muss ich wissen, dass auf der einen Seite ein Notenbild, und ganz am anderen Ende Einsen und Nullen sind. Dazwischen greife
-            ich ein, und manipuliere die Einsen und Nullen über mehrere Sprachebenen. Die Frage ist immer wieder: Wie weit zwingt ein Programm den Nutzer, sich der Maschinenseite anzunähern?</p>
+            ich ein, und manipuliere die Einsen und Nullen über mehrere Sprachebenen. Die Frage ist immer wieder: Wie weit zwingt ein Programm den Nutzer, sich der Maschinenseite der Einsen und Nullen anzunähern?</p>
         <p>Für mich ist zum Beispiel die Entwicklung bei den unterschiedlichen Versionen des Betriebssystems "Windows" immer mehr dahin gegangen, es dem Nutzer bequemer zu machen, und ihn dabei für immer dümmer zu halten. Die zeitweise Abschaffung des Shortcuts
             <span class="code">Alt+Enter</span> zum Aufrufen der Eigenschaften einer Datei oder eines Ordners im Explorer ist ein Beispiel: Wozu braucht man das denn? Wozu braucht man überhaupt den Explorer? Wir geben den Nutzern große bunte Kacheln,
             auf die sie klicken können!</p>
