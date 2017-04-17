@@ -166,20 +166,23 @@ menustructure:
         name: "Unterrichtsform"
         path: "/gitarre/unterricht/form/index.html"
         sections: [
-          name: "Gruppenunterricht"
-          path: "/gitarre/unterricht/form/index.html#gruppenunterricht"
-        ,
-          name: "Einzelunterricht"
-          path: "/gitarre/unterricht/form/index.html#einzel"
+          name: "Voraussetzungen"
+          path: "/gitarre/unterricht/form/index.html#voraus"
         ,
           name: "Einstiegsalter"
           path: "/gitarre/unterricht/form/index.html#einstiegsalter"
         ,
-          name: "Frühförderung"
-          path: "/musiklehre/musik-text/texte/index.html#frueh"
+          name: "Gruppenunterricht"
+          path: "/gitarre/unterricht/form/index.html#gruppenunterricht"
         ,
           name: "Regeln für Gruppen"
           path: "/pdf/RegelnGruppe.pdf"
+        ,
+          name: "Einzelunterricht"
+          path: "/gitarre/unterricht/form/index.html#einzel"
+        ,
+          name: "Frühförderung"
+          path: "/musiklehre/musik-text/texte/index.html#frueh"
         ]
       ,
         name: "Das Lernumfeld"
