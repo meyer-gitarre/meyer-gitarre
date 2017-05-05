@@ -732,6 +732,9 @@ menustructure:
         name: "Tabulatur"
         path: "/gitarre/notation/tabulatur/index.html"
         sections: [
+          name: "Vor- und Nachteile"
+          path: "/gitarre/notation/tabulatur/index.html#vorteile"
+        ,
           name: "Bedeutung"
           path: "/gitarre/notation/tabulatur/index.html#bedeutung"
         ,
