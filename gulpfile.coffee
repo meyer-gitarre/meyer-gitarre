@@ -64,7 +64,6 @@ gulp.task 'html', (cb) ->
           newFileName = filename.replace(/^source\//, '')
 
         file newFileName, html, src: true
-          .pipe if config.production then minifyHTML() else gutil.noop()
           .pipe gulp.dest 'build'
 
       browserSync.reload()
