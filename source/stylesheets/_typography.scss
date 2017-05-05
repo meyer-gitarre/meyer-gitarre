@@ -10,6 +10,11 @@ section > p, article > p, aside > p {
 	text-align: justify;
 }
 
+section > .pseudoP, article > .pseudoP, aside > .pseudoP {
+	font-size: 1.1em;
+	text-align: justify;
+}
+
 p, .pseudoP { /*Abstand nach unten*/
 	padding-bottom: 1em;
 }
