@@ -1104,6 +1104,9 @@ menustructure:
           name: "Linien & Stammtöne"
           path: "/musiklehre/grundlagen/notenlinien/index.html#liniensystem"
         ,
+          name: "Natürliche Halbtonschritte"
+          path: "/musiklehre/grundlagen/notenlinien/index.html#natuerlich"
+        ,
           name: "Violinschlüssel"
           path: "/musiklehre/grundlagen/notenlinien/index.html#violinschluessel"
         ,
