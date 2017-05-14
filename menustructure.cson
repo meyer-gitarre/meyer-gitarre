@@ -1121,13 +1121,13 @@ menustructure:
         path: "/musiklehre/grundlagen/halbtonschritte/index.html"
         sections: [
           name: "Natürliche Halbtonschritte"
-          path: "/musiklehre/grundlagen/notenlinien/index.html#natuerlich"
+          path: "/musiklehre/grundlagen/halbtonschritte/index.html#natuerlich"
         ,
           name: "Der Tonvorrat"
-          path: "/musiklehre/grundlagen/notenlinien/index.html#halbtonschritten"
+          path: "/musiklehre/grundlagen/halbtonschritte/index.html#halbtonschritten"
         ,
           name: "Obertonreihe"
-          path: "/musiklehre/grundlagen/notenlinien/index.html#obertonreihe"
+          path: "/musiklehre/grundlagen/halbtonschritte/index.html#obertonreihe"
         ]
       ,
         name: "Akzidentien"
