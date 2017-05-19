@@ -799,6 +799,9 @@ menustructure:
           name: "Töne bis Bund 5"
           path: "/gitarre/griffbrett/kennen-tief/index.html#leere"
         ,
+          name: "Stammtöne 1. Lage"
+          path: "/gitarre/griffbrett/kennen-tief/index.html#erstelage"
+        ,
           name: "Aufgaben"
           path: "/gitarre/griffbrett/kennen-tief/index.html#aufgabe1"
           sections: [
