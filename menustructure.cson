@@ -889,8 +889,11 @@ menustructure:
         name: "Grifftabelle"
         path: "/gitarre/akkorde/akkordtabelle/index.html"
         sections: [
-          name: "~ Kommentar"
-          path: "/gitarre/akkorde/akkordtabelle/index.html#kommentar"
+          name: "Barré verschieben"
+          path: "/gitarre/akkorde/akkordtabelle/index.html#verschieben"
+        ,
+          name: "Akkorde ableiten"
+          path: "/gitarre/akkorde/akkordtabelle/index.html#ableiten"
         ,
           name: "PDF-Grifftabelle"
           path: "/pdf/Grifftabelle.pdf"
@@ -920,6 +923,12 @@ menustructure:
         sections: [
           name: "Verwandtschaften"
           path: "/gitarre/akkorde/griffstruktur/index.html#grifftypen1"
+        ,
+          name: "h-Saiten-Verschiebung"
+          path: "/gitarre/akkorde/griffstruktur/index.html#hsaite"
+        ,
+          name: "Fis-Stimmung"
+          path: "/gitarre/akkorde/griffstruktur/index.html#fisstimmung"
         ,
           name: "Veränderungen"
           path: "/gitarre/akkorde/griffstruktur/index.html#grifftypen2"
