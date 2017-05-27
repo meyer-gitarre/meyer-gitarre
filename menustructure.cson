@@ -1221,9 +1221,23 @@ menustructure:
       ,
         name: "Zirkeltraining Dur"
         path: "/musiklehre/grundlagen/training-dur/index.html"
+        sections: [
+          name: "Kreuztonarten"
+          path: "/musiklehre/grundlagen/training-dur/index.html#kreuz"
+        ,
+          name: "b-Tonarten"
+          path: "/musiklehre/grundlagen/training-dur/index.html#bton"
+        ]
       ,
         name: "Zirkeltraining Moll"
         path: "/musiklehre/grundlagen/training-moll/index.html"
+        sections: [
+          name: "Kreuztonarten"
+          path: "/musiklehre/grundlagen/training-moll/index.html#kreuz"
+        ,
+          name: "b-Tonarten"
+          path: "/musiklehre/grundlagen/training-moll/index.html#bton"
+        ]
       ,
         name: "Vorbedingungen"
         path: "/musiklehre/grundlagen/vorbedingungen/index.html"
@@ -1820,7 +1834,7 @@ menustructure:
           path: "/musiklehre/akkorde/vierklangsumkehrung/index.html#umkehrungseptnennen"
         ,
           name: "Funktionslehre"
-          path: "/musiklehre/akkorde/vierklangsumkehrung/index.html#bezeichnung"
+          path: "/musiklehre/akkorde/vierklangsumkehrung/index.html#funktionname"
         ]
       ,
         name: "Vorhalt"
