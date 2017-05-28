@@ -2465,6 +2465,9 @@ menustructure:
         name: "Notation"
         path: "/blockfloete/instrument/index.html#floetennotier"
       ,
+        name: "Blockflöten stimmen"
+        path: "/blockfloete/instrument/index.html#stimmen"
+      ,
         name: "Grifftabellen"
         path: "/blockfloete/instrument/index.html#grifftabbfl"
       ,
