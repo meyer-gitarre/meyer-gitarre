@@ -72,7 +72,10 @@ renderImportants = (p) ->
       ,
         name: "Blockflöte"
         path: "/blockfloete/index.html#stichwortverzeichnisbfl"
-      ]
+      ],
+    ,
+      name: "Musikschultermine"
+      path: "/musiklehre/musik-text/musikschule/index.html#termine"
     ]
     for homeImp in homeImps
       importants.unshift renderMenuEntry(null, homeImp)
