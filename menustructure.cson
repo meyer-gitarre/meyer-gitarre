@@ -2443,6 +2443,9 @@ menustructure:
         name: "Schreiben"
         path: "/musiklehre/musik-text/schreiben/index.html"
         sections: [
+          name: "10 Jahre Webseite"
+          path: "/musiklehre/musik-text/schreiben/index.html#zehnjahre"
+        ,
           name: "LilyPond Notensatz"
           path: "/musiklehre/musik-text/schreiben/index.html#notenschreiben"
         ]
