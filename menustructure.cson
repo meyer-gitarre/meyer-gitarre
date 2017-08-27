@@ -44,7 +44,7 @@ menustructure:
           name: "Argumente in Stichworten"
           path: "/gitarre/instrument/kinder/index.html#stichworte"
         ,
-          name: "Kaufpschologie"
+          name: "Kaufpsychologie"
           path: "/gitarre/instrument/kinder/index.html#psychologie"
         ,
           name: "Größe & Spieler"
@@ -52,19 +52,22 @@ menustructure:
         ,
           name: "Mensur oder Saitenlänge"
           path: "/gitarre/instrument/kinder/index.html#mensurkind"
-        ,
-          name: "Ausprobieren im Laden"
-          path: "/gitarre/instrument/kinder/index.html#anprobe"
         ]
       ,
         name: "Linkshänder"
         path: "/gitarre/instrument/linkshaender/index.html"
         sections: [
+          name: "Wichtigkeit des Anschlags"
+          path: "/gitarre/instrument/linkshaender/index.html#wichtig"
+        ,
           name: "auf links umbauen"
           path: "/gitarre/instrument/linkshaender/index.html#umarbeiten"
         ,
-          name: "Linshändergitarre kaufen"
+          name: "Linkshändergitarre kaufen"
           path: "/gitarre/instrument/linkshaender/index.html#linkskauf"
+        ,
+          name: "Umdenken"
+          path: "/gitarre/instrument/linkshaender/index.html#umdenken"
         ]
       ,
         name: "Qualität und Preise"
@@ -88,11 +91,30 @@ menustructure:
           name: "Massivholz"
           path: "/gitarre/instrument/qualitaet/index.html#massiv"
         ,
-          name: "Wert und Verlust"
-          path: "/gitarre/instrument/qualitaet/index.html#wert"
-        ,
           name: "Gitarre einspielen"
           path: "/gitarre/instrument/qualitaet/index.html#einspielen"
+        ]
+      ,
+        name: "Kauftipps"
+        path: "/gitarre/instrument/kauftipps/index.html"
+        sections: [
+          name: "Tipps zum Gitarrenkauf"
+          path: "/gitarre/instrument/kauftipps/index.html#tipps"
+        ,
+          name: "Qualität überprüfen"
+          path: "/gitarre/instrument/kauftipps/index.html#pruefen"
+        ,
+          name: "Gebrauchte Gitarre"
+          path: "/gitarre/instrument/kauftipps/index.html#gebraucht"
+        ,
+          name: "Preisgrenzen"
+          path: "/gitarre/instrument/kauftipps/index.html#preisgrenze"
+        ,
+          name: "Musikgeschäfte"
+          path: "/gitarre/instrument/kauftipps/index.html#anprobe"
+        ,
+          name: "Wert und Verlust"
+          path: "/gitarre/instrument/kauftipps/index.html#wert"
         ]
       ,
         name: "Teile der Gitarre"
