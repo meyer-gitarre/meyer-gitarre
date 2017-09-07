@@ -641,11 +641,14 @@ menustructure:
         name: "Pflege & Behandlung"
         path: "/gitarre/technisches/pflege/index.html"
         sections: [
-          name: "Größere Schäden"
-          path: "/gitarre/technisches/pflege/index.html#schaeden"
-        ,
           name: "Aufbewahrung"
           path: "/gitarre/technisches/pflege/index.html#aufbewahrung"
+        ,
+          name: "Unfallgefahren"
+          path: "/gitarre/technisches/pflege/index.html#unfall"
+        ,
+          name: "Größere Schäden"
+          path: "/gitarre/technisches/pflege/index.html#schaeden"
         ,
           name: "Saiten, Putzen, Ölen"
           path: "/gitarre/technisches/pflege/index.html#putzen"
