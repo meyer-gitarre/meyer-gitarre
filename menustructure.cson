@@ -427,6 +427,9 @@ menustructure:
         name: "Übetipps"
         path: "/gitarre/ueben/uebetipps/index.html"
         sections: [
+          name: "Was ist üben?"
+          path: "/gitarre/ueben/uebetipps/index.html#wasist"
+        ,
           name: "Übetipps"
           path: "/gitarre/ueben/uebetipps/index.html#ueben"
         ,
@@ -467,7 +470,7 @@ menustructure:
           name: "'rückwärts' üben"
           path: "/gitarre/ueben/konzepte/index.html#rueckwaerts"
         ,
-          name: "Zusammenstauchen"
+          name: "zusammenstauchen"
           path: "/gitarre/ueben/konzepte/index.html#zusammenstauchen"
         ,
           name: "üben vor dem Spiegel"
