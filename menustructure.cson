@@ -1091,6 +1091,25 @@ menustructure:
         name: "Übungen"
         path: "/musiklehre/grundlagen/schluessel-ueb/index.html"
         children: [
+          name: "Noten"
+          path: "/musiklehre/grundlagen/akzidentien/index.html#uebakzidens"
+          sections: [
+            name: "Noten lesen lernen"
+            path: "/musiklehre/grundlagen/notenlinien/index.html#leslern"
+          ,
+            name: "Akzidentien"
+            path: "/musiklehre/grundlagen/akzidentien/index.html#uebakzidens"
+          ,
+            name: "Transponieren"
+            path: "/musiklehre/grundlagen/transponieren/index.html#uebtrans"
+          ,
+            name: "Zirkeltraining Dur"
+            path: "/musiklehre/grundlagen/training-dur/index.html"
+          ,
+            name: "Zirkeltraining Moll"
+            path: "/musiklehre/grundlagen/training-moll/index.html"
+          ]
+        ,
           name: "Übungen Schlüssel"
           path: "/musiklehre/grundlagen/schluessel-ueb/index.html"
           sections: [
@@ -1118,22 +1137,6 @@ menustructure:
           ,
             name: "Altschlüssel & Gitarre"
             path: "/musiklehre/grundlagen/schluessel-gitarre/index.html#uebtedeum"
-          ]
-        ,
-          name: "Noten"
-          path: "/musiklehre/grundlagen/akzidentien/index.html#uebakzidens"
-          sections: [
-            name: "Akzidentien"
-            path: "/musiklehre/grundlagen/akzidentien/index.html#uebakzidens"
-          ,
-            name: "Transponieren"
-            path: "/musiklehre/grundlagen/transponieren/index.html#uebtrans"
-          ,
-            name: "Zirkeltraining Dur"
-            path: "/musiklehre/grundlagen/training-dur/index.html"
-          ,
-            name: "Zirkeltraining Moll"
-            path: "/musiklehre/grundlagen/training-moll/index.html"
           ]
         ]
       ]
@@ -1286,6 +1289,25 @@ menustructure:
         name: "Übungen"
         path: "/musiklehre/grundlagen/schluessel-ueb/index.html"
         children: [
+          name: "Noten"
+          path: "/musiklehre/grundlagen/akzidentien/index.html#uebakzidens"
+          sections: [
+            name: "Noten lesen lernen"
+            path: "/musiklehre/grundlagen/notenlinien/index.html#leslern"
+          ,
+            name: "Akzidentien"
+            path: "/musiklehre/grundlagen/akzidentien/index.html#uebakzidens"
+          ,
+            name: "Transponieren"
+            path: "/musiklehre/grundlagen/transponieren/index.html#uebtrans"
+          ,
+            name: "Zirkeltraining Dur"
+            path: "/musiklehre/grundlagen/training-dur/index.html"
+          ,
+            name: "Zirkeltraining Moll"
+            path: "/musiklehre/grundlagen/training-moll/index.html"
+          ]
+        ,
           name: "Übungen Schlüssel"
           path: "/musiklehre/grundlagen/schluessel-ueb/index.html"
           sections: [
@@ -1313,22 +1335,6 @@ menustructure:
           ,
             name: "Altschlüssel & Gitarre"
             path: "/musiklehre/grundlagen/schluessel-gitarre/index.html#uebtedeum"
-          ]
-        ,
-          name: "Noten"
-          path: "/musiklehre/grundlagen/akzidentien/index.html#uebakzidens"
-          sections: [
-            name: "Akzidentien"
-            path: "/musiklehre/grundlagen/akzidentien/index.html#uebakzidens"
-          ,
-            name: "Transponieren"
-            path: "/musiklehre/grundlagen/transponieren/index.html#uebtrans"
-          ,
-            name: "Zirkeltraining Dur"
-            path: "/musiklehre/grundlagen/training-dur/index.html"
-          ,
-            name: "Zirkeltraining Moll"
-            path: "/musiklehre/grundlagen/training-moll/index.html"
           ]
         ]
       ]
