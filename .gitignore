@@ -3,6 +3,11 @@
 
 # keeps git from tracking dachsbau
 /source/meta/dachsbau/*
+/source/meta/Winterlieder/*
+/source/meta/Winterlieder.html/*
+
+# keeps git from tracking extern
+/extern
 
 npm-debug.log
 
