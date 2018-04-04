@@ -28,16 +28,25 @@
 .plea {
 	@extend %box;
 	background-color: #fff2ff;
+	> h6 {
+		margin: 0.2em 0 0.2em 1em;
+	}
 }
 
 .input {
 	@extend %box;
 	background-color: #fffff0;
+	> h6 {
+		margin: 0.2em 0 0.2em 1em;
+	}
 }
 
 .answer {
 	@extend %box;
 	background-color: #e9f1fd;
+	> h6 {
+		margin: 0.2em 0 0.2em 1em;
+	}
 }
 
 .textBox {
