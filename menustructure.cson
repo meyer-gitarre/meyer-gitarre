@@ -1081,8 +1081,11 @@ menustructure:
         name: "6. Gehörbildung"
         path: "/musiklehre/fahrplan/index.html#sechshoer"
       ,
-        name: "Schneller Einstieg"
+        name: "7. Schneller Einstieg"
         path: "/musiklehre/fahrplan/index.html#praktisch"
+      ,
+        name: "Musiklehre & Erwachsene"
+        path: "/musiklehre/fahrplan/index.html#erwachsen"
       ]
     ,
       name: "Grundlagen"
