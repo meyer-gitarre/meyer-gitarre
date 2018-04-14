@@ -28,6 +28,12 @@ menustructure:
           name: "Gitarren f. Erwachsene"
           path: "/gitarre/instrument/groesse/index.html#groesseinstrument"
         ,
+          name: "Entwicklung der Gitarre"
+          path: "/gitarre/instrument/groesse/index.html#entwicklung"
+        ,
+          name: "Unterschiedliche Mensuren"
+          path: "/gitarre/instrument/groesse/index.html#unterschied"
+        ,
           name: "Sattelbreiten"
           path: "/gitarre/instrument/groesse/index.html#sattelbreite"
         ,
