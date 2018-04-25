@@ -85,11 +85,14 @@ menustructure:
           name: "Technische Probleme"
           path: "/gitarre/instrument/qualitaet/index.html#technikproblem"
         ,
+          name: "Die Konstruktion"
+          path: "/gitarre/instrument/qualitaet/index.html#konstruktion"
+        ,
           name: "Saitenlage"
           path: "/gitarre/instrument/qualitaet/index.html#saitenlage"
         ,
-          name: "Steg, Sattel, Hals"
-          path: "/gitarre/instrument/qualitaet/index.html#sattel"
+          name: "Hals & Griffbrett"
+          path: "/gitarre/instrument/qualitaet/index.html#stahlstab"
         ,
           name: "Aussehen"
           path: "/gitarre/instrument/qualitaet/index.html#aussehen"
