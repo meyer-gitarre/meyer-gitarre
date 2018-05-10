@@ -1156,11 +1156,17 @@ menustructure:
         name: "Notenschrift"
         path: "/musiklehre/grundlagen/notenlinien/index.html"
         sections: [
+          name: "Konkret oder abstrakt"
+          path: "/musiklehre/grundlagen/notenlinien/index.html#konkret"
+        ,
           name: "Linien & Stammtöne"
           path: "/musiklehre/grundlagen/notenlinien/index.html#liniensystem"
         ,
           name: "Violinschlüssel"
           path: "/musiklehre/grundlagen/notenlinien/index.html#violinschluessel"
+        ,
+          name: "Schreibkonventionen"
+          path: "/musiklehre/grundlagen/notenlinien/index.html#konventionen"
         ,
           name: "Aussehen der Note"
           path: "/musiklehre/grundlagen/notenlinien/index.html#welchenote"
@@ -1190,6 +1196,9 @@ menustructure:
         sections: [
           name: "Vorzeichen"
           path: "/musiklehre/grundlagen/akzidentien/index.html#akzidentien"
+        ,
+          name: "Geltungsdauer"
+          path: "/musiklehre/grundlagen/akzidentien/index.html#geltung"
         ,
           name: "Vorzeichen und Logik"
           path: "/musiklehre/grundlagen/akzidentien/index.html#logik"
