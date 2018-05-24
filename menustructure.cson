@@ -1455,6 +1455,13 @@ menustructure:
       ,
         name: "Tonl. direkt aufbauen"
         path: "/musiklehre/tonleitern/direkt/index.html"
+        sections: [
+          name: "Beispiel E-Dur"
+          path: "/musiklehre/tonleitern/direkt/index.html#beispiel1"
+        ,
+          name: "Beispiel As-Dur"
+          path: "/musiklehre/tonleitern/direkt/index.html#beispiel2"
+        ]
       ,
         name: "Pentatonik"
         path: "/musiklehre/tonleitern/pentatonik/index.html"
