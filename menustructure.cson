@@ -1703,6 +1703,9 @@ menustructure:
             name: "Praeludium BWV 882"
             path: "/musiklehre/akkorde/analyse/index.html#bachprel"
           ,
+            name: "Formale Analyse"
+            path: "/musiklehre/akkorde/analyse/index.html#formal"
+          ,
             name: "Bach-Choral"
             path: "/musiklehre/akkorde/analyse/index.html#chorals"
           ]
@@ -2016,6 +2019,9 @@ menustructure:
           ,
             name: "Praeludium BWV 882"
             path: "/musiklehre/akkorde/analyse/index.html#bachprel"
+          ,
+            name: "Formale Analyse"
+            path: "/musiklehre/akkorde/analyse/index.html#formal"
           ,
             name: "Bach-Choral"
             path: "/musiklehre/akkorde/analyse/index.html#chorals"
