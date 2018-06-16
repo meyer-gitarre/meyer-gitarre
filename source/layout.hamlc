@@ -30,7 +30,7 @@
             = @helpers.structure.renderMenuDefault(@data.menuStructure)
           .caption
             .clearfix
-            - if (@data.title is 'Sitemap') or (@data.menuStructure? and @data.menuStructure.length > 1)
+            - if (@data.title is 'Impressum') or (@data.title is 'Sitemap') or (@data.title is 'Datenschutz') or (@data.menuStructure? and @data.menuStructure.length > 1)
               .imageWrapper.img200.floatedRight.exBorder
                 %a{href: '/index.html'}
                   %img{src: '/img/Dachsgr1.jpg', alt: 'Gitarrendachs'}
@@ -64,6 +64,8 @@
             Blockflöte
           %a{href: '/meta/impressum/index.html'}
             Impressum
+          %a{href: '/meta/datenschutz/index.html'}
+            Datenschutz
           %a{href: '/meta/sitemap/index.html'}
             Sitemap
           %a{href: '#'}
