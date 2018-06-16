@@ -2617,6 +2617,13 @@ menustructure:
       path: "/meta/impressum/index.html#disclaimer"
     ]
   ,
+    name: "Datenschutz"
+    path: "/meta/datenschutz/index.html"
+    sections: [
+      name: "Datenschutzerklärung"
+      path: "/meta/datenschutz/index.html#datenschutz"
+    ]
+  ,
     name: "Sitemap"
     path: "/meta/sitemap/index.html"
     sections: [
