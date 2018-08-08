@@ -153,6 +153,9 @@ menustructure:
           name: "Lernen Sie Gitarre"
           path: "/gitarre/unterricht/lernen/index.html#gitlern"
         ,
+          name: "Tipps zum Start"
+          path: "/gitarre/unterricht/lernen/index.html#unterrichtsbeginn"
+        ,
           name: "Gitarristen"
           path: "/gitarre/unterricht/lernen/index.html#gitarristen"
         ,
