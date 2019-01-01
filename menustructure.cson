@@ -2509,6 +2509,9 @@ menustructure:
         ,
           name: "Kampf um Bildung"
           path: "/musiklehre/musik-text/texte/index.html#bildung"
+        ,
+          name: "Digitalisierungshype"
+          path: "/musiklehre/musik-text/texte/index.html#digital"
         ]
       ,
         name: "Schreiben"
