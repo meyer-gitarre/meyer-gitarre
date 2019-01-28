@@ -242,7 +242,7 @@ menustructure:
           path: "/gitarre/unterricht/verwandte/index.html#verwandteinstrumente"
         ,
           name: "Laute zum Einstieg"
-          path: "/gitarre/unterricht/verwandte/index.html"
+          path: "/gitarre/unterricht/verwandte/index.html#welche"
         ,
           name: "Renaissancelauten"
           path: "/gitarre/unterricht/verwandte/index.html#renstimm"
