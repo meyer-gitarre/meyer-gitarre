@@ -18,8 +18,20 @@ menustructure:
           name: "Viele Möglichkeiten"
           path: "/gitarre/instrument/konzept/index.html#moeglichkeit"
         ,
+          name: "Wege zur Gitarre"
+          path: "/gitarre/instrument/konzept/index.html#wegezur"
+        ,
           name: "Erfolgsmodell Gitarre"
           path: "/gitarre/instrument/konzept/index.html#erfolg"
+        ,
+          name: "Struktur der Stimmung"
+          path: "/gitarre/instrument/konzept/index.html#stimmstruktur"
+        ,
+          name: "Begleitinstrumente"
+          path: "/gitarre/instrument/konzept/index.html#begleit"
+        ,
+          name: "Bauweise"
+          path: "/gitarre/instrument/konzept/index.html#bauweise"
         ]
       ,
         name: "Größe der Gitarre"
