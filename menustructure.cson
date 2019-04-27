@@ -777,6 +777,34 @@ menustructure:
           path: "/gitarre/griffbrett/blattspiel/index.html#uebblatt"
         ]
       ,
+        name: "Notenlernen"
+        path: "/gitarre/notation/notenlernen/index.html"
+        sections: [
+          name: "Ein anderer Einstieg"
+          path: "/gitarre/notation/notenlernen/index.html#einstieg"
+        ,
+          name: "Schlüssel und Noten"
+          path: "/gitarre/notation/notenlernen/index.html#stammtoene"
+        ,
+          name: "Die hohe e-Saite"
+          path: "/gitarre/notation/notenlernen/index.html#hoheesaite"
+        ,
+          name: "Die h-Saite"
+          path: "/gitarre/notation/notenlernen/index.html#hsaite"
+        ,
+          name: "Die g-Saite"
+          path: "/gitarre/notation/notenlernen/index.html#gsaite"
+        ,
+          name: "Die d-Saite"
+          path: "/gitarre/notation/notenlernen/index.html#dsaite"
+        ,
+          name: "Die A-Saite"
+          path: "/gitarre/notation/notenlernen/index.html#asaite"
+        ,
+          name: "Die tiefe E-Saite"
+          path: "/gitarre/notation/notenlernen/index.html#tiefeesaite"
+        ]
+      ,
         name: "Alterierte Töne"
         path: "/gitarre/notation/alteriert/index.html"
         sections: [
