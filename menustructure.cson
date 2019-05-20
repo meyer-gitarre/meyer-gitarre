@@ -1259,7 +1259,7 @@ menustructure:
           path: "/musiklehre/grundlagen/akzidentien/index.html#logik"
         ,
           name: "Textverweise"
-          path: "/musiklehre/grundlagen/akzidentien/index.html#"
+          path: "/musiklehre/grundlagen/akzidentien/index.html#verweise"
         ]
       ,
         name: "Bass- & Altschlüssel"
@@ -1585,6 +1585,9 @@ menustructure:
         ,
           name: "Moll erkennen"
           path: "/musiklehre/tonleitern/tongeschlecht/index.html#mollstuecke"
+        ,
+          name: "Zusammenfassung"
+          path: "/musiklehre/tonleitern/tongeschlecht/index.html#zusammenfassung"
         ]
       ,
         name: "Kirchentonarten"
@@ -1601,6 +1604,9 @@ menustructure:
         ,
           name: "~ aufbauen"
           path: "/musiklehre/tonleitern/modi/index.html#modiaufbau"
+        ,
+          name: "Übungen"
+          path: "/musiklehre/tonleitern/modi/index.html#modiueb"
         ,
           name: "~ und Improvisation"
           path: "/musiklehre/tonleitern/modi/index.html#modiimpro"
