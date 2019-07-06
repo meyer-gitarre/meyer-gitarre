@@ -641,6 +641,9 @@ menustructure:
         name: "Saiten"
         path: "/gitarre/technisches/saiten/index.html"
         sections: [
+          name: "Saiten austauschen"
+          path: "/gitarre/technisches/saiten/index.html#saiten"
+        ,
           name: "Tonhöhe"
           path: "/gitarre/technisches/saiten/index.html#hoeher"
         ,
