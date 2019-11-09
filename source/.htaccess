@@ -12,8 +12,8 @@ Redirect 301 /gitarre-unterricht.html /gitarre/unterricht/index.html
 Redirect 301 /gitarre-unterricht.html#gitlern /gitarre/unterricht/lernen/index.html
 Redirect 301 /gitarre-unterricht-form.html /unterricht/form/index.html
 Redirect 301 /gitarre-unterricht-umfeld.html /gitarre/unterricht/umfeld/index.html
-Redirect 301 /gitarre-unterricht-verwandte.html /gitarre/unterricht/verwandte/index.html
-Redirect 301 /gitarre-unterricht-egit.html /gitarre/unterricht/egit/index.html
+Redirect 301 /gitarre-unterricht-verwandte.html /gitarre/instrument/verwandte/index.html
+Redirect 301 /gitarre-unterricht-egit.html /gitarre/instrument/egit/index.html
 Redirect 301 /gitarre-unterricht-material.html /gitarre/unterricht/material/index.html
 Redirect 301 /gitarre-haltung.html /gitarre/haltung/index.html
 Redirect 301 /gitarre-haltung.html#haltung /gitarre/haltung/sitzen/index.html

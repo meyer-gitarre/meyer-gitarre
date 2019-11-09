@@ -88,6 +88,47 @@ menustructure:
           path: "/gitarre/instrument/linkshaender/index.html#umdenken"
         ]
       ,
+        name: "E-Gitarre & Western"
+        path: "/gitarre/instrument/egit/index.html"
+        sections: [
+          name: "Wechsel zur E-Gitarre"
+          path: "/gitarre/instrument/egit/index.html#wechsel"
+        ,
+          name: "E-Gitarre kaufen"
+          path: "/gitarre/instrument/egit/index.html#tippszuranschaffung"
+        ,
+          name: "Westerngitarre"
+          path: "/gitarre/instrument/egit/index.html#western"
+        ,
+          name: "Singen & Gitarre"
+          path: "/gitarre/instrument/egit/index.html#singen"
+        ]
+      ,
+        name: "Lauten & Barockgitarre"
+        path: "/gitarre/instrument/verwandte/index.html"
+        sections: [
+          name: "Repertoire f. Lauten"
+          path: "/gitarre/instrument/verwandte/index.html#verwandteinstrumente"
+        ,
+          name: "Laute zum Einstieg"
+          path: "/gitarre/instrument/verwandte/index.html#welche"
+        ,
+          name: "Renaissancelauten"
+          path: "/gitarre/instrument/verwandte/index.html#renstimm"
+        ,
+          name: "Italienische Barocklauten"
+          path: "/gitarre/instrument/verwandte/index.html#arci"
+        ,
+          name: "Barocklauten"
+          path: "/gitarre/instrument/verwandte/index.html#barockstimm"
+        ,
+          name: "Kostbar oder einfach"
+          path: "/gitarre/instrument/verwandte/index.html#kostbar"
+        ,
+          name: "Werktreue & Bearbeitung"
+          path: "/gitarre/unterricht/material/index.html#courantevisee"
+        ]
+      ,
         name: "Qualität und Preise"
         path: "/gitarre/instrument/qualitaet/index.html"
         sections: [
@@ -245,44 +286,6 @@ menustructure:
         ,
           name: "Gitarristen"
           path: "/gitarre/unterricht/lernen/index.html#gitarristen"
-        ]
-      ,
-        name: "Lauten & Barockgitarre"
-        path: "/gitarre/unterricht/verwandte/index.html"
-        sections: [
-          name: "Repertoire f. Lauten"
-          path: "/gitarre/unterricht/verwandte/index.html#verwandteinstrumente"
-        ,
-          name: "Laute zum Einstieg"
-          path: "/gitarre/unterricht/verwandte/index.html#welche"
-        ,
-          name: "Renaissancelauten"
-          path: "/gitarre/unterricht/verwandte/index.html#renstimm"
-        ,
-          name: "Italienische Barocklauten"
-          path: "/gitarre/unterricht/verwandte/index.html#arci"
-        ,
-          name: "Barocklauten"
-          path: "/gitarre/unterricht/verwandte/index.html#barockstimm"
-        ,
-          name: "Kostbar oder einfach"
-          path: "/gitarre/unterricht/verwandte/index.html#kostbar"
-        ,
-          name: "Werktreue & Bearbeitung"
-          path: "/gitarre/unterricht/material/index.html#courantevisee"
-        ]
-      ,
-        name: "E-Gitarre"
-        path: "/gitarre/unterricht/egit/index.html"
-        sections: [
-          name: "Wechsel zur E-Gitarre"
-          path: "/gitarre/unterricht/egit/index.html#wechsel"
-        ,
-          name: "E-Gitarre kaufen"
-          path: "/gitarre/unterricht/egit/index.html#tippszuranschaffung"
-        ,
-          name: "Singen & Gitarre"
-          path: "/gitarre/unterricht/egit/index.html#singen"
         ]
       ,
         name: "Unterrichtsmaterial"
