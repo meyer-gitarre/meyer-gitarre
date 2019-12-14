@@ -466,11 +466,11 @@ menustructure:
           name: "genug üben"
           path: "/gitarre/ueben/uebetipps/index.html#genugueben"
         ,
+          name: "Lernklippen"
+          path: "/gitarre/ueben/uebetipps/index.html#lernklippen"
+        ,
           name: "Hausaufgaben"
           path: "/musiklehre/musik-text/texte/index.html#hausauf"
-        ,
-          name: "Singen & Gitarre"
-          path: "/gitarre/unterricht/egit/index.html#singen"
         ,
           name: "Lesetipps"
           path: "/gitarre/ueben/uebetipps/index.html#lesetipps"
