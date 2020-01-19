@@ -175,6 +175,9 @@ menustructure:
           name: "Musikgeschäfte"
           path: "/gitarre/instrument/kauftipps/index.html#anprobe"
         ,
+          name: "Gitarrenladen"
+          path: "/gitarre/instrument/kauftipps/index.html#laden"
+        ,
           name: "Wert und Verlust"
           path: "/gitarre/instrument/kauftipps/index.html#wert"
         ]
