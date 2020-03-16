@@ -460,6 +460,9 @@ menustructure:
           name: "Was ist üben?"
           path: "/gitarre/ueben/uebetipps/index.html#wasist"
         ,
+          name: "Corona-Zwangspause"
+          path: "/gitarre/ueben/uebetipps/index.html#uebencorona"
+        ,
           name: "Übetipps"
           path: "/gitarre/ueben/uebetipps/index.html#ueben"
         ,
