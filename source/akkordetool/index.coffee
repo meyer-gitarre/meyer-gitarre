@@ -10,6 +10,7 @@ togglers = null
 data = null
 
 normalChords = []
+extendedChords  = []
 eChords = []
 aChords = []
 dChords = []
@@ -37,11 +38,13 @@ addContent = ->
   controls.id = 'controls'
   togglers =
     normal: document.createElement('input')
+    extended: document.createElement('input')
     e: document.createElement('input')
     a: document.createElement('input')
     d: document.createElement('input')
     c: document.createElement('input')
   togglers.normal.value = 'normal'
+  togglers.extended.value = 'extended'
   togglers.e.value = 'basisE'
   togglers.a.value = 'basisA'
   togglers.d.value = 'basisD'
@@ -50,7 +53,8 @@ addContent = ->
     togglers[key].type = 'checkbox'
     togglers[key].name = 'chords'
     controls.appendChild togglers[key]
-  controls.insertBefore document.createTextNode('Standardgriffe ohne Barré'), togglers.normal.nextSibling
+  controls.insertBefore document.createTextNode('Standard'), togglers.normal.nextSibling
+  controls.insertBefore document.createTextNode('Standard erweitert'), togglers.extended.nextSibling
   controls.insertBefore document.createTextNode('Barré auf E-Basis'), togglers.e.nextSibling
   controls.insertBefore document.createTextNode('Barré auf A-Basis'), togglers.a.nextSibling
   controls.insertBefore document.createTextNode('Barré auf D-Basis'), togglers.d.nextSibling
@@ -84,6 +88,7 @@ handleImageClick = ->
 
     switch currentChord.category
       when 'normal' then info = ''
+      when 'extended' then info = ''
       when 'basisE' then info = "Barré im #{currentChord.fret}. Bund."
       when 'basisA' then info = "Barré im #{currentChord.fret}. Bund."
       when 'basisD' then info = "Der Grundton auf der d-Saite ist
@@ -98,6 +103,8 @@ handleImageClick = ->
     chords = []
     if togglers.normal.checked
       Array::push.apply chords, normalChords
+    if togglers.extended.checked
+      Array::push.apply chords, extendedChords
     if togglers.e.checked
       Array::push.apply chords, eChords
     if togglers.a.checked
@@ -126,6 +133,7 @@ loadData = ->
         for chord in JSON.parse req.responseText
           switch chord.category
             when 'normal' then normalChords.push chord
+            when 'extended' then extendedChords.push chord
             when 'basisE' then eChords.push chord
             when 'basisA' then aChords.push chord
             when 'basisD' then dChords.push chord
@@ -137,7 +145,7 @@ loadData = ->
           togglers[key].addEventListener 'change', handleFormClick, false
 
         task.innerHTML = 'Klicke auf das Bild,
-        um eine Aufgabe gestellt zu bekommen.'
+        um eine zufällige Aufgabe gestellt zu bekommen.'
       else
         task.innerHTML = 'Fehler beim AJAX-Request,
         Programm funktioniert nicht.'

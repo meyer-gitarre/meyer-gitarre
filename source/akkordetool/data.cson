@@ -1,11 +1,5 @@
 [
 	{
-		name: "A6"
-		imgFile: "a6"
-		category: "normal"
-		fret: "-1"
-	}
-	{
 		name: "A7"
 		imgFile: "a7"
 		category: "normal"
@@ -14,12 +8,6 @@
 	{
 		name: "A"
 		imgFile: "ad"
-		category: "normal"
-		fret: "-1"
-	}
-	{
-		name: "Amj7"
-		imgFile: "aj7"
 		category: "normal"
 		fret: "-1"
 	}
@@ -36,20 +24,8 @@
 		fret: "-1"
 	}
 	{
-		name: "Asus4"
-		imgFile: "asus4"
-		category: "normal"
-		fret: "-1"
-	}
-	{
 		name: "B7"
 		imgFile: "b7"
-		category: "normal"
-		fret: "-1"
-	}
-	{
-		name: "C6"
-		imgFile: "c6"
 		category: "normal"
 		fret: "-1"
 	}
@@ -66,24 +42,6 @@
 		fret: "-1"
 	}
 	{
-		name: "Cmj7"
-		imgFile: "cj7"
-		category: "normal"
-		fret: "-1"
-	}
-	{
-		name: "Csus4"
-		imgFile: "csus4"
-		category: "normal"
-		fret: "-1"
-	}
-	{
-		name: "D6"
-		imgFile: "d6"
-		category: "normal"
-		fret: "-1"
-	}
-	{
 		name: "D7"
 		imgFile: "d7"
 		category: "normal"
@@ -92,24 +50,6 @@
 	{
 		name: "D"
 		imgFile: "dd"
-		category: "normal"
-		fret: "-1"
-	}
-	{
-		name: "Dmj7"
-		imgFile: "dj7"
-		category: "normal"
-		fret: "-1"
-	}
-	{
-		name: "Dsus4"
-		imgFile: "dsus4"
-		category: "normal"
-		fret: "-1"
-	}
-	{
-		name: "E6"
-		imgFile: "e6"
 		category: "normal"
 		fret: "-1"
 	}
@@ -126,32 +66,8 @@
 		fret: "-1"
 	}
 	{
-		name: "Emj7"
-		imgFile: "ej7"
-		category: "normal"
-		fret: "-1"
-	}
-	{
 		name: "Em"
 		imgFile: "em"
-		category: "normal"
-		fret: "-1"
-	}
-	{
-		name: "Em7"
-		imgFile: "em7"
-		category: "normal"
-		fret: "-1"
-	}
-	{
-		name: "Esus4"
-		imgFile: "esus4"
-		category: "normal"
-		fret: "-1"
-	}
-	{
-		name: "G6"
-		imgFile: "g6"
 		category: "normal"
 		fret: "-1"
 	}
@@ -168,15 +84,99 @@
 		fret: "-1"
 	}
 	{
+		name: "A6"
+		imgFile: "a6"
+		category: "extended"
+		fret: "-1"
+	}
+	{
+		name: "Amj7"
+		imgFile: "aj7"
+		category: "extended"
+		fret: "-1"
+	}
+	{
+		name: "Asus4"
+		imgFile: "asus4"
+		category: "extended"
+		fret: "-1"
+	}
+	{
+		name: "C6"
+		imgFile: "c6"
+		category: "extended"
+		fret: "-1"
+	}
+	{
+		name: "Cmj7"
+		imgFile: "cj7"
+		category: "extended"
+		fret: "-1"
+	}
+	{
+		name: "Csus4"
+		imgFile: "csus4"
+		category: "extended"
+		fret: "-1"
+	}
+	{
+		name: "D6"
+		imgFile: "d6"
+		category: "extended"
+		fret: "-1"
+	}
+	{
+		name: "Dmj7"
+		imgFile: "dj7"
+		category: "extended"
+		fret: "-1"
+	}
+	{
+		name: "Dsus4"
+		imgFile: "dsus4"
+		category: "extended"
+		fret: "-1"
+	}
+	{
+		name: "E6"
+		imgFile: "e6"
+		category: "extended"
+		fret: "-1"
+	}
+	{
+		name: "Emj7"
+		imgFile: "ej7"
+		category: "extended"
+		fret: "-1"
+	}
+	{
+		name: "Em7"
+		imgFile: "em7"
+		category: "extended"
+		fret: "-1"
+	}
+	{
+		name: "Esus4"
+		imgFile: "esus4"
+		category: "extended"
+		fret: "-1"
+	}
+	{
+		name: "G6"
+		imgFile: "g6"
+		category: "extended"
+		fret: "-1"
+	}
+	{
 		name: "Gmj7"
 		imgFile: "gj7"
-		category: "normal"
+		category: "extended"
 		fret: "-1"
 	}
 	{
 		name: "Gsus4"
 		imgFile: "gsus4"
-		category: "normal"
+		category: "extended"
 		fret: "-1"
 	}
 	{
