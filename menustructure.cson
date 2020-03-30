@@ -2310,6 +2310,9 @@ menustructure:
         ,
           name: "Übungen mit Körper"
           path: "/musiklehre/rhythmus/uebungen/index.html#koerper"
+        ,
+          name: "Bodypercussion"
+          path: "/musiklehre/rhythmus/uebungen/index.html#bodypercussion"
         ]
       ]
       children: [
@@ -2435,6 +2438,9 @@ menustructure:
         ,
           name: "Übungen mit Körper"
           path: "/musiklehre/rhythmus/uebungen/index.html#koerper"
+        ,
+          name: "Bodypercussion"
+          path: "/musiklehre/rhythmus/uebungen/index.html#bodypercussion"
         ]
       ]
     ,
