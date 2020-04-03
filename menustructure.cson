@@ -602,6 +602,9 @@ menustructure:
           name: "allgemeine Hinweise"
           path: "/gitarre/stimmen/fuenfterbund/index.html#stimmen1"
         ,
+          name: "Wichtigste Regeln"
+          path: "/gitarre/stimmen/fuenfterbund/index.html#wichtige"
+        ,
           name: "Die 5. Bund-Methode"
           path: "/gitarre/stimmen/fuenfterbund/index.html#stimmen2"
         ]
