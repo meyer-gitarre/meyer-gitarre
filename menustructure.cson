@@ -1257,6 +1257,9 @@ menustructure:
           name: "Der Tonvorrat"
           path: "/musiklehre/grundlagen/halbtonschritte/index.html#halbtonschritten"
         ,
+          name: "Hertz"
+          path: "/musiklehre/grundlagen/halbtonschritte/index.html#hertz"
+        ,
           name: "Obertonreihe"
           path: "/musiklehre/grundlagen/halbtonschritte/index.html#obertonreihe"
         ]
