@@ -1480,6 +1480,9 @@ menustructure:
           name: "Wie entsteht das ♯?"
           path: "/musiklehre/tonleitern/kreuz/index.html#warumgibtes"
         ,
+          name: "G-Dur mit einem ♯"
+          path: "/musiklehre/tonleitern/kreuz/index.html#einkreuz"
+        ,
           name: "Reihe der Kreuze"
           path: "/musiklehre/tonleitern/kreuz/index.html#reihekreuz"
         ,
@@ -1492,6 +1495,9 @@ menustructure:
         sections: [
           name: "Wie entsteht das ♭?"
           path: "/musiklehre/tonleitern/b/index.html#diebtonarten"
+        ,
+          name: "F-Dur mit dem ersten ♭"
+          path: "/musiklehre/tonleitern/b/index.html#erstesb"
         ,
           name: "Reihe der ♭"
           path: "/musiklehre/tonleitern/b/index.html#reiheb"
