@@ -271,6 +271,9 @@ menustructure:
           name: "Einzelunterricht"
           path: "/gitarre/unterricht/form/index.html#einzel"
         ,
+          name: "Online-Unterricht"
+          path: "/musiklehre/musik-text/schreiben/index.html#video"
+        ,
           name: "Frühförderung"
           path: "/musiklehre/musik-text/texte/index.html#frueh"
         ]
@@ -2610,6 +2613,9 @@ menustructure:
         ,
           name: "LilyPond Notensatz"
           path: "/musiklehre/musik-text/schreiben/index.html#notenschreiben"
+        ,
+          name: "Online-Unterricht"
+          path: "/musiklehre/musik-text/schreiben/index.html#video"
         ]
       ]
     ]
