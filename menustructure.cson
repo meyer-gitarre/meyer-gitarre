@@ -672,8 +672,17 @@ menustructure:
           name: "generelle Tipps"
           path: "/gitarre/technisches/besaiten/index.html#saitenauftipps"
         ,
-          name: "Saiten aufziehen"
-          path: "/gitarre/technisches/besaiten/index.html#saitenaufziehen"
+          name: "Befestigung am Steg"
+          path: "/gitarre/technisches/besaiten/index.html#steg"
+        ,
+          name: "Befestigung am Kopf"
+          path: "/gitarre/technisches/besaiten/index.html#kopf"
+        ,
+          name: "Stimmstabilität"
+          path: "/gitarre/technisches/besaiten/index.html#saitekneifen"
+        ,
+          name: "E-Gitarren"
+          path: "/gitarre/technisches/besaiten/index.html#stahl"
         ]
       ,
         name: "Nebengeräusche"
