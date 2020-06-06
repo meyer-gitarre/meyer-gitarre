@@ -2002,11 +2002,17 @@ menustructure:
         name: "Vorhalt"
         path: "/musiklehre/akkorde/vorhalt/index.html"
         sections: [
+          name: "Konsonanz - Dissonanz"
+          path: "/musiklehre/akkorde/vorhalt/index.html#sonanz"
+        ,
           name: "Vorhaltstriller"
           path: "/musiklehre/akkorde/vorhalt/index.html#trill"
         ,
           name: "Vorhaltsregeln"
           path: "/musiklehre/akkorde/vorhalt/index.html#regel"
+        ,
+          name: "Beispiel Fuge"
+          path: "/musiklehre/akkorde/vorhalt/index.html#fuge"
         ]
       ,
         name: "Funktionen"
