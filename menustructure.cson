@@ -1723,6 +1723,9 @@ menustructure:
         name: "Enharmonische Int."
         path: "/musiklehre/intervalle/enharmonisch/index.html"
         sections: [
+          name: "Verwandlung/Verwechslung"
+          path: "/musiklehre/intervalle/enharmonisch/index.html#enharmonisch"
+        ,
           name: "~ Beispiele"
           path: "/musiklehre/intervalle/enharmonisch/index.html#beienharm"
         ,
@@ -2371,6 +2374,12 @@ menustructure:
           name: "Ordnung & Hierarchie"
           path: "/musiklehre/rhythmus/takt/index.html#taktordnung"
         ,
+          name: "Ein Schlag"
+          path: "/musiklehre/rhythmus/takt/index.html#einschlagnote"
+        ,
+          name: "Vorzählen"
+          path: "/musiklehre/rhythmus/takt/index.html#vorzaehlen"
+        ,
           name: "Auftakt"
           path: "/musiklehre/rhythmus/takt/index.html#auftakt"
         ,
@@ -2424,6 +2433,9 @@ menustructure:
         ,
           name: "Wahl der Taktart"
           path: "/musiklehre/rhythmus/notieren/index.html#taktwahl"
+        ,
+          name: "Alte Taktvorzeichnungen"
+          path: "/musiklehre/rhythmus/notieren/index.html#traditionell"
         ]
       ,
         name: "Lernstrategien"
