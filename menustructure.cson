@@ -113,6 +113,9 @@ menustructure:
           name: "Laute zum Einstieg"
           path: "/gitarre/instrument/verwandte/index.html#welche"
         ,
+          name: "Stimmungstypen"
+          path: "/gitarre/instrument/verwandte/index.html#stimmungen"
+        ,
           name: "Renaissancelauten"
           path: "/gitarre/instrument/verwandte/index.html#renstimm"
         ,
@@ -126,7 +129,7 @@ menustructure:
           path: "/gitarre/instrument/verwandte/index.html#kostbar"
         ,
           name: "Werktreue & Bearbeitung"
-          path: "/gitarre/unterricht/material/index.html#courantevisee"
+          path: "/gitarre/unterricht/material/index.html#werktreue"
         ]
       ,
         name: "Qualität und Preise"
@@ -304,7 +307,7 @@ menustructure:
           path: "/gitarre/unterricht/material/index.html#popmusik"
         ,
           name: "Werktreue & Bearbeitung"
-          path: "/gitarre/unterricht/material/index.html#courantevisee"
+          path: "/gitarre/unterricht/material/index.html#werktreue"
         ,
           name: "Bearbeitungen für Gitarre"
           path: "/gitarre/unterricht/material/index.html#bearbeitung"
@@ -488,6 +491,9 @@ menustructure:
         name: "Übekonzepte"
         path: "/gitarre/ueben/konzepte/index.html"
         sections: [
+          name: "Zwei Übearten"
+          path: "/gitarre/ueben/konzepte/index.html#uebearten"
+        ,
           name: "Selbstgespräch"
           path: "/gitarre/ueben/konzepte/index.html#selbstgespraech"
         ,
@@ -513,6 +519,75 @@ menustructure:
           path: "/gitarre/ueben/konzepte/index.html#uebenspiegel"
         ]
       ,
+        name: "Einspielen & Aufwärmen"
+        path: "/gitarre/ueben/einspielen/index.html"
+        sections: [
+          name: "Anschlagshand"
+          path: "/gitarre/ueben/einspielen/index.html#anschlag"
+        ,
+          name: "Zerlegungsstücke"
+          path: "/gitarre/ueben/einspielen/index.html#zerlegung"
+        ,
+          name: "Zerlegungsübungen"
+          path: "/gitarre/ueben/einspielen/index.html#uebzerleg"
+        ,
+          name: "Greifhand"
+          path: "/gitarre/ueben/einspielen/index.html#greifen"
+        ,
+          name: "Auf einer Saite"
+          path: "/gitarre/ueben/einspielen/index.html#einesaite"
+        ,
+          name: "Auf allen Saiten"
+          path: "/gitarre/ueben/einspielen/index.html#allesaiten"
+        ]
+      ,
+        name: "Tonleitern"
+        path: "/gitarre/ueben/tonleitern/index.html"
+        sections: [
+          name: "Mit leeren Saiten"
+          path: "/gitarre/ueben/tonleitern/index.html#leer"
+        ,
+          name: "Auf einer Saite"
+          path: "/gitarre/ueben/tonleitern/index.html#einesaite"
+        ,
+          name: "Durtonleitern"
+          path: "/gitarre/ueben/tonleitern/index.html#dur"
+        ,
+          name: "Molltonleitern"
+          path: "/gitarre/ueben/tonleitern/index.html#moll"
+        ,
+          name: "3 Noten pro Saite"
+          path: "/gitarre/ueben/tonleitern/index.html#threenotes"
+        ]
+      ,
+        name: "Pentatonik für Gitarre"
+        path: "/gitarre/ueben/pentatonik/index.html"
+        sections: [
+          name: "Namen der Patterns"
+          path: "/gitarre/ueben/pentatonik/index.html#patternname"
+        ,
+          name: "5 Formen der ~"
+          path: "/gitarre/ueben/pentatonik/index.html#varianten"
+        ,
+          name: "Verbindung der Formen"
+          path: "/gitarre/ueben/pentatonik/index.html#verbindung"
+        ,
+          name: "Bluestonleiter"
+          path: "/gitarre/ueben/pentatonik/index.html#bluesscale"
+        ,
+          name: "Durpentatonik"
+          path: "/gitarre/ueben/pentatonik/index.html#durpenta"
+        ,
+          name: "Zusammenfassung"
+          path: "/gitarre/ueben/pentatonik/index.html#zusammen"
+        ,
+          name: "Three notes per string"
+          path: "/gitarre/ueben/pentatonik/index.html#three"
+        ,
+          name: "Übung für Gitarre"
+          path: "/gitarre/ueben/pentatonik/index.html#pentaueb"
+        ]
+      ,
         name: "Vorspielen & Aufregung"
         path: "/gitarre/ueben/vorspielen/index.html"
         sections: [
@@ -532,6 +607,9 @@ menustructure:
         ,
           name: "Haltung im Sitzen"
           path: "/gitarre/haltung/sitzen/index.html#sitz"
+        ,
+          name: "Haltung in Stichworten"
+          path: "/gitarre/haltung/sitzen/index.html#stichworte"
         ,
           name: "Fußbank oder Stütze"
           path: "/gitarre/haltung/sitzen/index.html#sitzen"
@@ -1557,32 +1635,11 @@ menustructure:
         name: "Pentatonik"
         path: "/musiklehre/tonleitern/pentatonik/index.html"
         sections: [
-          name: "Pentatonik für Gitarre"
-          path: "/musiklehre/tonleitern/pentatonik/index.html#pentagit"
+          name: "Dur oder Moll"
+          path: "/musiklehre/tonleitern/pentatonik/index.html#durmoll"
         ,
-          name: "Namen der Patterns"
-          path: "/musiklehre/tonleitern/pentatonik/index.html#patternname"
-        ,
-          name: "5 Formen der ~"
-          path: "/musiklehre/tonleitern/pentatonik/index.html#varianten"
-        ,
-          name: "Verbindung der Formen"
-          path: "/musiklehre/tonleitern/pentatonik/index.html#verbindung"
-        ,
-          name: "Bluestonleiter"
-          path: "/musiklehre/tonleitern/pentatonik/index.html#bluesscale"
-        ,
-          name: "Durpentatonik"
-          path: "/musiklehre/tonleitern/pentatonik/index.html#durpenta"
-        ,
-          name: "Zusammenfassung"
-          path: "/musiklehre/tonleitern/pentatonik/index.html#zusammen"
-        ,
-          name: "Three notes per string"
-          path: "/musiklehre/tonleitern/pentatonik/index.html#three"
-        ,
-          name: "Übung für Gitarre"
-          path: "/musiklehre/tonleitern/pentatonik/index.html#pentaueb"
+          name: "Keine Halbtonschritte"
+          path: "/musiklehre/tonleitern/pentatonik/index.html#halbton"
         ]
       ,
         name: "Tonartbestimmung"
