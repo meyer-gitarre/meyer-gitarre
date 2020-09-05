@@ -677,17 +677,24 @@ menustructure:
       name: "Stimmen"
       path: "/gitarre/stimmen/index.html"
       children: [
+        name: "Allgemeine Hinweise"
+        path: "/gitarre/stimmen/allgemein/index.html"
+        sections: [
+          name: "Wichtigste Regeln"
+          path: "/gitarre/stimmen/allgemein/index.html#wichtige"
+        ,
+          name: "Zuordnung der Saiten"
+          path: "/gitarre/stimmen/allgemein/index.html#zuordnung"
+        ]
+      ,
         name: "Die 5. Bund-Methode"
         path: "/gitarre/stimmen/fuenfterbund/index.html"
         sections: [
-          name: "allgemeine Hinweise"
-          path: "/gitarre/stimmen/fuenfterbund/index.html#stimmen1"
-        ,
-          name: "Wichtigste Regeln"
-          path: "/gitarre/stimmen/fuenfterbund/index.html#wichtige"
-        ,
           name: "Die 5. Bund-Methode"
           path: "/gitarre/stimmen/fuenfterbund/index.html#stimmen2"
+        ,
+          name: "Probleme"
+          path: "/gitarre/stimmen/fuenfterbund/index.html#probleme"
         ]
       ,
         name: "Die Oberton - Methode"
@@ -695,6 +702,19 @@ menustructure:
         sections: [
           name: "Feinheiten"
           path: "/gitarre/stimmen/oberton/index.html#stimmen4"
+        ]
+      ,
+        name: "Stimm-App"
+        path: "/gitarre/stimmen/stimmapp/index.html"
+        sections: [
+          name: "Neue Technik"
+          path: "/gitarre/stimmen/stimmapp/index.html#neu"
+        ,
+          name: "Einstellungen"
+          path: "/gitarre/stimmen/stimmapp/index.html#einstellen"
+        ,
+          name: "Fehlerquellen"
+          path: "/gitarre/stimmen/stimmapp/index.html#fehler"
         ]
       ,
         name: "Stimmprobleme"
@@ -718,6 +738,9 @@ menustructure:
         ,
           name: "Umstimmen 3=g auf fis"
           path: "/gitarre/stimmen/skordatur/index.html#stimmenfis"
+        ,
+          name: "Renaissancestimmung"
+          path: "/gitarre/stimmen/skordatur/index.html#fisstimmung"
         ]
       ,
         name: "Stimmtöne"
