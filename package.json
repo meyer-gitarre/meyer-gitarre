@@ -25,7 +25,6 @@
     "gulp-install": "^0.4.0",
     "gulp-minify-css": "^1.2.0",
     "gulp-minify-html": "^1.0.3",
-    "gulp-sass": "^2.0.1",
     "gulp-uglify": "^1.2.0",
     "gulp-util": "^3.0.6",
     "haml-coffee": "^1.14.1",

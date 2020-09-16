@@ -70,9 +70,7 @@ gulp.task 'html', (cb) ->
       cb()
 
 gulp.task 'sass', ->
-  gulp.src ['source/stylesheets/main.scss',
-  'source/stylesheets/additional/*.scss']
-    .pipe sass()
+  gulp.src ['source/stylesheets/*.css']
     .pipe if config.production then minifyCSS() else gutil.noop()
     .pipe gulp.dest 'build/stylesheets'
     .pipe browserSync.stream match: '**/*.css'
