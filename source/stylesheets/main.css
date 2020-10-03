@@ -95,6 +95,7 @@ aside {
   display: table-cell;
   float: none; }
 
+/*start of typography*/
 body {
   font-family: Helvetica, Arial, Sans-Serif;
   line-height: 1.6;
@@ -386,7 +387,9 @@ span.code {
   font-size: 1.2em;
   color: navy;
   background-color: #dbdbdb; }
+/*end of typography*/
 
+/*start of design*/
 .defaultColor :not(input), .gitColor :not(input), .bflColor :not(input),
 .musColor :not(input) {
   border-color: inherit; }
@@ -471,7 +474,9 @@ hr {
 
 .musColor hr {
   border-color: #6184eb; }
+/*end of design*/
 
+/*start of images*/
 .imageWrapper {
   width: 100%;
   margin: 0.5em 0 1.5em 0; }
@@ -657,7 +662,9 @@ hr {
 
 .series .imageWrapper:nth-child(even) {
   background-color: #d7e6fd; }
+/*end of images*/
 
+/*start components*/
 #mainHeader {
   min-height: 1.7em;
   background: #d7e6fd;
@@ -666,6 +673,7 @@ hr {
   border-bottom-width: 1px;
   border-radius: 4px 4px 0 0; }
 
+/*start mainNav*/
 #mainNav {
   background-color: #edf3ff;
   background: linear-gradient(to right, #aed0fc, #e3eefc 70%, #bad6fa);
@@ -715,7 +723,8 @@ nav .imageWrapper {
     nav .imageWrapper {
       display: none; } }
 
-/* Breadcrumbs Klappfunktionalität */
+/*end mainNav*/
+/*start Breadcrumbs Klappfunktionalität */
 .breadcrumbs {
   position: relative; }
 
@@ -786,7 +795,8 @@ nav .imageWrapper {
 .breadcrumbs ol {
   list-style-type: none; }
 
-/* Menü Klappfunktionalität */
+/*end breadcrumbs*/
+/* start Menü Klappfunktionalität */
 .menu li {
   position: relative; }
 
@@ -885,7 +895,9 @@ nav .imageWrapper {
 
 .menu .important > li {
   border-top-width: 1px; }
+/*end menu Klappfunktionalität*/
 
+/*start footer*/
 #mainFooter {
   background-color: #EDF3FF;
   background: linear-gradient(to right, #9bc6fc, white 35%, white);
@@ -918,7 +930,9 @@ footer a:link {
 
 footer p {
   margin-top: 0.6em; }
+/*end footer*/
 
+/*star miniMenu*/
 #miniMenuWrapper {
   position: absolute;
   top: 0;
@@ -992,7 +1006,9 @@ footer p {
 #miniMenu li a:hover, #miniMenu li a:focus {
   color: black;
   background: linear-gradient(to right, #5496f8, #d4e5fd); }
+/*end miniMenu*/
 
+/*components continued*/
 #biography {
   font-size: 1em;
   text-align: justify; }
@@ -1039,7 +1055,9 @@ footer p {
 
 #center {
   color: blue; }
+/*end components*/
 
+/*start tooltips*/
 .tooltipS, .tooltipM, .tooltipL, .tooltipX {
   position: relative;
   font-family: Arial, serif;
@@ -1133,6 +1151,7 @@ a {
 
 .add {
   height: auto; }
+/*end tooltips*/
 
 .scrollbox {
   height: 22em;
@@ -1146,6 +1165,7 @@ a {
   padding-bottom: 1em;
   font-size: 1em; }
 
+/*start boxes*/
 .task, .plea, .input, .answer {
   padding: 0.1875em 0.1875em 0 0.1875em;
   margin: 1em 0.25em 1em 0;
@@ -1184,7 +1204,9 @@ a {
   font-style: italic;
   color: #333399;
   padding: 0.5em 0.2em 0.5em 0.2em; }
+/*end boxes*/
 
+/*start glossary*/
 .skippingMarks li {
   font-weight: bold;
   display: inline-block; }
@@ -1211,7 +1233,9 @@ a {
 
 .glossary a:link {
   background-color: initial; }
+/*end glossary*/
 
+/*start solution*/
 .solution {
   display: none;
   box-sizing: content-box;
@@ -1260,9 +1284,10 @@ input[type="checkbox"]:checked + label {
 
 .solution + p {
   margin-top: 1em; }
+/*end solution*/
 
+/*start tables*/
 table {
-  /* §§§§§ TABELLEN §§§§§ */
   background-color: #EDF3FF;
   border-collapse: collapse;
   border: none;
@@ -1316,7 +1341,9 @@ td {
 
 .sequence tbody tr td:nth-child(3) {
   background-color: #e9f1fd; }
+/*end tables*/
 
+/*start musical notation*/
 .mn {
   font-family: Georgia, serif;
   font-style: italic;
@@ -1334,7 +1361,9 @@ td {
 .fig {
   vertical-align: super;
   font-size: 90%; }
+/*end musical notation*/
 
+/*start extraInfo*/
 .show {
   display: inline;
   font-family: Georgia, serif;
@@ -1370,7 +1399,9 @@ td {
   width: 8em;
   top: 0.5em;
   left: -4em; }
+/*end extraInfo*/
 
+/*start taskSeries*/
 .taskSeries ul, .taskSeries div {
   border-style: solid;
   border-width: 1px;
@@ -1390,3 +1421,4 @@ td {
 .taskSeries li {
   list-style: none;
   margin-bottom: 1em; }
+/*end taskSeries*/
