@@ -3,7 +3,8 @@
 
 # keeps git from tracking dachsbau
 /source/meta/dachsbau/*
-/source/meta/Winterlieder.html/*
+/source/meta/linuxmerken/*
+/source/gitarre/video/*
 
 # keeps git from tracking extern
 /extern
