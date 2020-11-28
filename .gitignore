@@ -5,6 +5,7 @@
 /source/meta/dachsbau/*
 /source/meta/linuxmerken/*
 /source/gitarre/video/*
+/source/img/vid/*
 
 # keeps git from tracking extern
 /extern
