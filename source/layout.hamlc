@@ -20,11 +20,11 @@
       %nav#mainNav.clearfix
         .navbar.clearfix
           = @helpers.structure.renderBreadcrumbs(@data.menuStructure)
-          %form{id: 'search', action: 'http://www.crawl-it.de/registration/search.it', method: 'get'}
-            %input{type: 'text', name: 'p_search', size: 18}
-            %input{type: 'submit', value: 'Suche'}
-            %input{type: 'hidden', name: 'p_userid', value: '511107'}
-              %a{href: 'http://www.crawl-it.de/'}
+          %form{id: 'search', action: 'http://www.crawl-it.de/registration/search.it'}
+            %input{type: 'text', name: 'p_search', size: 15}
+            %input{type: 'submit', value: 'Search'}
+            %input{type: 'hidden', name: 'p_userid', value: '526047'}
+              %a{href: 'http://www.crawl-it.de/registration/search.it?p_userid=526047&p_service=NEW'}
         #containerMenuCaption
           #menuContainer
             = @helpers.structure.renderMenuDefault(@data.menuStructure)
