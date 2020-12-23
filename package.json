@@ -9,26 +9,6 @@
   "author": "Aljoscha Meyer <aljoscha.meyer@uni-oldenburg.de>",
   "license": "ISC",
   "devDependencies": {
-    "browser-sync": "^2.7.12",
-    "coffee-script": "^1.9.3",
-    "cson": "^3.0.1",
-    "del": "^1.2.0",
-    "glob": "^5.0.13",
-    "gulp": "^3.9.0",
-    "gulp-coffee": "^2.3.1",
-    "gulp-concat": "^2.6.0",
-    "gulp-cson": "^0.3.0",
-    "gulp-file": "^0.2.0",
-    "gulp-front-matter": "^1.2.3",
-    "gulp-haml-coffee": "0.0.6",
-    "gulp-html-prettify": "0.0.1",
-    "gulp-install": "^0.4.0",
-    "gulp-minify-css": "^1.2.0",
-    "gulp-minify-html": "^1.0.3",
-    "gulp-uglify": "^1.2.0",
-    "gulp-util": "^3.0.6",
-    "haml-coffee": "^1.14.1",
-    "html-frontmatter": "^1.5.1",
-    "run-sequence": "^1.1.1"
+    "html-frontmatter": "^1.5.1"
   }
 }
