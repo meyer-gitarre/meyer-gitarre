@@ -1,9 +1,16 @@
 const fs = require("fs");
 const path = require("path");
 
-const fm = require("html-frontmatter");
-
 const mstructure = require("./menustructure.json");
+
+function escape_html(input) {
+  return input.replace(/["]/g, (char) => {
+    switch (char) {
+      case `"`:
+        return "&quot;";
+    }
+  });
+}
 
 function preprocess_entry(entry) {
   if (!entry.children) {
@@ -446,12 +453,36 @@ function copy_files(filenames) {
   });
 }
 
+function separate_frontmatter(input) {
+  const regexp = /^[\s]*<!--([\s\S]*?)-->([\s\S]*)/g;
+  const match = regexp.exec(input);
+  if (match) {
+    return {
+      frontmatter: match[1],
+      content: match[2],
+    };
+  } else {
+    return {
+      frontmatter: "{}",
+      content: input,
+    };
+  }
+}
+
 const all_sources = getAllFiles("source", []);
 all_sources.forEach((filename) => {
   if (path.extname(filename) === ".html") {
     const inner = fs.readFileSync(filename, "utf8");
-    let frontmatter = fm(inner);
-    let rendered = render_main_template(inner, frontmatter);
+
+    const data = separate_frontmatter(inner);
+    const frontmatter = JSON.parse(data.frontmatter);
+    const content = data.content;
+
+    frontmatter.title = escape_html(frontmatter.title);
+    frontmatter.description = escape_html(frontmatter.description);
+    frontmatter.intro = escape_html(frontmatter.intro);
+
+    let rendered = render_main_template(content, frontmatter);
     new_filename = filename.replace(/\/source\//, '/build/');
     ensure_directory_existence(new_filename);
     fs.writeFileSync(new_filename, rendered);

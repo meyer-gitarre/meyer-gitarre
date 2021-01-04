@@ -225,7 +225,7 @@ em {
   color: #1443cc; }
 
 strong {
-  font-family: Georgia, serif;
+   font-family: Georgia, serif;
   font-weight: bold;
   font-size: 1em;
   color: #166f16; }
@@ -361,8 +361,8 @@ span.orange {
 span.red {
   color: red; }
 
-span.lred {
-  background-color: #fee3ff; }
+span.yellow {
+  background-color: #fdfd96; }
 
 span.dred {
   color: #B20000; }
@@ -492,7 +492,7 @@ hr {
 
 .img740, .img700, .img660, .img640, .img630, .img615, .img600, .img580, .img565, .img550, .img540, .img530, .img520, .img510, .img500, .img490, .img480, .img470, .img460, .img450, .img440, .img430, .img420, .img410, .img400, .img390, .img380, .img370, .img360, .img350, .img340, .img330, .img320, .img310, .img300, .img290, .img280, .img270, .img260, .img250, .img240, .img230, .img215, .img210, .img200, .img190, .img180, .img160, .img150, .img140, .img130, .img100, .img80, .img20 {
   float: left;
-  margin: 0.25em 0.6em 0.5em 0; }
+  margin: 0.25em 0.6em 1.5em 0; }
 
 .img740 {
   width: 86.046%; }
@@ -658,10 +658,12 @@ hr {
 
 .floatedRight {
   float: right;
-  margin: 0.25em 0 0.5em 0.6em; }
+  margin: 0.25em 0 1.5em 0.6em; }
 
 .series .imageWrapper:nth-child(even) {
   background-color: #d7e6fd; }
+
+.series { margin-bottom: 1.5em }
 /*end of images*/
 
 /*start components*/
@@ -837,10 +839,10 @@ nav .imageWrapper {
   background: linear-gradient(to right, #5997e7, #2d7fe0 45%, #5997e7); }
 
 .musColor .menu li {
-  background: linear-gradient(to right, #7895ee, #597eeb, #7895ee); }
+  background: linear-gradient(to right, #7895ee, #597eeb 45%, #7895ee); }
 
 .bflColor .menu li {
-  background: linear-gradient(to right, #549dce, #348fcf, #549dce); }
+  background: linear-gradient(to right, #549dce, #348fcf 45%, #549dce); }
 
 .menu li:last-child {
   border-bottom-width: 1px; }

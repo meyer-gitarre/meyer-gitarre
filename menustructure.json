@@ -829,16 +829,40 @@
                   "path": "/gitarre/haltung/sitzen/index.html#haltung"
                 },
                 {
+                  "name": "Vorüberlegungen",
+                  "path": "/gitarre/haltung/sitzen/index.html#praemissen"
+                },
+                {
                   "name": "Haltung im Sitzen",
                   "path": "/gitarre/haltung/sitzen/index.html#sitz"
                 },
                 {
-                  "name": "Haltung in Stichworten",
-                  "path": "/gitarre/haltung/sitzen/index.html#stichworte"
+                  "name": "Haltung mit Fußbank",
+                  "path": "/gitarre/haltung/sitzen/index.html#fussbank"
                 },
                 {
-                  "name": "Fußbank oder Stütze",
-                  "path": "/gitarre/haltung/sitzen/index.html#sitzen"
+                  "name": "Haltung mit Gitarrenstütze",
+                  "path": "/gitarre/haltung/sitzen/index.html#stuetze"
+                },
+                {
+                  "name": "Haltung mit Gurt",
+                  "path": "/gitarre/haltung/sitzen/index.html#gurt"
+                },
+                {
+                  "name": "Die Schultern",
+                  "path": "/gitarre/haltung/sitzen/index.html#schultern"
+                },
+                {
+                  "name": "Der Kopf",
+                  "path": "/gitarre/haltung/sitzen/index.html#kopf"
+                },
+                {
+                  "name": "Kontaktpunkte",
+                  "path": "/gitarre/haltung/sitzen/index.html#kontakt"
+                },
+                {
+                  "name": "Haltung in Stichworten",
+                  "path": "/gitarre/haltung/sitzen/index.html#stichworte"
                 }
               ]
             },
@@ -846,6 +870,10 @@
               "name": "Anschlagshand",
               "path": "/gitarre/haltung/anschlag/index.html",
               "sections": [
+                {
+                  "name": "Handhaltung",
+                  "path": "/gitarre/haltung/anschlag/index.html#halthand"
+                },
                 {
                   "name": "anglegter Anschlag",
                   "path": "/gitarre/haltung/anschlag/index.html#apoyando"
@@ -885,6 +913,10 @@
               "path": "/gitarre/haltung/greifhand/index.html",
               "sections": [
                 {
+                  "name": "Handhaltung",
+                  "path": "/gitarre/haltung/greifhand/index.html#haltungrechts"
+                },
+                {
                   "name": "Greifen - Beispiel",
                   "path": "/gitarre/haltung/greifhand/index.html#greifen"
                 }
@@ -907,18 +939,108 @@
             {
               "name": "Haltungsfehler",
               "path": "/gitarre/haltung/fehler/index.html",
-              "sections": [
+              "children": [
                 {
-                  "name": "Körper",
+                  "name": "Haltungsfehler",
                   "path": "/gitarre/haltung/fehler/index.html#fehler"
                 },
                 {
+                  "name": "Körper",
+                  "path": "/gitarre/haltung/fehler/index.html#koerper",
+                  "sections": [
+                    {
+                      "name": "Ohne Fußbank",
+                      "path": "/gitarre/haltung/fehler/index.html#ohnefussbank"
+                    },
+                    {
+                      "name": "Beine überkreuz",
+                      "path": "/gitarre/haltung/fehler/index.html#beinekreuz"
+                    },
+                    {
+                      "name": "Fußbankersatz",
+                      "path": "/gitarre/haltung/fehler/index.html#bankersatz"
+                    },
+                    {
+                      "name": "Rücken krumm",
+                      "path": "/gitarre/haltung/fehler/index.html#krumm"
+                    }
+                  ]
+                },
+                {
+                  "name": "Stuhl",
+                  "path": "/gitarre/haltung/fehler/index.html#stuhl",
+                  "sections": [
+                    {
+                      "name": "Stuhl zu hoch",
+                      "path": "/gitarre/haltung/fehler/index.html#stuhlhoch"
+                    },
+                    {
+                      "name": "Gitarre festhalten",
+                      "path": "/gitarre/haltung/fehler/index.html#festhalten"
+                    },
+                    {
+                      "name": "Rechter Fuß instabil",
+                      "path": "/gitarre/haltung/fehler/index.html#instabil"
+                    },
+                    {
+                      "name": "Rücken krumm",
+                      "path": "/gitarre/haltung/fehler/index.html#krumm"
+                    }
+                  ]
+                },
+                {
+                  "name": "Gitarrengröße",
+                  "path": "/gitarre/haltung/fehler/index.html#groesse",
+                  "sections": [
+                    {
+                      "name": "Gitarre zu klein",
+                      "path": "/gitarre/haltung/fehler/index.html#zuklein"
+                    },
+                    {
+                      "name": "Gitarre zu groß",
+                      "path": "/gitarre/haltung/fehler/index.html#beinezueng"
+                    }
+                  ]
+                },
+                {
                   "name": "Greifhand",
-                  "path": "/gitarre/haltung/fehler/index.html#greifhand"
+                  "path": "/gitarre/haltung/fehler/index.html#greifhand",
+                  "sections": [
+                    {
+                      "name": "Gitarre zu flach",
+                      "path": "/gitarre/haltung/fehler/index.html#gitarreflach"
+                    },
+                    {
+                      "name": "Daumen der Greifhand",
+                      "path": "/gitarre/haltung/fehler/index.html#daumengreif"
+                    }
+                  ]
                 },
                 {
                   "name": "Anschlagshand",
-                  "path": "/gitarre/haltung/fehler/index.html#anschlagshand"
+                  "path": "/gitarre/haltung/fehler/index.html#anschlagshand",
+                  "sections": [
+                    {
+                      "name": "Oberarm auf Zarge",
+                      "path": "/gitarre/haltung/fehler/index.html#zarge"
+                    },
+                    {
+                      "name": "Anschlagshand flach",
+                      "path": "/gitarre/haltung/fehler/index.html#handflach"
+                    },
+                    {
+                      "name": "Schulter nach vorne",
+                      "path": "/gitarre/haltung/fehler/index.html#schultervor"
+                    },
+                    {
+                      "name": "Hand stabilisiert",
+                      "path": "/gitarre/haltung/fehler/index.html#stabilisiert"
+                    }
+                  ]
+                },
+                {
+                  "name": "Stilfragen",
+                  "path": "/gitarre/haltung/fehler/index.html#stilfrage"
                 }
               ]
             }
