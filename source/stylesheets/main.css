@@ -132,7 +132,7 @@ h3 {
   padding: 0.25em;
   margin-bottom: 1.5em;
   background-color: #1c7efa;
-  background: linear-gradient(to right, #aed0fc, #e3eefc 70%, #bad6fa);
+  background: linear-gradient(to right, #99bae4, #d8e4f5 70%, #bfd1e7);
   border-style: solid;
   border-width: 1px;
   border-radius: 0.3125em; }
@@ -225,7 +225,7 @@ em {
   color: #1443cc; }
 
 strong {
-   font-family: Georgia, serif;
+  font-family: Georgia, serif;
   font-weight: bold;
   font-size: 1em;
   color: #166f16; }
@@ -333,9 +333,6 @@ span.blue {
 span.lblue {
   color: #99ccff; }
 
-span.lblueb {
-  background-color: #d7e6fd; }
-
 span.navy {
   color: navy; }
 
@@ -395,20 +392,20 @@ span.code {
   border-color: inherit; }
 
 .defaultColor {
-  border-color: #1171e3; }
+  border-color: #0e67d1; }
 
 .gitColor {
-  border-color: #0068e3; }
+  border-color: #0e67d1; }
 
 .bflColor {
-  border-color: #2187cf; }
+  border-color: #077ab9; }
 
 .musColor {
-  border-color: #5279eb; }
+  border-color: #3563cc; }
 
 html {
   background: #5496F8;
-  background: linear-gradient(to right, #5496F8, white 12.5%, white); }
+  background: linear-gradient(to right, #1f63b1, white 12.5%, white); }
 
 #wrapper {
   background-color: #EDF3FF;
@@ -464,16 +461,16 @@ hr {
   clear: both; }
 
 .defaultColor hr {
-  border-color: #1171e3; }
+  border-color: #0e67d1; }
 
 .gitColor hr {
-  border-color: #1171e3; }
+  border-color: #0e67d1; }
 
 .bflColor hr {
-  border-color: #4094cf; }
+  border-color: #077ab9; }
 
 .musColor hr {
-  border-color: #6184eb; }
+  border-color: #3563cc; }
 /*end of design*/
 
 /*start of images*/
@@ -670,7 +667,7 @@ hr {
 #mainHeader {
   min-height: 1.7em;
   background: #d7e6fd;
-  background: linear-gradient(to right, #aed0fc, #e3eefc 70%, #bad6fa);
+  background: linear-gradient(to right, #99bae4, #d8e4f5 70%, #bfd1e7);
   border-bottom-style: solid;
   border-bottom-width: 1px;
   border-radius: 4px 4px 0 0; }
@@ -678,7 +675,7 @@ hr {
 /*start mainNav*/
 #mainNav {
   background-color: #edf3ff;
-  background: linear-gradient(to right, #aed0fc, #e3eefc 70%, #bad6fa);
+  background: linear-gradient(to right, #99bae4, #d8e4f5 70%, #bfd1e7);
   border-bottom: 1px solid #1171e3;
   padding-top: 0.125em;
   padding-bottom: 0.5em; }
@@ -743,22 +740,22 @@ nav .imageWrapper {
   margin-bottom: 0; }
 
 .defaultColor .breadcrumbs li, .gitColor .breadcrumbs li {
-  background-color: #2d7fe0; }
+  background-color: #0e67d1; }
 
 .musColor .breadcrumbs li {
-  background-color: #597eeb; }
+  background-color: #295cc4; }
 
 .bflColor .breadcrumbs li {
-  background-color: #348fcf; }
+  background-color: #0073b1; }
 
 .defaultColor .breadcrumbs > li ol, .gitColor .breadcrumbs > li ol {
-  background-color: #2d7fe0; }
+  background-color: #0e67d1; }
 
 .musColor .breadcrumbs > li ol {
-  background-color: #597eeb; }
+  background-color: #295cc4; }
 
 .bflColor .breadcrumbs > li ol {
-  background-color: #348fcf; }
+  background-color: #0073b1; }
 
 .breadcrumbs > li {
   color: #edf3ff;
@@ -836,13 +833,13 @@ nav .imageWrapper {
 
 .defaultColor .menu li,
 .gitColor .menu li {
-  background: linear-gradient(to right, #5997e7, #2d7fe0 45%, #5997e7); }
+  background: linear-gradient(to right, #2d7fe0, #0e67d1 45%, #2d7fe0); }
 
 .musColor .menu li {
-  background: linear-gradient(to right, #7895ee, #597eeb 45%, #7895ee); }
+  background: linear-gradient(to right, #4d74e0, #295cc4 45%, #4d74e0); }
 
 .bflColor .menu li {
-  background: linear-gradient(to right, #549dce, #348fcf 45%, #549dce); }
+  background: linear-gradient(to right, #2385c4, #0073b1 45%, #2385c4); }
 
 .menu li:last-child {
   border-bottom-width: 1px; }
@@ -902,7 +899,7 @@ nav .imageWrapper {
 /*start footer*/
 #mainFooter {
   background-color: #EDF3FF;
-  background: linear-gradient(to right, #9bc6fc, white 35%, white);
+  background: linear-gradient(to right, #99bae4, #d8e4f5 70%, #bfd1e7);
   border-top-style: solid;
   border-top-width: 1px;
   text-align: center;
@@ -968,16 +965,16 @@ footer p {
   font-size: 115%; }
 
 .defaultColor #miniMenu a {
-  background: linear-gradient(to right, #5997e7, #2d7fe0 45%, #5997e7); }
+  background: linear-gradient(to right, #2d7fe0, #0e67d1 45%, #2d7fe0); }
 
 .gitColor #miniMenu a {
-  background: linear-gradient(to right, #5997e7, #2d7fe0 45%, #5997e7); }
+  background: linear-gradient(to right, #2d7fe0, #0e67d1 45%, #2d7fe0); }
 
 .musColor #miniMenu a {
-  background: linear-gradient(to right, #7895ee, #597eeb, #7895ee); }
+  background: linear-gradient(to right, #4d74e0, #295cc4 45%, #4d74e0); }
 
 .bflColor #miniMenu a {
-  background: linear-gradient(to right, #549dce, #348fcf, #549dce); }
+  background: linear-gradient(to right, #2385c4, #0073b1 45%, #2385c4); }
 
 #miniMenu ul {
   position: absolute;
@@ -1298,7 +1295,7 @@ table {
   margin-bottom: 1em; }
 
 thead {
-  background: linear-gradient(to right, #9bc6fc, #d8e8fc 55%, #a4c9f9);
+  background: linear-gradient(to right, #99bae4, #d8e4f5 70%, #bfd1e7);
   text-align: left; }
 
 tfoot {
@@ -1306,8 +1303,7 @@ tfoot {
   color: black;
   font-size: 100%;
   border-style: solid;
-  border-top: 1px blue;
-  border-radius: 5px; }
+  border-top: 1px blue; }
 
 th {
   font-weight: bold;

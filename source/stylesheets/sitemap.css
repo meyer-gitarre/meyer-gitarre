@@ -20,12 +20,12 @@
 #sitemap > div > a {
   color: black;
   font-weight: bold;
-  background: linear-gradient(to right, #5496f8, #d4e5fd);
+  background-color: #99bae4;
   margin-bottom: 0.5em; }
 
 #sitemap > div > ol li > a {
   font-weight: bold;
-  font-family: Georgia;
+/*  font-family: Georgia;*/
   letter-spacing: 0.1em;
   text-decoration: underline; }
 
@@ -39,13 +39,13 @@
   font-weight: normal; }
 
 #sitemap > div:nth-child(1) ol a {
-  background: linear-gradient(to right, #5997e7, #3885e0 45%, #5997e7); }
+  background: linear-gradient(to right, #2d7fe0, #0e67d1 45%, #2d7fe0); }
 
 #sitemap > div:nth-child(2) ol a {
-  background: linear-gradient(to right, #7895ee, #6184eb, #7895ee); }
+  background: linear-gradient(to right, #597eeb, #3563cc 45%, #597eeb); }
 
 #sitemap > div:nth-child(3) ol a {
-  background: linear-gradient(to right, #549dce, #4094cf, #549dce); }
+  background: linear-gradient(to right, #348fcf, #077ab9 45%, #348fcf); }
 
 #sitemap > div a:only-child {
   color: #eeeeee;
