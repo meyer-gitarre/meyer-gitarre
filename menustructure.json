@@ -1497,16 +1497,24 @@
                   "path": "/gitarre/griffbrett/toene/index.html#dasgitarrengriffbrett"
                 },
                 {
-                  "name": "~ im Bass- & Altschlüssel",
-                  "path": "/gitarre/griffbrett/toene/index.html#gitimbass"
-                },
-                {
                   "name": "~ als PDF-Datei",
                   "path": "/pdf/griffbrett.pdf"
                 },
                 {
-                  "name": "als PDF chromatisch",
+                  "name": "~ als PDF chromatisch",
                   "path": "/pdf/griffbrettchrom.pdf"
+                },
+                {
+                  "name": "~ im Bass- & Altschlüssel",
+                  "path": "/gitarre/griffbrett/toene/index.html#gitimbass"
+                },
+                {
+                  "name": "Erste Lerntipps",
+                  "path": "/gitarre/griffbrett/toene/index.html#erstetipps"
+                },
+                {
+                  "name": "Töne auf Saiten",
+                  "path": "/gitarre/griffbrett/toene/index.html#aufsaiten"
                 }
               ]
             },
