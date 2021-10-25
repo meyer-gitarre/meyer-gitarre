@@ -2067,8 +2067,16 @@
                   "path": "/musiklehre/grundlagen/bass-alt/index.html#bassschluessel"
                 },
                 {
+                  "name": "Klavierakkolade",
+                  "path": "/musiklehre/grundlagen/bass-alt/index.html#akkolade"
+                },
+                {
                   "name": "Altschlüssel",
                   "path": "/musiklehre/grundlagen/bass-alt/index.html#altschluessel"
+                },
+                {
+                  "name": "Berührungspunkte",
+                  "path": "/musiklehre/grundlagen/bass-alt/index.html#treffpunkte"
                 }
               ]
             },
@@ -3889,6 +3897,10 @@
                 {
                   "name": "LilyPond Notensatz",
                   "path": "/musiklehre/musik-text/schreiben/index.html#notenschreiben"
+                },
+                {
+                  "name": "Linux nutzen",
+                  "path": "/musiklehre/musik-text/schreiben/index.html#linux"
                 },
                 {
                   "name": "Online-Unterricht",
