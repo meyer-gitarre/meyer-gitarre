@@ -106,7 +106,7 @@ section > p, article > p, aside > p {
   text-align: justify; }
 
 section > .pseudoP, article > .pseudoP, aside > .pseudoP {
-  font-size: 1.1em;
+  font-size: 1.2em;
   text-align: justify; }
 
 p, .pseudoP {
@@ -1010,6 +1010,7 @@ footer p {
 /*components continued*/
 #biography {
   font-size: 1em;
+  line-height: 1.5em;
   text-align: justify; }
 
 #fifths {
@@ -1162,7 +1163,7 @@ a {
 
 .scrollbox li {
   padding-bottom: 1em;
-  font-size: 1em; }
+  font-size: 1.1em; }
 
 /*start boxes*/
 .task, .plea, .input, .answer {
@@ -1345,7 +1346,7 @@ td {
 .mn {
   font-family: Georgia, serif;
   font-style: italic;
-  font-size: 1.1em;
+  font-size: 1.05em;
   color: #5200A3; }
 
 .oblique {
