@@ -47,6 +47,44 @@
               ]
             },
             {
+              "name": "Qualität und Preise",
+              "path": "/gitarre/instrument/qualitaet/index.html",
+              "sections": [
+                {
+                  "name": "Klang",
+                  "path": "/gitarre/instrument/qualitaet/index.html#klang"
+                },
+                {
+                  "name": "Technische Probleme",
+                  "path": "/gitarre/instrument/qualitaet/index.html#technikproblem"
+                },
+                {
+                  "name": "Die Konstruktion",
+                  "path": "/gitarre/instrument/qualitaet/index.html#konstruktion"
+                },
+                {
+                  "name": "Saitenlage",
+                  "path": "/gitarre/instrument/qualitaet/index.html#saitenlage"
+                },
+                {
+                  "name": "Hals & Griffbrett",
+                  "path": "/gitarre/instrument/qualitaet/index.html#stahlstab"
+                },
+                {
+                  "name": "Aussehen",
+                  "path": "/gitarre/instrument/qualitaet/index.html#aussehen"
+                },
+                {
+                  "name": "Massivholz",
+                  "path": "/gitarre/instrument/qualitaet/index.html#massiv"
+                },
+                {
+                  "name": "Gitarre einspielen",
+                  "path": "/gitarre/instrument/qualitaet/index.html#einspielen"
+                }
+              ]
+            },
+            {
               "name": "Größe der Gitarre",
               "path": "/gitarre/instrument/groesse/index.html",
               "sections": [
@@ -103,6 +141,40 @@
                 {
                   "name": "Mensur oder Saitenlänge",
                   "path": "/gitarre/instrument/kinder/index.html#mensurkind"
+                }
+              ]
+            },
+            {
+              "name": "Kauftipps",
+              "path": "/gitarre/instrument/kauftipps/index.html",
+              "sections": [
+                {
+                  "name": "Tipps zum Gitarrenkauf",
+                  "path": "/gitarre/instrument/kauftipps/index.html#tipps"
+                },
+                {
+                  "name": "Qualität überprüfen",
+                  "path": "/gitarre/instrument/kauftipps/index.html#pruefen"
+                },
+                {
+                  "name": "Gebrauchte Gitarre",
+                  "path": "/gitarre/instrument/kauftipps/index.html#gebraucht"
+                },
+                {
+                  "name": "Preisgrenzen",
+                  "path": "/gitarre/instrument/kauftipps/index.html#preisgrenze"
+                },
+                {
+                  "name": "Musikgeschäfte",
+                  "path": "/gitarre/instrument/kauftipps/index.html#anprobe"
+                },
+                {
+                  "name": "Gitarrenladen",
+                  "path": "/gitarre/instrument/kauftipps/index.html#laden"
+                },
+                {
+                  "name": "Wert und Verlust",
+                  "path": "/gitarre/instrument/kauftipps/index.html#wert"
                 }
               ]
             },
@@ -185,78 +257,6 @@
                 {
                   "name": "Werktreue & Bearbeitung",
                   "path": "/gitarre/unterricht/material/index.html#werktreue"
-                }
-              ]
-            },
-            {
-              "name": "Qualität und Preise",
-              "path": "/gitarre/instrument/qualitaet/index.html",
-              "sections": [
-                {
-                  "name": "Klang",
-                  "path": "/gitarre/instrument/qualitaet/index.html#klang"
-                },
-                {
-                  "name": "Technische Probleme",
-                  "path": "/gitarre/instrument/qualitaet/index.html#technikproblem"
-                },
-                {
-                  "name": "Die Konstruktion",
-                  "path": "/gitarre/instrument/qualitaet/index.html#konstruktion"
-                },
-                {
-                  "name": "Saitenlage",
-                  "path": "/gitarre/instrument/qualitaet/index.html#saitenlage"
-                },
-                {
-                  "name": "Hals & Griffbrett",
-                  "path": "/gitarre/instrument/qualitaet/index.html#stahlstab"
-                },
-                {
-                  "name": "Aussehen",
-                  "path": "/gitarre/instrument/qualitaet/index.html#aussehen"
-                },
-                {
-                  "name": "Massivholz",
-                  "path": "/gitarre/instrument/qualitaet/index.html#massiv"
-                },
-                {
-                  "name": "Gitarre einspielen",
-                  "path": "/gitarre/instrument/qualitaet/index.html#einspielen"
-                }
-              ]
-            },
-            {
-              "name": "Kauftipps",
-              "path": "/gitarre/instrument/kauftipps/index.html",
-              "sections": [
-                {
-                  "name": "Tipps zum Gitarrenkauf",
-                  "path": "/gitarre/instrument/kauftipps/index.html#tipps"
-                },
-                {
-                  "name": "Qualität überprüfen",
-                  "path": "/gitarre/instrument/kauftipps/index.html#pruefen"
-                },
-                {
-                  "name": "Gebrauchte Gitarre",
-                  "path": "/gitarre/instrument/kauftipps/index.html#gebraucht"
-                },
-                {
-                  "name": "Preisgrenzen",
-                  "path": "/gitarre/instrument/kauftipps/index.html#preisgrenze"
-                },
-                {
-                  "name": "Musikgeschäfte",
-                  "path": "/gitarre/instrument/kauftipps/index.html#anprobe"
-                },
-                {
-                  "name": "Gitarrenladen",
-                  "path": "/gitarre/instrument/kauftipps/index.html#laden"
-                },
-                {
-                  "name": "Wert und Verlust",
-                  "path": "/gitarre/instrument/kauftipps/index.html#wert"
                 }
               ]
             },
@@ -1010,7 +1010,7 @@
                     },
                     {
                       "name": "Gitarre zu groß",
-                      "path": "/gitarre/haltung/fehler/index.html#beinezueng"
+                      "path": "/gitarre/haltung/fehler/index.html#zugross"
                     }
                   ]
                 },

@@ -279,7 +279,7 @@ function render_badger(data) {
   if ((data.menuStructure && data.menuStructure.length > 1) || title === "Impressum" || title === "Sitemap" || title === "Datenschutz") {
     return `<div class='exBorder floatedRight imageWrapper img200'>
               <a href='/index.html'>
-                <img src='/img/Dachsgr1.jpg' alt='Gitarrendachs'>
+                <img src='/img/Dachsgr4.jpg' alt='Gitarrendachs'>
               </a>
             </div>`;
   } else {
