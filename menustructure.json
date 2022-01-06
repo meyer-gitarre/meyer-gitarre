@@ -1923,6 +1923,10 @@
                       "path": "/musiklehre/grundlagen/notenlinien/index.html#leslern"
                     },
                     {
+                      "name": "Hilfslinien üben",
+                      "path": "/musiklehre/grundlagen/notenlinien/index.html#hilfsueb"
+                    },
+                    {
                       "name": "Akzidentien",
                       "path": "/musiklehre/grundlagen/akzidentien/index.html#uebakzidens"
                     },
@@ -1989,8 +1993,8 @@
               "path": "/musiklehre/grundlagen/notenlinien/index.html",
               "sections": [
                 {
-                  "name": "Konkret oder abstrakt",
-                  "path": "/musiklehre/grundlagen/notenlinien/index.html#konkret"
+                  "name": "Allgemeine Notenschrift",
+                  "path": "/musiklehre/grundlagen/notenlinien/index.html#allgemein"
                 },
                 {
                   "name": "Linien & Stammtöne",
@@ -2001,20 +2005,36 @@
                   "path": "/musiklehre/grundlagen/notenlinien/index.html#violinschluessel"
                 },
                 {
-                  "name": "Schreibkonventionen",
-                  "path": "/musiklehre/grundlagen/notenlinien/index.html#konvention"
-                },
-                {
-                  "name": "Aussehen der Note",
-                  "path": "/musiklehre/grundlagen/notenlinien/index.html#welchenote"
-                },
-                {
                   "name": "Noten lesen lernen",
                   "path": "/musiklehre/grundlagen/notenlinien/index.html#leslern"
                 },
                 {
                   "name": "Hilfslinien",
                   "path": "/musiklehre/grundlagen/notenlinien/index.html#hilfslin"
+                },
+                {
+                  "name": "Verschiedene Oktaven",
+                  "path": "/musiklehre/grundlagen/notenlinien/index.html#oktaven"
+                },
+                {
+                  "name": "Oktavierende Schlüssel",
+                  "path": "/musiklehre/grundlagen/notenlinien/index.html#oktaviert"
+                },
+                {
+                  "name": "Aussehen der Note",
+                  "path": "/musiklehre/grundlagen/notenlinien/index.html#welchenote"
+                },
+                {
+                  "name": "Schreibkonventionen",
+                  "path": "/musiklehre/grundlagen/notenlinien/index.html#konvention"
+                },
+                {
+                  "name": "Umwege",
+                  "path": "/musiklehre/grundlagen/notenlinien/index.html#umweg"
+                },
+                {
+                  "name": "Konkrete Notenschriften",
+                  "path": "/musiklehre/grundlagen/notenlinien/index.html#konkret"
                 }
               ]
             },
@@ -2219,6 +2239,10 @@
                     {
                       "name": "Noten lesen lernen",
                       "path": "/musiklehre/grundlagen/notenlinien/index.html#leslern"
+                    },
+                    {
+                      "name": "Hilfslinien üben",
+                      "path": "/musiklehre/grundlagen/notenlinien/index.html#hilfsueb"
                     },
                     {
                       "name": "Akzidentien",
