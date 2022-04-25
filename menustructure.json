@@ -3859,84 +3859,84 @@
               ]
             },
             {
-              "name": "Glossen",
-              "path": "/musiklehre/musik-text/glossen/index.html",
+              "name": "Instrument: Texte",
+              "path": "/musiklehre/musik-text/instrument/index.html",
               "sections": [
                 {
                   "name": "Gitarre und Musiktheorie",
-                  "path": "/musiklehre/musik-text/glossen/index.html#gittheorie"
+                  "path": "/musiklehre/musik-text/instrument/index.html#gittheorie"
                 },
                 {
                   "name": "Gitarre als Geschenk",
-                  "path": "/musiklehre/musik-text/glossen/index.html#geschenk"
+                  "path": "/musiklehre/musik-text/instrument/index.html#geschenk"
                 },
                 {
                   "name": "Weihnachtslieder",
-                  "path": "/musiklehre/musik-text/glossen/index.html#allejahre"
+                  "path": "/musiklehre/musik-text/instrument/index.html#allejahre"
                 },
                 {
                   "name": "Zeit zu üben",
-                  "path": "/musiklehre/musik-text/glossen/index.html#beethoven"
+                  "path": "/musiklehre/musik-text/instrument/index.html#beethoven"
                 },
                 {
                   "name": "Instrumentenbau: Ästhetik",
-                  "path": "/musiklehre/musik-text/glossen/index.html#aesthetik"
+                  "path": "/musiklehre/musik-text/instrument/index.html#aesthetik"
                 }
               ]
             },
             {
-              "name": "Texte",
-              "path": "/musiklehre/musik-text/texte/index.html",
+              "name": "Lernen: Texte",
+              "path": "/musiklehre/musik-text/lernen/index.html",
               "sections": [
                 {
                   "name": "Frühförderung",
-                  "path": "/musiklehre/musik-text/texte/index.html#frueh"
+                  "path": "/musiklehre/musik-text/lernen/index.html#frueh"
                 },
                 {
                   "name": "Begabung & Förderung",
-                  "path": "/musiklehre/musik-text/texte/index.html#begabung"
+                  "path": "/musiklehre/musik-text/lernen/index.html#begabung"
                 },
                 {
                   "name": "Ende der Kindheit",
-                  "path": "/musiklehre/musik-text/texte/index.html#selbst"
+                  "path": "/musiklehre/musik-text/lernen/index.html#selbst"
                 },
                 {
                   "name": "Hausaufgaben",
-                  "path": "/musiklehre/musik-text/texte/index.html#hausauf"
+                  "path": "/musiklehre/musik-text/lernen/index.html#hausauf"
                 },
                 {
                   "name": "Kampf um Bildung",
-                  "path": "/musiklehre/musik-text/texte/index.html#bildung"
+                  "path": "/musiklehre/musik-text/lernen/index.html#bildung"
                 },
                 {
                   "name": "Digitalisierungshype",
-                  "path": "/musiklehre/musik-text/texte/index.html#digital"
+                  "path": "/musiklehre/musik-text/lernen/index.html#digital"
                 }
               ]
             },
             {
-              "name": "Schreiben",
-              "path": "/musiklehre/musik-text/schreiben/index.html",
+              "name": "Digitales: Texte",
+              "path": "/musiklehre/musik-text/digital/index.html",
               "sections": [
                 {
                   "name": "10 Jahre Webseite",
-                  "path": "/musiklehre/musik-text/schreiben/index.html#zehnjahre"
+                  "path": "/musiklehre/musik-text/digital/index.html#zehnjahre"
                 },
                 {
                   "name": "LilyPond Notensatz",
-                  "path": "/musiklehre/musik-text/schreiben/index.html#notenschreiben"
+                  "path": "/musiklehre/musik-text/digital/index.html#notenschreiben"
                 },
                 {
                   "name": "Linux nutzen",
-                  "path": "/musiklehre/musik-text/schreiben/index.html#linux"
+                  "path": "/musiklehre/musik-text/digital/index.html#linux"
                 },
                 {
                   "name": "Online-Unterricht",
-                  "path": "/musiklehre/musik-text/schreiben/index.html#video"
+                  "path": "/musiklehre/musik-text/digital/index.html#video"
                 },
                 {
                   "name": "Videounterricht: Tipps",
-                  "path": "/musiklehre/musik-text/schreiben/index.html#tippsvideo"
+                  "path": "/musiklehre/musik-text/digital/index.html#tippsvideo"
                 }
               ]
             }
