@@ -311,10 +311,6 @@
                   "path": "/gitarre/unterricht/lernen/index.html#verlauf"
                 },
                 {
-                  "name": "Unterrichtskonzepte",
-                  "path": "/gitarre/unterricht/lernen/index.html#konzept"
-                },
-                {
                   "name": "Ziele und Wege",
                   "path": "/gitarre/unterricht/lernen/index.html#ziele"
                 }
@@ -1853,6 +1849,14 @@
             {
               "name": "Klang manipulieren",
               "path": "/gitarre/musikbeispiele/index.html#equalizer"
+            },
+            {
+              "name": "Notenbeispiele",
+              "path": "/gitarre/musikbeispiele/index.html#stueckegitarre"
+            },
+            {
+              "name": "Schultheater",
+              "path": "/gitarre/musikbeispiele/index.html#schultheater"
             }
           ]
         }
@@ -3821,43 +3825,9 @@
           ]
         },
         {
-          "name": "Musikschule & Texte",
+          "name": "Musik & Texte",
           "path": "/musiklehre/musik-text/index.html",
           "children": [
-            {
-              "name": "Musikschule",
-              "path": "/musiklehre/musik-text/musikschule/index.html",
-              "sections": [
-                {
-                  "name": "Musikschultermine",
-                  "path": "/musiklehre/musik-text/musikschule/index.html#termine"
-                },
-                {
-                  "name": "Berichte",
-                  "path": "/musiklehre/musik-text/musikschule/index.html#berichte"
-                },
-                {
-                  "name": "Musikschulkonzerte",
-                  "path": "/musiklehre/musik-text/musikschule/index.html#schuelervorspiele"
-                },
-                {
-                  "name": "Musikbeispiele",
-                  "path": "/gitarre/musikbeispiele/index.html"
-                },
-                {
-                  "name": "Notenbeispiele",
-                  "path": "/musiklehre/musik-text/musikschule/index.html#stueckegitarre"
-                },
-                {
-                  "name": "Schultheater",
-                  "path": "/musiklehre/musik-text/musikschule/index.html#schultheater"
-                },
-                {
-                  "name": "wie gemalt",
-                  "path": "/musiklehre/musik-text/musikschule/index.html#gemalt"
-                }
-              ]
-            },
             {
               "name": "Instrument: Texte",
               "path": "/musiklehre/musik-text/instrument/index.html",

@@ -164,10 +164,6 @@ function render_importants(menu_structure) {
             path: "/blockfloete/index.html#stichwortverzeichnisbfl",
           },],
       },
-      {
-        name: "Musikschultermine",
-        path: "/musiklehre/musik-text/musikschule/index.html#termine",
-      },
     ];
     homeImps.forEach((homeImp) => { importants.unshift(render_menu_entry(null, homeImp)) });
   }
