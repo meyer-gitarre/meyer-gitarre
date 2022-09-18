@@ -129,8 +129,8 @@ Redirect 301 /musiklehre-rhythmus-uebungen.html /musiklehre/rhythmus/uebungen/in
 Redirect 301 /musiklehre-musik.html /musiklehre/musik-text/index.html
 Redirect 301 /musiklehre-musik.html#termine /musiklehre/musik-text/musikschule/index.html
 Redirect 301 /musiklehre-musik.html#berichte /musiklehre/musik-text/musikschule/index.html#berichte
-Redirect 301 /musiklehre-musik-glossen.html /musiklehre/musik-text/glossen/index.html
-Redirect 301 /musiklehre-musik-texte.html /musiklehre/musik-text/texte/index.html
+Redirect 301 /musiklehre-musik-glossen.html /musiklehre/musik-text/instrument/index.html
+Redirect 301 /musiklehre-musik-texte.html /musiklehre/musik-text/lernen/index.html
 Redirect 301 /musiklehre.html#stichwortverzeichnismusik /musiklehre/index.html#stichwortverzeichnismusik
 
 Redirect 301 /blockfloete.html /blockfloete/index.html

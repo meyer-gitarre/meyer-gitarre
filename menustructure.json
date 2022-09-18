@@ -384,11 +384,11 @@
                 },
                 {
                   "name": "Online-Unterricht",
-                  "path": "/musiklehre/musik-text/schreiben/index.html#video"
+                  "path": "/musiklehre/musik-text/digital/index.html#video"
                 },
                 {
                   "name": "Frühförderung",
-                  "path": "/musiklehre/musik-text/texte/index.html#frueh"
+                  "path": "/musiklehre/musik-text/lernen/index.html#frueh"
                 }
               ]
             },
@@ -436,7 +436,7 @@
                 },
                 {
                   "name": "Hausaufgaben",
-                  "path": "/musiklehre/musik-text/texte/index.html#hausauf"
+                  "path": "/musiklehre/musik-text/lernen/index.html#hausauf"
                 }
               ]
             },
@@ -668,7 +668,7 @@
                 },
                 {
                   "name": "Hausaufgaben",
-                  "path": "/musiklehre/musik-text/texte/index.html#hausauf"
+                  "path": "/musiklehre/musik-text/lernen/index.html#hausauf"
                 },
                 {
                   "name": "Lesetipps",
