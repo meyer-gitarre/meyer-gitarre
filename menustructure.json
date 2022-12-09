@@ -359,6 +359,28 @@
               ]
             },
             {
+              "name": "Gitarrenschule",
+              "path": "/gitarre/unterricht/gitarrenschule/index.html",
+              "sections": [
+                {
+                  "name": "Gitarrenschule",
+                  "path": "/gitarre/unterricht/gitarrenschule/index.html#schule"
+                },
+                {
+                  "name": "Die Anschlagstechnik",
+                  "path": "/gitarre/unterricht/gitarrenschule/index.html#anschlag"
+                },
+                {
+                  "name": "Einführen der Töne",
+                  "path": "/gitarre/unterricht/gitarrenschule/index.html#einfuehren"
+                },
+                {
+                  "name": "Was fehlt",
+                  "path": "/gitarre/unterricht/gitarrenschule/index.html#fehlt"
+                }
+              ]
+            },
+            {
               "name": "Unterrichtsform",
               "path": "/gitarre/unterricht/form/index.html",
               "sections": [
