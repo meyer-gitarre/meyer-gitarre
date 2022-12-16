@@ -101,6 +101,10 @@
                   "path": "/gitarre/instrument/groesse/index.html#unterschied"
                 },
                 {
+                  "name": "Arbeit der Greifhand",
+                  "path": "/gitarre/instrument/groesse/index.html#greifhand"
+                },
+                {
                   "name": "Sattelbreiten",
                   "path": "/gitarre/instrument/groesse/index.html#sattelbreite"
                 },
@@ -1689,8 +1693,16 @@
               "path": "/gitarre/akkorde/akkordtabelle/index.html",
               "sections": [
                 {
+                  "name": "Grifftabelle",
+                  "path": "/gitarre/akkorde/akkordtabelle/index.html#grifftabelle"
+                },
+                {
                   "name": "Barré verschieben",
                   "path": "/gitarre/akkorde/akkordtabelle/index.html#verschieben"
+                },
+                {
+                  "name": "Grifftabelle nutzen",
+                  "path": "/gitarre/akkorde/akkordtabelle/index.html#nutzen"
                 },
                 {
                   "name": "Akkorde ableiten",
