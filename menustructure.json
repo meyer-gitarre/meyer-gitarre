@@ -101,10 +101,6 @@
                   "path": "/gitarre/instrument/groesse/index.html#unterschied"
                 },
                 {
-                  "name": "Arbeit der Greifhand",
-                  "path": "/gitarre/instrument/groesse/index.html#greifhand"
-                },
-                {
                   "name": "Sattelbreiten",
                   "path": "/gitarre/instrument/groesse/index.html#sattelbreite"
                 },
@@ -371,8 +367,8 @@
                   "path": "/gitarre/unterricht/gitarrenschule/index.html#schule"
                 },
                 {
-                  "name": "Die Anschlagstechnik",
-                  "path": "/gitarre/unterricht/gitarrenschule/index.html#anschlag"
+                  "name": "Vor den Tönen",
+                  "path": "/gitarre/unterricht/gitarrenschule/index.html#vortoenen"
                 },
                 {
                   "name": "Einführen der Töne",
@@ -465,192 +461,6 @@
                   "path": "/musiklehre/musik-text/lernen/index.html#hausauf"
                 }
               ]
-            },
-            {
-              "name": "Improvisationsideen",
-              "path": "/gitarre/unterricht/improvisationsideen/index.html",
-              "children": [
-                {
-                  "name": "Harmoniemodelle",
-                  "path": "/gitarre/unterricht/improvisationsideen/harmoniemodelle/index.html",
-                  "sections": [
-                    {
-                      "name": "Zeiten und Stile",
-                      "path": "/gitarre/unterricht/improvisationsideen/harmoniemodelle/index.html#intro"
-                    },
-                    {
-                      "name": "Diminuieren",
-                      "path": "/gitarre/unterricht/improvisationsideen/harmoniemodelle/index.html#diminuition"
-                    },
-                    {
-                      "name": "Tanzstrukturen",
-                      "path": "/gitarre/unterricht/improvisationsideen/harmoniemodelle/index.html#taenze"
-                    },
-                    {
-                      "name": "Harmoniefolgen",
-                      "path": "/gitarre/unterricht/improvisationsideen/harmoniemodelle/index.html#tenores"
-                    },
-                    {
-                      "name": "Übertragung",
-                      "path": "/gitarre/unterricht/improvisationsideen/harmoniemodelle/index.html#uebertragung"
-                    },
-                    {
-                      "name": "Quellen",
-                      "path": "/gitarre/unterricht/improvisationsideen/harmoniemodelle/index.html#quellen"
-                    }
-                  ]
-                },
-                {
-                  "name": "Passemezzo Antico",
-                  "path": "/gitarre/unterricht/improvisationsideen/passemezzoa/index.html",
-                  "sections": [
-                    {
-                      "name": "Passemezzo Antico",
-                      "path": "/gitarre/unterricht/improvisationsideen/passemezzoa/index.html#antico"
-                    },
-                    {
-                      "name": "Diego Ortiz",
-                      "path": "/gitarre/unterricht/improvisationsideen/passemezzoa/index.html#ortiz"
-                    },
-                    {
-                      "name": "Dominico Bianchini",
-                      "path": "/gitarre/unterricht/improvisationsideen/passemezzoa/index.html#bianchini"
-                    },
-                    {
-                      "name": "Adrian Le Roy",
-                      "path": "/gitarre/unterricht/improvisationsideen/passemezzoa/index.html#leroy"
-                    },
-                    {
-                      "name": "Gio. A. Terzi",
-                      "path": "/gitarre/unterricht/improvisationsideen/passemezzoa/index.html#terzi"
-                    },
-                    {
-                      "name": "Simone Molinaro",
-                      "path": "/gitarre/unterricht/improvisationsideen/passemezzoa/index.html#molinaro"
-                    },
-                    {
-                      "name": "Thomas Robinson",
-                      "path": "/gitarre/unterricht/improvisationsideen/passemezzoa/index.html#robinson"
-                    },
-                    {
-                      "name": "Nicolaes Vallet",
-                      "path": "/gitarre/unterricht/improvisationsideen/passemezzoa/index.html#vallet"
-                    },
-                    {
-                      "name": "Michelangelo Galilei",
-                      "path": "/gitarre/unterricht/improvisationsideen/passemezzoa/index.html#galilei"
-                    },
-                    {
-                      "name": "Division Flute",
-                      "path": "/gitarre/unterricht/improvisationsideen/passemezzoa/index.html#division"
-                    }
-                  ]
-                },
-                {
-                  "name": "Passemezzo Moderno",
-                  "path": "/gitarre/unterricht/improvisationsideen/passemezzom/index.html",
-                  "sections": [
-                    {
-                      "name": "Diego Ortiz",
-                      "path": "/gitarre/unterricht/improvisationsideen/passemezzom/index.html#ortiz"
-                    },
-                    {
-                      "name": "Gio. A. Terzi",
-                      "path": "/gitarre/unterricht/improvisationsideen/passemezzom/index.html#terzi"
-                    },
-                    {
-                      "name": "Simone Molinaro",
-                      "path": "/gitarre/unterricht/improvisationsideen/passemezzom/index.html#molinaro"
-                    },
-                    {
-                      "name": "Girolamo Kapsberger",
-                      "path": "/gitarre/unterricht/improvisationsideen/passemezzom/index.html#kapsberger"
-                    },
-                    {
-                      "name": "Nicolaes Vallet",
-                      "path": "/gitarre/unterricht/improvisationsideen/passemezzom/index.html#vallet"
-                    }
-                  ]
-                },
-                {
-                  "name": "La Gamba",
-                  "path": "/gitarre/unterricht/improvisationsideen/lagamba/index.html",
-                  "sections": [
-                    {
-                      "name": "Diego Ortiz",
-                      "path": "/gitarre/unterricht/improvisationsideen/lagamba/index.html#ortiz"
-                    },
-                    {
-                      "name": "Dominico Bianchini",
-                      "path": "/gitarre/unterricht/improvisationsideen/lagamba/index.html#bianchini"
-                    },
-                    {
-                      "name": "Le Roy 1551",
-                      "path": "/gitarre/unterricht/improvisationsideen/lagamba/index.html#leroy"
-                    },
-                    {
-                      "name": "Diego Pisador",
-                      "path": "/gitarre/unterricht/improvisationsideen/lagamba/index.html#pisador"
-                    },
-                    {
-                      "name": "Le Roy 1568",
-                      "path": "/gitarre/unterricht/improvisationsideen/lagamba/index.html#leroy2"
-                    }
-                  ]
-                },
-                {
-                  "name": "Romanesca",
-                  "path": "/gitarre/unterricht/improvisationsideen/romanesca/index.html",
-                  "sections": [
-                    {
-                      "name": "Diego Ortiz",
-                      "path": "/gitarre/unterricht/improvisationsideen/romanesca/index.html#ortiz"
-                    },
-                    {
-                      "name": "Luys de Narváez",
-                      "path": "/gitarre/unterricht/improvisationsideen/romanesca/index.html#narvaez"
-                    },
-                    {
-                      "name": "Adrian Le Roy",
-                      "path": "/gitarre/unterricht/improvisationsideen/romanesca/index.html#leroy"
-                    },
-                    {
-                      "name": "Girolamo Kapsberger",
-                      "path": "/gitarre/unterricht/improvisationsideen/romanesca/index.html#kapsberger"
-                    },
-                    {
-                      "name": "Alessandro Piccinini",
-                      "path": "/gitarre/unterricht/improvisationsideen/romanesca/index.html#piccinini"
-                    }
-                  ]
-                },
-                {
-                  "name": "Folia",
-                  "path": "/gitarre/unterricht/improvisationsideen/folia/index.html",
-                  "sections": [
-                    {
-                      "name": "La Folia",
-                      "path": "/gitarre/unterricht/improvisationsideen/folia/index.html#folia"
-                    },
-                    {
-                      "name": "Andrea Falconieri",
-                      "path": "/gitarre/unterricht/improvisationsideen/folia/index.html#falconieri"
-                    },
-                    {
-                      "name": "Jacques Gallot",
-                      "path": "/gitarre/unterricht/improvisationsideen/folia/index.html#gallot"
-                    },
-                    {
-                      "name": "Gaspar Sanz",
-                      "path": "/gitarre/unterricht/improvisationsideen/folia/index.html#sanz"
-                    },
-                    {
-                      "name": "Division Flute",
-                      "path": "/gitarre/unterricht/improvisationsideen/folia/index.html#divisions"
-                    }
-                  ]
-                }
-              ]
             }
           ]
         },
@@ -671,10 +481,6 @@
                 {
                   "name": "Was ist üben?",
                   "path": "/gitarre/ueben/uebetipps/index.html#wasist"
-                },
-                {
-                  "name": "Corona-Zwangspause",
-                  "path": "/gitarre/ueben/uebetipps/index.html#uebencorona"
                 },
                 {
                   "name": "Übetipps",
@@ -699,6 +505,10 @@
                 {
                   "name": "Lesetipps",
                   "path": "/gitarre/ueben/uebetipps/index.html#lesetipps"
+                },
+                {
+                  "name": "Corona-Zwangspause",
+                  "path": "/gitarre/ueben/uebetipps/index.html#uebencorona"
                 }
               ]
             },
@@ -845,6 +655,192 @@
                 {
                   "name": "Aufregung / Lampenfieber",
                   "path": "/gitarre/ueben/vorspielen/index.html#aufregung"
+                }
+              ]
+            },
+            {
+              "name": "Improvisationsideen",
+              "path": "/gitarre/ueben/improvisationsideen/index.html",
+              "children": [
+                {
+                  "name": "Harmoniemodelle",
+                  "path": "/gitarre/ueben/improvisationsideen/harmoniemodelle/index.html",
+                  "sections": [
+                    {
+                      "name": "Zeiten und Stile",
+                      "path": "/gitarre/ueben/improvisationsideen/harmoniemodelle/index.html#intro"
+                    },
+                    {
+                      "name": "Diminuieren",
+                      "path": "/gitarre/ueben/improvisationsideen/harmoniemodelle/index.html#diminuition"
+                    },
+                    {
+                      "name": "Tanzstrukturen",
+                      "path": "/gitarre/ueben/improvisationsideen/harmoniemodelle/index.html#taenze"
+                    },
+                    {
+                      "name": "Harmoniefolgen",
+                      "path": "/gitarre/ueben/improvisationsideen/harmoniemodelle/index.html#tenores"
+                    },
+                    {
+                      "name": "Übertragung",
+                      "path": "/gitarre/ueben/improvisationsideen/harmoniemodelle/index.html#uebertragung"
+                    },
+                    {
+                      "name": "Quellen",
+                      "path": "/gitarre/ueben/improvisationsideen/harmoniemodelle/index.html#quellen"
+                    }
+                  ]
+                },
+                {
+                  "name": "Passemezzo Antico",
+                  "path": "/gitarre/ueben/improvisationsideen/passemezzoa/index.html",
+                  "sections": [
+                    {
+                      "name": "Passemezzo Antico",
+                      "path": "/gitarre/ueben/improvisationsideen/passemezzoa/index.html#antico"
+                    },
+                    {
+                      "name": "Diego Ortiz",
+                      "path": "/gitarre/ueben/improvisationsideen/passemezzoa/index.html#ortiz"
+                    },
+                    {
+                      "name": "Dominico Bianchini",
+                      "path": "/gitarre/ueben/improvisationsideen/passemezzoa/index.html#bianchini"
+                    },
+                    {
+                      "name": "Adrian Le Roy",
+                      "path": "/gitarre/ueben/improvisationsideen/passemezzoa/index.html#leroy"
+                    },
+                    {
+                      "name": "Gio. A. Terzi",
+                      "path": "/gitarre/ueben/improvisationsideen/passemezzoa/index.html#terzi"
+                    },
+                    {
+                      "name": "Simone Molinaro",
+                      "path": "/gitarre/ueben/improvisationsideen/passemezzoa/index.html#molinaro"
+                    },
+                    {
+                      "name": "Thomas Robinson",
+                      "path": "/gitarre/ueben/improvisationsideen/passemezzoa/index.html#robinson"
+                    },
+                    {
+                      "name": "Nicolaes Vallet",
+                      "path": "/gitarre/ueben/improvisationsideen/passemezzoa/index.html#vallet"
+                    },
+                    {
+                      "name": "Michelangelo Galilei",
+                      "path": "/gitarre/ueben/improvisationsideen/passemezzoa/index.html#galilei"
+                    },
+                    {
+                      "name": "Division Flute",
+                      "path": "/gitarre/ueben/improvisationsideen/passemezzoa/index.html#division"
+                    }
+                  ]
+                },
+                {
+                  "name": "Passemezzo Moderno",
+                  "path": "/gitarre/ueben/improvisationsideen/passemezzom/index.html",
+                  "sections": [
+                    {
+                      "name": "Diego Ortiz",
+                      "path": "/gitarre/ueben/improvisationsideen/passemezzom/index.html#ortiz"
+                    },
+                    {
+                      "name": "Gio. A. Terzi",
+                      "path": "/gitarre/ueben/improvisationsideen/passemezzom/index.html#terzi"
+                    },
+                    {
+                      "name": "Simone Molinaro",
+                      "path": "/gitarre/ueben/improvisationsideen/passemezzom/index.html#molinaro"
+                    },
+                    {
+                      "name": "Girolamo Kapsberger",
+                      "path": "/gitarre/ueben/improvisationsideen/passemezzom/index.html#kapsberger"
+                    },
+                    {
+                      "name": "Nicolaes Vallet",
+                      "path": "/gitarre/ueben/improvisationsideen/passemezzom/index.html#vallet"
+                    }
+                  ]
+                },
+                {
+                  "name": "La Gamba",
+                  "path": "/gitarre/ueben/improvisationsideen/lagamba/index.html",
+                  "sections": [
+                    {
+                      "name": "Diego Ortiz",
+                      "path": "/gitarre/ueben/improvisationsideen/lagamba/index.html#ortiz"
+                    },
+                    {
+                      "name": "Dominico Bianchini",
+                      "path": "/gitarre/ueben/improvisationsideen/lagamba/index.html#bianchini"
+                    },
+                    {
+                      "name": "Le Roy 1551",
+                      "path": "/gitarre/ueben/improvisationsideen/lagamba/index.html#leroy"
+                    },
+                    {
+                      "name": "Diego Pisador",
+                      "path": "/gitarre/ueben/improvisationsideen/lagamba/index.html#pisador"
+                    },
+                    {
+                      "name": "Le Roy 1568",
+                      "path": "/gitarre/ueben/improvisationsideen/lagamba/index.html#leroy2"
+                    }
+                  ]
+                },
+                {
+                  "name": "Romanesca",
+                  "path": "/gitarre/ueben/improvisationsideen/romanesca/index.html",
+                  "sections": [
+                    {
+                      "name": "Diego Ortiz",
+                      "path": "/gitarre/ueben/improvisationsideen/romanesca/index.html#ortiz"
+                    },
+                    {
+                      "name": "Luys de Narváez",
+                      "path": "/gitarre/ueben/improvisationsideen/romanesca/index.html#narvaez"
+                    },
+                    {
+                      "name": "Adrian Le Roy",
+                      "path": "/gitarre/ueben/improvisationsideen/romanesca/index.html#leroy"
+                    },
+                    {
+                      "name": "Girolamo Kapsberger",
+                      "path": "/gitarre/ueben/improvisationsideen/romanesca/index.html#kapsberger"
+                    },
+                    {
+                      "name": "Alessandro Piccinini",
+                      "path": "/gitarre/ueben/improvisationsideen/romanesca/index.html#piccinini"
+                    }
+                  ]
+                },
+                {
+                  "name": "Folia",
+                  "path": "/gitarre/ueben/improvisationsideen/folia/index.html",
+                  "sections": [
+                    {
+                      "name": "La Folia",
+                      "path": "/gitarre/ueben/improvisationsideen/folia/index.html#folia"
+                    },
+                    {
+                      "name": "Andrea Falconieri",
+                      "path": "/gitarre/ueben/improvisationsideen/folia/index.html#falconieri"
+                    },
+                    {
+                      "name": "Jacques Gallot",
+                      "path": "/gitarre/ueben/improvisationsideen/folia/index.html#gallot"
+                    },
+                    {
+                      "name": "Gaspar Sanz",
+                      "path": "/gitarre/ueben/improvisationsideen/folia/index.html#sanz"
+                    },
+                    {
+                      "name": "Division Flute",
+                      "path": "/gitarre/ueben/improvisationsideen/folia/index.html#divisions"
+                    }
+                  ]
                 }
               ]
             }
@@ -1693,16 +1689,8 @@
               "path": "/gitarre/akkorde/akkordtabelle/index.html",
               "sections": [
                 {
-                  "name": "Grifftabelle",
-                  "path": "/gitarre/akkorde/akkordtabelle/index.html#grifftabelle"
-                },
-                {
                   "name": "Barré verschieben",
                   "path": "/gitarre/akkorde/akkordtabelle/index.html#verschieben"
-                },
-                {
-                  "name": "Grifftabelle nutzen",
-                  "path": "/gitarre/akkorde/akkordtabelle/index.html#nutzen"
                 },
                 {
                   "name": "Akkorde ableiten",
@@ -2400,10 +2388,6 @@
               "name": "Durtonleitern mit ♯",
               "path": "/musiklehre/tonleitern/kreuz/index.html",
               "sections": [
-                {
-                  "name": "Tonleiteraufbau",
-                  "path": "/musiklehre/tonleitern/kreuz/index.html#tonleiteraufbau"
-                },
                 {
                   "name": "Die C-Dur-Tonleiter",
                   "path": "/musiklehre/tonleitern/kreuz/index.html#cdur"

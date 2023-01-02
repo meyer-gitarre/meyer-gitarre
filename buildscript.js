@@ -40,7 +40,7 @@ function find_child(menu_structure, name) {
   if (cchild) {
     return cchild;
   } else {
-    throw "child not found";
+    throw "child not found. did you update the frontmatter of the corresponding .html file?";
   }
 }
 
