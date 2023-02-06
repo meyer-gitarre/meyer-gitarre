@@ -3433,6 +3433,10 @@
               "path": "/musiklehre/modulation/variante/index.html",
               "sections": [
                 {
+                  "name": "Variante",
+                  "path": "/musiklehre/modulation/variante/index.html#variante"
+                },
+                {
                   "name": "Mollsubdominante",
                   "path": "/musiklehre/modulation/variante/index.html#diatons"
                 }
