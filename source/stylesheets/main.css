@@ -438,19 +438,7 @@ html {
 .imageWrapper[class~=exBorder] {
   border-style: none; }
 
-.contrast1 {
-  background-color: #ebfdf1; }
-
-.contrast2 {
-  background-color: #fff2ff; }
-
-.contrast3 {
-  background-color: #fffff0; }
-
-.contrast4 {
-  background-color: #e9f1fd; }
-
-.contrast5 {
+.contrast {
   background-color: #d7e6fd;
   padding: 0.5em 0.2em 0.5em 0.2em; }
 
@@ -1369,7 +1357,7 @@ td {
 /*start extraInfo*/
 .show {
   display: inline;
-  font-family: Georgia, serif;
+  /*font-family: Georgia, serif;*/
   color: white;
   border-radius: 50%;
   vertical-align: super;
