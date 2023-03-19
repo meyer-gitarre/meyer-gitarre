@@ -496,7 +496,6 @@ ensure_directory_existence('build/meta/sitemap/index.html');
 fs.writeFileSync('build/meta/sitemap/index.html', render_main_template(render_sitemap(), sitemap_frontmatter));
 
 copy_files(getAllFiles("source/img/", []));
-copy_files(getAllFiles("source/midi/", []));
 copy_files(getAllFiles("source/mp3/", []));
 copy_files(getAllFiles("source/pdf/", []));
 copy_files(getAllFiles("source/stylesheets/", []));

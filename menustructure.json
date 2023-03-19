@@ -1185,6 +1185,10 @@
               "path": "/gitarre/stimmen/stimmtoene/index.html",
               "sections": [
                 {
+                  "name": "Normalstimmung",
+                  "path": "/gitarre/stimmen/stimmtoene/index.html#normal"
+                },
+                {
                   "name": "Stimmtöne Kindergitarren",
                   "path": "/gitarre/stimmen/stimmtoene/index.html#stimmtoenekindergit"
                 }
