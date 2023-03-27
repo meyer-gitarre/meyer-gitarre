@@ -2475,6 +2475,10 @@
               "path": "/musiklehre/tonleitern/falsch/index.html",
               "sections": [
                 {
+                  "name": "Falsche Vorzeichen",
+                  "path": "/musiklehre/tonleitern/falsch/index.html#falschevorzeichen"
+                },
+                {
                   "name": "Das ♭ abschaffen?",
                   "path": "/musiklehre/tonleitern/falsch/index.html#bsabschaffen"
                 }
@@ -2669,6 +2673,10 @@
                 {
                   "name": "Halbtonschritte & Größe",
                   "path": "/musiklehre/intervalle/groesse/index.html#halbton"
+                },
+                {
+                  "name": "Fehler vermeiden",
+                  "path": "/musiklehre/intervalle/groesse/index.html#vermeiden"
                 }
               ]
             },
@@ -2716,6 +2724,10 @@
               "name": "Aufbaufehler",
               "path": "/musiklehre/intervalle/aufbaufehler/index.html",
               "sections": [
+                {
+                  "name": "Fröhliche Fehler",
+                  "path": "/musiklehre/intervalle/aufbaufehler/index.html#fehler"
+                },
                 {
                   "name": "Intervalle aufbauen",
                   "path": "/musiklehre/intervalle/aufbaufehler/index.html#intervalleaufbauen"
@@ -2905,7 +2917,7 @@
                   ]
                 },
                 {
-                  "name": "Übungen Umkehrungen",
+                  "name": "Übg. Umkehrungen",
                   "path": "/musiklehre/akkorde/dreiklangsumkehrung/index.html#umkehrungnennen",
                   "sections": [
                     {
@@ -3118,8 +3130,26 @@
                 },
                 {
                   "name": "Schreibweisen",
-                  "path": "/musiklehre/akkorde/funktionen-kadenz/index.html#schreibweisen"
-                },
+                  "path": "/musiklehre/akkorde/funktionen-kadenz/index.html#schreibweisen",
+                  "children":[
+                    {
+                      "name": "Stufentheorie",
+                      "path": "/musiklehre/akkorde/funktionen-kadenz/index.html#schreibweisen"
+                    },  
+                    {
+                      "name": "Funktionstheorie",
+                      "path": "/musiklehre/akkorde/funktionen-kadenz/index.html#funktionstheorie"
+                    },  
+                    {
+                      "name": "Generalbass",
+                      "path": "/musiklehre/akkorde/funktionen-kadenz/index.html#generalbass"
+                    },  
+                    {
+                      "name": "Akkordsymbole",
+                      "path": "/musiklehre/akkorde/funktionen-kadenz/index.html#akkordsymbole"
+                    }
+                  ]
+                },  
                 {
                   "name": "Hauptfunktionen",
                   "path": "/musiklehre/akkorde/funktionen-kadenz/index.html#hauptfunktionen"
