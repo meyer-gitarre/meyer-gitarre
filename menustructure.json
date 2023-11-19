@@ -1551,12 +1551,12 @@
                   "path": "/gitarre/griffbrett/toene/index.html#gitimbass"
                 },
                 {
-                  "name": "Erste Lerntipps",
-                  "path": "/gitarre/griffbrett/toene/index.html#erstetipps"
+                  "name": "Wer kennt hohe Töne?",
+                  "path": "/gitarre/griffbrett/toene/index.html#kenntnis"
                 },
                 {
-                  "name": "Töne auf Saiten",
-                  "path": "/gitarre/griffbrett/toene/index.html#aufsaiten"
+                  "name": "Merkhilfen",
+                  "path": "/gitarre/griffbrett/toene/index.html#merkhilfen"
                 }
               ]
             },
@@ -1583,6 +1583,14 @@
                     {
                       "name": "Stammtöne 1. Lage",
                       "path": "/gitarre/griffbrett/kennen-tief/index.html#erstelage"
+                    },
+                    {
+                      "name": "Stammtöne denken",
+                      "path": "/gitarre/griffbrett/kennen-tief/index.html#denken"
+                    },
+                    {
+                      "name": "Stammtöne denken 2",
+                      "path": "/gitarre/griffbrett/kennen-tief/index.html#denken2"
                     },
                     {
                       "name": "Stammtöne würfeln",
@@ -1625,12 +1633,32 @@
                   "path": "/gitarre/griffbrett/kennen-hoch/index.html#bundsechs"
                 },
                 {
+                  "name": "7. Bund und Leersaiten",
+                  "path": "/gitarre/griffbrett/kennen-hoch/index.html#siebter"
+                },
+                {
+                  "name": "Bund 7-12",
+                  "path": "/gitarre/griffbrett/kennen-hoch/index.html#aufgabe4"
+                },
+                {
+                  "name": "Töne entlang der Saiten",
+                  "path": "/gitarre/griffbrett/kenne-hoch/index.html#aufsaiten"
+                },
+                {
                   "name": "Aufgaben",
                   "path": "/gitarre/griffbrett/kennen-tief/index.html#aufgabe1",
                   "sections": [
                     {
                       "name": "Stammtöne 1. Lage",
                       "path": "/gitarre/griffbrett/kennen-tief/index.html#erstelage"
+                    },
+                    {
+                      "name": "Stammtöne denken",
+                      "path": "/gitarre/griffbrett/kennen-tief/index.html#denken"
+                    },
+                    {
+                      "name": "Stammtöne denken 2",
+                      "path": "/gitarre/griffbrett/kennen-tief/index.html#denken2"
                     },
                     {
                       "name": "Stammtöne würfeln",
