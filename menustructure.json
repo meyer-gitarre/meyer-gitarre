@@ -313,10 +313,40 @@
                 {
                   "name": "Unterrichtsverlauf",
                   "path": "/gitarre/unterricht/lernen/index.html#verlauf"
+                }
+              ]
+            },
+            {
+              "name": "Unterrichtsmaterial",
+              "path": "/gitarre/unterricht/material/index.html",
+              "sections": [
+                {
+                  "name": "Stücke wählen",
+                  "path": "/gitarre/unterricht/material/index.html#stueckwahl"
                 },
                 {
-                  "name": "Ziele und Wege",
-                  "path": "/gitarre/unterricht/lernen/index.html#ziele"
+                  "name": "Weiterführende Hefte",
+                  "path": "/gitarre/unterricht/material/index.html#weiterfuehrend"
+                },
+                {
+                  "name": "Lieblingshefte",
+                  "path": "/gitarre/unterricht/material/index.html#lieblings"
+                },
+                {
+                  "name": "Populäre Musik",
+                  "path": "/gitarre/unterricht/material/index.html#popmusik"
+                },
+                {
+                  "name": "Werktreue & Bearbeitung",
+                  "path": "/gitarre/unterricht/material/index.html#werktreue"
+                },
+                {
+                  "name": "Bearbeitungen für Gitarre",
+                  "path": "/gitarre/unterricht/material/index.html#bearbeitung"
+                },
+                {
+                  "name": "Hausaufgaben",
+                  "path": "/musiklehre/musik-text/lernen/index.html#hausauf"
                 }
               ]
             },
@@ -325,7 +355,7 @@
               "path": "/gitarre/unterricht/beispielstueck/index.html",
               "sections": [
                 {
-                  "name": "Das Beispielstück",
+                  "name": "Ein Beispielstück",
                   "path": "/gitarre/unterricht/beispielstueck/index.html#stueck"
                 },
                 {
@@ -437,32 +467,6 @@
                 {
                   "name": "Gitarristen",
                   "path": "/gitarre/unterricht/lernen/index.html#gitarristen"
-                }
-              ]
-            },
-            {
-              "name": "Unterrichtsmaterial",
-              "path": "/gitarre/unterricht/material/index.html",
-              "sections": [
-                {
-                  "name": "Lieblingshefte",
-                  "path": "/gitarre/unterricht/material/index.html#lieblings"
-                },
-                {
-                  "name": "Populäre Musik",
-                  "path": "/gitarre/unterricht/material/index.html#popmusik"
-                },
-                {
-                  "name": "Werktreue & Bearbeitung",
-                  "path": "/gitarre/unterricht/material/index.html#werktreue"
-                },
-                {
-                  "name": "Bearbeitungen für Gitarre",
-                  "path": "/gitarre/unterricht/material/index.html#bearbeitung"
-                },
-                {
-                  "name": "Hausaufgaben",
-                  "path": "/musiklehre/musik-text/lernen/index.html#hausauf"
                 }
               ]
             }
