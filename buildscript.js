@@ -330,12 +330,11 @@ function render_main_template(inner, data) {
       <nav class='clearfix' id='mainNav'>
         <div class='clearfix navbar'>
           ${render_breadcrumbs(data.menuStructure)}
-          <form id='search' action='http://www.crawl-it.de/registration/search.it'>
-            <input type='text' name='p_search' size='15'>
-            <input type='submit' value='Search'>
-            <input type='hidden' name='p_userid' value='526047'>
-              <a href='http://www.crawl-it.de/registration/search.it?p_userid=526047&p_service=NEW'></a>
-          </form>
+          <form action="https://duckduckgo.com/">
+  <input type="text" name="q" size='17'>
+  <input type="hidden" name="sites" value="meyer-gitarre.de">
+  <button type="submit">Suche</button>
+</form>
         </div>
         <div id='containerMenuCaption'>
           <div id='menuContainer'>
