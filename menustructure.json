@@ -313,6 +313,10 @@
                 {
                   "name": "Unterrichtsverlauf",
                   "path": "/gitarre/unterricht/lernen/index.html#verlauf"
+                },
+                {
+                  "name": "Über das Unterrichten",
+                  "path": "/gitarre/unterricht/lernen/index.html#ueber"
                 }
               ]
             },
