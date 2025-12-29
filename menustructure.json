@@ -593,6 +593,14 @@
                 {
                   "name": "Auf allen Saiten",
                   "path": "/gitarre/ueben/einspielen/index.html#allesaiten"
+                },
+                {
+                  "name": "Zweiergruppen",
+                  "path": "/gitarre/ueben/einspielen/index.html#zweiergruppen"
+                },
+                {
+                  "name": "Die Spinne",
+                  "path": "/gitarre/ueben/einspielen/index.html#spinne"
                 }
               ]
             },
@@ -1925,8 +1933,12 @@
               "path": "/gitarre/musikbeispiele/index.html#equalizer"
             },
             {
-              "name": "Notenbeispiele",
+              "name": "Stücke für Gitarre",
               "path": "/gitarre/musikbeispiele/index.html#stueckegitarre"
+            },
+            {
+              "name": "Etüden",
+              "path": "/gitarre/musikbeispiele/index.html#etudes"
             },
             {
               "name": "Schultheater",
