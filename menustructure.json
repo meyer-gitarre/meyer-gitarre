@@ -1767,24 +1767,38 @@
               "path": "/gitarre/akkorde/griffwechsel/index.html",
               "sections": [
                 {
+                  "name": "Einzelne Akkorde",
+                  "path": "/gitarre/akkorde/griffwechsel/index.html#einzelne"
+                },
+                {
+                  "name": "Regeln fürs Wechseln",
+                  "path": "/gitarre/akkorde/griffwechsel/index.html#griffwechsel"
+                },
+                {
                   "name": "Griffwechsel üben",
                   "path": "/gitarre/akkorde/griffwechsel/index.html#griffueben"
                 },
                 {
                   "name": "Akkorde lesen",
                   "path": "/gitarre/akkorde/griffwechsel/index.html#akkles"
-                },
+                }
+              ]
+            },
+            {
+              "name": "Begleiten nach Gehör",
+              "path": "/gitarre/akkorde/gehoer/index.html",
+              "sections": [
                 {
                   "name": "Begleiten nach Gehör",
-                  "path": "/gitarre/akkorde/griffwechsel/index.html#gehoerakk"
+                  "path": "/gitarre/akkorde/gehoer/index.html#gehoerakk"
                 },
                 {
                   "name": "Praktisches Beispiel",
-                  "path": "/gitarre/akkorde/griffwechsel/index.html#kinderlein"
+                  "path": "/gitarre/akkorde/gehoer/index.html#kinderlein"
                 },
                 {
                   "name": "Weihnachtslieder",
-                  "path": "/gitarre/akkorde/griffwechsel/index.html#weihharm"
+                  "path": "/gitarre/akkorde/gehoer/index.html#weihharm"
                 }
               ]
             },
