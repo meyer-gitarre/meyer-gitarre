@@ -1779,10 +1779,14 @@
                   "path": "/gitarre/akkorde/griffwechsel/index.html#griffueben"
                 },
                 {
+                  "name": "Anschlagstechnik",
+                  "path": "/gitarre/akkorde/griffwechsel/index.html#technik"
+                },
+                {
                   "name": "Akkorde lesen",
                   "path": "/gitarre/akkorde/griffwechsel/index.html#akkles"
                 }
-              ]
+              ]  
             },
             {
               "name": "Begleiten nach Gehör",
