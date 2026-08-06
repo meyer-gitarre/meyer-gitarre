@@ -953,7 +953,7 @@
                   "path": "/gitarre/haltung/anschlag/index.html#daumenwechsel"
                 },
                 {
-                  "name": "Fingernägel",
+                  "name": "Fingernägel Anschlag",
                   "path": "/gitarre/haltung/anschlag/index.html#fingernaegel"
                 }
               ]
@@ -965,6 +965,10 @@
                 {
                   "name": "Handhaltung",
                   "path": "/gitarre/haltung/greifhand/index.html#haltungrechts"
+                },
+                {
+                  "name": "Fingernägel Greifhand",
+                  "path": "/gitarre/haltung/greifhand/index.html#naegelgreif"
                 },
                 {
                   "name": "Greifen - Beispiel",
